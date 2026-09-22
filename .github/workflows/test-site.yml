@@ -1,0 +1,35 @@
+name: Test a site
+
+on:
+  workflow_dispatch:
+    inputs:
+      site:
+        description: "A name from sources.json (like claimdepot) or a full listing page URL"
+        required: true
+      limit:
+        description: "How many settlement pages to read"
+        required: false
+        default: "15"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: Test
+        env:
+          SITE: ${{ inputs.site }}
+          LIMIT: ${{ inputs.limit }}
+        run: python scraper/run.py --test "$SITE" --limit "$LIMIT"
