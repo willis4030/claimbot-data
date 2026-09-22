@@ -32,7 +32,7 @@ ROBOTS_AGENT = "ClaimbotData"
 MAX_LISTING_PAGES = 6
 DELAY = 1.5              # seconds between requests to the same site (plus jitter)
 REFRESH_DAYS = 7         # re-read a settlement page after this many days
-MAX_DETAILS_PER_RUN = 300
+MAX_DETAILS_PER_RUN = 500
 PRUNE_DAYS = 30          # forget cached pages not listed anywhere for this long
 # Listing sites never count as the "official claim site" for a settlement.
 KNOWN_AGGREGATORS = {"topclassactions.com", "classaction.org", "claimdepot.com", "openclassactions.com",
@@ -104,8 +104,8 @@ async def goto(page, url):
         return False
 
 
-async def scrape_listing(page, src):
-    url_t = src["listing_url"]
+async def scrape_listing(page, src, url_key="listing_url", min_items=3):
+    url_t = src[url_key]
     pages = range(1, MAX_LISTING_PAGES + 1) if "{page}" in url_t else [1]
     items, seen, key = [], set(), None
     for n in pages:
@@ -115,9 +115,12 @@ async def scrape_listing(page, src):
         if not await goto(page, url):
             break
         anchors = await page.evaluate(P.ANCHORS_JS)
-        found, key = P.find_items(anchors, url, src.get("item_link_re"), key)
+        found, key = P.find_items(anchors, url, src.get("item_link_re"), key, min_items)
         found = [i for i in found if i["detail_url"] not in seen]
         if not found:
+            if n == 1:
+                # Helps tell a layout problem from a bot-check page ("Just a moment...", "Access denied").
+                log(f"   no settlement links on {url} (page title: {(await page.title())[:80]!r})")
             break
         for i in found:
             seen.add(i["detail_url"])
@@ -134,6 +137,11 @@ async def scrape_source(ctx, src, cache, aggregator_hosts, max_details):
         items = await scrape_listing(page, src)
         stats["listed"] = len(items)
         log(f"[{name}] {len(items)} listings")
+        # Optional: a listing page of only no-proof settlements, which is more reliable than page text.
+        no_proof_urls = set()
+        if src.get("no_proof_url"):
+            no_proof_urls = {i["detail_url"] for i in await scrape_listing(page, src, "no_proof_url", min_items=1)}
+            log(f"[{name}] {len(no_proof_urls)} on its no-proof list")
         now = time.time()
         for it in items:
             url = it["detail_url"]
@@ -151,6 +159,8 @@ async def scrape_source(ctx, src, cache, aggregator_hosts, max_details):
                     stats["fetched"] += 1
                 await pause()
             if url in cache:
+                if url in no_proof_urls:
+                    cache[url]["no_proof"] = True
                 cache[url]["last_seen"] = now
                 cache[url]["source"] = name
                 it["parsed"] = cache[url]

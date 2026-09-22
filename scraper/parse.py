@@ -14,6 +14,9 @@ NO_PROOF_RES = [
     re.compile(r"no\s+(documents?|documentation|receipts?)\s+(needed|required)", re.I),
     re.compile(r"\bno[\s-]proof\b", re.I),
     re.compile(r"nothing to document|on your word alone|self[- ]attest", re.I),
+    re.compile(r"proof\s+required\??\s*\n+\s*(no\b|none|not required)", re.I),
+    re.compile(r"(do not|don't|does not|doesn't|will not|won't)\s+(need|have)\s+to\s+(provide|submit|include|upload)\s+"
+               r"(any\s+)?(proof|documentation|documents|receipts?)", re.I),
 ]
 PROOF_REQ_RES = [
     re.compile(r"proof(\s+of\s+purchase)?(\s+required)?\s*[:\-]\s*yes\b", re.I),
@@ -23,7 +26,7 @@ DEADLINE_RE = re.compile(
     r"(?:claim|filing|submission)?\s*deadline\s*[:\-\u2013]?\s*(?:is\s+)?"
     r"([A-Za-z]{3,9}\.?\s+\d{1,2},?\s+\d{4}|\d{1,2}/\d{1,2}/\d{2,4})", re.I)
 PAYOUT_RE = re.compile(
-    r"(?:award|payout|payment|estimated|up to|receive|benefit|flat|cash)[^$\n]{0,40}"
+    r"(?:award|payout|payment|estimated|up to|receive|benefit|flat|cash|claim|get)[^$\n]{0,40}"
     r"(\$[\d,]+(?:\.\d\d)?(?:\s*(?:-|to|\u2013)\s*\$[\d,]+(?:\.\d\d)?)?)", re.I)
 MONEY_RE = re.compile(r"\$([\d,]+(?:\.\d\d)?)")
 ELIG_RE = re.compile(
@@ -76,16 +79,32 @@ NO_PROOF_AMOUNT_RES = [
 ]
 
 
+LABELED_PAYOUT_RE = re.compile(
+    r"^\s*(?:estimated\s+payout(?:\s+per\s+(?:person|claimant|class member))?|award|payout|"
+    r"potential\s+award|cash\s+payment|benefit)\s*:?\s*\n+\s*([^\n]{2,90})$", re.I | re.M)
+FUND_LINE_RE = re.compile(r"attorney|fees|costs|service award|administration|settlement fund|agreed to pay|"
+                          r"million|billion|\$[\d,]{9,}", re.I)
+
+
 def parse_payout(text):
-    """The payout a no-proof claimant can expect when the page states it, else the general figure."""
+    """What a claimant can expect: the no-proof amount if stated, else a labeled payout field,
+    else a general payout sentence (skipping lines about the fund, fees and costs)."""
     m = NO_PROOF_AMOUNT_RES[0].search(text)
     if m:
         return m.group(1)
     m = NO_PROOF_AMOUNT_RES[1].search(text)
     if m:
         return m.group(3)
-    m = PAYOUT_RE.search(text)
-    return m.group(1) if m else None
+    m = LABELED_PAYOUT_RE.search(text)
+    if m:
+        return m.group(1).strip()[:90]
+    for line in text.splitlines():
+        if FUND_LINE_RE.search(line):
+            continue
+        m = PAYOUT_RE.search(line)
+        if m:
+            return m.group(1)
+    return None
 
 
 def payout_max(payout):
@@ -121,7 +140,7 @@ def host_of(url):
     return urlparse(url).netloc.lower().removeprefix("www.")
 
 
-def find_items(anchors, listing_url, item_link_re=None, lock_key=None):
+def find_items(anchors, listing_url, item_link_re=None, lock_key=None, min_items=3):
     """Pick the links on a listing page that point to individual settlement pages.
 
     With item_link_re, use it. Otherwise auto-detect: settlement pages on a site
@@ -132,6 +151,8 @@ def find_items(anchors, listing_url, item_link_re=None, lock_key=None):
     groups = {}
     pat = re.compile(item_link_re, re.I) if item_link_re else None
     for a in anchors:
+        if a.get("menu"):
+            continue  # site menus, headers and footers are never the settlement list
         href, text = a["href"].split("#")[0], a["text"]
         u = urlparse(href)
         if host_of(href) != host or not u.scheme.startswith("http"):
@@ -145,10 +166,10 @@ def find_items(anchors, listing_url, item_link_re=None, lock_key=None):
             segs = [s for s in path.split("/") if s]
             if not segs or NAV_RE.search(path):
                 continue
-            if u.query and not segs[-1].count("-") >= 2:
+            if u.query and "-" not in segs[-1]:
                 key = "q:" + path          # e.g. /settlement.php?id=123
-            elif segs[-1].count("-") >= 2:
-                key = "p:" + "/".join(segs[:-1])   # e.g. /settlements/some-long-slug
+            elif "-" in segs[-1]:
+                key = "p:" + "/".join(segs[:-1])   # e.g. /settlements/some-slug
             else:
                 continue
         g = groups.setdefault(key, {})
@@ -162,8 +183,9 @@ def find_items(anchors, listing_url, item_link_re=None, lock_key=None):
         if key is None:
             return [], lock_key
     else:
-        key = max(groups, key=lambda k: len(groups[k]))
-        if not pat and len(groups[key]) < 3:
+        # Most links wins; links inside a folder (/settlements/x) beat top-level pages (/x) on ties or near-ties.
+        key = max(groups, key=lambda k: len(groups[k]) * (1.5 if k.startswith("p:") and k != "p:" else 1))
+        if not pat and len(groups[key]) < min_items:
             return [], None
     return [{"detail_url": h, "title": t} for h, t in groups[key].items() if len(t) >= 12], key
 
@@ -173,11 +195,14 @@ def pick_claim_link(anchors, aggregator_hosts):
         h = host_of(href)
         return (href.startswith("http") and h and h not in aggregator_hosts
                 and not any(s in href for s in SKIP_HOSTS))
+    def pdf(href):
+        return urlparse(href).path.lower().endswith(".pdf")
+    for want_pdf in (False, True):
+        for a in anchors:
+            if ok(a["href"]) and pdf(a["href"]) == want_pdf and CLAIM_LINK_TEXT.search(a["text"]):
+                return a["href"]
     for a in anchors:
-        if ok(a["href"]) and CLAIM_LINK_TEXT.search(a["text"]):
-            return a["href"]
-    for a in anchors:
-        if ok(a["href"]) and "settlement" in host_of(a["href"]):
+        if ok(a["href"]) and not pdf(a["href"]) and "settlement" in host_of(a["href"]):
             return a["href"]
     return None
 
@@ -199,12 +224,18 @@ def settlement_id(claim_url):
 
 
 ANCHORS_JS = """() => Array.from(document.querySelectorAll('a[href]')).map(a => ({
-  href: a.href, text: (a.innerText || a.getAttribute('aria-label') || a.title || '').trim().replace(/\\s+/g, ' ')
+  href: a.href,
+  text: (a.innerText || a.getAttribute('aria-label') || a.title || '').trim().replace(/\\s+/g, ' '),
+  menu: !!a.closest('nav, header, footer, [role=navigation], .navbar, .nav-menu, .w-nav')
 }))"""
 
 DETAIL_JS = """() => {
-  const root = document.querySelector('article, main, .entry-content, #content') || document.body;
+  // Hide site-wide menus so their links (e.g. a "No Proof" menu item) don't count as page content.
+  document.querySelectorAll('nav, header, footer, [role=navigation], .navbar, .nav-menu, .w-nav')
+    .forEach(e => { e.style.display = 'none'; });
+  const root = document.body;
   const paras = Array.from(root.querySelectorAll('p, li, td, dd'))
+      .filter(e => e.offsetParent !== null)
       .map(e => e.innerText.trim().replace(/\\s+/g, ' ')).filter(Boolean);
   const h1 = document.querySelector('h1');
   return { title: h1 ? h1.innerText.trim() : document.title, text: root.innerText, paras };
