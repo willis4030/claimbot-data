@@ -1,0 +1,172 @@
+{
+ "updated": "2026-09-22T22:15:28+00:00",
+ "count": 7,
+ "no_proof_count": 1,
+ "settlements": [
+  {
+   "id": "99fb8f2bf8cc",
+   "title": "Neutrogena Skin360 $4.7M BIPA Class Action Settlement",
+   "category": "Privacy & tech",
+   "payout": "$1,566,667",
+   "payout_max": 1566667.0,
+   "deadline": "2026-11-25",
+   "no_proof": null,
+   "summary": "Individuals who used Skin360 for a skin assessment in Illinois between Dec. 9, 2019, and May 5, 2023, may qualify to claim a cash payment from a settlement.\n\nConsumers who performed a Skin360 skin assessment using any version of Skin360, including Neutrogena Skin360 or NeoStrata Skin360, while in Illinois between Dec. 9, 2019, and May 5, 2023, may be eligible to submit a claim for a cash payment from a class action settlement.\n\nClass members must meet the following criteria:\n\nThey completed the assessment in Illinois between Dec. 9, 2019, and May 5, 2023.\n\nPro rata cash payment: Class members can submit a claim to receive a pro rata share of the net settlement fund. The settlement administrator will determine the final payment amount by the total number of valid claims submitted.\n\nTo receive a settlement payment, class members can file a claim online or print and complete the PDF claim form, and mail it to the settlement administrator. The settlement allows only one claim per class member.\n\nClass members must provide dates of use of the Skin360 assessment tool in Illinois during the class period .\n\nPayments to eligible claimants: Remaining settlement funds",
+   "claim_url": "https://skin360bipasettlement.pnclassaction.com/",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/skin360-bipa-settlement"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "a87bc400da1e",
+   "title": "Thinkware Dashcam $850,000 Class Action Settlement",
+   "category": "Subscription & fees",
+   "payout": "$100,000",
+   "payout_max": 100000.0,
+   "deadline": "2026-12-14",
+   "no_proof": null,
+   "summary": "Drivers who purchased certain Thinkware dashcams between Jan. 25, 2019, and Aug. 31, 2024, may qualify to claim a cash payment from a class action settlement.\n\nIndividuals and entities who purchased a Thinkware X700, F200PRO, DC-M2-FG-IR, DC-M2-FG or F70PRO dashcam in the United States between Jan. 25, 2019, and Aug. 31, 2024, may be eligible to submit a claim for a cash payment from a class action settlement.\n\nClass members must meet the following criteria:\n\nThey reside in the United States and purchased one of the qualifying Thinkware dashcam models between Jan. 25, 2019, and Aug. 31, 2024:\n\nThey purchased the camera for personal use and not for resale.\n\nPro rata cash payment: Class members can submit a claim to receive a pro rata cash payment from the net settlement fund. The settlement administrator will determine the final payment amount by the type and number of eligible dashcams purchased and the total number of valid claims submitted.\n\nTo receive a settlement payment, class members can file a claim online or print and complete the PDF claim form and mail it to the settlement administrator.\n\nClass members who do not have a settlement claim ID must provide the Thinkware product purchased, quantity purchased, purchase location, approximate date of purchase and serial number associated with the dashcam.",
+   "claim_url": "https://twcamerasettlement.pnclassaction.com/",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/tw-camera-settlement"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "def6ef537b76",
+   "title": "State Farm $8.8M Auto Insurance Class Action Settlement",
+   "category": "Auto",
+   "payout": "$5,080",
+   "payout_max": 5080.0,
+   "deadline": "2026-12-08",
+   "no_proof": null,
+   "summary": "Drivers insured by State Farm Mutual Automobile Insurance Co. in Washington state who received a payment for property damage under their underinsured motorist property damage coverage between Jan. 13, 2019, and Feb. 27, 2026, may be eligible to submit a claim for a cash payment estimated at $625 from a class action settlement.\n\nClass members must meet the following criteria:\n\nThe accident occurred between Jan. 13, 2019, and Feb. 27, 2026.\n\nClass members who had more than one qualifying accident may submit a separate claim for each qualifying accident. The settlement administrator will provide a claim form for each eligible accident.\n\nCash payment: Class members can submit a claim to receive a cash payment from the net settlement fund. The settlement administrator will determine the final payment amount using the individual and total vehicle repair costs and the total number of claims filed. The average payment amount is estimated to be around $625 per claim.\n\nClass members who previously received a diminished value payment from State Farm will receive a reduced settlement payment.\n\nTo receive a settlement payment, class members can file a claim online or complete the claim form included with their notice and mail it to the settlement administrator. They must submit a claim form for each qualifying accident.",
+   "claim_url": "https://forms.ksacms.com/efiling/fr/eform/WashingtonUMPDsettlement_claimform/new?form-version=1&fr-wizard-page=section-1",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/washington-umpd-settlement"
+    },
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/trc-data-settlement"
+    },
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/suffolk-red-light-settlement"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "b515a606f947",
+   "title": "Finastra Technology $3.13 Million Data Breach Settlement",
+   "category": "Data breach",
+   "payout": "$5,000",
+   "payout_max": 5000.0,
+   "deadline": "2026-11-02",
+   "no_proof": true,
+   "summary": "Individuals who received notice from Finastra Technology Inc. that an October 2024 data incident may have compromised their private information could be eligible to claim up to $2,500 plus credit monitoring from a class action settlement.\n\nClass members include all individuals residing in the United States whose private information the October 2024 data incident at Finastra Technology may have impacted.\n\nCash payment for documented losses: Class members who experienced actual, documented out-of-pocket losses between Oct. 31, 2024, and Nov. 27, 2026, due to the data incident can claim up to $2,500. Eligible expenses include losses from identity theft or fraud, fees for credit reports or credit monitoring, costs to replace IDs and postage for contacting banks.\n\nCredit monitoring: All class members can claim one year of CyEx Financial Shield Complete, which includes $1 million in financial fraud insurance and monitoring for identity theft, unauthorized transactions and high-risk activity.\n\nTo receive benefits, class members must file a claim online or print and complete the PDF claim form and mail it to the settlement administrator. Class members can also request a paper claim form from the settlement administrator.\n\nClass members using the online claim form must provide the login ID and PIN from the settlement notice they received.",
+   "claim_url": "https://cw.simpluris.com/docs/public/downloads/FJC1/CLAIM_FORM",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/finastra-data-settlement"
+    },
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/safe-fleet-data-settlement"
+    },
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/communications-data-group-settlement"
+    },
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/institute-hr-data-settlement"
+    },
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/inotiv-data-breach-settlement"
+    },
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/fairchild-data-settlement"
+    },
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/cvs-digital-privacy-settlement"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "10e2a24f64b6",
+   "title": "JDM Washington Street $1.74M Rent Overcharge Settlement",
+   "category": "Subscription & fees",
+   "payout": "$250,",
+   "payout_max": 250.0,
+   "deadline": "2026-11-02",
+   "no_proof": null,
+   "summary": "Individuals who rented a deregulated apartment at 90 Washington St. in New York City before June 30, 2018, and lived in the building after June 14, 2015, may be eligible to claim a cash payment from a class action settlement.\n\nClass members must meet all of the following criteria:\n\nThe settlement covers both current and former tenants who meet the above criteria. Those who lived in more than one apartment in the building during the relevant period may be eligible for multiple claims provided they include all addresses and lease dates on their claim form.\n\nThe total settlement fund is $1,739,811, which the settlement administrator will distribute among eligible claimants after deductions for attorneys' fees and costs, and service awards to the class representatives. The amount each class member receives depends on several factors, including the amount of rent they paid above the legal regulated rent, the period of overcharge and whether they owe any rent to the landlord.\n\nThe settlement administrator calculates each eligible class member's award as follows:\n\nIf the class member paid more than this amount between Feb. 25, 2016, and the date of preliminary settlement approval, they are entitled to a refund of the difference plus 9% simple interest per year calculated monthly.\n\nThe administrator will subtract any amount the class member owes the landlord from their payment.",
+   "claim_url": "https://cdn.epiqglobal.com/4e/fe/c97990364a3f9386f0b71140b25b/claim-form.pdf",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/90-washington-class-action"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "95baa4e506bd",
+   "title": "Scribd Inc. $3 Million Job Applicant Class Action Settlement",
+   "category": "Data breach",
+   "payout": "$219.27",
+   "payout_max": 219.27,
+   "deadline": "2026-10-12",
+   "no_proof": null,
+   "summary": "Individuals who applied for a Scribd job in Washington state between Jan. 1, 2023, and Aug. 14, 2026, may be eligible to claim about $219 from a settlement.\n\nIndividuals who applied for a job with Scribd Inc. in Washington between Jan. 1, 2023, and Aug. 14, 2026, may qualify to receive an estimated cash payment of $219.27 from a class action settlement. The settlement class includes 9,330 applicants.\n\nClass members must meet the following criteria:\n\nTheir application occurred between Jan. 1, 2023, and Aug. 14, 2026.\n\nCash payment: Eligible class members will receive an equal share of the class fund, which is a cash payment estimated at $219.27. The settlement administrator will determine the final payment amount by the total number of eligible class members and the remaining net settlement fund.\n\nClass members do not need to submit a claim form to receive their settlement payment.\n\nPayments to eligible class members: Remaining settlement funds\n\nThe settlement administrator will issue payments to eligible class members approximately 75 days after the court grants final approval of the settlement.",
+   "claim_url": "https://epoasettlementsi.com/faq/",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/epoa-settlement-si"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "1e031e4e0e9d",
+   "title": "Renters Warehouse $195,000 Security Deposit Settlement",
+   "category": "Product",
+   "payout": "$5,",
+   "payout_max": 5.0,
+   "deadline": null,
+   "no_proof": null,
+   "summary": "Individuals who rented or lived in a Minnesota property managed by Renters Warehouse and whom the company deducted money from their security deposit may be eligible to receive a cash payment from a class action settlement.\n\nEligible class members include individuals who meet all of the following criteria:\n\nThey vacated the property or moved out between May 31, 2019, and July 16, 2024.\n\nThere are two categories of class members based on the outcome of their security deposit:\n\nNet positive class members: Those who had deductions from their security deposit but received some portion of the deposit back.\n\nNet negative class members: Those who had deductions that exceeded their security deposit, resulting in no refund.\n\nThe settlement divides payments between the two categories of class members as follows:\n\nNet positive class members: This category receives 90% of the net settlement fund distributed pro rata based on the amount of move-out charges Renters Warehouse assessed to each member in this group.\n\nNet negative class members: This category receives 10% of the net settlement fund distributed pro rata based on the amount of move-out charges Renters Warehouse assessed to each member in this group.",
+   "claim_url": "https://www.renterswarehousesecuritydepositclassaction.com/faq.aspx",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/renters-warehouse-security-deposit-class-action"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  }
+ ]
+}
