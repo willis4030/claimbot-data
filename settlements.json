@@ -1,7 +1,7 @@
 {
- "updated": "2026-09-22T22:15:28+00:00",
- "count": 7,
- "no_proof_count": 1,
+ "updated": "2026-09-22T22:34:35+00:00",
+ "count": 34,
+ "no_proof_count": 24,
  "settlements": [
   {
    "id": "99fb8f2bf8cc",
@@ -10,13 +10,32 @@
    "payout": "$1,566,667",
    "payout_max": 1566667.0,
    "deadline": "2026-11-25",
-   "no_proof": null,
+   "no_proof": true,
    "summary": "Individuals who used Skin360 for a skin assessment in Illinois between Dec. 9, 2019, and May 5, 2023, may qualify to claim a cash payment from a settlement.\n\nConsumers who performed a Skin360 skin assessment using any version of Skin360, including Neutrogena Skin360 or NeoStrata Skin360, while in Illinois between Dec. 9, 2019, and May 5, 2023, may be eligible to submit a claim for a cash payment from a class action settlement.\n\nClass members must meet the following criteria:\n\nThey completed the assessment in Illinois between Dec. 9, 2019, and May 5, 2023.\n\nPro rata cash payment: Class members can submit a claim to receive a pro rata share of the net settlement fund. The settlement administrator will determine the final payment amount by the total number of valid claims submitted.\n\nTo receive a settlement payment, class members can file a claim online or print and complete the PDF claim form, and mail it to the settlement administrator. The settlement allows only one claim per class member.\n\nClass members must provide dates of use of the Skin360 assessment tool in Illinois during the class period .\n\nPayments to eligible claimants: Remaining settlement funds",
    "claim_url": "https://skin360bipasettlement.pnclassaction.com/",
    "sources": [
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/skin360-bipa-settlement"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "d0e082186cdc",
+   "title": "Indian Boarding Homes Class Action Settlement: $10,000 Base Payment Plus Up to $200,000 for Abuse",
+   "category": "Privacy & tech",
+   "payout": "$200,000",
+   "payout_max": 200000.0,
+   "deadline": "2027-02-22",
+   "no_proof": true,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Legal\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.\n\nCanada Opioid Class Action Settlements: Another Canadian settlement track, with its own eligibility rules and timelines. Read more →",
+   "claim_url": "https://boardinghomesclassaction.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/indian-boarding-homes-class-action-settlement.php"
     }
    ],
    "first_seen": "2026-09-22",
@@ -42,13 +61,32 @@
    "new": true
   },
   {
+   "id": "729102655920",
+   "title": "Canadian Armed Forces Racial Discrimination Settlement: Current and Former Members Can Claim $5,000 to $35,000 CAD",
+   "category": "Privacy & tech",
+   "payout": "$5,000 to $35,000 CAD",
+   "payout_max": 35000.0,
+   "deadline": "2026-10-15",
+   "no_proof": false,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Consult Local Attorneys\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.\n\nAn estate can claim where the class member died after June 6, 2024. A representative has to establish legal authority to act, and cheques are issued in the name of the class member or the estate.\n\nCommon Experience Payment — $5,000 CAD. Every eligible class member receives it. You qualify by swearing or solemnly affirming on the claim form that you experienced racial discrimination or racial harassment while serving since April 17, 1985, and by describing your racial identity. You do not have to describe what happened to you.",
+   "claim_url": "https://www.classaction.deloitte.ca/en-CA/caf-racism-class-action/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/canadian-armed-forces-racial-discrimination-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
    "id": "def6ef537b76",
    "title": "State Farm $8.8M Auto Insurance Class Action Settlement",
    "category": "Auto",
    "payout": "$5,080",
    "payout_max": 5080.0,
-   "deadline": "2026-12-08",
-   "no_proof": null,
+   "deadline": "2026-11-23",
+   "no_proof": true,
    "summary": "Drivers insured by State Farm Mutual Automobile Insurance Co. in Washington state who received a payment for property damage under their underinsured motorist property damage coverage between Jan. 13, 2019, and Feb. 27, 2026, may be eligible to submit a claim for a cash payment estimated at $625 from a class action settlement.\n\nClass members must meet the following criteria:\n\nThe accident occurred between Jan. 13, 2019, and Feb. 27, 2026.\n\nClass members who had more than one qualifying accident may submit a separate claim for each qualifying accident. The settlement administrator will provide a claim form for each eligible accident.\n\nCash payment: Class members can submit a claim to receive a cash payment from the net settlement fund. The settlement administrator will determine the final payment amount using the individual and total vehicle repair costs and the total number of claims filed. The average payment amount is estimated to be around $625 per claim.\n\nClass members who previously received a diminished value payment from State Farm will receive a reduced settlement payment.\n\nTo receive a settlement payment, class members can file a claim online or complete the claim form included with their notice and mail it to the settlement administrator. They must submit a claim form for each qualifying accident.",
    "claim_url": "https://forms.ksacms.com/efiling/fr/eform/WashingtonUMPDsettlement_claimform/new?form-version=1&fr-wizard-page=section-1",
    "sources": [
@@ -63,6 +101,10 @@
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/suffolk-red-light-settlement"
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/kia-window-regulator-class-action-settlement.php"
     }
    ],
    "first_seen": "2026-09-22",
@@ -112,6 +154,25 @@
    "new": true
   },
   {
+   "id": "8f4017f59e07",
+   "title": "Tesla Supercharger Idle Fee Settlement: Up to $350, Fee Refunds and Account Relief",
+   "category": "Privacy & tech",
+   "payout": "$350,",
+   "payout_max": 350.0,
+   "deadline": "2026-09-25",
+   "no_proof": false,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Luxury Goods\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.\n\nToyota Forklift Emissions Settlement: Eligible forklift owners and lessees may claim cash and service benefits. Check eligibility →\n\nLifeMD Data Privacy Investigation: California residents who started a LifeMD, Rex MD or ShapiroMD questionnaire on or before June 14, 2026 without accepting the terms or creating an account. Attorneys are investigating; no complaint has been filed and there is nothing to claim yet. See who qualifies →",
+   "claim_url": "https://teslaidlefeeclassaction.com/form/claim/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/tesla-supercharger-idle-fee-class-action-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
    "id": "10e2a24f64b6",
    "title": "JDM Washington Street $1.74M Rent Overcharge Settlement",
    "category": "Subscription & fees",
@@ -150,6 +211,329 @@
    "new": true
   },
   {
+   "id": "74a182ae9557",
+   "title": "Ohio Nightclub Dancers $800K Unpaid Wages Settlement — Claims Open Through October 20, 2026",
+   "category": "Subscription & fees",
+   "payout": "$75",
+   "payout_max": 75.0,
+   "deadline": "2026-10-20",
+   "no_proof": true,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Bars, Clubs & Nightlife\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.",
+   "claim_url": "https://www.ohiostripclubcase.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/ohio-nightclub-dancer-unpaid-wages-class-action-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "ec72085fe5f1",
+   "title": "Zonolite Vermiculite Attic Insulation Trust (ZAI Trust) Reimbursement Claims",
+   "category": "Privacy & tech",
+   "payout": "$75",
+   "payout_max": 75.0,
+   "deadline": "2026-11-02",
+   "no_proof": true,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Building Materials & Supplies\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.\n\nOmnicare / CVS $440M Nursing-Home Settlement: A much larger CVS-related False Claims Act deal over drugs billed for nursing-home residents. Read more →",
+   "claim_url": "https://www.zonoliteatticinsulation.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/zonolite-vermiculite-attic-insulation-class-action-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "d45b04d4703e",
+   "title": "Sanyo Solar Panel Delamination Class Action Settlement",
+   "category": "Privacy & tech",
+   "payout": "$74",
+   "payout_max": 74.0,
+   "deadline": "2029-12-31",
+   "no_proof": false,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Consult Trial Lawyers\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.",
+   "claim_url": "https://www.sanyosolarclaims.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/sanyo-solar-panel-class-action-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "e0faa8b768d0",
+   "title": "Mercedes-Benz AEM Incentive Program — $2,000 Payment for BlueTEC Diesel Owners (Claim by September 30, 2026)",
+   "category": "Auto",
+   "payout": "$50",
+   "payout_max": 50.0,
+   "deadline": "2026-09-30",
+   "no_proof": true,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Luxury Vehicles\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.\n\nCUSO Financial Services Data Breach Settlement — Up to $599: Up to $599 in cash, $100 more for California residents, and up to $5,000 documented, plus two years of credit monitoring, for the 76,251 people CUSO… See who qualifies →",
+   "claim_url": "https://mbaemincentive.com/",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/mercedes-benz-aem-incentive-bluetec-diesel-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "a3de361c30b1",
+   "title": "NYC Taxi & Limousine Commission License Suspension Class Action Settlement",
+   "category": "Privacy & tech",
+   "payout": "$50",
+   "payout_max": 50.0,
+   "deadline": "2026-10-19",
+   "no_proof": true,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Consult Local Attorneys\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.",
+   "claim_url": "https://www.tlcsuspensionclaims.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/nyc-taxi-limousine-commission-license-suspension-class-action-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "065c329b98dd",
+   "title": "Generic Drug Price-Fixing Settlements — Over $850 Million, and End-Payer Claims Are Now Open",
+   "category": "Privacy & tech",
+   "payout": "$50",
+   "payout_max": 50.0,
+   "deadline": "2026-11-09",
+   "no_proof": false,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Class action settlements\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.\n\nIndividual consumers who bought generic Rx drugs\n\nAFFF Firefighting Foam Cancer Lawsuit — Military Base & Firefighter Claims: No settlement and no claim form — a free case review for veterans, firefighters and base residents later diagnosed with kidney, testicular, thyroid… See who qualifies →",
+   "claim_url": "https://injuryclaims.com/depo-provera-lawsuit?aid=84&cid=45&subid2=rec",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/generic-drugs-price-fixing-class-action-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "c060917614fc",
+   "title": "Talkdesk Washington Job Posting Settlement: Estimated $1,718 for WA Job Applicants",
+   "category": "Subscription & fees",
+   "payout": "$45",
+   "payout_max": 45.0,
+   "deadline": "2026-10-13",
+   "no_proof": true,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Job Listings\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.",
+   "claim_url": "https://www.epoasettlementtdi.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/talkdesk-washington-job-postings-class-action-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "af11fcb45dc1",
+   "title": "Diisocyanates Antitrust Settlements: $37.65M for Direct MDI and TDI Buyers",
+   "category": "Privacy & tech",
+   "payout": "$40",
+   "payout_max": 40.0,
+   "deadline": "2026-10-13",
+   "no_proof": true,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.\n\n$117M Pork Price-Fixing Settlement: Pro rata cash for grocery shoppers in 24 states who bought raw pork or bacon between 2014 and 2018. See who qualifies →",
+   "claim_url": "https://www.diisocyanatesantitrustlitigation.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/diisocyanates-mdi-tdi-antitrust-class-action-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "9dd7ea0c4b3b",
+   "title": "$59.5M Flo Period Tracker Data Privacy Settlement is Open to Claims",
+   "category": "Privacy & tech",
+   "payout": "$40",
+   "payout_max": 40.0,
+   "deadline": "2026-10-15",
+   "no_proof": true,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Period tracking app\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.\n\nLifeMD Data Privacy Investigation: California residents who started a LifeMD, Rex MD or ShapiroMD questionnaire on or before June 14, 2026 without accepting the terms or creating an account. Attorneys are investigating; no complaint has been filed and there is nothing to claim yet. See who qualifies →\n\nCosta Del Mar $23.9M Sunglasses Repair Settlement — Paid Automatically: A pro rata share of $23.9M for anyone outside Florida who paid Costa more than $11.95 to fix sunglasses bought before 2018. See who qualifies →",
+   "claim_url": "https://periodtrackerdataprivacylitigation.com/home",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/flo-health-app-privacy-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "77dbafbaf019",
+   "title": "$60M Domestic Airlines Price-Fixing Settlement — American, Delta, Southwest & United",
+   "category": "Privacy & tech",
+   "payout": "$36",
+   "payout_max": 36.0,
+   "deadline": "2026-11-25",
+   "no_proof": true,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Legal\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.",
+   "claim_url": "https://domesticairclass.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/domestic-airlines-price-fixing-class-action-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "62cec8f82885",
+   "title": "Edgio $15M Securities Settlement (LLNW / EGIO): Who Qualifies and How to File a Claim",
+   "category": "Privacy & tech",
+   "payout": "Pro Rata Share of $15M Fund",
+   "payout_max": 15.0,
+   "deadline": "2026-09-28",
+   "no_proof": false,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Legal Services\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.\n\nMore Settlements: Browse open class action settlements you may qualify for. View all →\n\n$250M Apple Intelligence Settlement — $25 to $95 per iPhone: $25 per iPhone 15 Pro, 15 Pro Max or iPhone 16 model bought in the U.S. between June 10, 2024 and March 29, 2025, adjustable up to $95 · serial… See who qualifies →",
+   "claim_url": "https://www.edgiosecuritieslitigation.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/edgio-securities-class-action-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "7aa68b97f3d4",
+   "title": "$32 Million Stitch Fix Securities Class Action Settlement — File Your Claim by October 7, 2026",
+   "category": "Subscription & fees",
+   "payout": "$12",
+   "payout_max": 12.0,
+   "deadline": "2026-10-07",
+   "no_proof": true,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Legal Services\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.\n\nLevoit Air Purifier HEPA Settlement — $10 for Core & EverestAir Buyers: A $10 digital payment for anyone who bought a Levoit Core or EverestAir air purifier or replacement filter labeled True HEPA, HEPA or H13 between… See who qualifies →\n\nRaging Waters $850K Ticket Fee Settlement — Pro Rata Cash, No Receipt: A pro rata share of $850,000, sized to the processing fees you paid, for anyone who bought Raging Waters tickets online and was charged the fee. See who qualifies →\n\nGotham Steel & Granitestone Cookware Settlement — $12 With No Receipt: $6 Cash per Product, Up to 2 per Household ($12 Max) · Anyone Who Bought Gotham Steel, Granite Stone or Bell & Howell Cookware With Stainless Steel… See who qualifies →",
+   "claim_url": "https://www.stitchfixsecuritieslitigation.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/stitch-fix-securities-class-action-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "2dbffe4a4abb",
+   "title": "Costa Del Mar $23.9M Sunglasses Repair Fee Settlement — Automatic Payments, No Claim Form",
+   "category": "Subscription & fees",
+   "payout": "$12",
+   "payout_max": 12.0,
+   "deadline": "2026-10-26",
+   "no_proof": true,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Consult Local Attorneys\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.",
+   "claim_url": "https://www.costarepairsclassaction.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/costa-del-mar-sunglasses-repair-fee-class-action-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "2b321a1af951",
+   "title": "$117 Million Pork Price-Fixing Class Action Settlement: Grocery Shoppers in 24 States Can Claim With No Receipts",
+   "category": "Privacy & tech",
+   "payout": "$7",
+   "payout_max": 7.0,
+   "deadline": "2026-10-29",
+   "no_proof": true,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Pork\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.\n\nSome cut names above link to a current example of that cut on Amazon, so you can see what the cut is. Those are affiliate links and OpenClassActions may earn a commission from a purchase. They are illustrations only — eligibility depends on what you bought between 2014 and 2018 in a covered state, not on anything you buy today, and buying nothing changes your right to file.Class action guide\n\nGeneric Drug Price-Fixing Settlements: More than $850 million across the end-payer programs for anyone who paid for generic prescriptions between 2009 and 2019. See who qualifies →\n\nBeef & Pork Processing Wages: $202.7 million for plant workers, with noticed class members paid automatically. See who qualifies →",
+   "claim_url": "https://www.overchargedforpork.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/pork-price-fixing-class-action-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "a51948f6679b",
+   "title": "$167.5M Visa & Mastercard Nonbank ATM Fee Settlement — Claims Are Open, Deadline February 10, 2027",
+   "category": "Privacy & tech",
+   "payout": "$7",
+   "payout_max": 7.0,
+   "deadline": "2027-02-10",
+   "no_proof": true,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.\n\n~6 months after final approval Payments distributed to class members Digital payments (PayPal, virtual debit card) or mailed check, on a pro rata basis from the Net Settlement Fund — assuming no appeals delay the schedule\n\nMG217 Coal Tar Shampoo Settlement — Up to $7 a Bottle, No Receipt: Up to $7 per bottle with no receipt, the full price you paid with one, or a $25 voucher, for anyone who bought MG217 coal tar shampoo since 2021. See who qualifies →\n\nLevoit Air Purifier HEPA Settlement — $10 for Core & EverestAir Buyers: A $10 digital payment for anyone who bought a Levoit Core or EverestAir air purifier or replacement filter labeled True HEPA, HEPA or H13 between… See who qualifies →",
+   "claim_url": "https://files.openclassactions.com/pdf/non-bank-atm-class-action-claim-form.pdf?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/burke-visa-mastercard-atm-fees-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "9cae33df0e5f",
+   "title": "Anthem Proton Beam Therapy Class Action Settlement: $3.625 Million for Denied PBRT Coverage",
+   "category": "Privacy & tech",
+   "payout": "$5",
+   "payout_max": 5.0,
+   "deadline": "2026-10-10",
+   "no_proof": true,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Consult Local Attorneys\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.\n\nEmblemHealth $53M Senior Care Co-Pay Settlement: reimbursement of the $15 medical co-pays charged to Medicare-eligible New York City retirees in 2022 See who qualifies →\n\nHealthPort / Datavant Medical Records Fee Settlement: a 35% refund for people who paid for copies of Pennsylvania medical records between 2005 and 2012 See who qualifies →",
+   "claim_url": "https://www.protonbeamradiationtherapylitigation.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/blue-cross-blue-shield-georgia-proton-beam-therapy-class-action-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "f4ec84f4a8bc",
+   "title": "Kaiser Permanente Out-of-Network Mental Health Reimbursement (California)",
+   "category": "Financial",
+   "payout": "$5",
+   "payout_max": 5.0,
+   "deadline": "2026-11-16",
+   "no_proof": true,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Company News\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.\n\nLifeMD Data Privacy Investigation: California residents who started a LifeMD, Rex MD or ShapiroMD questionnaire on or before June 14, 2026 without accepting the terms or creating an account. Attorneys are investigating; no complaint has been filed and there is nothing to claim yet. See who qualifies →",
+   "claim_url": "https://www.outofnetworkhealthclaims.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/kaiser-permanente-out-of-network-mental-health-california-class-action-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
    "id": "1e031e4e0e9d",
    "title": "Renters Warehouse $195,000 Security Deposit Settlement",
    "category": "Product",
@@ -163,6 +547,139 @@
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/renters-warehouse-security-deposit-class-action"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "d5097cf737db",
+   "title": "NCAA Tennis Prize Money Settlement: $2M for Athletes Who Forfeited Winnings — Claims Open July 13",
+   "category": "Privacy & tech",
+   "payout": "$1.75",
+   "payout_max": 1.75,
+   "deadline": "2026-10-19",
+   "no_proof": true,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Military History\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.",
+   "claim_url": "https://www.ncaatennisprizemoneyclassaction.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/ncaa-tennis-prize-money-class-action-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "d98e08951def",
+   "title": "Hydromax USA Washington Job Posting Settlement: Up to $382,500 for WA Job Applicants",
+   "category": "Employment",
+   "payout": "Equal share of the fund",
+   "payout_max": null,
+   "deadline": "2026-10-12",
+   "no_proof": true,
+   "summary": "Official settlement website — EPOA Settlement HUL (claim portal, FAQs, important dates, important documents)\n\nNotice of Class Action Settlement and Claim Form, authorized July 16, 2026 (embedded below)\n\nOrder preliminarily approving the class action settlement, entered July 16, 2026, as described in the Notice",
+   "claim_url": "https://www.epoasettlementhul.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/hydromax-usa-job-postings-washington-class-action-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "4730143bd9dc",
+   "title": "Turkey Price-Fixing Settlements: $93.5 Million for Direct Turkey Buyers, Claims Open With a New Form Due October 30",
+   "category": "Subscription & fees",
+   "payout": null,
+   "payout_max": null,
+   "deadline": "2026-10-30",
+   "no_proof": true,
+   "summary": "Last day for class members to file claim forms, to object to any of the settlements, to object to the fee motion, or to file a notice of appearance at the fairness hearing.\n\nJoin thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Turkey price comparison\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.\n\nIOD/Datavant Medical Records Fee Settlement — 35% Refund: Patients, lawyers and law firms who paid IOD for copies of Pennsylvania medical records between 2005 and 2012 can claim 35% of what they paid. See who qualifies →\n\nHealthPort/Datavant Medical Records Fee Settlement — 35% Refund: Patients, lawyers and insurers who paid HealthPort for copies of Pennsylvania medical records between 2005 and 2012 can claim 35% of what they paid. See who qualifies →",
+   "claim_url": "https://www.turkeylitigation.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/turkey-price-fixing-class-action-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "bbaed6df1ad8",
+   "title": "FastBucks New Mexico Restitution Program — Payments for Borrowers Under the 2016 Final Judgment",
+   "category": "Subscription & fees",
+   "payout": "Not announced",
+   "payout_max": null,
+   "deadline": "2026-11-24",
+   "no_proof": true,
+   "summary": "The program itself is what is new. The Department and EisnerAmper, named in the notice as the Restitution Administrator, opened a notice and claims process in 2026, working from the available loan data, mailing and email records and address research to identify people who may be eligible. Claims run through November 24, 2026.\n\nJoin thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Loans\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.\n\nEligibility turns on the program's own records rather than on a class definition. A person may be eligible if program records show they were a consumer borrower identified in the consumer loan data the FastBucks defendants provided to the State, and that they were adversely affected by the FastBucks business practices at issue.Legal\n\nIn practical terms, the notice tells anyone who took out one or more loans through FastBucks Holding Corporation between 2007 and 2016 that they may be eligible. Two routes lead into the claim process:\n\nNo documentation is required, and the claim form can be completed online by someone who never received a notice. The online form opens by asking whether the filer has a Claim ID Number and offers a route for each answer, so the Claim ID is not a gate on filing.",
+   "claim_url": "https://fastbucksnmrestitution.pnclassaction.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/fastbucks-new-mexico-restitution-program.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "c7e0256e530e",
+   "title": "IOD/Datavant Pennsylvania Medical Records Copying Fee Class Action Settlement — 35% Refund",
+   "category": "Privacy & tech",
+   "payout": "35% of Fees Paid",
+   "payout_max": null,
+   "deadline": "2026-11-30",
+   "no_proof": false,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.\n\nEmblemHealth & NYC $53M Co-Pay Settlement: Refunds of the $15 medical co-pays charged to Medicare-eligible New York City retirees. See who qualifies →",
+   "claim_url": "https://www.iodsettlementpa.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/iod-datavant-pennsylvania-medical-records-fees-class-action-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "97c7e81fc5f4",
+   "title": "HealthPort/Datavant Pennsylvania Medical Records Fee Class Action Settlement — 35% Refund on 2005–2012 Copying Charges",
+   "category": "Privacy & tech",
+   "payout": "35% of fees paid",
+   "payout_max": null,
+   "deadline": "2026-11-30",
+   "no_proof": true,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Consult Local Attorneys\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.",
+   "claim_url": "https://www.healthportsettlementpa.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/healthport-datavant-pennsylvania-medical-records-fees-class-action-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": true
+  },
+  {
+   "id": "49be58541173",
+   "title": "Progressive Colorado Total-Loss Settlement — $15.2 Million for Underpaid Totaled Vehicles",
+   "category": "Privacy & tech",
+   "payout": "68% of the PSA Impact",
+   "payout_max": null,
+   "deadline": "2027-02-05",
+   "no_proof": true,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Consult Local Attorneys\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.",
+   "claim_url": "https://www.cototallossclaim.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/curran-progressive-colorado-total-loss-class-action-settlement.php"
     }
    ],
    "first_seen": "2026-09-22",
