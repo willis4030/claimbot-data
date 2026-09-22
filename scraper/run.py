@@ -11,6 +11,8 @@ import os
 import random
 import sys
 import time
+import urllib.error
+import urllib.request
 from datetime import date, datetime, timezone
 from pathlib import Path
 from urllib import robotparser
@@ -55,17 +57,37 @@ _robots = {}
 
 
 def robots_ok(url):
+    """Follow robots.txt the way search engines do (RFC 9309).
+
+    200: obey its rules. 4xx (missing or blocked file): no rules apply.
+    5xx or unreachable: stay off that site for this run.
+    """
     u = urlparse(url)
     base = f"{u.scheme}://{u.netloc}"
     if base not in _robots:
-        rp = robotparser.RobotFileParser(base + "/robots.txt")
         try:
-            rp.read()
-        except Exception:
-            rp = None
-        _robots[base] = rp
-    rp = _robots[base]
-    return True if rp is None else rp.can_fetch(ROBOTS_AGENT, url)
+            req = urllib.request.Request(base + "/robots.txt", headers={"User-Agent": UA})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                rp = robotparser.RobotFileParser()
+                rp.parse(r.read().decode("utf-8", "replace").splitlines())
+            state = rp
+        except urllib.error.HTTPError as e:
+            state = "allow" if 400 <= e.code < 500 else "deny"
+            log(f"   robots.txt at {base}: HTTP {e.code} -> "
+                f"{'no rules apply' if state == 'allow' else 'server error, skipping this run'}")
+        except Exception as e:
+            state = "deny"
+            log(f"   robots.txt at {base} unreachable ({e.__class__.__name__}); skipping this run")
+        _robots[base] = state
+    s = _robots[base]
+    if s == "allow":
+        return True
+    if s == "deny":
+        return False
+    ok = s.can_fetch(ROBOTS_AGENT, url)
+    if not ok:
+        log(f"   robots.txt at {base} disallows {u.path}")
+    return ok
 
 
 async def pause():
@@ -89,7 +111,6 @@ async def scrape_listing(page, src):
     for n in pages:
         url = url_t.format(page=n)
         if not robots_ok(url):
-            log(f"   robots.txt disallows {url}; skipping")
             break
         if not await goto(page, url):
             break
