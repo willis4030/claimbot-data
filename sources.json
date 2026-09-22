@@ -1,21 +1,46 @@
 {
-  "_help": "One entry per listing site. Only name and listing_url are required. Use {page} in the URL if the site has numbered pages. item_link_re is optional: a regex for settlement page links, only needed if auto-detect picks the wrong links. Set enabled to false to pause a site.",
+  "_help": "One entry per listing site. Only name and listing_url are required. Use {page} in the URL if the site has numbered pages. item_link_re is optional: a regex for settlement page links, only needed if auto-detect picks the wrong links. Set enabled to false to pause a site. no_proof_url is optional: a page listing only no-proof settlements on that site.",
   "sources": [
-    { "name": "topclassactions", "enabled": true,
-      "listing_url": "https://topclassactions.com/category/lawsuit-settlements/open-lawsuit-settlements/page/{page}/" },
-    { "name": "classaction_org", "enabled": true,
-      "listing_url": "https://www.classaction.org/settlements?page={page}" },
-    { "name": "claimdepot", "enabled": true,
-      "listing_url": "https://www.claimdepot.com/settlements" },
-    { "name": "openclassactions", "enabled": true,
-      "listing_url": "https://openclassactions.com/settlements.php" },
-    { "name": "settlementscan", "enabled": true,
-      "listing_url": "https://settlementscan.app/" },
-    { "name": "classactionrebates", "enabled": true,
-      "listing_url": "https://www.classactionrebates.com/" },
-    { "name": "joincase", "enabled": false,
-      "listing_url": "https://FILL-IN-JOINCASE-LISTING-URL" },
-    { "name": "classactiontracker", "enabled": false,
-      "listing_url": "https://FILL-IN-CLASS-ACTION-TRACKER-URL" }
+    {
+      "name": "topclassactions",
+      "enabled": true,
+      "listing_url": "https://topclassactions.com/category/lawsuit-settlements/open-lawsuit-settlements/page/{page}/"
+    },
+    {
+      "name": "classaction_org",
+      "enabled": true,
+      "listing_url": "https://www.classaction.org/settlements?page={page}"
+    },
+    {
+      "name": "claimdepot",
+      "enabled": true,
+      "listing_url": "https://www.claimdepot.com/settlements?0ff52671_page={page}",
+      "no_proof_url": "https://www.claimdepot.com/no-proof-class-action-settlements"
+    },
+    {
+      "name": "openclassactions",
+      "enabled": true,
+      "listing_url": "https://openclassactions.com/settlements.php"
+    },
+    {
+      "name": "settlementscan",
+      "enabled": true,
+      "listing_url": "https://settlementscan.app/"
+    },
+    {
+      "name": "classactionrebates",
+      "enabled": true,
+      "listing_url": "https://www.classactionrebates.com/"
+    },
+    {
+      "name": "joincase",
+      "enabled": false,
+      "listing_url": "https://FILL-IN-JOINCASE-LISTING-URL"
+    },
+    {
+      "name": "classactiontracker",
+      "enabled": false,
+      "listing_url": "https://FILL-IN-CLASS-ACTION-TRACKER-URL"
+    }
   ]
 }
