@@ -291,6 +291,9 @@ def merge(results, previous):
     out = list(merged.values())
     for r in out:
         r["new"] = r["first_seen"] == today
+        # Recomputed from the text so payout rules apply without re-reading every page.
+        r["payout_max"] = P.payout_max(r["payout"])
+        r["no_proof_payout_max"] = P.payout_max(r["no_proof_payout"])
     out.sort(key=lambda r: (-(r["payout_max"] or -1), r["deadline"] or "9999"))
     return out
 
