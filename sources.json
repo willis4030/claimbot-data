@@ -1,5 +1,5 @@
 {
-  "_help": "One entry per listing site. Only name and listing_url are required. Use {page} in the URL if the site has numbered pages. item_link_re is optional: a regex for settlement page links, only needed if auto-detect picks the wrong links. Set enabled to false to pause a site. no_proof_url is optional: a page listing only no-proof settlements on that site.",
+  "_help": "One entry per listing site. Only name and listing_url are required. Use {page} in the URL if the site has numbered pages. item_link_re is optional: a regex for settlement page links, only needed if auto-detect picks the wrong links. Set enabled to false to pause a site. no_proof_url is optional: a page listing only no-proof settlements on that site. cards is optional, for sites that show each settlement as a card with a direct button to the claim site: {\"link_text\": \"text on that button\"}.",
   "sources": [
     {
       "name": "topclassactions",
@@ -10,7 +10,10 @@
     {
       "name": "classaction_org",
       "enabled": true,
-      "listing_url": "https://www.classaction.org/settlements?page={page}"
+      "listing_url": "https://www.classaction.org/settlements",
+      "cards": {
+        "link_text": "Visit Official Settlement Website"
+      }
     },
     {
       "name": "claimdepot",
