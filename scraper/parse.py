@@ -138,12 +138,26 @@ def parse_payout(text):
     return None
 
 
+# "Pro rata share of $10,000,000", "Equal share of a $6.3M fund": the figure is the whole
+# fund, not what one person gets, so it can't be used as a per-person amount.
+FUND_SHARE_RE = re.compile(
+    r"\b(share|portion|split)\s+of\s+(an?\s+|the\s+)?\$|\bfund\b|\$[\d.,]+\s*(m|mm|million|b|billion)\b", re.I)
+
+
 def payout_max(payout):
-    """Largest dollar figure in a payout string, for sorting and the minimum-payout filter."""
+    """Largest per-person dollar figure in a payout string, for sorting and the minimum-payout
+    filter. None when the only figure is a fund total."""
     if not payout:
         return None
+    if FUND_SHARE_RE.search(payout):
+        return None
     vals = [float(v.replace(",", "")) for v in MONEY_RE.findall(payout)]
-    return max(vals) if vals else None
+    if not vals:
+        return None
+    # A "pro rata" figure in the hundreds of thousands is a fund total, not a per-person cap.
+    if re.search(r"pro\s*rata|equal\s+share", payout, re.I) and max(vals) >= 100_000:
+        return None
+    return max(vals)
 
 
 def categorize(text):
