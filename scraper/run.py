@@ -34,7 +34,7 @@ DELAY = 1.5              # seconds between requests to the same site (plus jitte
 REFRESH_DAYS = 7         # re-read a settlement page after this many days
 MAX_DETAILS_PER_RUN = 500
 PRUNE_DAYS = 30          # forget cached pages not listed anywhere for this long
-PARSE_VERSION = 3        # bump when parsing changes, so cached pages are re-read
+PARSE_VERSION = 4        # bump when parsing changes, so cached pages are re-read
 # Listing sites never count as the "official claim site" for a settlement.
 KNOWN_AGGREGATORS = {"topclassactions.com", "classaction.org", "claimdepot.com", "openclassactions.com",
                      "settlementscan.app", "classactionrebates.com", "lawfareclaims.org",
@@ -268,6 +268,7 @@ def merge(results, previous):
                 r = merged[sid] = {
                     "id": sid, "title": pick_title(p), "category": p["category"],
                     "payout": p.get("payout"), "payout_max": p.get("payout_max"),
+                    "no_proof_payout": p.get("no_proof_payout"), "no_proof_payout_max": p.get("no_proof_payout_max"),
                     "deadline": p.get("deadline"), "no_proof": p.get("no_proof"),
                     "summary": p.get("summary") or "", "claim_url": p["claim_url"],
                     "sources": [], "first_seen": first_seen.get(sid, today),
@@ -276,6 +277,8 @@ def merge(results, previous):
                 r["payout"] = r["payout"] or p.get("payout")
                 if p.get("payout_max") and (r["payout_max"] or 0) < p["payout_max"]:
                     r["payout_max"], r["payout"] = p["payout_max"], p.get("payout")
+                if p.get("no_proof_payout") and not r["no_proof_payout"]:
+                    r["no_proof_payout"], r["no_proof_payout_max"] = p["no_proof_payout"], p.get("no_proof_payout_max")
                 if p.get("deadline") and (not r["deadline"] or p["deadline"] < r["deadline"]):
                     r["deadline"] = p["deadline"]  # earliest reported deadline, to be safe
                 if p.get("no_proof") is True:
@@ -284,7 +287,7 @@ def merge(results, previous):
                     r["no_proof"] = p.get("no_proof")
                 if len(p.get("summary") or "") > len(r["summary"]):
                     r["summary"] = p["summary"]
-            r["sources"].append({"name": name, "url": it["detail_url"]})
+            r["sources"].append({"name": name, "url": it["detail_url"], "no_proof": p.get("no_proof")})
     out = list(merged.values())
     for r in out:
         r["new"] = r["first_seen"] == today
