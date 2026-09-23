@@ -29,8 +29,9 @@
     },
     {
       "name": "settlementscan",
-      "enabled": true,
-      "listing_url": "https://settlementscan.app/"
+      "enabled": false,
+      "listing_url": "https://settlementscan.app/",
+      "note": "Off: only ~6 settlements, already covered by other sources."
     },
     {
       "name": "classactionrebates",
