@@ -104,16 +104,23 @@ async def goto(page, url):
         return False
 
 
-async def load_all(page, rounds=15):
-    """Scroll to the bottom until the page stops growing, for lists that load more as you scroll."""
+async def load_all(page, rounds=20):
+    """Load the whole list: scroll to the bottom, and click "Load more"/"Show more" buttons,
+    until the page stops growing."""
     last = 0
     for _ in range(rounds):
-        height = await page.evaluate("document.body.scrollHeight")
-        if height == last:
-            break
-        last = height
         await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
         await page.wait_for_timeout(1500)
+        try:
+            clicked = await page.evaluate(P.LOAD_MORE_JS)
+        except Exception:
+            clicked = False  # a click that navigated away; stop here
+        if clicked:
+            await page.wait_for_timeout(2000)
+        height = await page.evaluate("document.body.scrollHeight")
+        if height == last and not clicked:
+            break
+        last = height
 
 
 async def scrape_listing(page, src, url_key="listing_url", min_items=3):
@@ -131,9 +138,6 @@ async def scrape_listing(page, src, url_key="listing_url", min_items=3):
         found, key = P.find_items(anchors, url, src.get("item_link_re"), key, min_items)
         found = [i for i in found if i["detail_url"] not in seen]
         if not found:
-            if n == 1:
-                # Helps tell a layout problem from a bot-check page ("Just a moment...", "Access denied").
-                log(f"   no settlement links on {url} (page title: {(await page.title())[:80]!r})")
             break
         for i in found:
             seen.add(i["detail_url"])
@@ -142,18 +146,68 @@ async def scrape_listing(page, src, url_key="listing_url", min_items=3):
     return items
 
 
-async def scrape_source(ctx, src, cache, aggregator_hosts, max_details):
+async def merged_listing(page, raw_page, src, url_key="listing_url", min_items=3):
+    """Read a listing twice: as a browser shows it and as raw HTML with JavaScript off.
+    Some sites ship every settlement in the HTML but trim or paginate the list with JavaScript."""
+    items = await scrape_listing(page, src, url_key, min_items)
+    raw = await scrape_listing(raw_page, src, url_key, min_items)
+    if not items and not raw:
+        # Helps tell a layout problem from a bot-check page ("Just a moment...", "Access denied").
+        try:
+            title = (await page.title())[:80]
+        except Exception:
+            title = "?"
+        log(f"   no settlement links on {src[url_key].format(page=1)} (page title: {title!r})")
+    seen = {i["detail_url"] for i in items}
+    return items + [i for i in raw if i["detail_url"] not in seen]
+
+
+async def scrape_cards(page, src, stats):
+    """Card-mode sites: every settlement's details and claim button sit on the listing itself."""
+    url = src["listing_url"].format(page=1)
+    if not robots_ok(url) or not await goto(page, url):
+        return []
+    await load_all(page)
+    cards = await page.evaluate(P.CARDS_JS, src["cards"]["link_text"])
+    items, seen = [], set()
+    for c in cards:
+        if c["href"] in seen:
+            continue  # featured cards repeat further down the list
+        seen.add(c["href"])
+        p = P.parse_card(c)
+        items.append({"detail_url": c["href"], "title": p["page_title"], "parsed": p})
+    stats["listed"] = stats["claim_link"] = len(items)
+    stats["no_proof"] = sum(1 for i in items if i["parsed"]["no_proof"] is True)
+    if not items:
+        log(f"   no cards with '{src['cards']['link_text']}' on {url} (page title: {(await page.title())[:80]!r})")
+    return items
+
+
+async def scrape_source(ctx, src, cache, aggregator_hosts, max_details, raw_ctx):
     name = src["name"]
     page = await ctx.new_page()
+    raw_page = await raw_ctx.new_page()
+    if src.get("cards"):
+        stats = {"listed": 0, "fetched": 0, "claim_link": 0, "no_proof": 0, "skipped_robots": 0}
+        try:
+            items = await scrape_cards(page, src, stats)
+            log(f"[{name}] {len(items)} settlement cards")
+        except Exception as e:
+            log(f"[{name}] failed: {e!r}")
+            items = []
+        finally:
+            await page.close()
+            await raw_page.close()
+        return items, stats
     stats = {"listed": 0, "fetched": 0, "claim_link": 0, "no_proof": 0, "skipped_robots": 0}
     try:
-        items = await scrape_listing(page, src)
+        items = await merged_listing(page, raw_page, src)
         stats["listed"] = len(items)
         log(f"[{name}] {len(items)} listings")
         # Optional: a listing page of only no-proof settlements, which is more reliable than page text.
         no_proof_urls = set()
         if src.get("no_proof_url"):
-            no_proof_urls = {i["detail_url"] for i in await scrape_listing(page, src, "no_proof_url", min_items=1)}
+            no_proof_urls = {i["detail_url"] for i in await merged_listing(page, raw_page, src, "no_proof_url", 1)}
             log(f"[{name}] {len(no_proof_urls)} on its no-proof list")
         now = time.time()
         for it in items:
@@ -183,6 +237,7 @@ async def scrape_source(ctx, src, cache, aggregator_hosts, max_details):
         log(f"[{name}] failed: {e!r}")
     finally:
         await page.close()
+        await raw_page.close()
     return items, stats
 
 
@@ -251,7 +306,8 @@ async def daily():
     async with async_playwright() as pw:
         browser = await pw.chromium.launch()
         ctx = await browser.new_context(user_agent=UA)
-        runs = await asyncio.gather(*[scrape_source(ctx, s, cache, agg, MAX_DETAILS_PER_RUN) for s in sources])
+        raw_ctx = await browser.new_context(user_agent=UA, java_script_enabled=False)
+        runs = await asyncio.gather(*[scrape_source(ctx, s, cache, agg, MAX_DETAILS_PER_RUN, raw_ctx) for s in sources])
         await browser.close()
 
     results = [(s["name"], items) for s, (items, _) in zip(sources, runs)]
@@ -299,7 +355,8 @@ async def test(target, limit):
     async with async_playwright() as pw:
         browser = await pw.chromium.launch()
         ctx = await browser.new_context(user_agent=UA)
-        items, st = await scrape_source(ctx, src, {}, agg, limit)
+        raw_ctx = await browser.new_context(user_agent=UA, java_script_enabled=False)
+        items, st = await scrape_source(ctx, src, {}, agg, limit, raw_ctx)
         await browser.close()
 
     rows = []
