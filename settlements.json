@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-22T22:34:35+00:00",
+ "updated": "2026-09-23T01:18:32+00:00",
  "count": 34,
  "no_proof_count": 24,
  "settlements": [
@@ -20,7 +20,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "d0e082186cdc",
@@ -39,7 +39,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "a87bc400da1e",
@@ -58,7 +58,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "729102655920",
@@ -77,7 +77,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "def6ef537b76",
@@ -108,7 +108,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "b515a606f947",
@@ -151,7 +151,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "8f4017f59e07",
@@ -170,7 +170,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "10e2a24f64b6",
@@ -189,7 +189,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "95baa4e506bd",
@@ -208,7 +208,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "74a182ae9557",
@@ -227,7 +227,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "ec72085fe5f1",
@@ -246,7 +246,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "d45b04d4703e",
@@ -265,7 +265,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "e0faa8b768d0",
@@ -284,7 +284,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "a3de361c30b1",
@@ -303,7 +303,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "065c329b98dd",
@@ -322,7 +322,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "c060917614fc",
@@ -341,7 +341,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "af11fcb45dc1",
@@ -360,7 +360,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "9dd7ea0c4b3b",
@@ -379,7 +379,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "77dbafbaf019",
@@ -398,7 +398,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "62cec8f82885",
@@ -417,7 +417,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "7aa68b97f3d4",
@@ -436,7 +436,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "2dbffe4a4abb",
@@ -455,7 +455,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "2b321a1af951",
@@ -474,7 +474,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "a51948f6679b",
@@ -493,7 +493,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "9cae33df0e5f",
@@ -512,7 +512,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "f4ec84f4a8bc",
@@ -531,7 +531,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "1e031e4e0e9d",
@@ -550,7 +550,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "d5097cf737db",
@@ -569,7 +569,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "d98e08951def",
@@ -588,7 +588,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "4730143bd9dc",
@@ -607,7 +607,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "bbaed6df1ad8",
@@ -626,7 +626,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "c7e0256e530e",
@@ -645,7 +645,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "97c7e81fc5f4",
@@ -664,7 +664,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   },
   {
    "id": "49be58541173",
@@ -683,7 +683,7 @@
     }
    ],
    "first_seen": "2026-09-22",
-   "new": true
+   "new": false
   }
  ]
 }
