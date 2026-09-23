@@ -1,7 +1,7 @@
 {
- "updated": "2026-09-23T07:01:30+00:00",
- "count": 265,
- "no_proof_count": 215,
+ "updated": "2026-09-23T15:19:00+00:00",
+ "count": 267,
+ "no_proof_count": 217,
  "settlements": [
   {
    "id": "99fb8f2bf8cc",
@@ -1222,6 +1222,25 @@
    "new": false
   },
   {
+   "id": "3ac9a81c8fea",
+   "title": "Playstudios myVEGAS Settlement — Cash or Free Coins for Players in Six States",
+   "category": "Privacy & tech",
+   "payout": "$5",
+   "payout_max": 5.0,
+   "deadline": "2026-10-21",
+   "no_proof": true,
+   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Legal Services\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.\n\nHigh 5 Games Social Casino Settlement: Washington players who bought High 5 Casino or High 5 Vegas coins share $12 million to $30 million. See who qualifies →",
+   "claim_url": "https://gamingappsettlement.pnclassaction.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/playstudios-myvegas-social-casino-class-action-settlement.php"
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": true
+  },
+  {
    "id": "f4ec84f4a8bc",
    "title": "Kaiser Permanente - Out-of-Network Claims (California) Class Action Settlement",
    "category": "Product",
@@ -1692,15 +1711,19 @@
   },
   {
    "id": "49be58541173",
-   "title": "Progressive Colorado Total-Loss Settlement — $15.2 Million for Underpaid Totaled Vehicles",
+   "title": "Progressive Auto Insurance $15.24M Class Action Settlement",
    "category": "Privacy & tech",
-   "payout": "68% of the PSA Impact",
+   "payout": "Varies",
    "payout_max": null,
    "deadline": "2027-02-05",
    "no_proof": true,
-   "summary": "Join thousands of readers who get the latest class action settlements you may qualify for — delivered straight to your inbox.Consult Local Attorneys\n\nCalifornia residents: see our Notice at Collection & Privacy Choices.",
-   "claim_url": "https://www.cototallossclaim.com/?utm_source=openclassactions.com",
+   "summary": "Car owners who had a total loss vehicle claim with Progressive in Colorado may be eligible to claim a cash payment from a class action settlement.\n\nIndividuals who made a first-party claim for property damage to a motor vehicle on a personal automobile insurance policy Progressive Direct Insurance Co. issued to a Colorado resident\n\nSubmitted a claim between April 12, 2019, and July 8, 2026\n\nIndividuals who made a first-party claim for property damage to a motor vehicle on a personal automobile insurance policy Progressive Preferred Insurance Co. issued to a Colorado resident\n\nSubmitted a claim between Dec. 19, 2021, and July 8, 2026\n\nCash payment: Class members can submit a claim to receive a cash payment equal to 68% of the projected sold adjustment impact amount for their total loss claim. The settlement administrator will calculate the PSA impact amount as a percentage of the actual cash value of the total loss vehicle, depending on which class the individual submits the claim under:\n\nTo receive a settlement payment, class members can file a claim online or use the same link to print a personalized claim form and mail it to the settlement administrator.\n\nAll class members must provide the claim ID and PIN from the settlement notice they received.",
+   "claim_url": "https://cototallossclaim.com/frequently-asked-questions.aspx",
    "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/co-total-loss-claim"
+    },
     {
      "name": "openclassactions",
      "url": "https://openclassactions.com/settlements/curran-progressive-colorado-total-loss-class-action-settlement.php"
@@ -1708,6 +1731,25 @@
    ],
    "first_seen": "2026-09-22",
    "new": false
+  },
+  {
+   "id": "1394d22abab1",
+   "title": "KuCoin $22M New York Enforcement Action Settlement",
+   "category": "Privacy & tech",
+   "payout": "Varies",
+   "payout_max": null,
+   "deadline": "2029-02-28",
+   "no_proof": true,
+   "summary": "Investors who traded cryptocurrency on KuCoin in New York between 2017 and 2023 may be eligible to claim a cash payment from a class action settlement.\n\nIndividuals who bought or sold cryptocurrency on the KuCoin trading platform while in New York between 2017 and 2023 may be eligible to claim a cash payment from a class action settlement.\n\nMek Global Ltd. and PhoenixFin Pte Ltd., d/b/a KuCoin, agreed to pay $22,066,642 to resolve an enforcement action brought by the New York attorney general. The lawsuit alleged KuCoin unlawfully operated as an unregistered securities and commodities broker-dealer and misrepresented itself as an exchange in violation of New York's Martin Act and Executive Law. The settlement requires KuCoin to return approximately $16.77 million in account balances to eligible New York customers and pay $5.3 million to the state.\n\nThe settlement includes individuals who bought or sold cryptocurrency on the KuCoin trading platform at any time from 2017 through 2023 and qualifies as a \"New York customer\" as defined by the consent order. New York customers include anyone who meets at least one of the following conditions:",
+   "claim_url": "https://www.kucoinnyagconsentorder.com/form/claim",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/kucoin-ny-ag-consent-order"
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": true
   },
   {
    "id": "3c4973aa0504",
