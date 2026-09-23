@@ -12,7 +12,6 @@ NO_PROOF_RES = [
     re.compile(r"proof(\s+of\s+purchase)?\s+(is\s+)?not\s+(required|needed)", re.I),
     re.compile(r"proof(\s+of\s+purchase)?(\s+required)?\s*[:\-]\s*(no\b|none|n/?a\b|not required)", re.I),
     re.compile(r"no\s+(documents?|documentation|receipts?)\s+(needed|required)", re.I),
-    re.compile(r"\bno[\s-]proof\b", re.I),
     re.compile(r"nothing to document|on your word alone|self[- ]attest", re.I),
     re.compile(r"proof\s+required\??\s*\n+\s*(no\b|none|not required)", re.I),
     re.compile(r"(do not|don't|does not|doesn't|will not|won't)\s+(need|have)\s+to\s+(provide|submit|include|upload)\s+"
@@ -38,8 +37,10 @@ CLAIM_LINK_TEXT = re.compile(
 SKIP_HOSTS = ("facebook.", "twitter.", "x.com", "linkedin.", "pinterest.", "reddit.", "youtube.",
               "instagram.", "tiktok.", "google.", "amazon.", "apple.com", "bit.ly", "t.co",
               "courtlistener.", "pacer", "justia.", "law360.")
-NAV_RE = re.compile(r"/(about|contact|privacy|terms|login|signin|sign-up|signup|account|faq|"
-                    r"category|categories|tag|tags|author|page|search|feed|newsletter|cart|blog)(/|$)", re.I)
+# Site pages that are never settlements: top-level ones (/privacy, /about...) and WordPress-style
+# archive folders anywhere in the path (/category/..., /page/2). A /settlements/privacy/x link is kept.
+NAV_RE = re.compile(r"^/(about|contact|privacy|privacy-policy|terms|login|signin|sign-up|signup|account|faq|"
+                    r"search|newsletter|cart|blog)(/|$|\.)|/(category|categories|tag|tags|author|page|feed)(/|$)", re.I)
 # Things that are not settlements you can claim.
 NOT_SETTLEMENT_RE = re.compile(r"\b(investigation|lawsuit to join|free case review|case review|"
                                r"do you qualify to join)\b", re.I)
@@ -55,7 +56,23 @@ CATEGORIES = [
 ]
 
 
+LABELED_PROOF_RE = re.compile(
+    r"(?:is\s+)?proof(?:\s+of\s+purchase)?\s+required\??\s*:?\s*\n+\s*([^\n]{1,40})", re.I)
+
+
 def detect_no_proof(text):
+    """1 = no proof needed, 0 = proof required, None = unknown.
+
+    A labeled field ("Is Proof Required?" followed by its answer) wins over anything else on
+    the page, so tags on related-settlement cards elsewhere on the page can't mislead it.
+    """
+    m = LABELED_PROOF_RE.search(text)
+    if m:
+        v = m.group(1).strip().lower()
+        if re.match(r"(no\b|none|not required|n/a\b)", v) and not v.startswith("n/a"):
+            return True
+        if re.match(r"(yes\b|proof required|required)", v):
+            return False
     if any(r.search(text) for r in NO_PROOF_RES):
         return True
     if any(r.search(text) for r in PROOF_REQ_RES):
@@ -169,7 +186,8 @@ def find_items(anchors, listing_url, item_link_re=None, lock_key=None, min_items
             if u.query and "-" not in segs[-1]:
                 key = "q:" + path          # e.g. /settlement.php?id=123
             elif "-" in segs[-1]:
-                key = "p:" + "/".join(segs[:-1])   # e.g. /settlements/some-slug
+                # Group by top folder, so /settlements/x and /settlements/data-breaches/y count together.
+                key = "p:" + (segs[0] if len(segs) > 1 else "")
             else:
                 continue
         g = groups.setdefault(key, {})
