@@ -35,8 +35,9 @@
     },
     {
       "name": "classactionrebates",
-      "enabled": true,
-      "listing_url": "https://www.classactionrebates.com/"
+      "enabled": false,
+      "listing_url": "https://www.classactionrebates.com/",
+      "note": "Off: stale site, every listed deadline is in 2024-2025."
     },
     {
       "name": "joincase",
