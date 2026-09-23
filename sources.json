@@ -3,8 +3,9 @@
   "sources": [
     {
       "name": "topclassactions",
-      "enabled": true,
-      "listing_url": "https://topclassactions.com/category/lawsuit-settlements/open-lawsuit-settlements/page/{page}/"
+      "enabled": false,
+      "listing_url": "https://topclassactions.com/category/lawsuit-settlements/open-lawsuit-settlements/page/{page}/",
+      "note": "Off: shows a Cloudflare bot check to the scraper."
     },
     {
       "name": "classaction_org",
