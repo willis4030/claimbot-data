@@ -33,8 +33,8 @@ MAX_LISTING_PAGES = 6
 DELAY = 1.5              # seconds between requests to the same site (plus jitter)
 REFRESH_DAYS = 7         # re-read a settlement page after this many days
 MAX_DETAILS_PER_RUN = 500
-PRUNE_DAYS = 30
-PARSE_VERSION = 2        # bump when parsing changes, so cached pages are re-read          # forget cached pages not listed anywhere for this long
+PRUNE_DAYS = 30          # forget cached pages not listed anywhere for this long
+PARSE_VERSION = 3        # bump when parsing changes, so cached pages are re-read
 # Listing sites never count as the "official claim site" for a settlement.
 KNOWN_AGGREGATORS = {"topclassactions.com", "classaction.org", "claimdepot.com", "openclassactions.com",
                      "settlementscan.app", "classactionrebates.com", "lawfareclaims.org",
