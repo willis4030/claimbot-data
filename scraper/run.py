@@ -33,7 +33,8 @@ MAX_LISTING_PAGES = 6
 DELAY = 1.5              # seconds between requests to the same site (plus jitter)
 REFRESH_DAYS = 7         # re-read a settlement page after this many days
 MAX_DETAILS_PER_RUN = 500
-PRUNE_DAYS = 30          # forget cached pages not listed anywhere for this long
+PRUNE_DAYS = 30
+PARSE_VERSION = 2        # bump when parsing changes, so cached pages are re-read          # forget cached pages not listed anywhere for this long
 # Listing sites never count as the "official claim site" for a settlement.
 KNOWN_AGGREGATORS = {"topclassactions.com", "classaction.org", "claimdepot.com", "openclassactions.com",
                      "settlementscan.app", "classactionrebates.com", "lawfareclaims.org",
@@ -213,7 +214,8 @@ async def scrape_source(ctx, src, cache, aggregator_hosts, max_details, raw_ctx)
         for it in items:
             url = it["detail_url"]
             c = cache.get(url)
-            fresh = c and now - c.get("fetched_at", 0) < REFRESH_DAYS * 86400
+            fresh = (c and c.get("v") == PARSE_VERSION
+                     and now - c.get("fetched_at", 0) < REFRESH_DAYS * 86400)
             if not fresh and stats["fetched"] < max_details:
                 if not robots_ok(url):
                     stats["skipped_robots"] += 1
@@ -222,7 +224,7 @@ async def scrape_source(ctx, src, cache, aggregator_hosts, max_details, raw_ctx)
                     d = await page.evaluate(P.DETAIL_JS)
                     anchors = await page.evaluate(P.ANCHORS_JS)
                     parsed = P.parse_detail(d, anchors, aggregator_hosts)
-                    cache[url] = {**parsed, "listing_title": it["title"], "fetched_at": now}
+                    cache[url] = {**parsed, "listing_title": it["title"], "fetched_at": now, "v": PARSE_VERSION}
                     stats["fetched"] += 1
                 await pause()
             if url in cache:
