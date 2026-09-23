@@ -256,3 +256,80 @@ def parse_detail(d, anchors, aggregator_hosts):
         "summary": eligibility_summary(d["paras"]),
         "not_settlement": bool(NOT_SETTLEMENT_RE.search(d["title"])),
     }
+
+
+# ---------------------------------------------------------------- card mode
+# Some sites list every settlement as a card with its details and a direct button to the
+# official claim site, with no page of its own. CARDS_JS finds those buttons and returns the
+# text of the card around each one.
+CARDS_JS = """(linkText) => {
+  const re = new RegExp(linkText, 'i');
+  const links = Array.from(document.querySelectorAll('a[href]')).filter(a => re.test(a.innerText || ''));
+  const out = [];
+  for (const a of links) {
+    // Climb to the largest ancestor that still contains only this one button: that's the card.
+    let card = a;
+    while (card.parentElement && card.parentElement !== document.body) {
+      const n = Array.from(card.parentElement.querySelectorAll('a[href]')).filter(x => re.test(x.innerText || '')).length;
+      if (n > 1) break;
+      card = card.parentElement;
+    }
+    const h = card.querySelector('h1, h2, h3, h4, h5, [class*=title]');
+    out.push({ href: a.href, title: (h ? h.innerText : '').trim(), text: card.innerText });
+  }
+  return out;
+}"""
+
+CARD_DATE_RE = re.compile(r"\b(\d{1,2}/\d{1,2}/\d{2,4})\b")
+CARD_MONEY_RE = re.compile(r"(\$[\d,.]+\+?(?:\s*[-\u2013]\s*\$[\d,.]+\+?)?|\bvaries\b)", re.I)
+CARD_PROOF_RE = re.compile(r"required\?[\s\S]{0,160}?\b(yes|no|n/a)\b", re.I)
+CARD_NOISE_RE = re.compile(r"visit official settlement website|\bshare\b|\d+ days left|featured|"
+                           r"settlement\s+payout|deadline|proof\s+required\?|\bvaries\b|\bn/a\b", re.I)
+
+
+def parse_card(card):
+    """Turn one listing card's text into the same fields a settlement page gives."""
+    text = card["text"]
+    lines = [l.strip() for l in text.splitlines() if l.strip()]
+    title = card.get("title") or (lines[0] if lines else "")
+    after = re.split(r"required\?", text, maxsplit=1, flags=re.I)[-1]
+    m = CARD_MONEY_RE.search(after)
+    payout = m.group(1) if m else None
+    if payout and payout.lower() == "varies":
+        payout = "Varies"
+    deadline = None
+    d = CARD_DATE_RE.search(after)
+    if d:
+        try:
+            deadline = dateparser.parse(d.group(1)).date().isoformat()
+        except (ValueError, OverflowError):
+            pass
+    pr = CARD_PROOF_RE.search(text)
+    no_proof = {"no": True, "yes": False}.get(pr.group(1).lower()) if pr else detect_no_proof(text)
+    summary_lines = [l for l in lines if len(l) > 25 and l != title and "\t" not in l
+                     and not re.search(r"proof\s+required\?", l, re.I)
+                     and not CARD_NOISE_RE.fullmatch(l) and not CARD_MONEY_RE.fullmatch(l)
+                     and not CARD_DATE_RE.fullmatch(l)]
+    summary = " ".join(summary_lines)
+    return {
+        "page_title": title,
+        "listing_title": title,
+        "claim_url": card["href"],
+        "deadline": deadline,
+        "payout": payout,
+        "payout_max": payout_max(payout),
+        "no_proof": no_proof,
+        "category": categorize(title + "\n" + summary),
+        "summary": summary[:1400],
+        "not_settlement": bool(NOT_SETTLEMENT_RE.search(title)),
+    }
+
+
+# ---------------------------------------------------------------- "Load more" buttons
+LOAD_MORE_JS = """() => {
+  const re = /^\\s*(load|show|view|see)\\s+more\\b/i;
+  const els = Array.from(document.querySelectorAll('button, [role=button], a[href="#"], a:not([href])'));
+  const el = els.find(e => re.test(e.innerText || '') && e.offsetParent !== null && !e.disabled);
+  if (!el) return false;
+  el.scrollIntoView(); el.click(); return true;
+}"""
