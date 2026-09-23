@@ -153,7 +153,67 @@ def categorize(text):
     return "Product"
 
 
+# Headings where a listing site's own page ends and its lists of other settlements begin.
+BOUNDARY_RE = re.compile(
+    r"^\s*(?:(?:more|related|trending|recent|latest|other|similar|popular|top|you may also like)\b[^\n]{0,50}?"
+    r"\b(?:settlements?|class actions?|lawsuits?|claims|articles|posts|news)|trending|related)\s*:?\s*$",
+    re.I | re.M)
+
+
+def main_text(text):
+    """The page up to where lists of other settlements begin."""
+    m = BOUNDARY_RE.search(text)
+    return text[:m.start()] if m else text
+
+
+# Newsletter, privacy and navigation text that ends up inside page content.
+BOILERPLATE_RE = re.compile(
+    r"newsletter|subscribe|unsubscribe|inbox|sign up|join (thousands|our)|free settlement alerts|"
+    r"notice at collection|privacy (choices|policy|notice)|cookies?\b|advertis|"
+    r"see who qualifies|read more|learn more|filing is free|takes a few minutes|\u2192|->", re.I)
+
+# A line that says some payment needs no documentation.
+NO_DOC_LINE_RE = re.compile(
+    r"no\s+(documentation|documents|proof|receipts?)(\s+of\s+purchase)?(\s+(is|are))?\s+(required|needed|necessary)|"
+    r"without\s+(any\s+)?(proof|documentation|documents|receipts?)|nothing to document|no[\s-]proof|"
+    r"(do not|don't|does not|doesn't)\s+(need|have)\s+to\s+(provide|submit|include|upload)", re.I)
+NP_MONEY_RE = re.compile(
+    r"\$[\d,]+(?:\.\d\d)?(?:\s*(?:,\s*)?(?:or|to|-|\u2013)\s*\$[\d,]+(?:\.\d\d)?)?")
+
+
+def parse_no_proof_payout(main):
+    """The amount a claimant gets without documents, when the page states one.
+
+    Works sentence by sentence: the amount in the same sentence as the no-proof wording
+    wins; if that sentence names no amount ("No documentation is required for this
+    payment."), the sentence just before it in the same paragraph is used.
+    """
+    for line in re.split(r"\n+", main):
+        if not NO_DOC_LINE_RE.search(line) or FUND_LINE_RE.search(line):
+            continue
+        sentences = re.split(r"(?<=[.;!?])\s+(?=[A-Z(])", line)
+        for i, sent in enumerate(sentences):
+            if not NO_DOC_LINE_RE.search(sent):
+                continue
+            # Amount right before the phrase ("$100 with no documentation"), then right
+            # after it ("without documentation can claim $50"), then any amount in the sentence.
+            phrase = NO_DOC_LINE_RE.search(sent)
+            before = list(NP_MONEY_RE.finditer(sent[max(0, phrase.start() - 45):phrase.start()]))
+            if before:
+                amt = before[-1].group(0)
+            else:
+                m2 = NP_MONEY_RE.search(sent, phrase.end()) or NP_MONEY_RE.search(sent)
+                if not m2 and i > 0:
+                    m2 = NP_MONEY_RE.search(sentences[i - 1])
+                if not m2:
+                    continue
+                amt = m2.group(0)
+            return re.sub(r"\s*,\s*(or|to)\s*", r" \1 ", amt).rstrip(",. ")
+    return None
+
+
 def eligibility_summary(paragraphs, limit=1400):
+    paragraphs = [p for p in paragraphs if not BOILERPLATE_RE.search(p)]
     picked = [p for p in paragraphs if ELIG_RE.search(p) and len(p) > 40]
     if not picked:
         picked = [p for p in paragraphs if len(p) > 60][:3]
@@ -266,8 +326,13 @@ DETAIL_JS = """() => {
   document.querySelectorAll('nav, header, footer, [role=navigation], .navbar, .nav-menu, .w-nav')
     .forEach(e => { e.style.display = 'none'; });
   const root = document.body;
+  // Where the page's lists of other settlements begin ("More Class Actions", "Trending"...).
+  const boundaryRe = /^((more|related|trending|recent|latest|other|similar|popular|top|you may also like)\\b.{0,50}?\\b(settlements?|class actions?|lawsuits?|claims|articles|posts|news)|trending|related)\\s*:?$/i;
+  const boundary = Array.from(root.querySelectorAll('h2, h3, h4, h5'))
+      .find(h => h.offsetParent !== null && boundaryRe.test(h.innerText.trim()));
+  const before = (e) => !boundary || (boundary.compareDocumentPosition(e) & Node.DOCUMENT_POSITION_PRECEDING);
   const paras = Array.from(root.querySelectorAll('p, li, td, dd'))
-      .filter(e => e.offsetParent !== null)
+      .filter(e => e.offsetParent !== null && before(e))
       .map(e => e.innerText.trim().replace(/\\s+/g, ' ')).filter(Boolean);
   const h1 = document.querySelector('h1');
   return { title: h1 ? h1.innerText.trim() : document.title, text: root.innerText, paras };
@@ -276,13 +341,17 @@ DETAIL_JS = """() => {
 
 def parse_detail(d, anchors, aggregator_hosts):
     text = d["text"]
-    payout = parse_payout(text)
+    main = main_text(text)
+    payout = parse_payout(main)
+    no_proof_payout = parse_no_proof_payout(main)
     return {
         "page_title": d["title"],
         "claim_url": pick_claim_link(anchors, aggregator_hosts),
         "deadline": parse_deadline(text),
         "payout": payout,
         "payout_max": payout_max(payout),
+        "no_proof_payout": no_proof_payout,
+        "no_proof_payout_max": payout_max(no_proof_payout),
         "no_proof": detect_no_proof(text),
         "category": categorize(d["title"] + "\n" + text[:3000]),
         "summary": eligibility_summary(d["paras"]),
