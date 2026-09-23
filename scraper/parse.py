@@ -34,9 +34,16 @@ ELIG_RE = re.compile(
 CLAIM_LINK_TEXT = re.compile(
     r"\b(file|submit|start|make|begin)\s+(a\s+|your\s+)?claim|claim\s+form|"
     r"settlement\s+(web)?site|official\s+(settlement\s+)?(web)?site", re.I)
-SKIP_HOSTS = ("facebook.", "twitter.", "x.com", "linkedin.", "pinterest.", "reddit.", "youtube.",
-              "instagram.", "tiktok.", "google.", "amazon.", "apple.com", "bit.ly", "t.co",
-              "courtlistener.", "pacer", "justia.", "law360.")
+# Never a claim site. Matched against the whole domain, so "t.co" can't match "settlement.com".
+SKIP_DOMAINS = ("facebook.com", "twitter.com", "x.com", "linkedin.com", "pinterest.com", "reddit.com",
+                "youtube.com", "youtu.be", "instagram.com", "tiktok.com", "google.com", "amazon.com",
+                "apple.com", "bit.ly", "t.co", "courtlistener.com", "uscourts.gov", "justia.com",
+                "law360.com", "threads.net")
+
+
+def on_domain(host, domains):
+    """True if host is one of the domains or a subdomain of one (files.example.com -> example.com)."""
+    return any(host == d or host.endswith("." + d) for d in domains)
 # Site pages that are never settlements: top-level ones (/privacy, /about...) and WordPress-style
 # archive folders anywhere in the path (/category/..., /page/2). A /settlements/privacy/x link is kept.
 NAV_RE = re.compile(r"^/(about|contact|privacy|privacy-policy|terms|login|signin|sign-up|signup|account|faq|"
@@ -97,7 +104,7 @@ NO_PROOF_AMOUNT_RES = [
 
 
 LABELED_PAYOUT_RE = re.compile(
-    r"^\s*(?:estimated\s+payout(?:\s+per\s+(?:person|claimant|class member))?|award|payout|"
+    r"^\s*(?:estimated\s+payout(?:\s+per\s+(?:person|claimant|class member))?|estimated\s+award|award|payout|"
     r"potential\s+award|cash\s+payment|benefit)\s*:?\s*\n+\s*([^\n]{2,90})$", re.I | re.M)
 FUND_LINE_RE = re.compile(r"attorney|fees|costs|service award|administration|settlement fund|agreed to pay|"
                           r"million|billion|\$[\d,]{9,}", re.I)
@@ -106,21 +113,25 @@ FUND_LINE_RE = re.compile(r"attorney|fees|costs|service award|administration|set
 def parse_payout(text):
     """What a claimant can expect: the no-proof amount if stated, else a labeled payout field,
     else a general payout sentence (skipping lines about the fund, fees and costs)."""
-    m = NO_PROOF_AMOUNT_RES[0].search(text)
-    if m:
-        return m.group(1)
-    m = NO_PROOF_AMOUNT_RES[1].search(text)
-    if m:
-        return m.group(3)
+    def clean(v):
+        return v.strip().rstrip(",.;:·").strip()[:90]
+    # The page's own labeled field is the most reliable, and it comes before any
+    # related-settlement lists further down the page.
     m = LABELED_PAYOUT_RE.search(text)
     if m:
-        return m.group(1).strip()[:90]
+        return clean(m.group(1))
+    m = NO_PROOF_AMOUNT_RES[0].search(text)
+    if m:
+        return clean(m.group(1))
+    m = NO_PROOF_AMOUNT_RES[1].search(text)
+    if m:
+        return clean(m.group(3))
     for line in text.splitlines():
         if FUND_LINE_RE.search(line):
             continue
         m = PAYOUT_RE.search(line)
         if m:
-            return m.group(1)
+            return clean(m.group(1))
     return None
 
 
@@ -211,8 +222,8 @@ def find_items(anchors, listing_url, item_link_re=None, lock_key=None, min_items
 def pick_claim_link(anchors, aggregator_hosts):
     def ok(href):
         h = host_of(href)
-        return (href.startswith("http") and h and h not in aggregator_hosts
-                and not any(s in href for s in SKIP_HOSTS))
+        return (href.startswith("http") and bool(h) and not on_domain(h, aggregator_hosts)
+                and not on_domain(h, SKIP_DOMAINS))
     def pdf(href):
         return urlparse(href).path.lower().endswith(".pdf")
     for want_pdf in (False, True):
@@ -312,7 +323,7 @@ def parse_card(card):
     title = card.get("title") or (lines[0] if lines else "")
     after = re.split(r"required\?", text, maxsplit=1, flags=re.I)[-1]
     m = CARD_MONEY_RE.search(after)
-    payout = m.group(1) if m else None
+    payout = m.group(1).rstrip(",.;:") if m else None
     if payout and payout.lower() == "varies":
         payout = "Varies"
     deadline = None
