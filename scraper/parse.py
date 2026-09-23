@@ -114,7 +114,10 @@ def parse_payout(text):
     """What a claimant can expect: the no-proof amount if stated, else a labeled payout field,
     else a general payout sentence (skipping lines about the fund, fees and costs)."""
     def clean(v):
-        return v.strip().rstrip(",.;:·").strip()[:90]
+        v = v.strip()
+        # Drop a category tag glued onto the end ("$7 per purchaseShampoo", "$2,000Real Estate").
+        v = re.sub(r"(?<=[a-z\d])[A-Z][a-z]+(?:\s(?:&\s)?[A-Z][a-z]+)*$", "", v)
+        return v.rstrip(",.;:· ").strip()[:90]
     # The page's own labeled field is the most reliable, and it comes before any
     # related-settlement lists further down the page.
     m = LABELED_PAYOUT_RE.search(text)
