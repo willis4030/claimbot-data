@@ -24,7 +24,8 @@
     {
       "name": "openclassactions",
       "enabled": true,
-      "listing_url": "https://openclassactions.com/settlements.php"
+      "listing_url": "https://openclassactions.com/settlements.php",
+      "no_proof_url": "https://openclassactions.com/no-proof-class-action-settlements.php"
     },
     {
       "name": "settlementscan",
