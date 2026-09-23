@@ -104,6 +104,18 @@ async def goto(page, url):
         return False
 
 
+async def load_all(page, rounds=15):
+    """Scroll to the bottom until the page stops growing, for lists that load more as you scroll."""
+    last = 0
+    for _ in range(rounds):
+        height = await page.evaluate("document.body.scrollHeight")
+        if height == last:
+            break
+        last = height
+        await page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+        await page.wait_for_timeout(1500)
+
+
 async def scrape_listing(page, src, url_key="listing_url", min_items=3):
     url_t = src[url_key]
     pages = range(1, MAX_LISTING_PAGES + 1) if "{page}" in url_t else [1]
@@ -114,6 +126,7 @@ async def scrape_listing(page, src, url_key="listing_url", min_items=3):
             break
         if not await goto(page, url):
             break
+        await load_all(page)
         anchors = await page.evaluate(P.ANCHORS_JS)
         found, key = P.find_items(anchors, url, src.get("item_link_re"), key, min_items)
         found = [i for i in found if i["detail_url"] not in seen]
