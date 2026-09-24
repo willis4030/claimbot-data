@@ -507,33 +507,73 @@ FORM_JS = """() => {
 }"""
 
 FORM_ID_FIELD_RE = re.compile(
-    r"(class\s*member|claimant|notice|unique|claim|settlement|member|participant|confirmation)\s*"
+    r"(class\s*member|claimant|notice|unique|claim|settlement|member|participant|confirmation|login)\s*"
     r"(id|identification|number|no\b|code|#)|\bpin\b|control\s*(number|no)|access\s*code|\buid\b", re.I)
 FORM_NOT_ID_RE = re.compile(r"phone|zip|postal|card|routing|account|social|ssn|tax|date|email|birth", re.I)
+# A way to file without the ID: "I did not receive a notice and need to fill out a claim form",
+# "If you didn't get a notice, you can still file". A bare "if you received a notice, your ID is
+# on it", or "didn't get one? contact us", is not a way to file.
 FORM_OPTIONAL_TEXT_RE = re.compile(
-    r"(did\s*n[o']t|did not|do\s*n[o']t|do not)\s+(receive|get|have)\s+(a|an|the|my)?\s*(notice|" + _ID + r")|"
-    r"(if|whether)\s+you\s+(received|have)\s+(a|an|the)\s+(notice|" + _ID + r")", re.I)
+    r"(did\s*n[o']t|did not|do\s*n[o']t|do not|have\s*n[o']t|have not|never)\s+(receive|received|get|got|have)\s+"
+    r"(a|an|the|my|your)?\s*(\w+\s+)?(notice|postcard|letter|" + _ID + r")"
+    r"[^.?!]{0,100}?\b(can|may|still|also|fill\s+out|file|submit|complete|start|click|here|continue|proceed)\b|"
+    r"(file|submit|complete)\s+(a\s+)?claim\s+without\s+(a|an|the|your)\s+(notice|" + _ID + r")|"
+    r"(" + _ID + r")\s*(\(optional\)|is\s+optional|is\s+not\s+required)", re.I)
+# The page says the ID is needed: "you must login with your Unique ID and PIN",
+# "enter the Claim Number and PIN ... on your Mailed or Email Notice".
+FORM_REQUIRED_TEXT_RE = re.compile(
+    r"must\s+(log\s*in|sign\s*in|enter|use|provide|have)\s+(with\s+)?(your|the|a)\s+[^.]{0,40}?(" + _ID + r"|login\s*id)|"
+    r"(" + _ID + r"|login\s*id)[^.]{0,80}?(located|found|printed|listed)\s+on\s+(your|the)\s+[^.]{0,30}?notice|"
+    r"(log\s*in|sign\s*in)\s+(below\s+)?(using|with)\s+(your|the)\s+[^.]{0,40}?(" + _ID + r"|login\s*id)", re.I)
+# Bot checks (Cloudflare, CloudFront): not a form, so the answer is unknown, not "none".
+BLOCKED_TEXT_RE = re.compile(
+    r"verify(ing)?\s+you\s+are\s+(a\s+)?human|checking\s+your\s+browser|request\s+could\s+not\s+be\s+satisfied|"
+    r"access\s+denied|enable\s+javascript\s+and\s+cookies|performing\s+security\s+verification|"
+    r"verifies\s+you\s+are\s+not\s+a\s+bot", re.I)
+CLAIM_ACTION_TEXT = re.compile(r"\b(file|submit|start|make|begin)\s+(a\s+|your\s+)?claim|claim\s+form\s+log\s*in", re.I)
 
 
 def classify_form(res):
     """From a claim form. None if no real form was found on the page."""
     inputs = res.get("inputs") or []
+    text = res.get("text") or ""
+    if BLOCKED_TEXT_RE.search(text[:3000]):
+        return None
     id_fields = [i for i in inputs if FORM_ID_FIELD_RE.search(i["desc"]) and not FORM_NOT_ID_RE.search(i["desc"])]
     visible_fields = [i for i in inputs if i.get("visible")]
-    has_optional_path = bool(FORM_OPTIONAL_TEXT_RE.search(res.get("text") or ""))
+    visible_ids = [i for i in id_fields if i.get("visible")]
+    if FORM_OPTIONAL_TEXT_RE.search(text):
+        return "optional" if id_fields or FORM_REQUIRED_TEXT_RE.search(text) or re.search(_ID, text, re.I) else None
     if id_fields:
-        if has_optional_path:
-            return "optional"
-        return "required" if any(i["required"] for i in id_fields) else "optional"
+        # A login gate (the ID/PIN and at most a name or two) is how these forms say "required",
+        # even when the fields aren't marked required.
+        login_gate = bool(visible_ids) and len(visible_fields) - len(visible_ids) <= 2
+        if login_gate or any(i["required"] for i in id_fields) or FORM_REQUIRED_TEXT_RE.search(text):
+            return "required"
+        return "optional"
+    if FORM_REQUIRED_TEXT_RE.search(text):
+        return "required"  # the ID box hasn't loaded, but the page says you need it
     if len(visible_fields) >= 3:
         return "none"  # a real form that doesn't ask for an ID
     return None
 
 
 def find_claim_link_on_site(anchors, current_url):
-    """On an official settlement homepage, find its own 'File a Claim' link (same site)."""
-    here = urlparse(current_url).netloc
+    """On an official settlement homepage, find its own 'File a Claim' link (same site, or one of
+    its subdomains like claimform.example.com). An action ("File a claim") beats a document
+    ("Notice and Claim Form"); PDFs and links back to this same page don't count."""
+    def site(netloc):
+        return ".".join(netloc.lower().split(":")[0].removeprefix("www.").split(".")[-2:])
+    here = urlparse(current_url)
+    best = None
     for a in anchors:
-        if CLAIM_LINK_TEXT.search(a.get("text") or "") and urlparse(a["href"]).netloc == here:
-            return a["href"]
-    return None
+        text, href = a.get("text") or "", a.get("href") or ""
+        u = urlparse(href)
+        if not CLAIM_LINK_TEXT.search(text) or site(u.netloc) != site(here.netloc):
+            continue
+        if re.search(r"\.(pdf|docx?)$", u.path, re.I) or (u.netloc, u.path) == (here.netloc, here.path):
+            continue
+        if CLAIM_ACTION_TEXT.search(text):
+            return href
+        best = best or href
+    return best

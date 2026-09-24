@@ -35,10 +35,11 @@ DELAY = 1.5              # seconds between requests to the same site (plus jitte
 REFRESH_DAYS = 7         # re-read a settlement page after this many days
 MAX_DETAILS_PER_RUN = 500
 PRUNE_DAYS = 30          # forget cached pages not listed anywhere for this long
-PARSE_VERSION = 5
+PARSE_VERSION = 5        # bump when parsing changes, so cached pages are re-read
+FORM_VERSION = 2         # bump when classify_form changes, so cached form results are re-checked
 FORM_RECHECK_DAYS = 14   # re-check a claim form's notice-ID field after this many days
 MAX_FORM_CHECKS = 200    # new claim forms checked per run (the rest wait for the next run)
-FORM_CONCURRENCY = 4     # claim forms are on different sites, so a few can load at once        # bump when parsing changes, so cached pages are re-read
+FORM_CONCURRENCY = 4     # claim forms are on different sites, so a few can load at once
 # Listing sites never count as the "official claim site" for a settlement.
 KNOWN_AGGREGATORS = {"topclassactions.com", "classaction.org", "claimdepot.com", "openclassactions.com",
                      "settlementscan.app", "classactionrebates.com", "lawfareclaims.org",
@@ -247,22 +248,41 @@ async def scrape_source(ctx, src, cache, aggregator_hosts, max_details, raw_ctx)
     return items, stats
 
 
+async def read_form(page):
+    """The page's form, giving script-built forms a few extra seconds to appear."""
+    res = await page.evaluate(P.FORM_JS)
+    if sum(1 for i in res["inputs"] if i.get("visible")) < 3 and not P.BLOCKED_TEXT_RE.search(res["text"][:3000]):
+        await page.wait_for_timeout(3500)
+        res = await page.evaluate(P.FORM_JS)
+    return res
+
+
 async def check_form(ctx, url):
     """Open a settlement's official claim page and decide whether its form asks for a notice ID.
-    If the page is a settlement homepage, follow its 'File a claim' link once."""
+    If the page is a settlement homepage, follow its 'File a claim' link once. If the claim URL is
+    an inner page (FAQ, documents) with no such link, look for one on the site's homepage."""
     if not robots_ok(url):
         return None
     page = await ctx.new_page()
     try:
         if not await goto(page, url):
             return None
-        res = await page.evaluate(P.FORM_JS)
-        if sum(1 for i in res["inputs"] if i.get("visible")) < 3:
-            anchors = await page.evaluate(P.ANCHORS_JS)
-            link = P.find_claim_link_on_site(anchors, page.url)
-            if link and robots_ok(link) and await goto(page, link):
-                res = await page.evaluate(P.FORM_JS)
-        return P.classify_form(res)
+        res = await read_form(page)
+        first = P.classify_form(res)
+        # A page that already shows an ID/PIN box is the answer; don't wander off it.
+        if first == "required" or sum(1 for i in res["inputs"] if i.get("visible")) >= 3:
+            return first
+        if P.BLOCKED_TEXT_RE.search(res["text"][:3000]):
+            return None  # a bot check: the rest of this site will be the same
+        link = P.find_claim_link_on_site(await page.evaluate(P.ANCHORS_JS), page.url)
+        u = urlparse(page.url)
+        if not link and u.path not in ("", "/"):
+            home = f"{u.scheme}://{u.netloc}/"
+            if robots_ok(home) and await goto(page, home):
+                link = P.find_claim_link_on_site(await page.evaluate(P.ANCHORS_JS), page.url)
+        if link and robots_ok(link) and await goto(page, link):
+            return P.classify_form(await read_form(page)) or first
+        return first
     except Exception:
         return None
     finally:
@@ -273,14 +293,15 @@ async def check_forms(ctx, settlements, forms):
     """Fill in forms[claim_url] for settlements not checked recently. Returns how many were checked."""
     now = time.time()
     todo = [s["claim_url"] for s in settlements
-            if now - forms.get(s["claim_url"], {}).get("checked_at", 0) > FORM_RECHECK_DAYS * 86400]
+            if forms.get(s["claim_url"], {}).get("v") != FORM_VERSION
+            or now - forms.get(s["claim_url"], {}).get("checked_at", 0) > FORM_RECHECK_DAYS * 86400]
     todo = list(dict.fromkeys(todo))[:MAX_FORM_CHECKS]
     sem = asyncio.Semaphore(FORM_CONCURRENCY)
 
     async def one(url):
         async with sem:
             result = await check_form(ctx, url)
-            forms[url] = {"result": result, "checked_at": time.time()}
+            forms[url] = {"result": result, "checked_at": time.time(), "v": FORM_VERSION}
             await pause()
 
     await asyncio.gather(*[one(u) for u in todo])
