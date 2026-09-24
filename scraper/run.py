@@ -26,6 +26,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SOURCES = ROOT / "sources.json"
 OUT = ROOT / "settlements.json"
 CACHE = ROOT / "data" / "cache.json"
+FORMS_KEY = "__forms__"  # claim-form checks live inside cache.json, keyed by claim URL
 UA = ("Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
       "Chrome/128.0 Safari/537.36 ClaimbotData/1.0 (+https://github.com/willis4030/claimbot-data)")
 ROBOTS_AGENT = "ClaimbotData"
@@ -34,7 +35,10 @@ DELAY = 1.5              # seconds between requests to the same site (plus jitte
 REFRESH_DAYS = 7         # re-read a settlement page after this many days
 MAX_DETAILS_PER_RUN = 500
 PRUNE_DAYS = 30          # forget cached pages not listed anywhere for this long
-PARSE_VERSION = 4        # bump when parsing changes, so cached pages are re-read
+PARSE_VERSION = 5
+FORM_RECHECK_DAYS = 14   # re-check a claim form's notice-ID field after this many days
+MAX_FORM_CHECKS = 200    # new claim forms checked per run (the rest wait for the next run)
+FORM_CONCURRENCY = 4     # claim forms are on different sites, so a few can load at once        # bump when parsing changes, so cached pages are re-read
 # Listing sites never count as the "official claim site" for a settlement.
 KNOWN_AGGREGATORS = {"topclassactions.com", "classaction.org", "claimdepot.com", "openclassactions.com",
                      "settlementscan.app", "classactionrebates.com", "lawfareclaims.org",
@@ -243,6 +247,57 @@ async def scrape_source(ctx, src, cache, aggregator_hosts, max_details, raw_ctx)
     return items, stats
 
 
+async def check_form(ctx, url):
+    """Open a settlement's official claim page and decide whether its form asks for a notice ID.
+    If the page is a settlement homepage, follow its 'File a claim' link once."""
+    if not robots_ok(url):
+        return None
+    page = await ctx.new_page()
+    try:
+        if not await goto(page, url):
+            return None
+        res = await page.evaluate(P.FORM_JS)
+        if sum(1 for i in res["inputs"] if i.get("visible")) < 3:
+            anchors = await page.evaluate(P.ANCHORS_JS)
+            link = P.find_claim_link_on_site(anchors, page.url)
+            if link and robots_ok(link) and await goto(page, link):
+                res = await page.evaluate(P.FORM_JS)
+        return P.classify_form(res)
+    except Exception:
+        return None
+    finally:
+        await page.close()
+
+
+async def check_forms(ctx, settlements, forms):
+    """Fill in forms[claim_url] for settlements not checked recently. Returns how many were checked."""
+    now = time.time()
+    todo = [s["claim_url"] for s in settlements
+            if now - forms.get(s["claim_url"], {}).get("checked_at", 0) > FORM_RECHECK_DAYS * 86400]
+    todo = list(dict.fromkeys(todo))[:MAX_FORM_CHECKS]
+    sem = asyncio.Semaphore(FORM_CONCURRENCY)
+
+    async def one(url):
+        async with sem:
+            result = await check_form(ctx, url)
+            forms[url] = {"result": result, "checked_at": time.time()}
+            await pause()
+
+    await asyncio.gather(*[one(u) for u in todo])
+    return len(todo)
+
+
+def combine_notice(listing_values, form_value):
+    """The claim form is the real requirement, so it wins. Otherwise the listing sites:
+    an explicit 'you can file without it' beats a generic 'you'll need your ID'."""
+    if form_value:
+        return form_value, "form"
+    for v in ("none", "optional", "required"):
+        if v in listing_values:
+            return v, "listing"
+    return None, None
+
+
 def pick_title(p):
     t = (p.get("page_title") or "").strip()
     if 10 <= len(t) <= 160:
@@ -272,6 +327,7 @@ def merge(results, previous):
                     "deadline": p.get("deadline"), "no_proof": p.get("no_proof"),
                     "summary": p.get("summary") or "", "claim_url": p["claim_url"],
                     "sources": [], "first_seen": first_seen.get(sid, today),
+                    "_notice": [],
                 }
             else:
                 r["payout"] = r["payout"] or p.get("payout")
@@ -288,6 +344,8 @@ def merge(results, previous):
                 if len(p.get("summary") or "") > len(r["summary"]):
                     r["summary"] = p["summary"]
             r["sources"].append({"name": name, "url": it["detail_url"], "no_proof": p.get("no_proof")})
+            if p.get("notice_id"):
+                r["_notice"].append(p["notice_id"])
     out = list(merged.values())
     for r in out:
         r["new"] = r["first_seen"] == today
@@ -321,6 +379,19 @@ async def daily():
     results = [(s["name"], items) for s, (items, _) in zip(sources, runs)]
     settlements = merge(results, previous)
 
+    # Check each settlement's claim form for a notice-ID field (cached, a few at a time).
+    forms = cache.get(FORMS_KEY, {})
+    async with async_playwright() as pw:
+        browser = await pw.chromium.launch()
+        fctx = await browser.new_context(user_agent=UA)
+        checked = await check_forms(fctx, settlements, forms)
+        await browser.close()
+    live = {s["claim_url"] for s in settlements}
+    cache[FORMS_KEY] = {u: v for u, v in forms.items() if u in live}  # forget closed settlements
+    forms = cache[FORMS_KEY]
+    for s in settlements:
+        s["notice_id"], s["notice_source"] = combine_notice(s.pop("_notice"), forms.get(s["claim_url"], {}).get("result"))
+
     now = time.time()
     cache = {k: v for k, v in cache.items() if now - v.get("last_seen", now) < PRUNE_DAYS * 86400}
     CACHE.parent.mkdir(exist_ok=True)
@@ -341,6 +412,11 @@ async def daily():
     md = ["## Daily scrape", "", f"**{doc['count']}** open settlements "
           f"(**{doc['no_proof_count']}** no proof), "
           f"**{sum(s['new'] for s in settlements)}** new today.", "",
+          f"Notice ID: **{sum(s['notice_id'] == 'required' for s in settlements)}** required, "
+          f"**{sum(s['notice_id'] == 'optional' for s in settlements)}** optional, "
+          f"**{sum(s['notice_id'] == 'none' for s in settlements)}** not asked, "
+          f"**{sum(s['notice_id'] is None for s in settlements)}** unclear. "
+          f"Claim forms checked this run: **{checked}**.", "",
           "| Site | Listed | Pages read | With claim link | No proof |", "|---|---|---|---|---|"]
     for s, (_, st) in zip(sources, runs):
         md.append(f"| {s['name']} | {st['listed']} | {st['fetched']} | {st['claim_link']} | {st['no_proof']} |")
