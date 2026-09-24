@@ -370,6 +370,7 @@ def parse_detail(d, anchors, aggregator_hosts):
         "category": categorize(d["title"] + "\n" + text[:3000]),
         "summary": eligibility_summary(d["paras"]),
         "not_settlement": bool(NOT_SETTLEMENT_RE.search(d["title"])),
+        "notice_id": classify_notice(main),
     }
 
 
@@ -437,6 +438,7 @@ def parse_card(card):
         "category": categorize(title + "\n" + summary),
         "summary": summary[:1400],
         "not_settlement": bool(NOT_SETTLEMENT_RE.search(title)),
+        "notice_id": classify_notice(text),
     }
 
 
@@ -448,3 +450,90 @@ LOAD_MORE_JS = """() => {
   if (!el) return false;
   el.scrollIntoView(); el.click(); return true;
 }"""
+
+
+# ---------------------------------------------------------------- notice ID / PIN
+# Many settlements mail a notice with a Class Member ID or PIN. These decide whether you
+# need it to file: "required", "optional", "none" (the form doesn't ask), or None (unclear).
+
+_ID = r"(class\s*member|claimant|notice|unique|claim|settlement|member)\s*(id|identification|number|code|#)|\bpin\b"
+NOTICE_OPTIONAL_RE = re.compile(
+    r"(did\s*n[o']t|do\s*n[o']t|did not|do not|never)\s+(receive|get|got)\s+(a|the|an)?\s*(notice|email|postcard|letter)[^.]{0,80}"
+    r"\b(can|may|still|also)\b|"
+    r"without\s+(a|the|an)\s+(notice|" + _ID + r")|"
+    r"(" + _ID + r")\s*(is|are)?\s*(optional|not required)|"
+    r"(even\s+if|whether\s+or\s+not)\s+you\s+(did\s*n[o']t|did not)?\s*(receive|get)\s+(a|the)?\s*notice", re.I)
+NOTICE_NONE_RE = re.compile(
+    r"(you\s+)?(do\s*n[o']t|do not|don't)\s+need\s+(a|the|your|an)\s+(" + _ID + r")", re.I)
+NOTICE_REQUIRED_RE = re.compile(
+    r"only\s+(class\s+members|people|persons|individuals|those)\s+who\s+(received|were\s+sent|got)\s+(a|the|direct)?\s*notice|"
+    r"(need|must\s+(enter|provide|include|have|use)|required\s+to\s+(enter|provide))\s+(your|the|a)\s+(" + _ID + r")|"
+    r"(" + _ID + r")\s*(is|are)\s+required|"
+    r"requires?\s+(your|the|a)\s+(" + _ID + r")", re.I)
+
+
+def classify_notice(text):
+    """From a listing page's own text. Permissive statements win over generic 'you'll need' ones."""
+    if not text:
+        return None
+    if NOTICE_NONE_RE.search(text):
+        return "none"
+    if NOTICE_OPTIONAL_RE.search(text):
+        return "optional"
+    if NOTICE_REQUIRED_RE.search(text):
+        return "required"
+    return None
+
+
+# Reads a claim form: every field's label, whether it's marked required, and the page text.
+FORM_JS = """() => {
+  const visible = (e) => { const r = e.getBoundingClientRect(); const s = getComputedStyle(e);
+    return r.width > 0 && r.height > 0 && s.visibility !== 'hidden' && s.display !== 'none'; };
+  const skip = ['hidden', 'submit', 'button', 'image', 'reset', 'search'];
+  const els = Array.from(document.querySelectorAll('input, select, textarea'))
+    .filter(e => !skip.includes((e.getAttribute('type') || '').toLowerCase()));
+  const inputs = els.map(e => {
+    const parts = [];
+    if (e.labels) for (const l of e.labels) parts.push(l.innerText);
+    parts.push(e.getAttribute('aria-label'), e.placeholder, e.name, e.id, e.title);
+    const lb = e.getAttribute('aria-labelledby');
+    if (lb) lb.split(/\\s+/).forEach(id => { const n = document.getElementById(id); if (n) parts.push(n.innerText); });
+    const labelText = parts.filter(Boolean).join(' ');
+    const desc = labelText.replace(/([a-z])([A-Z])/g, '$1 $2').replace(/[_\\-\\[\\].]+/g, ' ');
+    const required = e.required || e.getAttribute('aria-required') === 'true' || /\\*/.test(labelText);
+    return { desc, required, visible: visible(e) };
+  });
+  return { inputs, text: (document.body.innerText || '').slice(0, 20000) };
+}"""
+
+FORM_ID_FIELD_RE = re.compile(
+    r"(class\s*member|claimant|notice|unique|claim|settlement|member|participant|confirmation)\s*"
+    r"(id|identification|number|no\b|code|#)|\bpin\b|control\s*(number|no)|access\s*code|\buid\b", re.I)
+FORM_NOT_ID_RE = re.compile(r"phone|zip|postal|card|routing|account|social|ssn|tax|date|email|birth", re.I)
+FORM_OPTIONAL_TEXT_RE = re.compile(
+    r"(did\s*n[o']t|did not|do\s*n[o']t|do not)\s+(receive|get|have)\s+(a|an|the|my)?\s*(notice|" + _ID + r")|"
+    r"(if|whether)\s+you\s+(received|have)\s+(a|an|the)\s+(notice|" + _ID + r")", re.I)
+
+
+def classify_form(res):
+    """From a claim form. None if no real form was found on the page."""
+    inputs = res.get("inputs") or []
+    id_fields = [i for i in inputs if FORM_ID_FIELD_RE.search(i["desc"]) and not FORM_NOT_ID_RE.search(i["desc"])]
+    visible_fields = [i for i in inputs if i.get("visible")]
+    has_optional_path = bool(FORM_OPTIONAL_TEXT_RE.search(res.get("text") or ""))
+    if id_fields:
+        if has_optional_path:
+            return "optional"
+        return "required" if any(i["required"] for i in id_fields) else "optional"
+    if len(visible_fields) >= 3:
+        return "none"  # a real form that doesn't ask for an ID
+    return None
+
+
+def find_claim_link_on_site(anchors, current_url):
+    """On an official settlement homepage, find its own 'File a Claim' link (same site)."""
+    here = urlparse(current_url).netloc
+    for a in anchors:
+        if CLAIM_LINK_TEXT.search(a.get("text") or "") and urlparse(a["href"]).netloc == here:
+            return a["href"]
+    return None
