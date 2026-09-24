@@ -1,7 +1,7 @@
 {
- "updated": "2026-09-23T20:29:49+00:00",
- "count": 346,
- "no_proof_count": 182,
+ "updated": "2026-09-24T15:40:33+00:00",
+ "count": 355,
+ "no_proof_count": 181,
  "settlements": [
   {
    "id": "d1a453bd370a",
@@ -23,7 +23,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "d0e082186cdc",
@@ -72,7 +72,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "a3de361c30b1",
@@ -317,7 +317,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "d914c8c68931",
@@ -339,7 +339,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "162ea12b70cc",
@@ -361,7 +361,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "ef00b2c2ffde",
@@ -393,7 +393,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "5d886e6541eb",
@@ -425,7 +425,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "11fa37a4e2e8",
@@ -457,7 +457,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "ee0c2d615cfb",
@@ -484,7 +484,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "38c819ee06fa",
@@ -506,7 +506,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "45aa807269d0",
@@ -533,7 +533,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "b1b38640fd99",
@@ -565,7 +565,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "9630b88df85c",
@@ -587,6 +587,28 @@
     }
    ],
    "first_seen": "2026-09-23",
+   "new": false
+  },
+  {
+   "id": "d42c4450edb5",
+   "title": "Seattle, Federal Way Public Schools Data Breach Settlement",
+   "category": "Data breach",
+   "payout": "Up to $5,599",
+   "payout_max": 5599.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-12-02",
+   "no_proof": false,
+   "summary": "Current or former employees of Seattle Public Schools or Federal Way Public Schools whose personal information the organizations provided to Carruth Compliance Consulting Inc., which experienced a data breach in December 2024, may be eligible to claim up to $5,599 from a class action settlement.\n\nIndividuals are considered class members if:\n\nTo confirm eligibility, class members must either have received a notice by mail regarding the breach or be able to provide the name and address to which the administrator sent the notice.\n\nThe settlement provides two main types of compensation for eligible class members:\n\nCredit reports or credit monitoring costs for products purchased as a result of the breach\n\nPro rata cash payment: Up to $599 per person. The settlement administrator will determine the pro rata cash payment by dividing the remaining funds in the settlement pool among all class members after it pays all valid claims and costs.\n\nClass members can file a claim online or download, print and complete a PDF claim form and mail it to the settlement administrator.",
+   "claim_url": "https://www.carruthsettlement.com/submit-claim",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/carruth-settlement",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-24",
    "new": true
   },
   {
@@ -619,7 +641,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "a07fd147565d",
@@ -651,7 +673,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "77ea768157b2",
@@ -673,7 +695,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "c92957485346",
@@ -700,7 +722,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "e36a0262223f",
@@ -722,7 +744,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "674ebb051b91",
@@ -754,7 +776,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "2a1aa92293c1",
@@ -786,7 +808,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "f4bfb8673931",
@@ -818,7 +840,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "909f9366aa13",
@@ -850,7 +872,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "1cc1b77991f3",
@@ -877,7 +899,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "3ab6e50aa854",
@@ -909,7 +931,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "0c09bcea991b",
@@ -941,7 +963,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "1367732aa504",
@@ -973,7 +995,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "5fe2443a96eb",
@@ -1000,7 +1022,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "72b40e6baaec",
@@ -1022,7 +1044,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "c47d2664c3dc",
@@ -1054,7 +1076,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "2eda2663b331",
@@ -1081,7 +1103,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "84946c5077f4",
@@ -1108,7 +1130,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "7279f1532892",
@@ -1140,7 +1162,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "fe047e146400",
@@ -1172,7 +1194,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "23f1ae3e4034",
@@ -1199,7 +1221,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "e4c9a51cd793",
@@ -1226,7 +1248,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "c060917614fc",
@@ -1290,7 +1312,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "928c2b58324f",
@@ -1322,7 +1344,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "c7ee8e7e1a7b",
@@ -1344,7 +1366,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "9e34b58200ba",
@@ -1371,7 +1393,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "b515a606f947",
@@ -1415,7 +1437,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "619f765a4043",
@@ -1442,7 +1464,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "c6d65974949f",
@@ -1464,7 +1486,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "3c4973aa0504",
@@ -1496,7 +1518,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "223ddb349ff1",
@@ -1528,7 +1550,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "93ad8b9c6634",
@@ -1560,7 +1582,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "563906b2b910",
@@ -1597,7 +1619,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "63f0e97549db",
@@ -1624,7 +1646,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "c476bc7dfe07",
@@ -1656,7 +1678,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "7c519316883f",
@@ -1688,7 +1710,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "29e52d573da9",
@@ -1720,7 +1742,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "fbf4d3687a43",
@@ -1752,7 +1774,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "4fd72fe85896",
@@ -1784,7 +1806,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "599d7bd30664",
@@ -1816,7 +1838,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "7833a8448c7b",
@@ -1843,7 +1865,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "5995e62f7db8",
@@ -1865,7 +1887,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "b05e18e6cca4",
@@ -1897,7 +1919,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "f4c4e0a4428b",
@@ -1924,7 +1946,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "849c1bf428eb",
@@ -1956,7 +1978,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "c55cc1d305b9",
@@ -1978,7 +2000,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "b0ba225f1f98",
@@ -2010,7 +2032,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "a1b9929a0de8",
@@ -2032,7 +2054,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "399fc630eb0c",
@@ -2064,7 +2086,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "4163f897f2d5",
@@ -2086,7 +2108,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "81fdb04d9523",
@@ -2108,7 +2130,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "83553748cc19",
@@ -2130,7 +2152,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "fedfbadbfa56",
@@ -2162,7 +2184,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "96c330a8bb52",
@@ -2194,7 +2216,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "d0013666f870",
@@ -2226,7 +2248,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "582eec515193",
@@ -2253,7 +2275,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "ffc6cd88ccfd",
@@ -2280,7 +2302,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "cbfd500d31ae",
@@ -2312,7 +2334,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "95e9b95299d9",
@@ -2344,7 +2366,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "3f91c40e6af5",
@@ -2376,7 +2398,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "568195f834ab",
@@ -2408,7 +2430,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "2da3c69f9d37",
@@ -2440,7 +2462,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "f612c15c8f42",
@@ -2472,7 +2494,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "f4004b4f3d8f",
@@ -2504,7 +2526,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "836b1d550cf7",
@@ -2536,7 +2558,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "925a0fdf461f",
@@ -2568,7 +2590,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "56068f4dd196",
@@ -2600,7 +2622,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "8978567c3194",
@@ -2632,7 +2654,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "2f3dfe0e9ecf",
@@ -2664,7 +2686,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "7ceffc8e0bdc",
@@ -2691,7 +2713,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "466e17c6ee12",
@@ -2713,7 +2735,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "e79de069fe06",
@@ -2735,7 +2757,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "59ece244f6b4",
@@ -2767,7 +2789,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "be20246200d5",
@@ -2799,7 +2821,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "1683bae2888c",
@@ -2831,7 +2853,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "cf0025373029",
@@ -2858,7 +2880,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "8c310901c2a6",
@@ -2890,7 +2912,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "8d89e8e40f02",
@@ -2922,7 +2944,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "9926ecf7d530",
@@ -2954,7 +2976,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "2a767f6627d3",
@@ -2986,7 +3008,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "5576dee222ce",
@@ -3018,7 +3040,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "d37ce2ddd92f",
@@ -3040,7 +3062,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "12648300aa38",
@@ -3062,7 +3084,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "1b7e1455b6a1",
@@ -3089,7 +3111,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "6a8ecf1cb6b2",
@@ -3111,7 +3133,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "ee1f0ff9e9ba",
@@ -3143,7 +3165,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "e28de83653b0",
@@ -3175,7 +3197,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "e0faa8b768d0",
@@ -3234,7 +3256,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "a14a9409a4ba",
@@ -3261,7 +3283,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "d83128ab4228",
@@ -3288,7 +3310,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "68a5e9068050",
@@ -3320,7 +3342,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "0689d91a3271",
@@ -3342,7 +3364,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "a07ae51f2229",
@@ -3369,7 +3391,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "658b42c29638",
@@ -3396,7 +3418,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "21602891ee7d",
@@ -3423,7 +3445,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "741766f6a460",
@@ -3495,6 +3517,28 @@
     }
    ],
    "first_seen": "2026-09-23",
+   "new": false
+  },
+  {
+   "id": "99c0bf10090f",
+   "title": "NTN Bearing $1.43M Genetic Privacy Class Action Settlement",
+   "category": "Privacy & tech",
+   "payout": "At least $1,500",
+   "payout_max": 1500.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": false,
+   "summary": "Individuals who applied for a job with NTN in Illinois and received a medical exam may be eligible to claim $1,500 or more from a class action settlement.\n\nJob seekers who applied for a position with NTN Bearing Corp. of America, NTN USA Corp. or American NTN Bearing Manufacturing Corp. in Illinois and underwent a medical or physical examination in which the staff collected family history or other genetic information between June 19, 2019 and Dec. 20, 2024, may be eligible to claim at least $1,500 from a class action settlement.\n\nThey underwent a medical or physical examination between June 19, 2019 and Dec. 20, 2024.\n\nEach class member will receive an equal share of the settlement fund after deductions for attorneys’ fees, litigation costs, settlement administration costs and service awards to the class representatives. The anticipated minimum payment per class member is at least $1,500, but the final amount will depend on the number of participating class members and the total deductions.\n\nClass members do not need to file a claim or take any action to receive payment. Those who moved or need to update their address should contact the settlement administrator.",
+   "claim_url": "https://ntngipasettlement.com/",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/ntn-gipa-settlement",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-24",
    "new": true
   },
   {
@@ -3527,6 +3571,28 @@
     }
    ],
    "first_seen": "2026-09-23",
+   "new": false
+  },
+  {
+   "id": "9bc3792a9cdf",
+   "title": "Ecoshield $924,000 Restrictive Employment Settlement",
+   "category": "Privacy & tech",
+   "payout": "$1,225.11 (estimated)",
+   "payout_max": 1225.11,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": false,
+   "summary": "Employees who worked for Ecoshield Management in Washington may be eligible to receive an estimated $1,225 from a class action settlement.\n\nEmployees who worked for The Shield Cos. Management LLC d/b/a Ecoshield Management Cos. LLC in Washington and earned less than twice the state minimum hourly wage between March 14, 2021, and March 10, 2026, may be eligible to receive approximately $1,225 from a class action settlement.\n\nClass members must meet all of the following requirements:\n\nThe settlement administrator identified approximately 462 eligible class members based on company records.\n\nPro rata payment: Each eligible class member who does not exclude themselves from the settlement will receive an equal share of the net settlement fund. All eligible class members will receive the same payment amount regardless of how long they worked or their specific earnings.\n\nEligible class members do not need to submit a claim form to receive their payment. The settlement administrator will automatically mail a check to each class member’s last known address. If a valid mailing address is unavailable or upon request, it will send payment electronically.\n\nClass members should update their address or contact information with the settlement administrator if it has changed since their employment.",
+   "claim_url": "https://tscmsettlement.com/documents/",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/tscm-settlement",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-24",
    "new": true
   },
   {
@@ -3549,7 +3615,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "c0284262ff4d",
@@ -3576,7 +3642,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "32f047dc944b",
@@ -3608,7 +3674,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "986dc678fa0f",
@@ -3640,7 +3706,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "1c43fd795201",
@@ -3662,7 +3728,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "6431c3245d6a",
@@ -3694,7 +3760,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "3bfa928273f7",
@@ -3721,7 +3787,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "30c9a8453ea1",
@@ -3743,7 +3809,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "adc1b7cafa32",
@@ -3775,7 +3841,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "a026fd068465",
@@ -3807,7 +3873,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "7933c0b13a0e",
@@ -3829,7 +3895,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "b55da9584d05",
@@ -3856,7 +3922,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "ec1f81599d9b",
@@ -3888,7 +3954,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "893f214f7c3f",
@@ -3920,7 +3986,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "8a0809cfa3d1",
@@ -3952,7 +4018,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "2451fa4ebb5a",
@@ -3979,7 +4045,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "8f4017f59e07",
@@ -4033,7 +4099,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "d0cbe7b6bc18",
@@ -4060,6 +4126,28 @@
     }
    ],
    "first_seen": "2026-09-23",
+   "new": false
+  },
+  {
+   "id": "445da8f5ccdb",
+   "title": "Whirlpool, KitchenAid and Maytag Refrigerator Frost Settlement",
+   "category": "Privacy & tech",
+   "payout": "$300",
+   "payout_max": 300.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-10-19",
+   "no_proof": false,
+   "summary": "The class generally covers people who bought a new listed refrigerator, acquired one as part of a home purchase or remodel, or received one new as a gift from Whirlpool or an authorized reseller in the United States or its territories. Covered refrigerators were manufactured from 2012 through 2019.Legal\n\nBrand name and door style alone do not establish eligibility. The model and serial number must appear on the settlement's qualifying list. The serial number is also used to determine manufacture date, which matters for the eight-year benefit window. A claimant who proves a later purchase or delivery date may have eligibility calculated from that documented date under the agreement.\n\nA replacement benefit generally requires two or more Frost Clog Issues and documented replacement expense. During years one through three, the cap is 75% of the original purchase price when the class member contacted Whirlpool to request replacement before paying out of pocket, or 50% without that prior contact.",
+   "claim_url": "https://www.coolingsettlement.com/home?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/whirlpool-kitchenaid-maytag-refrigerator-frost-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-24",
    "new": true
   },
   {
@@ -4092,7 +4180,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "bbca323033a6",
@@ -4124,7 +4212,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "10e2a24f64b6",
@@ -4178,7 +4266,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "b1f5602d0cad",
@@ -4200,7 +4288,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "f31899d39200",
@@ -4222,7 +4310,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "0040b19586af",
@@ -4254,7 +4342,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "95baa4e506bd",
@@ -4308,7 +4396,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "57c7dc310afb",
@@ -4340,7 +4428,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "a4c83317ab17",
@@ -4367,7 +4455,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "f5a9433c3b77",
@@ -4394,7 +4482,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "1011657bfae9",
@@ -4426,7 +4514,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "1653de7baed8",
@@ -4458,7 +4546,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "c8a9b32c73a7",
@@ -4485,7 +4573,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "1f48fba61e21",
@@ -4517,7 +4605,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "d8362c0faed4",
@@ -4544,7 +4632,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "094a519e7f5a",
@@ -4576,7 +4664,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "ccf237518f33",
@@ -4598,7 +4686,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "36818a617262",
@@ -4630,7 +4718,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "7572414d92ca",
@@ -4657,7 +4745,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "401f105bde2e",
@@ -4679,7 +4767,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "ff611779d9c9",
@@ -4706,7 +4794,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "762359fe4e50",
@@ -4733,7 +4821,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "a8756e57c0f0",
@@ -4755,7 +4843,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "fd5678544d33",
@@ -4777,7 +4865,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "73c21a1e9269",
@@ -4809,7 +4897,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "92aabea4a1cd",
@@ -4836,7 +4924,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "a46d93e37e92",
@@ -4858,7 +4946,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "4e451899a7d8",
@@ -4885,7 +4973,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "ca3e2c25411a",
@@ -4907,7 +4995,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "0fb32631cb1d",
@@ -4934,7 +5022,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "5fc11f5386e6",
@@ -4966,7 +5054,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "25c2393e75b3",
@@ -4998,7 +5086,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "747b07e7de89",
@@ -5025,7 +5113,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "85a4d9232a5b",
@@ -5047,7 +5135,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "40823cdb12ed",
@@ -5074,7 +5162,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "616dd316b3cf",
@@ -5106,7 +5194,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "6bf8403dce12",
@@ -5133,7 +5221,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "489fee94ccb5",
@@ -5160,7 +5248,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "7177a3700094",
@@ -5187,7 +5275,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "ac057b21c171",
@@ -5209,7 +5297,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "4a9d05c64adc",
@@ -5241,7 +5329,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "8c3d2e6ac918",
@@ -5268,7 +5356,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "fa7c2488f1eb",
@@ -5290,7 +5378,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "644a6415b00c",
@@ -5322,7 +5410,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "d6869b9fad22",
@@ -5354,7 +5442,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "7fffaed8dc63",
@@ -5386,7 +5474,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "bcea9c15453c",
@@ -5418,7 +5506,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "371d8ceceac9",
@@ -5445,7 +5533,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "670c12eefc91",
@@ -5467,7 +5555,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "21a4f69c6f0e",
@@ -5499,7 +5587,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "1355991916b6",
@@ -5521,7 +5609,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "332f1c603dae",
@@ -5548,7 +5636,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "271a7170dce8",
@@ -5570,7 +5658,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "7e112072c95b",
@@ -5597,7 +5685,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "a39395a8cb45",
@@ -5624,7 +5712,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "af5368022816",
@@ -5651,7 +5739,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "0b94893b4a4b",
@@ -5673,7 +5761,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "29a52627e79d",
@@ -5700,7 +5788,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "d84fe3a534a8",
@@ -5722,7 +5810,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "7aa68b97f3d4",
@@ -5771,7 +5859,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "b884dd4419be",
@@ -5793,7 +5881,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "d5f1e69d6c11",
@@ -5815,34 +5903,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
-  },
-  {
-   "id": "802e18bc3b3d",
-   "title": "Toyota IC Forklift Class Action Settlement",
-   "category": "Product",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-09-23",
-   "no_proof": false,
-   "summary": "Your browser does not support viewing PDFs inline. Download the PDF.\n\nU.S. District Court, Northern District of California — Broadmoor Lumber & Plywood Co. v. Toyota Industries Corp., No. 3:24-cv-06640-JSC",
-   "claim_url": "https://forkliftsettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://forkliftsettlement.com/",
-     "no_proof": false
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/toyota-forklift-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "eeb3aaea621f",
@@ -5869,7 +5930,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "4d737cc7227e",
@@ -5891,7 +5952,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "1d08212bee59",
@@ -5913,7 +5974,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "71f6622d511f",
@@ -5945,7 +6006,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "99aab240ac44",
@@ -5967,7 +6028,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "9f938bdd254e",
@@ -5994,7 +6055,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "62cec8f82885",
@@ -6053,7 +6114,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "e15c8860bdf4",
@@ -6085,7 +6146,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "11f1f8c788ad",
@@ -6112,7 +6173,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "b1fcf9e0ff02",
@@ -6134,7 +6195,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "f55bff8ea3f4",
@@ -6156,7 +6217,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "e09e2580273d",
@@ -6188,7 +6249,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "bc8890baf879",
@@ -6220,7 +6281,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "74ead84bba15",
@@ -6252,7 +6313,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "82ed839f3bed",
@@ -6284,7 +6345,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "441f85e49982",
@@ -6311,7 +6372,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "4139d8e20e3f",
@@ -6333,7 +6394,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "c13fb46a1f8e",
@@ -6355,7 +6416,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "3a4e43611dd2",
@@ -6382,7 +6443,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "79f5cfe6fa74",
@@ -6414,7 +6475,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "c9c9ff4bf522",
@@ -6441,7 +6502,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "d02cf29d6636",
@@ -6468,7 +6529,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "d98e08951def",
@@ -6559,7 +6620,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "9dd7ea0c4b3b",
@@ -6608,7 +6669,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "3329307937fa",
@@ -6630,7 +6691,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "d5097cf737db",
@@ -6682,6 +6743,33 @@
    "new": false
   },
   {
+   "id": "f74db9a951e3",
+   "title": "Playstudios US $3M Casino Gaming App Class Action Settlement",
+   "category": "Data breach",
+   "payout": "Varies",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-10-21",
+   "no_proof": false,
+   "summary": "Individuals who spent money on Playstudios casino games in select states may be eligible to claim a cash payment from a class action settlement.\n\nIndividuals who spent money to play myVEGAS Facebook, myVEGAS Mobile, www.myvegas.com, Pop! Slots, myKONAMI Slots, MGM Slots Live, myVEGAS Blackjack or myVEGAS Bingo while physically located in Alabama, Tennessee, Kentucky, Ohio, New Jersey or Massachusetts during specific time periods may be eligible to claim a cash payment from a class action settlement.\n\nEligible class members must meet all of the following criteria:\n\nClass members have the following benefit options:\n\nVirtual currency award: Class members who do not file an election form will receive 27% of their total spending on the games in the form of virtual currency.\n\nCash award: Class members who file an election form can receive up to 23% of their total spending as a cash payment. If the total cash elections exceed 17% of the total settlement fund, the settlement administrator may reduce each cash payment and provide the remainder as virtual currency.\n\nTo receive a cash payment, class members must submit an online election form or print and complete the PDF election form and mail it to the settlement administrator. Class members can request a paper election form by contacting the settlement administrator.",
+   "claim_url": "https://www.gamingappsettlement.com/faqs/",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/gaming-app-settlement",
+     "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/playstudios-myvegas-social-casino-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false
+  },
+  {
    "id": "e8424f3e8032",
    "title": "Dap Health $1.3M Data Breach Class Action Settlement",
    "category": "Data breach",
@@ -6701,29 +6789,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
-  },
-  {
-   "id": "f74db9a951e3",
-   "title": "Playstudios myVEGAS Settlement — Cash or Free Coins for Players in Six States",
-   "category": "Privacy & tech",
-   "payout": "23% of spend in cash",
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-10-21",
-   "no_proof": false,
-   "summary": "Do nothing — free coins: in-game credits equal to 27% of what Playstudios kept from your purchases, delivered in installments over up to 24 months, starting within 30 days after the settlement takes effect.\n\nFile an election — cash: a payment equal to 23% of what Playstudios kept from your purchases, by check, Zelle, PayPal or direct deposit.\n\nEvery email address tied to your game accounts and to the Facebook, Apple, Google, Amazon or Microsoft accounts you played through (up to 20)",
-   "claim_url": "https://www.gamingappsettlement.com/?utm_source=openclassactions.com",
-   "sources": [
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/playstudios-myvegas-social-casino-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "0fabd6422aea",
@@ -6755,7 +6821,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "f52f87772a8d",
@@ -6787,7 +6853,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "bfbbc2f6a885",
@@ -6819,7 +6885,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "2dbffe4a4abb",
@@ -6883,7 +6949,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "af2e6fe42f97",
@@ -6910,7 +6976,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "2b321a1af951",
@@ -6969,7 +7035,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "27d27282d854",
@@ -7001,7 +7067,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "0a2a3d03a45a",
@@ -7033,7 +7099,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "4730143bd9dc",
@@ -7082,7 +7148,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "9c0fb5274bf4",
@@ -7109,7 +7175,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "4223c87be9b1",
@@ -7136,7 +7202,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "b09205bb6e17",
@@ -7158,7 +7224,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "77dbafbaf019",
@@ -7217,7 +7283,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "c27acf8957fd",
@@ -7239,7 +7305,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "2e92d2e01afb",
@@ -7271,7 +7337,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "98ef8afa33cd",
@@ -7298,7 +7364,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "7f1145e7a888",
@@ -7330,7 +7396,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "065c329b98dd",
@@ -7379,7 +7445,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "34ea48659674",
@@ -7401,7 +7467,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "225fce26d55e",
@@ -7428,7 +7494,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "c144e4c26612",
@@ -7450,7 +7516,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "1744fc827c40",
@@ -7477,7 +7543,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "f4ec84f4a8bc",
@@ -7531,7 +7597,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "d32478e76ec7",
@@ -7563,7 +7629,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "5d39de4d9227",
@@ -7595,7 +7661,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "bbaed6df1ad8",
@@ -7649,7 +7715,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "46416b21df58",
@@ -7676,7 +7742,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "9ed74975e8af",
@@ -7698,7 +7764,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "99fb8f2bf8cc",
@@ -7747,7 +7813,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "97c7e81fc5f4",
@@ -7828,21 +7894,26 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "1a833ec72ac7",
-   "title": "Amazon $309.5 Million Returns Settlement: Claim Form Opens by October 2, Claims Close December 1",
-   "category": "Product",
-   "payout": "Varies by refund",
+   "title": "Amazon $309.5 Million Return Policy Class Action Settlement",
+   "category": "Data breach",
+   "payout": "Pro rata payment",
    "payout_max": null,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
    "deadline": "2026-12-01",
    "no_proof": false,
-   "summary": "",
-   "claim_url": "https://returnsettlement.com/?utm_source=openclassactions.com",
+   "summary": "Individuals who returned a purchased product to Amazon between Sept. 5, 2017, and Feb. 12, 2026, may qualify to claim a payment from a class action settlement.\n\nConsumers who returned or requested a refund for a physical product purchased on Amazon.com and received in the United States between Sept. 5, 2017, and Feb. 12, 2026, and experienced issues with their refund or whom Amazon later charged again for the returned item may be eligible to claim a payment from a class action settlement.\n\nClass members must meet the following criteria:\n\nThey initiated a return to Amazon or requested a refund for a physical product purchased and received in the United States and sold through Amazon.com between Sept. 5, 2017, and Feb. 12, 2026.\n\nClass members may belong to one or both of the following groups:\n\nSettlement subclass A: This group contains class members Amazon identified as having unpaid.\n\nSubclass A class members will automatically receive a payment and do not need to submit a claim form.\n\nSettlement subclass B: This group contains class members who believe Amaon incorrectly charged them or owes them a refund butwhom Amazon did not identify.\n\nSubclass B class members must submit a claim form to receive a payment.\n\nClass members may qualify for one or both of the following payments:",
+   "claim_url": "https://www.returnsettlement.com/",
    "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/amazon-return-settlement",
+     "no_proof": false
+    },
     {
      "name": "openclassactions",
      "url": "https://openclassactions.com/settlements/new-amazon-returns-class-action-settlement.php",
@@ -7850,7 +7921,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "9697d122582c",
@@ -7882,7 +7953,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "a87bc400da1e",
@@ -7931,7 +8002,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "52f8e700ce03",
@@ -7963,7 +8034,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "790b9d2ce355",
@@ -7990,7 +8061,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "195719f85306",
@@ -8022,7 +8093,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "49be58541173",
@@ -8066,7 +8137,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "1394d22abab1",
@@ -8077,18 +8148,18 @@
    "no_proof_payout": null,
    "no_proof_payout_max": null,
    "deadline": "2029-02-28",
-   "no_proof": true,
+   "no_proof": false,
    "summary": "Investors who traded cryptocurrency on KuCoin in New York between 2017 and 2023 may be eligible to claim a cash payment from a class action settlement.\n\nIndividuals who bought or sold cryptocurrency on the KuCoin trading platform while in New York between 2017 and 2023 may be eligible to claim a cash payment from a class action settlement.\n\nMek Global Ltd. and PhoenixFin Pte Ltd., d/b/a KuCoin, agreed to pay $22,066,642 to resolve an enforcement action brought by the New York attorney general. The lawsuit alleged KuCoin unlawfully operated as an unregistered securities and commodities broker-dealer and misrepresented itself as an exchange in violation of New York's Martin Act and Executive Law. The settlement requires KuCoin to return approximately $16.77 million in account balances to eligible New York customers and pay $5.3 million to the state.\n\nThe settlement includes individuals who bought or sold cryptocurrency on the KuCoin trading platform at any time from 2017 through 2023 and qualifies as a \"New York customer\" as defined by the consent order. New York customers include anyone who meets at least one of the following conditions:",
    "claim_url": "https://www.kucoinnyagconsentorder.com/form/claim",
    "sources": [
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/kucoin-ny-ag-consent-order",
-     "no_proof": true
+     "no_proof": false
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "d45b04d4703e",
@@ -8137,7 +8208,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "4f6487cc93fc",
@@ -8159,7 +8230,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "9190d568d196",
@@ -8181,7 +8252,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "ec72085fe5f1",
@@ -8225,7 +8296,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "98ab5675a17b",
@@ -8247,7 +8318,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "50a7262dd151",
@@ -8269,7 +8340,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "3cea836fd51c",
@@ -8291,7 +8362,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "0bd48d416b9d",
@@ -8313,7 +8384,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "25dfc0802b5c",
@@ -8335,7 +8406,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "3c4cac2cfe6b",
@@ -8357,7 +8428,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "7442862e7ee6",
@@ -8379,7 +8450,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "b3e1963e8022",
@@ -8401,7 +8472,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "3a2ffaaa0a9d",
@@ -8423,7 +8494,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "45dc76bf8297",
@@ -8445,7 +8516,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "ef59908a888a",
@@ -8467,7 +8538,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "1f16c4e886d9",
@@ -8489,7 +8560,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "c178a6df1d29",
@@ -8511,7 +8582,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "5a70cc6513c6",
@@ -8533,7 +8604,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "30f6340f4773",
@@ -8555,7 +8626,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "04aafc747b1d",
@@ -8582,7 +8653,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "eb5f92b1a81f",
@@ -8604,7 +8675,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "a5067017d5aa",
@@ -8626,7 +8697,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "211bf3146ac6",
@@ -8648,7 +8719,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "2c8f7f6417c6",
@@ -8670,7 +8741,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "592304db8da8",
@@ -8692,7 +8763,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "ed86c5842b94",
@@ -8714,7 +8785,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "4f952cc02462",
@@ -8736,7 +8807,29 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
+  },
+  {
+   "id": "802e18bc3b3d",
+   "title": "Toyota IC Forklift Class Action Settlement",
+   "category": "Product",
+   "payout": null,
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": false,
+   "summary": "You may be included in this settlement if you bought or leased an IC Toyota forklift on or before January 20, 2026.",
+   "claim_url": "https://forkliftsettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://forkliftsettlement.com/",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false
   },
   {
    "id": "9e2ce6317fa3",
@@ -8758,7 +8851,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "1e031e4e0e9d",
@@ -8807,7 +8900,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "4290b91533a9",
@@ -8829,7 +8922,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "b04a20e984c0",
@@ -8851,7 +8944,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "b8837a1f063e",
@@ -8873,7 +8966,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "af1a17aa1e64",
@@ -8895,7 +8988,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "6c1baba7da7d",
@@ -8917,7 +9010,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "1d91e10d9bf8",
@@ -8939,7 +9032,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "bbf9b3e10e2d",
@@ -8961,7 +9054,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "42bfcea70b2c",
@@ -8983,7 +9076,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "d2adb90b197f",
@@ -9005,7 +9098,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "943af6852763",
@@ -9027,7 +9120,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "14a280cae20c",
@@ -9049,7 +9142,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "2758ba5ab287",
@@ -9071,7 +9164,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "d5c250aea5cd",
@@ -9093,7 +9186,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "235a0130cd03",
@@ -9115,7 +9208,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "1d934d572203",
@@ -9137,7 +9230,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "18b46475fc00",
@@ -9159,7 +9252,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "cd69805c953e",
@@ -9181,7 +9274,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "134c8f2e505f",
@@ -9203,7 +9296,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "6af2dc882a0b",
@@ -9225,7 +9318,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "58e40fe02bee",
@@ -9247,7 +9340,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "f00310545784",
@@ -9269,7 +9362,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "3b2137e8dc9a",
@@ -9291,7 +9384,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "b0bc95944fad",
@@ -9313,7 +9406,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "796d85386892",
@@ -9335,7 +9428,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "bad00a8e1c52",
@@ -9357,7 +9450,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
    "id": "f077f6331cb3",
@@ -9379,43 +9472,158 @@
     }
    ],
    "first_seen": "2026-09-23",
+   "new": false
+  },
+  {
+   "id": "b0078fe121b8",
+   "title": "Sony PlayStation $7.85M Digital Game Antitrust Settlement",
+   "category": "Privacy & tech",
+   "payout": "Varies based on qualifying purchases",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": false,
+   "summary": "Individuals who bought certain PlayStation digital games between April 2019 and December 2023 may qualify to claim a class action settlement payment.\n\nIndividuals who purchased certain digital video games through the PlayStation Store between April 1, 2019, and Dec. 31, 2023, may be eligible to claim a cash payment from a class action settlement.\n\nSony Interactive Entertainment LLC agreed to pay $7,850,000 to resolve a class action lawsuit alleging it engaged in anticompetitive conduct in the PlayStation digital game market. The lawsuit claimed Sony’s actions led to higher prices for certain digital games customers purchased through the PlayStation Store.\n\nClass members must meet the following criteria to qualify for the settlement:\n\nThey purchased one or more video games through the PlayStation Store between April 1, 2019, and Dec. 31, 2023. They may not have purchased the game(s) at a third-party retailer.\n\nThe video game they purchased had a game-specific voucher available at retail prior to April 1, 2019.\n\nThe video game they purchased had at least 200 GSV redemptions prior to April 1, 2019.\n\nA GSV is defined as a physical voucher or electronic code purchased from a non-Sony retailer that allows a PlayStation user to download a specific game from the PlayStation network. The settlement website provides a list of eligible games that meet these criteria.",
+   "claim_url": "https://psndigitalgamessettlement.com/faqs/",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/psn-digital-games-settlement",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-24",
+   "new": true
+  },
+  {
+   "id": "414d766a6ce7",
+   "title": "Funko Inc. $5.4 Million Securities Class Action Settlement",
+   "category": "Privacy & tech",
+   "payout": "Varies",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": false,
+   "summary": "Investors who held Funko Class A common stock between Nov. 2, 2017, and Oct. 21, 2025, may be eligible for a cash payment from a class action settlement.\n\nInvestors who held Funko Inc. Class A common stock at any time between Nov. 2, 2017, and Oct. 21, 2025, may be eligible to claim a cash payment from a class action settlement.\n\nBoth individuals and entities can be class members.\n\nThe class is certified solely for settlement purposes and is a non-opt-out class under Delaware Court of Chancery Rules 23(a), 23(b)(1) and 23(b)(2), meaning class members cannot exclude themselves from the settlement.\n\nThe total settlement fund is $5,400,000. The amount each class member receives depends on several factors:\n\nThe number of eligible shares held at the close of trading on Oct. 21, 2025\n\nThe total number of eligible shares held by all class members\n\nEach eligible share will receive an equal portion of the net settlement fund.\n\nThe per-share recovery equals the total net settlement fund divided by the total number of eligible shares.\n\nEligible shares are shares of Funko Class A common stock held at the close of trading on Oct. 21, 2025, other than those held by excluded persons.\n\nIf any balance remains after the initial distribution, the settlement administrator will, if feasible, redistribute it to class members who received and deposited their initial payment.",
+   "claim_url": "https://funkostockholdersettlement.com/",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/funko-stockholder-settlement",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-24",
    "new": true
   },
   {
    "id": "ae91b2c1baa8",
    "title": "Blue Origin $1.96 Million Washington Job Posting Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Pro rata share",
    "payout_max": null,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
    "deadline": null,
-   "no_proof": true,
+   "no_proof": false,
    "summary": "Job seekers who applied for a position with Blue Origin in Washington between 2023 and 2026 may qualify to claim a cash payment from a class action settlement.\n\nJob seekers who applied for a position with Blue Origin or its related entities in Washington state between Jan. 1, 2023, and March 9, 2026, may be eligible to claim a cash payment from a class action settlement.\n\nThey applied for a job posted between Jan. 1, 2023, and March 9, 2026.\n\nThe defendants’ records indicate there are approximately 1,511 class members.\n\nPro rata payment: Each class member who does not exclude themselves from the settlement will receive an equal share of the net settlement fund. The total settlement fund is $1,964,300, but the settlement administrator will reduce this amount by attorneys’ fees, costs, service awards and settlement administration expenses before distributing it to class members.\n\nIf the number of class members increases by more than 5%, the defendants will increase the settlement fund proportionally. If more than 10% of class members opt out, Blue Origin may void the settlement.\n\nClass members do not need to file a claim to receive compensation. The settlement administrator will automatically mail payments to eligible class members after the court resolves any appeals and grants final approval of the settlement.",
    "claim_url": "https://epoasettlementboi.com/documents/",
    "sources": [
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/epoa-settlement-boi",
-     "no_proof": true
+     "no_proof": false
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   },
   {
-   "id": "e0a6effb6d15",
-   "title": "Garden City, Georgia Fire Fee Settlement: $1.4 Million in Refunds — and the Fire Fee Is Ending",
+   "id": "4de6277d5103",
+   "title": "80/20 Inc. $7 Million ESOP Class Action Settlement",
    "category": "Privacy & tech",
-   "payout": null,
+   "payout": "Pro rata payment",
    "payout_max": null,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
    "deadline": null,
    "no_proof": false,
-   "summary": "Payments are automatic — no claim form required.Stream History Documentaries",
-   "claim_url": "https://gardencityfirefeessettlement.com/?utm_source=openclassactions.com",
+   "summary": "Participants in the 80/20 Inc. ESOP at the time of plan termination may be eligible to receive a pro rata share of a class action settlement.\n\nParticipants in the 80/20 Inc. employee stock ownership plan when the company terminated it who received a distribution may be eligible to claim a cash payment from a class action settlement.\n\n80/20 Inc. agreed to pay $7,000,000 to settle a class action lawsuit alleging improper administration and termination of its ESOP, as well as violations of the Employee Retirement Income Security Act of 1974. The settlement will provide compensation to eligible class members after deductions for attorneys’ fees, administrative expenses and service awards to class representatives.\n\nThere are 328 class members identified based on plan records.\n\nThe total settlement fund is $7,000,000. However, the settlement administrator will reduce this amount by court-approved deductions for attorneys’ fees, administrative costs and service awards to class representatives. It will distribute the remaining amount, known as the net settlement fund, among class members.",
+   "claim_url": "https://www.8020erisasettlement.com/rollover-form-login/",
    "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/8020-erisa-settlement",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-24",
+   "new": true
+  },
+  {
+   "id": "bb76139bfab8",
+   "title": "Widener University $800,000 COVID-19 Tuition Settlement",
+   "category": "Privacy & tech",
+   "payout": "Pro rata share of net settlement fund plus noncash benefits",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": false,
+   "summary": "Students who enrolled at Widener University during the Spring 2020 semester, satisfied their payment obligation for tuition and/or fees and took at least one in-person on-campus class may be eligible to receive a cash payment and additional benefits from a class action settlement.\n\nClass members are eligible whether they paid the tuition and/or fees themselves or someone paid it on their behalf.\n\nThe settlement administrator will use Widener’s records to identify eligible class members. Individuals who received a notice by mail or email are likely a member of the settlement class.\n\nPro rata cash payment: Each eligible class member will receive an equal cash payment from the settlement fund. The precise amount of the cash payment will depend on the number of eligible class members and the deductions from the total settlement fund for attorneys’ fees, administrative costs and a service award to the class representative.\n\nIn addition to the cash payment, each class member will receive:\n\nFive complimentary tickets to regular season Widener athletic events (men’s or women’s) on campus. The tickets are valid between July 1, 2026, and June 30, 2027, and subject to ticket availability and other conditions.",
+   "claim_url": "https://www.widenercovidsettlement.com/index.html",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/widener-covid-settlement",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-24",
+   "new": true
+  },
+  {
+   "id": "ff74b3af7d41",
+   "title": "NextEra Energy $8M ERISA Class Action Settlement",
+   "category": "Privacy & tech",
+   "payout": "Varies",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": false,
+   "summary": "Individuals who participated in the NextEra Energy 401(k) plan between Sept. 25, 2017, and Mar. 17, 2026, may qualify to claim a cash payment from a settlement.\n\nCurrent and former employees who participated in the NextEra Energy employee retirement savings plan at any time between Sept. 25, 2017, and March 17, 2026, may be eligible to claim a payment from a class action settlement.\n\nClass members are current or former employees who participated in the NextEra Energy employee retirement savings plan at any time between Sept. 25, 2017, and March 17, 2026. This includes beneficiaries of deceased persons and alternate payees of persons subject to a qualified domestic relations order who participated in the plan during the class period.\n\nPro rata payment: Eligible class members will receive a pro rata share of the net settlement fund. The settlement administrator will determine the payment amount by the court-approved plan of allocation.\n\nClass members do not need to submit a claim form to receive a settlement payment. Former participants can update their address information online using the notice ID and PIN from the settlement notice they received.\n\nPayments to eligible class members: Remaining settlement funds\n\nThe settlement administrator will issue payments to eligible class members after the court grants final approval of the settlement.",
+   "claim_url": "https://www.nexteraerisasettlement.com/page/faq",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/nextera-erisa-settlement",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-24",
+   "new": true
+  },
+  {
+   "id": "e0a6effb6d15",
+   "title": "Garden City $1.4M Fire Fees Class Action Settlement",
+   "category": "Data breach",
+   "payout": "Estimated 27% of fire fees paid",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": true,
+   "summary": "Individuals who paid fire fees to Garden City, Georgia, may be eligible to claim a cash payment from a class action settlement.\n\nCustomers of the Garden City Fire Protection Utility who paid fire fees between Oct. 7, 2020, and the date of final court approval may be eligible to claim a cash payment from a class action settlement.\n\nTo qualify as a class member in this settlement, individuals must meet the following criteria:\n\nThe Garden City Fire Protection Utility assessed them fire fees, which they paid at any time between Oct. 7, 2020, and the date the court grants final approval to the settlement.\n\nThe settlement administrator will use city utility records and related documents to identify eligible class members. After final court approval, the administrator will post a list of class members and their calculated refund amounts on the official settlement website and Garden City’s website.\n\nPro rata payment: The total settlement fund is $1,400,000. The settlement administrator will distribute funds after deducting attorneys’ fees and expenses and service awards to the class representatives. The amount each class member receives depends on the total fire fees they paid during the class period and the total amount of fire fees all class members paid.",
+   "claim_url": "https://gardencityfirefeessettlement.com/#claim-forms",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/garden-city-fire-fees-settlement",
+     "no_proof": true
+    },
     {
      "name": "openclassactions",
      "url": "https://openclassactions.com/settlements/garden-city-georgia-fire-fees-class-action-settlement.php",
@@ -9423,7 +9631,7 @@
     }
    ],
    "first_seen": "2026-09-23",
-   "new": true
+   "new": false
   }
  ]
 }
