@@ -1,9 +1,16 @@
 name: Daily scrape
 
+# Goal: fresh settlements by 6 AM Chicago time. GitHub starts scheduled runs late when it's
+# busy (runs set for 11:00 UTC were starting around 15:30), and on-the-hour times are the
+# most delayed, so this starts in the middle of the night at an odd minute, with a backup
+# three hours later that does nothing if the day's scrape already ran. Cron is always UTC:
+#   06:23 UTC = 1:23 AM Chicago in summer (CDT), 12:23 AM in winter (CST)
+#   09:23 UTC = 4:23 AM Chicago in summer,        3:23 AM in winter
 on:
   schedule:
-    - cron: "0 11 * * *"   # every day at 11:00 UTC (6 AM Chicago in summer, 5 AM in winter)
-  workflow_dispatch:        # adds a "Run workflow" button to run it now
+    - cron: "23 6 * * *"
+    - cron: "23 9 * * *"   # backup, skipped if today's scrape already ran
+  workflow_dispatch:        # adds a "Run workflow" button to run it now (always runs)
 
 permissions:
   contents: write
@@ -17,25 +24,49 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 120
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 20  # enough history to rebase onto code pushed during the run
+      - name: Skip if today's scrape already ran
+        id: gate
+        run: |
+          if [ "${{ github.event_name }}" != "schedule" ]; then echo "run=true" >> "$GITHUB_OUTPUT"; exit 0; fi
+          last=$(python3 -c "import json, datetime, zoneinfo; u = json.load(open('settlements.json', encoding='utf-8'))['updated']; print(datetime.datetime.fromisoformat(u).astimezone(zoneinfo.ZoneInfo('America/Chicago')).date())" || echo none)
+          today=$(TZ=America/Chicago date +%F)
+          if [ "$last" = "$today" ]; then
+            echo "Already scraped today ($today, Chicago time). Skipping."
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-python@v6
+        if: steps.gate.outputs.run == 'true'
         with:
           python-version: "3.12"
           cache: pip
       - name: Install
+        if: steps.gate.outputs.run == 'true'
         run: |
           pip install -r requirements.txt
           python -m playwright install --with-deps chromium
       - name: Scrape
+        if: steps.gate.outputs.run == 'true'
         run: python scraper/run.py
       - name: Save results
+        if: steps.gate.outputs.run == 'true'
         run: |
           git config user.name "claimbot-bot"
           git config user.email "claimbot-bot@users.noreply.github.com"
           git add settlements.json data/cache.json
           if git diff --cached --quiet; then
             echo "No changes"
-          else
-            git commit -m "Update settlements $(date -u +%Y-%m-%d)"
-            git push
+            exit 0
           fi
+          git commit -m "Update settlements $(TZ=America/Chicago date +%Y-%m-%d)"
+          # If code was pushed while the scrape ran, put these results on top of it instead of failing.
+          for attempt in 1 2 3; do
+            if git pull --rebase --quiet origin main && git push; then exit 0; fi
+            echo "Push failed (attempt $attempt); retrying"
+            sleep 10
+          done
+          exit 1
