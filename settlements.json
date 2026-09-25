@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-25T21:23:38+00:00",
+ "updated": "2026-09-25T22:15:33+00:00",
  "count": 367,
  "no_proof_count": 184,
  "settlements": [
@@ -109,7 +109,7 @@
    ],
    "first_seen": "2026-09-22",
    "new": false,
-   "notice_id": "optional",
+   "notice_id": "required",
    "notice_source": "listing",
    "administrator": "Simpluris"
   },
@@ -319,8 +319,8 @@
    ],
    "first_seen": "2026-09-22",
    "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
+   "notice_id": null,
+   "notice_source": null,
    "administrator": "Verita (KCC)"
   },
   {
@@ -399,8 +399,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
+   "notice_id": null,
+   "notice_source": null,
    "administrator": "Verita (KCC)"
   },
   {
@@ -534,7 +534,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "none",
    "notice_source": "listing",
    "administrator": "Kroll"
   },
@@ -794,7 +794,7 @@
    ],
    "first_seen": "2026-09-25",
    "new": true,
-   "notice_id": "required",
+   "notice_id": "optional",
    "notice_source": "listing",
    "administrator": null
   },
@@ -1149,8 +1149,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "required",
+   "notice_source": "listing",
    "administrator": "EisnerAmper"
   },
   {
@@ -1344,8 +1344,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
+   "notice_id": null,
+   "notice_source": null,
    "administrator": "EisnerAmper"
   },
   {
@@ -1444,7 +1444,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "optional",
    "notice_source": "listing",
    "administrator": "Epiq"
   },
@@ -1560,7 +1560,7 @@
    "first_seen": "2026-09-22",
    "new": false,
    "notice_id": "required",
-   "notice_source": "admin",
+   "notice_source": "listing",
    "administrator": "Simpluris"
   },
   {
@@ -1849,7 +1849,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "optional",
    "notice_source": "listing",
    "administrator": "Epiq"
   },
@@ -1954,7 +1954,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "optional",
    "notice_source": "listing",
    "administrator": "Epiq"
   },
@@ -2329,8 +2329,8 @@
    ],
    "first_seen": "2026-09-25",
    "new": true,
-   "notice_id": "required",
-   "notice_source": "listing",
+   "notice_id": null,
+   "notice_source": null,
    "administrator": "Kroll"
   },
   {
@@ -2354,7 +2354,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "optional",
    "notice_source": "listing",
    "administrator": "Kroll"
   },
@@ -2588,7 +2588,7 @@
    "no_proof_payout_max": null,
    "deadline": "2026-12-08",
    "no_proof": false,
-   "summary": "Separately from any cash claim, owners of eligible vehicles can have a zinc-reinforced ignition cylinder protector installed free at any authorized Hyundai or Kia dealership.\n\nUnder the settlement, the companies agreed to equip future vehicles sold in the United States with immobilizers, to offer free zinc-reinforced ignition cylinder protectors to owners and lessees of eligible vehicles, to provide up to $4.5 million in restitution to eligible consumers whose vehicles were damaged by thieves, and to pay $4.5 million to the states. The agreement resolves the states' allegations; no court has found either company liable.\n\nFirst, the vehicle has to be eligible — a Hyundai or Kia model that was not factory-equipped with an immobilizer, from the model years listed below.Crime & Justice\n\nEligible vehicles are those that were not factory-equipped with an immobilizer, in these models and model years:Vehicles\n\nIt is not the same thing as the free anti-theft Software Upgrade, which is a separate remedy that also helps prevent theft. The two work together, and the restitution program treats them differently: the Software Upgrade is what you needed to have had installed (or scheduled) to be eligible, while the zinc sleeve installation date is what closes your eligibility window.",
+   "summary": "Separately from any cash claim, owners of eligible vehicles can have a zinc-reinforced ignition cylinder protector installed free at any authorized Hyundai or Kia dealership.\n\nUnder the settlement, the companies agreed to equip future vehicles sold in the United States with immobilizers, to offer free zinc-reinforced ignition cylinder protectors to owners and lessees of eligible vehicles, to provide up to $4.5 million in restitution to eligible consumers whose vehicles were damaged by thieves, and to pay $4.5 million to the states. The agreement resolves the states' allegations; no court has found either company liable.\n\nFirst, the vehicle has to be eligible — a Hyundai or Kia model that was not factory-equipped with an immobilizer, from the model years listed below.Run Background Checks\n\nEligible vehicles are those that were not factory-equipped with an immobilizer, in these models and model years:Compare Car Insurance\n\nIt is not the same thing as the free anti-theft Software Upgrade, which is a separate remedy that also helps prevent theft. The two work together, and the restitution program treats them differently: the Software Upgrade is what you needed to have had installed (or scheduled) to be eligible, while the zinc sleeve installation date is what closes your eligibility window.",
    "claim_url": "https://www.hkmultistateimmobilizersettlement.com/home",
    "sources": [
     {
@@ -3104,8 +3104,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "required",
+   "notice_source": "listing",
    "administrator": "Analytics Consulting"
   },
   {
@@ -3264,7 +3264,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "optional",
    "notice_source": "listing",
    "administrator": "Kroll"
   },
@@ -3299,8 +3299,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "required",
+   "notice_source": "listing",
    "administrator": "Angeion"
   },
   {
@@ -3769,8 +3769,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
+   "notice_id": null,
+   "notice_source": null,
    "administrator": "Kroll"
   },
   {
@@ -3924,7 +3924,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "optional",
    "notice_source": "listing",
    "administrator": "Verita (KCC)"
   },
@@ -4034,7 +4034,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "none",
    "notice_source": "listing",
    "administrator": "Simpluris"
   },
@@ -4244,8 +4244,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "optional",
-   "notice_source": "listing",
+   "notice_id": null,
+   "notice_source": null,
    "administrator": "Angeion"
   },
   {
@@ -4274,8 +4274,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
+   "notice_id": null,
+   "notice_source": null,
    "administrator": "Kroll"
   },
   {
@@ -4288,7 +4288,7 @@
    "no_proof_payout_max": null,
    "deadline": "2026-10-21",
    "no_proof": true,
-   "summary": "Payments are automatic — no claim form required.Assisted Living & Long Term Care",
+   "summary": "Payments are automatic — no claim form required.Financial Planning & Management",
    "claim_url": "https://www.publicpartnershipssettlement.com/?utm_source=openclassactions.com",
    "sources": [
     {
@@ -4299,8 +4299,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "none",
+   "notice_source": "listing",
    "administrator": "Atticus"
   },
   {
@@ -4394,8 +4394,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
+   "notice_id": null,
+   "notice_source": null,
    "administrator": "Epiq"
   },
   {
@@ -4529,7 +4529,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "optional",
    "notice_source": "listing",
    "administrator": "Angeion"
   },
@@ -4608,7 +4608,7 @@
    "no_proof_payout_max": null,
    "deadline": "2026-11-16",
    "no_proof": false,
-   "summary": "Payments are automatic — no claim form required.Compare Legal Plans",
+   "summary": "Payments are automatic — no claim form required.Legal Services",
    "claim_url": "https://www.hwisettlement.com/?utm_source=openclassactions.com",
    "sources": [
     {
@@ -4619,8 +4619,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "none",
+   "notice_source": "listing",
    "administrator": null
   },
   {
@@ -4649,8 +4649,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "optional",
-   "notice_source": "listing",
+   "notice_id": null,
+   "notice_source": null,
    "administrator": "JND"
   },
   {
@@ -4663,7 +4663,7 @@
    "no_proof_payout_max": null,
    "deadline": "2026-11-12",
    "no_proof": false,
-   "summary": "The class generally covers people who bought a new listed refrigerator, acquired one as part of a home purchase or remodel, or received one new as a gift from Whirlpool or an authorized reseller in the United States or its territories. Covered refrigerators were manufactured from 2012 through 2019.\n\nBrand name and door style alone do not establish eligibility. The model and serial number must appear on the settlement's qualifying list. The serial number is also used to determine manufacture date, which matters for the eight-year benefit window. A claimant who proves a later purchase or delivery date may have eligibility calculated from that documented date under the agreement.Home Appliances\n\nA replacement benefit generally requires two or more Frost Clog Issues and documented replacement expense. During years one through three, the cap is 75% of the original purchase price when the class member contacted Whirlpool to request replacement before paying out of pocket, or 50% without that prior contact.",
+   "summary": "The class generally covers people who bought a new listed refrigerator, acquired one as part of a home purchase or remodel, or received one new as a gift from Whirlpool or an authorized reseller in the United States or its territories. Covered refrigerators were manufactured from 2012 through 2019.Major Kitchen Appliances\n\nBrand name and door style alone do not establish eligibility. The model and serial number must appear on the settlement's qualifying list. The serial number is also used to determine manufacture date, which matters for the eight-year benefit window. A claimant who proves a later purchase or delivery date may have eligibility calculated from that documented date under the agreement.\n\nA replacement benefit generally requires two or more Frost Clog Issues and documented replacement expense. During years one through three, the cap is 75% of the original purchase price when the class member contacted Whirlpool to request replacement before paying out of pocket, or 50% without that prior contact.",
    "claim_url": "https://www.coolingsettlement.com/home?utm_source=openclassactions.com",
    "sources": [
     {
@@ -4709,8 +4709,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "none",
+   "notice_source": "listing",
    "administrator": "Atticus"
   },
   {
@@ -4843,7 +4843,7 @@
    "no_proof_payout_max": null,
    "deadline": "2027-09-30",
    "no_proof": false,
-   "summary": "For a brewer that fails during descaling after June 20, 2025 — file by September 30, 2027.Legal Services\n\nU.S. District Court, Southern District of New York — Cahill v. Keurig Green Mountain, Inc., No. 7:22-cv-07507\n\nOpenClassActions.com is a consumer-advocacy and class-action news site, not a claims administrator or law firm. We participate in the Amazon Associates program, and this post contains affiliate links; we may earn a commission if you buy through them.Coffee & Espresso Makers",
+   "summary": "For a brewer that fails during descaling after June 20, 2025 — file by September 30, 2027.Legal Services\n\nU.S. District Court, Southern District of New York — Cahill v. Keurig Green Mountain, Inc., No. 7:22-cv-07507\n\nOpenClassActions.com is a consumer-advocacy and class-action news site, not a claims administrator or law firm. We participate in the Amazon Associates program, and this post contains affiliate links; we may earn a commission if you buy through them.Cleaning Agents",
    "claim_url": "https://www.ksupremesettlement.com/?utm_source=openclassactions.com",
    "sources": [
     {
@@ -4963,7 +4963,7 @@
    "no_proof_payout_max": null,
    "deadline": "2026-10-13",
    "no_proof": true,
-   "summary": "The Circuit Court of Lake County, Illinois granted preliminary approval of the settlement on June 25, 2026, which opened the claim process and set the class period's end date. The Settlement Administrator then sent email notices to people HireVue's records identified as likely class members, each carrying a Login ID and PIN.\n\nYou may be a settlement class member if, while physically within the state of Illinois, you completed an interview through HireVue's video interview platform that involved one of the interview models at issue, at any time between January 27, 2017 and June 25, 2026.Compare Legal Plans\n\nYou did not receive a notice but believe you completed a qualifying interview. You can still file using your own interview documentation, and the Settlement Administrator will decide eligibility against HireVue's records.\n\nDo not contact the employer you interviewed with. Employers do not administer this settlement and cannot determine your eligibility.\n\nHireVue has agreed to create a $3,750,000 settlement fund. Every class member who submits a timely Claim Form that is deemed valid receives an equal payment from what remains of the fund after administrative expenses, attorneys' fees and expenses, and class representative service awards are paid.",
+   "summary": "The Circuit Court of Lake County, Illinois granted preliminary approval of the settlement on June 25, 2026, which opened the claim process and set the class period's end date. The Settlement Administrator then sent email notices to people HireVue's records identified as likely class members, each carrying a Login ID and PIN.\n\nYou may be a settlement class member if, while physically within the state of Illinois, you completed an interview through HireVue's video interview platform that involved one of the interview models at issue, at any time between January 27, 2017 and June 25, 2026.Compare Security Systems\n\nYou did not receive a notice but believe you completed a qualifying interview. You can still file using your own interview documentation, and the Settlement Administrator will decide eligibility against HireVue's records.\n\nDo not contact the employer you interviewed with. Employers do not administer this settlement and cannot determine your eligibility.\n\nHireVue has agreed to create a $3,750,000 settlement fund. Every class member who submits a timely Claim Form that is deemed valid receives an equal payment from what remains of the fund after administrative expenses, attorneys' fees and expenses, and class representative service awards are paid.",
    "claim_url": "https://videointerviewbipasettlement.com/",
    "sources": [
     {
@@ -4991,7 +4991,7 @@
   {
    "id": "a4c83317ab17",
    "title": "Geico $1.65M CLUE Report Dispute Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "$150 (estimated)",
    "payout_max": 150.0,
    "no_proof_payout": null,
@@ -5028,7 +5028,7 @@
    "no_proof_payout_max": null,
    "deadline": "2028-12-11",
    "no_proof": false,
-   "summary": "Check your VIN and file for reimbursement, the residual payment, or the warranty.SUVs & Crossovers\n\nOfficial Settlement Website — AirBagControlUnitSettlement.com\n\nU.S. District Court, Central District of California — In re: ZF-TRW Airbag Control Units Products Liability Litigation, No. 2:19-ml-02905-JAK-JPR (MDL 2905)",
+   "summary": "Check your VIN and file for reimbursement, the residual payment, or the warranty.Crossovers\n\nOfficial Settlement Website — AirBagControlUnitSettlement.com\n\nU.S. District Court, Central District of California — In re: ZF-TRW Airbag Control Units Products Liability Litigation, No. 2:19-ml-02905-JAK-JPR (MDL 2905)",
    "claim_url": "https://www.airbagcontrolunitsettlement.com/",
    "sources": [
     {
@@ -5144,7 +5144,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "none",
    "notice_source": "listing",
    "administrator": "Analytics Consulting"
   },
@@ -5186,7 +5186,7 @@
   {
    "id": "d8362c0faed4",
    "title": "Transamerica $110M Life Insurance Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "$100 and up per policy",
    "payout_max": 100.0,
    "no_proof_payout": null,
@@ -5209,7 +5209,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "none",
    "notice_source": "listing",
    "administrator": "JND"
   },
@@ -5341,7 +5341,7 @@
   {
    "id": "401f105bde2e",
    "title": "City of Overland, Missouri, Special Deterrent Fee Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "$80",
    "payout_max": 80.0,
    "no_proof_payout": null,
@@ -5444,8 +5444,8 @@
    ],
    "first_seen": "2026-09-25",
    "new": true,
-   "notice_id": "required",
-   "notice_source": "listing",
+   "notice_id": null,
+   "notice_source": null,
    "administrator": "Epiq"
   },
   {
@@ -5529,7 +5529,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "none",
    "notice_source": "listing",
    "administrator": "Simpluris"
   },
@@ -5614,8 +5614,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
+   "notice_id": null,
+   "notice_source": null,
    "administrator": "Kroll"
   },
   {
@@ -5639,8 +5639,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
+   "notice_id": null,
+   "notice_source": null,
    "administrator": "Verita (KCC)"
   },
   {
@@ -5653,7 +5653,7 @@
    "no_proof_payout_max": null,
    "deadline": "2026-10-19",
    "no_proof": true,
-   "summary": "State Farm will pay $28.39 in satisfaction of applicable Purchasing Fees to each eligible settlement class member who submits a valid and timely Claim Form.Consult Local Attorneys\n\nWhat you do need is a completed Claim Form filed by the deadline. Class members were identified from State Farm's records and sent notice, and settlements structured this way normally ask for the identifiers printed on that notice when you file online. Check the filing instructions on the official settlement website for exactly what the form asks for, and keep your notice handy before you start.",
+   "summary": "State Farm will pay $28.39 in satisfaction of applicable Purchasing Fees to each eligible settlement class member who submits a valid and timely Claim Form.Legal\n\nWhat you do need is a completed Claim Form filed by the deadline. Class members were identified from State Farm's records and sent notice, and settlements structured this way normally ask for the identifiers printed on that notice when you file online. Check the filing instructions on the official settlement website for exactly what the form asks for, and keep your notice handy before you start.",
    "claim_url": "https://louisianafeessettlement.com/",
    "sources": [
     {
@@ -5769,8 +5769,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "optional",
-   "notice_source": "listing",
+   "notice_id": null,
+   "notice_source": null,
    "administrator": "Verita (KCC)"
   },
   {
@@ -5932,13 +5932,13 @@
    "id": "7177a3700094",
    "title": "Dr. Squatch - All Natural Claims Class Action Settlement",
    "category": "Product",
-   "payout": "$0.50 per product, up to $12.50Natural soap alternatives",
+   "payout": "$0.50 per product, up to $12.50Settlement claim assistance",
    "payout_max": 12.5,
    "no_proof_payout": "$2.50",
    "no_proof_payout_max": 2.5,
    "deadline": "2026-11-27",
    "no_proof": true,
-   "summary": "OpenClassActions.com is a consumer-advocacy and class-action news site, not a claims administrator or law firm. We participate in the Amazon Associates program, and the product links in the table above — including links to the Dr. Squatch products this settlement is about — are affiliate links; we may earn a commission if you buy through them. They are provided so readers can identify the product categories at issue, they do not reflect any view on the merits of the allegations, and buying through them has no effect on eligibility, since the class period has closed.Product review platform",
+   "summary": "OpenClassActions.com is a consumer-advocacy and class-action news site, not a claims administrator or law firm. We participate in the Amazon Associates program, and the product links in the table above — including links to the Dr. Squatch products this settlement is about — are affiliate links; we may earn a commission if you buy through them. They are provided so readers can identify the product categories at issue, they do not reflect any view on the merits of the allegations, and buying through them has no effect on eligibility, since the class period has closed.Proof of purchase",
    "claim_url": "https://www.personalcareproductssettlement.com/",
    "sources": [
     {
@@ -5954,8 +5954,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "optional",
+   "notice_source": "listing",
    "administrator": "P&N"
   },
   {
@@ -6044,7 +6044,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "optional",
+   "notice_id": "required",
    "notice_source": "listing",
    "administrator": null
   },
@@ -6058,7 +6058,7 @@
    "no_proof_payout_max": null,
    "deadline": "2026-10-27",
    "no_proof": false,
-   "summary": "No claim form to file — the official site is where class members check their own status.Consult Local Attorneys",
+   "summary": "No claim form to file — the official site is where class members check their own status.Legal",
    "claim_url": "https://www.mintonfedexmd.com/?utm_source=openclassactions.com",
    "sources": [
     {
@@ -6104,8 +6104,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
+   "notice_id": null,
+   "notice_source": null,
    "administrator": "Apex"
   },
   {
@@ -6139,7 +6139,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "optional",
+   "notice_id": "none",
    "notice_source": "listing",
    "administrator": "Simpluris"
   },
@@ -6188,7 +6188,7 @@
    "no_proof_payout_max": null,
    "deadline": "2026-12-14",
    "no_proof": true,
-   "summary": "OpenClassActions.com is a consumer-advocacy and class-action news site, not a claims administrator or law firm. We participate in the Amazon Associates program, and the product links in the table above — including links to the Thinkware cameras this settlement is about — are affiliate links; we may earn a commission if you buy through them. They are provided so readers can identify the exact model they own, they do not reflect any view on the merits of the allegations, and buying a camera now has no effect on eligibility, because the class period closed on August 31, 2024. Two models, the DC-M2-FG and DC-M2-FG-IR, have no Amazon listing we could verify, so no link is shown for them rather than a link to a similar-sounding accessory.Consult Local Attorneys",
+   "summary": "OpenClassActions.com is a consumer-advocacy and class-action news site, not a claims administrator or law firm. We participate in the Amazon Associates program, and the product links in the table above — including links to the Thinkware cameras this settlement is about — are affiliate links; we may earn a commission if you buy through them. They are provided so readers can identify the exact model they own, they do not reflect any view on the merits of the allegations, and buying a camera now has no effect on eligibility, because the class period closed on August 31, 2024. Two models, the DC-M2-FG and DC-M2-FG-IR, have no Amazon listing we could verify, so no link is shown for them rather than a link to a similar-sounding accessory.Legal Services",
    "claim_url": "https://www.twcamerasettlement.com/",
    "sources": [
     {
@@ -6204,7 +6204,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "optional",
    "notice_source": "listing",
    "administrator": "P&N"
   },
@@ -6349,8 +6349,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "optional",
+   "notice_source": "listing",
    "administrator": "Epiq"
   },
   {
@@ -6404,7 +6404,7 @@
    ],
    "first_seen": "2026-09-25",
    "new": true,
-   "notice_id": "required",
+   "notice_id": "none",
    "notice_source": "listing",
    "administrator": "Strategic Claims Services"
   },
@@ -6459,7 +6459,7 @@
    ],
    "first_seen": "2026-09-25",
    "new": true,
-   "notice_id": "required",
+   "notice_id": "optional",
    "notice_source": "listing",
    "administrator": "Simpluris"
   },
@@ -6594,8 +6594,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
+   "notice_id": null,
+   "notice_source": null,
    "administrator": "Verita (KCC)"
   },
   {
@@ -6654,8 +6654,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
+   "notice_id": null,
+   "notice_source": null,
    "administrator": "Strategic Claims Services"
   },
   {
@@ -6679,7 +6679,7 @@
    ],
    "first_seen": "2026-09-25",
    "new": true,
-   "notice_id": "required",
+   "notice_id": "none",
    "notice_source": "listing",
    "administrator": "A.B. Data"
   },
@@ -6924,8 +6924,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "required",
+   "notice_source": "listing",
    "administrator": "P&N"
   },
   {
@@ -7009,8 +7009,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
+   "notice_id": null,
+   "notice_source": null,
    "administrator": "Rust Consulting"
   },
   {
@@ -7044,8 +7044,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "none",
+   "notice_source": "listing",
    "administrator": "Kroll"
   },
   {
@@ -7183,7 +7183,7 @@
    "no_proof_payout_max": null,
    "deadline": "2026-10-06",
    "no_proof": true,
-   "summary": "Payments are automatic — no claim form required.Compare Legal Plans",
+   "summary": "Payments are automatic — no claim form required.Legal Services",
    "claim_url": "https://www.nhesopsettlement.com/?utm_source=openclassactions.com",
    "sources": [
     {
@@ -7194,8 +7194,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
-   "notice_source": "admin",
+   "notice_id": "none",
+   "notice_source": "listing",
    "administrator": "Simpluris"
   },
   {
@@ -7259,14 +7259,14 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "none",
    "notice_source": "listing",
    "administrator": "Epiq"
   },
   {
    "id": "4059c47623d3",
    "title": "Smith & Nephew $350,000 ERISA Class Action Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Pro rata payment",
    "payout_max": null,
    "no_proof_payout": null,
@@ -7289,7 +7289,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "none",
    "notice_source": "listing",
    "administrator": "Analytics Consulting"
   },
@@ -7349,8 +7349,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "required",
+   "notice_source": "listing",
    "administrator": "Kroll"
   },
   {
@@ -7543,7 +7543,7 @@
    "no_proof_payout_max": null,
    "deadline": "2026-10-19",
    "no_proof": false,
-   "summary": "The claims period opens July 13, 2026 on the official settlement website.Legal\n\nJuly 13, 2026 — claims period opens on the official settlement website, run by RG/2 Claims Administration.\n\nSeptember 28, 2026 — deadline to opt out of the class or object to the settlement.",
+   "summary": "The claims period opens July 13, 2026 on the official settlement website.Consult Local Attorneys\n\nJuly 13, 2026 — claims period opens on the official settlement website, run by RG/2 Claims Administration.\n\nSeptember 28, 2026 — deadline to opt out of the class or object to the settlement.",
    "claim_url": "https://www.ncaatennisprizemoneyclassaction.com/?utm_source=openclassactions.com",
    "sources": [
     {
@@ -7561,7 +7561,7 @@
   {
    "id": "74a182ae9557",
    "title": "Cleveland Ave. Restaurant $800,000 Dancers Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Pro rata payment",
    "payout_max": null,
    "no_proof_payout": null,
@@ -7614,7 +7614,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "optional",
    "notice_source": "listing",
    "administrator": "P&N"
   },
@@ -7674,7 +7674,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "none",
    "notice_source": "listing",
    "administrator": "Epiq"
   },
@@ -7709,7 +7709,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "none",
    "notice_source": "listing",
    "administrator": "Optime"
   },
@@ -7779,7 +7779,7 @@
    ],
    "first_seen": "2026-09-22",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "none",
    "notice_source": "listing",
    "administrator": "Epiq"
   },
@@ -7844,8 +7844,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "none",
+   "notice_source": "listing",
    "administrator": "Atticus"
   },
   {
@@ -7879,14 +7879,14 @@
    ],
    "first_seen": "2026-09-22",
    "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
+   "notice_id": null,
+   "notice_source": null,
    "administrator": "Epiq"
   },
   {
    "id": "1893cd623002",
    "title": "ACCT Holdings $8.75 Million ESOP Class Action Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
@@ -7909,8 +7909,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
-   "notice_source": "admin",
+   "notice_id": "none",
+   "notice_source": "listing",
    "administrator": "RG/2"
   },
   {
@@ -7944,8 +7944,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
+   "notice_id": null,
+   "notice_source": null,
    "administrator": "A.B. Data"
   },
   {
@@ -7979,7 +7979,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "optional",
+   "notice_id": "required",
    "notice_source": "listing",
    "administrator": "Atticus"
   },
@@ -8004,8 +8004,8 @@
    ],
    "first_seen": "2026-09-22",
    "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
+   "notice_id": null,
+   "notice_source": null,
    "administrator": "A.B. Data"
   },
   {
@@ -8034,8 +8034,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
-   "notice_source": "admin",
+   "notice_id": "none",
+   "notice_source": "listing",
    "administrator": "Simpluris"
   },
   {
@@ -8064,7 +8064,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "optional",
+   "notice_id": "required",
    "notice_source": "listing",
    "administrator": "Atticus"
   },
@@ -8180,7 +8180,7 @@
    "first_seen": "2026-09-23",
    "new": false,
    "notice_id": "required",
-   "notice_source": "admin",
+   "notice_source": "listing",
    "administrator": "Simpluris"
   },
   {
@@ -8279,8 +8279,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
+   "notice_id": null,
+   "notice_source": null,
    "administrator": "Kroll"
   },
   {
@@ -8366,7 +8366,7 @@
   {
    "id": "225fce26d55e",
    "title": "Anthem Blue Cross Prescription Drug Denials Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Reimbursement of eligible out-of-pocket expenses",
    "payout_max": null,
    "no_proof_payout": "$8,850",
@@ -8624,7 +8624,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "none",
    "notice_source": "listing",
    "administrator": "Angeion"
   },
@@ -8739,8 +8739,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "none",
+   "notice_source": "listing",
    "administrator": "Kroll"
   },
   {
@@ -8819,7 +8819,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "optional",
    "notice_source": "listing",
    "administrator": "Verita (KCC)"
   },
@@ -8874,7 +8874,7 @@
    ],
    "first_seen": "2026-09-22",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "optional",
    "notice_source": "listing",
    "administrator": "American Legal Claims"
   },
@@ -8918,7 +8918,7 @@
    "no_proof_payout_max": null,
    "deadline": "2026-12-01",
    "no_proof": true,
-   "summary": "There is no claim form and no claim deadline. Payments are automatic for consumers the Consumer Financial Protection Bureau and FirstCash identify as eligible, and a paper check is mailed to anyone who does nothing.\n\nThe settlement administrator's FAQ says the eligibility determination is still running and directs consumers to watch the official settlement website. No payment date had been announced as of September 8, 2026.Find Loan Offers\n\nThe order defines an Affected Consumer as someone who, between October 3, 2016 and six months after the Effective Date, met the Military Lending Act definition of a covered member, dependent or covered borrower, and who took out a pawn loan from the defendants while covered, where that loan carried at least one of three defects:Compare Personal Loans\n\nOne limitation matters more than the class period. Paragraph 20 of the order makes the identification process exclusive: the Bureau and FirstCash agree on the population from FirstCash's own loan transaction data, and the Bureau had already flagged 42,698 pawn loans covering October 3, 2016 through August 25, 2024, with two later data productions covering the periods after that. A borrower cannot apply, nominate themselves, or add a loan to the list. Eligibility arrives as a mailed notice or it does not arrive at all.Find Loan Offers",
+   "summary": "There is no claim form and no claim deadline. Payments are automatic for consumers the Consumer Financial Protection Bureau and FirstCash identify as eligible, and a paper check is mailed to anyone who does nothing.\n\nThe settlement administrator's FAQ says the eligibility determination is still running and directs consumers to watch the official settlement website. No payment date had been announced as of September 8, 2026.Loans\n\nThe order defines an Affected Consumer as someone who, between October 3, 2016 and six months after the Effective Date, met the Military Lending Act definition of a covered member, dependent or covered borrower, and who took out a pawn loan from the defendants while covered, where that loan carried at least one of three defects:Short-Term Loans & Cash Advances\n\nOne limitation matters more than the class period. Paragraph 20 of the order makes the identification process exclusive: the Bureau and FirstCash agree on the population from FirstCash's own loan transaction data, and the Bureau had already flagged 42,698 pawn loans covering October 3, 2016 through August 25, 2024, with two later data productions covering the periods after that. A borrower cannot apply, nominate themselves, or add a loan to the list. Eligibility arrives as a mailed notice or it does not arrive at all.Loans",
    "claim_url": "https://www.firstcashsettlement.com/",
    "sources": [
     {
@@ -8934,7 +8934,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "none",
    "notice_source": "listing",
    "administrator": "Simpluris"
   },
@@ -8964,8 +8964,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "required",
+   "notice_source": "listing",
    "administrator": "Angeion"
   },
   {
@@ -9029,7 +9029,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
+   "notice_id": "none",
    "notice_source": "listing",
    "administrator": "Rust Consulting"
   },
@@ -9209,14 +9209,14 @@
    ],
    "first_seen": "2026-09-22",
    "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
+   "notice_id": null,
+   "notice_source": null,
    "administrator": "Verita (KCC)"
   },
   {
    "id": "07b2c03b3fc0",
    "title": "No Proof: Generic Prescription Drug Price-Fixing Settlements",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10174,8 +10174,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "none",
+   "notice_source": "listing",
    "administrator": "Apex"
   },
   {
@@ -10231,7 +10231,7 @@
   {
    "id": "b8837a1f063e",
    "title": "Saint-Gobain Adfors America $1.95M Wage Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Pro rata payment",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10299,8 +10299,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "optional",
-   "notice_source": "listing",
+   "notice_id": "required",
+   "notice_source": "admin",
    "administrator": "Simpluris"
   },
   {
@@ -10431,7 +10431,7 @@
   {
    "id": "14a280cae20c",
    "title": "United Airlines $27.5M Retiree Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10456,7 +10456,7 @@
   {
    "id": "2758ba5ab287",
    "title": "Jennmar Corp. of Virginia $3M Wage and Hour Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Pro rata share",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10531,7 +10531,7 @@
   {
    "id": "1d934d572203",
    "title": "California Gambling Control Commission $43.3M Fees Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Pro rata share",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10681,7 +10681,7 @@
   {
    "id": "f00310545784",
    "title": "Drexel University $2.2M COVID Tuition Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Pro rata payment",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10706,7 +10706,7 @@
   {
    "id": "3b2137e8dc9a",
    "title": "Richmond Hill $5M Fire Fees Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Pro rata share of fire fees paid",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10731,7 +10731,7 @@
   {
    "id": "b0bc95944fad",
    "title": "Equity Bank $1M Fees Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Pro rata payment",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10756,7 +10756,7 @@
   {
    "id": "796d85386892",
    "title": "TerraForm Power Merger $83.75M Securities Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10950,7 +10950,7 @@
    "first_seen": "2026-09-24",
    "new": false,
    "notice_id": "required",
-   "notice_source": "listing",
+   "notice_source": "admin",
    "administrator": "RG/2"
   },
   {
@@ -11004,7 +11004,7 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "optional",
+   "notice_id": "none",
    "notice_source": "listing",
    "administrator": null
   },
@@ -11029,7 +11029,7 @@
    ],
    "first_seen": "2026-09-25",
    "new": true,
-   "notice_id": "required",
+   "notice_id": "none",
    "notice_source": "listing",
    "administrator": "A.B. Data"
   }
