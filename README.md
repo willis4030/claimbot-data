@@ -39,7 +39,9 @@ Many settlements mail or email a notice with a Class Member ID or PIN, and some 
 4. **`listing`**: what the listing sites say.
 5. **`admin`**: "likely required". A few companies (Simpluris, Kroll, Angeion, Epiq...) run most settlements and reuse the same claim site. If at least 4 of a company's checked settlements, and 85% or more of them, need the ID, its unknown settlements are marked likely. This is recomputed from each run's data. Each settlement's `administrator` is included in the output.
 
-Form results are cached for 14 days. Change `FORM_VERSION` in `scraper/run.py` to re-check them all after changing the rules. The run summary shows how many answers came from each source and each administrator's tally.
+`notice_mail` is `true` when the ID is needed to file online but there's a paper / by-mail way to file without it, for example "file on paper without them and include proof of identity". These stay `required`, and the app notes the mail option. A plain "you can also mail the claim form" doesn't count unless it says the paper form works without the ID.
+
+Form results are cached for 14 days. Change `FORM_VERSION` in `scraper/run.py` to re-check them all after changing the rules. Each listing page's notice ID text is saved in the cache (`notice_text`). After changing only the listing notice rules, bump `NOTICE_VERSION` and they're re-applied from the cache in seconds, with no pages re-read. The run summary shows how many answers came from each source and each administrator's tally.
 
 To run it right away: go to **Actions**, then **Daily scrape**, then **Run workflow**.
 

@@ -35,7 +35,8 @@ DELAY = 1.5              # seconds between requests to the same site (plus jitte
 REFRESH_DAYS = 7         # re-read a settlement page after this many days
 MAX_DETAILS_PER_RUN = 500
 PRUNE_DAYS = 30          # forget cached pages not listed anywhere for this long
-PARSE_VERSION = 7        # bump when parsing changes, so cached pages are re-read
+PARSE_VERSION = 8        # bump when parsing changes, so cached pages are re-read
+NOTICE_VERSION = 1       # bump when only the notice-ID text rules change: re-checked from the cache, no re-read
 FORM_VERSION = 3         # bump when classify_form changes, so cached form results are re-checked
 FORM_RECHECK_DAYS = 14   # re-check a claim form's notice-ID field after this many days
 MAX_FORM_CHECKS = 200    # new claim forms checked per run (the rest wait for the next run)
@@ -239,10 +240,15 @@ async def scrape_source(ctx, src, cache, aggregator_hosts, max_details, raw_ctx)
                     d = await page.evaluate(P.DETAIL_JS)
                     anchors = await page.evaluate(P.ANCHORS_JS)
                     parsed = P.parse_detail(d, anchors, aggregator_hosts)
-                    cache[url] = {**parsed, "listing_title": it["title"], "fetched_at": now, "v": PARSE_VERSION}
+                    cache[url] = {**parsed, "listing_title": it["title"], "fetched_at": now, "v": PARSE_VERSION,
+                                  "nv": NOTICE_VERSION}
                     stats["fetched"] += 1
                 await pause()
             if url in cache:
+                c = cache[url]
+                if c.get("notice_text") is not None and c.get("nv") != NOTICE_VERSION:
+                    c["notice_id"], c["notice_mail"] = P.notice_from_text(c["notice_text"])
+                    c["nv"] = NOTICE_VERSION
                 if url in no_proof_urls:
                     cache[url]["no_proof"] = True
                 cache[url]["last_seen"] = now
@@ -270,19 +276,20 @@ async def read_form(page):
 async def check_live(page, url):
     """The claim form on the live site. If the page is a settlement homepage, follow its 'File a
     claim' link once; if the claim URL is an inner page (FAQ, documents) with no such link, look
-    for one on the homepage. Returns (result, blocked, admin, notice_docs)."""
+    for one on the homepage. Returns (result, blocked, admin, notice_docs, mail)."""
     if not await goto(page, url):
-        return None, False, None, []
+        return None, False, None, [], False
     res = await read_form(page)
     if P.BLOCKED_TEXT_RE.search(res["text"][:3000]):
-        return None, True, None, []  # a bot check: the rest of this site will be the same
+        return None, True, None, [], False  # a bot check: the rest of this site will be the same
     html = [await page.content()]
+    mail = P.mail_route(res["text"])
     first = P.classify_form(res)
     anchors = await page.evaluate(P.ANCHORS_JS)
     docs = P.find_notice_docs(anchors, page.url)
     # A page that already shows an ID/PIN box is the answer; don't wander off it.
     if first == "required" or sum(1 for i in res["inputs"] if i.get("visible")) >= 3:
-        return first, False, P.detect_admin(" ".join(html)), docs
+        return first, False, P.detect_admin(" ".join(html)), docs, mail
     link = P.find_claim_link_on_site(anchors, page.url)
     u = urlparse(page.url)
     if not link and u.path not in ("", "/"):
@@ -298,7 +305,8 @@ async def check_live(page, url):
         html.append(await page.content())
         docs += P.find_notice_docs(await page.evaluate(P.ANCHORS_JS), page.url)
         result = P.classify_form(res) or first
-    return result, False, P.detect_admin(" ".join(html)), list(dict.fromkeys(docs))
+        mail = mail or P.mail_route(res["text"])
+    return result, False, P.detect_admin(" ".join(html)), list(dict.fromkeys(docs)), mail
 
 
 def fetch_pdf_text(url, max_bytes=8_000_000, max_pages=20):
@@ -311,9 +319,10 @@ def fetch_pdf_text(url, max_bytes=8_000_000, max_pages=20):
     return "\n".join((p.extract_text() or "") for p in reader.pages[:max_pages])
 
 
-async def check_docs(page, docs):
-    """The settlement's FAQ page and long-form notice. Returns (result, admin)."""
-    admin = None
+async def check_docs(page, docs, need_result=True):
+    """The settlement's FAQ page and long-form notice. Returns (result, admin, mail). With
+    need_result=False (the claim form already answered), it reads them only for a mail route."""
+    admin, mail = None, False
     for d in docs[:3]:
         if not robots_ok(d):
             continue
@@ -329,10 +338,11 @@ async def check_docs(page, docs):
             log(f"   ! could not read {d}: {e.__class__.__name__}")
             continue
         admin = admin or P.detect_admin(text) or P.detect_admin(d)
-        result = P.classify_doc_text(text)
-        if result:
-            return result, admin
-    return None, admin
+        mail = mail or P.mail_route(text)
+        result = P.classify_doc_text(text) if need_result else None
+        if result or (not need_result and mail):
+            return result, admin, mail
+    return None, admin, mail
 
 
 ARCHIVE_LOCK = asyncio.Lock()  # one Internet Archive request at a time, politely spaced
@@ -353,9 +363,9 @@ def wayback_html(url):
 
 async def check_archive(raw_ctx, url):
     """Read the Internet Archive's saved copy of the claim page (and the site's homepage), for
-    sites whose bot checks keep the scraper out. Returns (result, admin)."""
+    sites whose bot checks keep the scraper out. Returns (result, admin, mail)."""
     u = urlparse(url)
-    admin = None
+    admin, mail = None, False
     for target in dict.fromkeys([url, f"{u.scheme}://{u.netloc}/"]):
         async with ARCHIVE_LOCK:
             try:
@@ -377,27 +387,33 @@ async def check_archive(raw_ctx, url):
             continue
         finally:
             await page.close()
+        mail = mail or P.mail_route(res.get("text"))
         result = P.classify_form(res) or P.classify_doc_text(res.get("text"))
         if result:
-            return result, admin
-    return None, admin
+            return result, admin, mail
+    return None, admin, mail
 
 
 async def check_form(ctx, raw_ctx, url, archive_budget):
     """Whether a settlement's claim needs the notice ID: the live claim form first, then the
     site's FAQ and notice, then the Internet Archive's saved copy. Returns a forms-cache entry."""
-    out = {"result": None, "source": None, "admin": None}
+    out = {"result": None, "source": None, "admin": None, "mail": False}
     blocked = failed = False
     if not robots_ok(url):
         failed = unreachable(url)
     else:
         page = await ctx.new_page()
         try:
-            result, blocked, admin, docs = await check_live(page, url)
-            out.update(result=result, source="form" if result else None, admin=admin)
-            if not result and docs:
-                result, admin = await check_docs(page, docs)
-                out.update(result=result, source="faq" if result else None, admin=out["admin"] or admin)
+            result, blocked, admin, docs, mail = await check_live(page, url)
+            out.update(result=result, source="form" if result else None, admin=admin, mail=mail)
+            if docs and not result:
+                result, admin, mail = await check_docs(page, docs)
+                out.update(result=result, source="faq" if result else None, admin=out["admin"] or admin,
+                           mail=out["mail"] or mail)
+            elif docs and result == "required" and not out["mail"]:
+                # The online form needs the ID; the FAQ or notice may describe a paper route without it.
+                _, admin, mail = await check_docs(page, docs, need_result=False)
+                out.update(admin=out["admin"] or admin, mail=mail)
         except Exception as e:
             log(f"   ! form check failed for {url}: {e.__class__.__name__}")
             failed = True
@@ -406,8 +422,9 @@ async def check_form(ctx, raw_ctx, url, archive_budget):
     if not out["result"] and archive_budget[0] > 0:
         archive_budget[0] -= 1
         try:
-            result, admin = await check_archive(raw_ctx, url)
-            out.update(result=result, source="archive" if result else None, admin=out["admin"] or admin)
+            result, admin, mail = await check_archive(raw_ctx, url)
+            out.update(result=result, source="archive" if result else None, admin=out["admin"] or admin,
+                       mail=out["mail"] or mail)
         except Exception as e:
             log(f"   ! archive check failed for {url}: {e.__class__.__name__}")
             failed = True
@@ -501,7 +518,7 @@ def merge(results, previous):
                     "deadline": p.get("deadline"), "no_proof": p.get("no_proof"),
                     "summary": p.get("summary") or "", "claim_url": p["claim_url"],
                     "sources": [], "first_seen": first_seen.get(sid, today),
-                    "_notice": [], "_admin": [],
+                    "_notice": [], "_admin": [], "_mail": False,
                 }
             else:
                 r["payout"] = r["payout"] or p.get("payout")
@@ -522,6 +539,7 @@ def merge(results, previous):
             # (at most MAX_DETAILS_PER_RUN a run); don't use it meanwhile.
             if p.get("notice_id") and p.get("v", PARSE_VERSION) == PARSE_VERSION:
                 r["_notice"].append(p["notice_id"])
+                r["_mail"] = r["_mail"] or bool(p.get("notice_mail"))
             if p.get("administrator"):
                 r["_admin"].append(p["administrator"])
     out = list(merged.values())
@@ -571,6 +589,8 @@ async def daily():
     for s in settlements:
         entry = forms.get(s["claim_url"], {})
         s["notice_id"], s["notice_source"] = combine_notice(s.pop("_notice"), entry)
+        # A paper / by-mail way to file without the ID, from any source (shown when it's "required").
+        s["notice_mail"] = bool(s.pop("_mail") or entry.get("mail"))
         listed_admins = s.pop("_admin")
         s["administrator"] = entry.get("admin") or (max(set(listed_admins), key=listed_admins.count) if listed_admins else None)
     admin_tally = infer_by_administrator(settlements)

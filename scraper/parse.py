@@ -370,9 +370,17 @@ def parse_detail(d, anchors, aggregator_hosts):
         "category": categorize(d["title"] + "\n" + text[:3000]),
         "summary": eligibility_summary(d["paras"]),
         "not_settlement": bool(NOT_SETTLEMENT_RE.search(d["title"])),
-        "notice_id": classify_notice(main),
         "administrator": detect_admin(main),
+        **notice_fields(main),
     }
+
+
+def notice_fields(text):
+    """The notice-ID fields for a cached listing page, decided from its saved snippet so the
+    same answer comes out when the rules are re-run from the cache (see NOTICE_VERSION)."""
+    snippet = notice_snippet(text)
+    notice_id, mail = notice_from_text(snippet)
+    return {"notice_text": snippet, "notice_id": notice_id, "notice_mail": mail}
 
 
 # ---------------------------------------------------------------- card mode
@@ -439,7 +447,7 @@ def parse_card(card):
         "category": categorize(title + "\n" + summary),
         "summary": summary[:1400],
         "not_settlement": bool(NOT_SETTLEMENT_RE.search(title)),
-        "notice_id": classify_notice(text),
+        **notice_fields(text),
     }
 
 
@@ -485,7 +493,8 @@ LISTING_OPTIONAL_RE = re.compile(
     r"\beither\s+the\s+[^.]{0,30}?" + _CRED + r"[^.]{0,40}?\bor\s+your\b|"
     r"" + _CRED + r"[^.]{0,40}?\b(as|is|are|labell?ed|marked)\s+optional|may\s+be\s+left\s+blank|"
     r"\bis\s+not\s+a\s+gate|(completed|filed|submitted)\s+(online\s+)?by\s+someone\s+who\s+never\s+received|"
-    r"\bpath\s+[^.]{0,40}?for\s+(claimants|people|those|anyone)\s+who\s+(do\s+not|don't)\s+have", re.I)
+    r"\bpath\s+[^.]{0,40}?for\s+(claimants|people|those|anyone)\s+who\s+(do\s+not|don't)\s+have|"
+    r"\b(file|submit)\s+[^.]{0,40}?\bwith\s+no\s+[^.]{0,20}?" + _CRED, re.I)
 LISTING_NONE_RE = re.compile(
     r"(does\s*n[o']t|does\s+not|do\s*n[o']t|do\s+not|will\s+not|won't)\s+(depend\s+on|require|need|ask\s+for)\s+"
     r"(a|an|the|any|your)?\s*[^.]{0,30}?(code|" + _ID + r"|notice\s+id)|"
@@ -502,22 +511,92 @@ LISTING_REQUIRED_RE = re.compile(
     r"(need|enter|provide)\s+(a|an|the|your)\s+[^.]{0,30}?" + _CRED + r"[^.]{0,60}?(printed|located|found|listed)\s+on", re.I)
 
 
-def classify_notice(text):
-    """From a listing page's own text. A real way to file without the ID wins, then a plain
-    'the form doesn't need one', then statements that it's needed."""
+# A paper / by-mail way to file without the ID, when the online form needs it: "filing on paper
+# without them must instead submit proof of identification", "without one you must file by mail",
+# "the paper claim form is the alternative. It asks for the ID only if known".
+MAIL_RE = re.compile(
+    r"\bpaper\s+(claim\s+)?(form|route|claim|filing|option)|\bby\s+(u\.?s\.?\s+)?mail\b|through\s+the\s+mail|"
+    r"\b(printable|downloadable|printed)\s+(claim\s+)?form|\bon\s+paper\b|\bmail\s+(in|it|the|a|your)\b|returned\s+by\s+mail", re.I)
+MAIL_WITHOUT_RE = re.compile(
+    r"\bwithout\s+(them|it|one|the|a|an|your)\b|\binstead\b|only\s+if\s+known|left\s+blank|"
+    r"(did\s*n[o']t|did\s+not|have\s+not|haven't|never)\s+(receive|received|get|got)\b|"
+    r"(does\s+not|doesn't|do\s+not|don't)\s+(ask|require|need)|proof\s+of\s+identi|ways?\s+around|\balternative\b", re.I)
+MAIL_BLOCK_RE = re.compile(
+    r"not\s+an\s+escape|also\s+(requires|asks\s+for|needs)|still\s+(requires|needs|asks)|"
+    r"must\s+(include|enter|provide)\s+(the|your)\s+[^.]{0,30}?" + _CRED, re.I)
+SENTENCE_SPLIT_RE = re.compile(r"(?<=[.!?])\s+|\n+")
+
+
+def _split_mail(text):
+    """(text without the paper/mail sentences, whether they describe filing without the ID)."""
+    sents = [s for s in SENTENCE_SPLIT_RE.split(text) if s.strip()]
+    keep, mail_ok, prev_mail = [], False, False
+    for s in sents:
+        is_mail = bool(MAIL_RE.search(s))
+        # "The paper claim form is the alternative. It asks for the ID only if known."
+        follows_mail = prev_mail and bool(MAIL_WITHOUT_RE.search(s))
+        if is_mail or follows_mail:
+            if MAIL_WITHOUT_RE.search(s) and not MAIL_BLOCK_RE.search(s):
+                mail_ok = True
+        else:
+            keep.append(s)
+        prev_mail = is_mail
+    return " ".join(keep), mail_ok
+
+
+def notice_from_text(text):
+    """From a listing page, FAQ or notice: (notice_id, mail) where mail means there's a paper /
+    by-mail way to file without the ID. A way to file without the ID online wins, then a plain
+    'the form doesn't need one', then statements that it's needed. Paper routes are set aside
+    first: under the app's rule, "needs the PIN online, or mail it in with proof of identity"
+    is still "required", with the mail option noted."""
     if not text:
-        return None
+        return None, False
     m = LISTING_ANSWER_RE.search(text)
     if m:
         text = text[m.end():m.end() + 1200]
     text = QUESTION_RE.sub(" ", text)
-    if LISTING_OPTIONAL_RE.search(text) or no_id_path(text):
-        return "optional"
-    if LISTING_NONE_RE.search(text) or NOTICE_NONE_RE.search(text):
-        return "none"
-    if DOC_REQUIRED_RE.search(text) or LISTING_REQUIRED_RE.search(text) or NOTICE_REQUIRED_RE.search(text):
-        return "required"
-    return None
+    base, mail = _split_mail(text)
+    if LISTING_OPTIONAL_RE.search(base) or no_id_path(base):
+        return "optional", mail
+    if LISTING_NONE_RE.search(base) or NOTICE_NONE_RE.search(base):
+        return "none", mail
+    if any(rx.search(base) or rx.search(text) for rx in (DOC_REQUIRED_RE, LISTING_REQUIRED_RE, NOTICE_REQUIRED_RE)):
+        return "required", mail
+    if mail:
+        return "optional", True  # only the paper route is described, and it doesn't need the ID
+    return None, False
+
+
+def classify_notice(text):
+    return notice_from_text(text)[0]
+
+
+def mail_route(text):
+    """Whether a page describes a paper / by-mail way to file without the notice ID."""
+    return _split_mail(QUESTION_RE.sub(" ", text or ""))[1]
+
+
+# The part of a page that decides the notice ID question, kept in the cache so a rule change
+# can re-check every page without fetching it again.
+SNIPPET_RE = re.compile(r"" + _CRED + r"|login|passcode|notice|paper|mail|claim\s+form|portal|automatic|credential|identifier", re.I)
+
+
+def notice_snippet(text, limit=1500):
+    if not text:
+        return ""
+    m = LISTING_ANSWER_RE.search(text)
+    if m:
+        return text[m.start():m.end() + 1200]
+    out, n = [], 0
+    for s in SENTENCE_SPLIT_RE.split(text):
+        s = s.strip()
+        if s and SNIPPET_RE.search(s):
+            out.append(s)
+            n += len(s) + 1
+            if n >= limit:
+                break
+    return " ".join(out)[:limit]
 
 
 # Reads a claim form: every field's label, whether it's marked required, and the page text.
@@ -599,7 +678,8 @@ def classify_form(res):
     id_fields = [i for i in inputs if FORM_ID_FIELD_RE.search(i["desc"]) and not FORM_NOT_ID_RE.search(i["desc"])]
     visible_fields = [i for i in inputs if i.get("visible")]
     visible_ids = [i for i in id_fields if i.get("visible")]
-    if no_id_path(text):
+    # "...or mail a paper claim form instead" doesn't make the online form optional (see mail_route).
+    if no_id_path(_split_mail(text)[0]):
         return "optional" if id_fields or FORM_REQUIRED_TEXT_RE.search(text) or re.search(_ID, text, re.I) else None
     if id_fields:
         # A login gate (the ID/PIN and at most a name or two) is how these forms say "required",
@@ -620,12 +700,13 @@ def classify_doc_text(text):
     whether they offer a way to file without it, or say you need it."""
     if not text or BLOCKED_TEXT_RE.search(text[:3000]):
         return None
-    if no_id_path(text):
+    base, mail = _split_mail(QUESTION_RE.sub(" ", text))
+    if no_id_path(base):
         return "optional"
     # Not "your ID is printed on this notice": every notice says that, to help people find it.
     if DOC_REQUIRED_RE.search(text) or NOTICE_REQUIRED_RE.search(text):
         return "required"
-    return None
+    return "optional" if mail else None
 
 
 def find_notice_docs(anchors, current_url):
