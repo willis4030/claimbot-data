@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-25T18:54:00+00:00",
- "count": 365,
+ "updated": "2026-09-25T21:23:38+00:00",
+ "count": 367,
  "no_proof_count": 184,
  "settlements": [
   {
@@ -4059,9 +4059,9 @@
    ],
    "first_seen": "2026-09-24",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "administrator": null
+   "notice_id": "required",
+   "notice_source": "admin",
+   "administrator": "Simpluris"
   },
   {
    "id": "981c7828e497",
@@ -6484,8 +6484,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "required",
+   "notice_source": "admin",
    "administrator": "RG/2"
   },
   {
@@ -6705,7 +6705,7 @@
    "first_seen": "2026-09-23",
    "new": false,
    "notice_id": "required",
-   "notice_source": "admin",
+   "notice_source": "form",
    "administrator": "Simpluris"
   },
   {
@@ -6764,8 +6764,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "none",
+   "notice_source": "form",
    "administrator": "CPT Group"
   },
   {
@@ -6895,7 +6895,7 @@
    "first_seen": "2026-09-23",
    "new": false,
    "notice_id": "required",
-   "notice_source": "listing",
+   "notice_source": "form",
    "administrator": "Simpluris"
   },
   {
@@ -6926,7 +6926,7 @@
    "new": false,
    "notice_id": null,
    "notice_source": null,
-   "administrator": "EisnerAmper"
+   "administrator": "P&N"
   },
   {
    "id": "b1fcf9e0ff02",
@@ -6949,8 +6949,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "none",
+   "notice_source": "form",
    "administrator": null
   },
   {
@@ -7080,7 +7080,7 @@
    "first_seen": "2026-09-23",
    "new": false,
    "notice_id": "required",
-   "notice_source": "listing",
+   "notice_source": "form",
    "administrator": "Simpluris"
   },
   {
@@ -7115,7 +7115,7 @@
    "first_seen": "2026-09-23",
    "new": false,
    "notice_id": "required",
-   "notice_source": "listing",
+   "notice_source": "form",
    "administrator": "RG/2"
   },
   {
@@ -7225,7 +7225,7 @@
    "first_seen": "2026-09-23",
    "new": false,
    "notice_id": "required",
-   "notice_source": "listing",
+   "notice_source": "form",
    "administrator": "Rust Consulting"
   },
   {
@@ -7319,8 +7319,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "optional",
-   "notice_source": "listing",
+   "notice_id": "none",
+   "notice_source": "form",
    "administrator": "Rust Consulting"
   },
   {
@@ -7385,7 +7385,7 @@
    "first_seen": "2026-09-22",
    "new": false,
    "notice_id": "required",
-   "notice_source": "listing",
+   "notice_source": "form",
    "administrator": "Simpluris"
   },
   {
@@ -7450,7 +7450,7 @@
    "first_seen": "2026-09-23",
    "new": false,
    "notice_id": "optional",
-   "notice_source": "listing",
+   "notice_source": "form",
    "administrator": null
   },
   {
@@ -7480,7 +7480,7 @@
    "first_seen": "2026-09-22",
    "new": false,
    "notice_id": "optional",
-   "notice_source": "listing",
+   "notice_source": "form",
    "administrator": "A.B. Data"
   },
   {
@@ -7504,8 +7504,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "optional",
+   "notice_source": "form",
    "administrator": "A.B. Data"
   },
   {
@@ -7529,8 +7529,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "required",
+   "notice_source": "form",
    "administrator": "Apex"
   },
   {
@@ -7554,8 +7554,8 @@
    ],
    "first_seen": "2026-09-22",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "required",
+   "notice_source": "admin",
    "administrator": "RG/2"
   },
   {
@@ -7585,7 +7585,7 @@
    "first_seen": "2026-09-22",
    "new": false,
    "notice_id": "required",
-   "notice_source": "listing",
+   "notice_source": "form",
    "administrator": "Atticus"
   },
   {
@@ -7616,7 +7616,7 @@
    "new": false,
    "notice_id": "required",
    "notice_source": "listing",
-   "administrator": "EisnerAmper"
+   "administrator": "P&N"
   },
   {
    "id": "e8424f3e8032",
@@ -7909,8 +7909,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "required",
+   "notice_source": "admin",
    "administrator": "RG/2"
   },
   {
@@ -8096,7 +8096,7 @@
    "new": false,
    "notice_id": null,
    "notice_source": null,
-   "administrator": null
+   "administrator": "Angeion"
   },
   {
    "id": "b09205bb6e17",
@@ -8360,7 +8360,7 @@
    "first_seen": "2026-09-23",
    "new": false,
    "notice_id": "required",
-   "notice_source": "listing",
+   "notice_source": "form",
    "administrator": "Epiq"
   },
   {
@@ -8389,8 +8389,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "required",
+   "notice_source": "form",
    "administrator": "Rust Consulting"
   },
   {
@@ -8469,8 +8469,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "required",
+   "notice_source": "form",
    "administrator": "JND"
   },
   {
@@ -8500,8 +8500,8 @@
    "first_seen": "2026-09-22",
    "new": false,
    "notice_id": "required",
-   "notice_source": "listing",
-   "administrator": null
+   "notice_source": "form",
+   "administrator": "Angeion"
   },
   {
    "id": "efcfdb620979",
@@ -8555,7 +8555,7 @@
    "first_seen": "2026-09-25",
    "new": true,
    "notice_id": "required",
-   "notice_source": "admin",
+   "notice_source": "form",
    "administrator": "Simpluris"
   },
   {
@@ -8711,7 +8711,7 @@
    "new": false,
    "notice_id": "optional",
    "notice_source": "listing",
-   "administrator": null
+   "administrator": "P&N"
   },
   {
    "id": "eeb3aaea621f",
@@ -8845,7 +8845,7 @@
    "first_seen": "2026-09-25",
    "new": true,
    "notice_id": "required",
-   "notice_source": "listing",
+   "notice_source": "form",
    "administrator": null
   },
   {
@@ -8996,7 +8996,7 @@
    "new": false,
    "notice_id": null,
    "notice_source": null,
-   "administrator": null
+   "administrator": "Rust Consulting"
   },
   {
    "id": "9697d122582c",
@@ -9185,7 +9185,7 @@
    "first_seen": "2026-09-23",
    "new": false,
    "notice_id": "optional",
-   "notice_source": "listing",
+   "notice_source": "form",
    "administrator": "Angeion"
   },
   {
@@ -9259,8 +9259,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
+   "notice_id": "none",
+   "notice_source": "form",
    "administrator": "Atticus"
   },
   {
@@ -9291,7 +9291,7 @@
    "new": false,
    "notice_id": null,
    "notice_source": null,
-   "administrator": null
+   "administrator": "Kroll"
   },
   {
    "id": "5397e77a0a63",
@@ -9316,7 +9316,7 @@
    "new": false,
    "notice_id": null,
    "notice_source": null,
-   "administrator": null
+   "administrator": "Analytics Consulting"
   },
   {
    "id": "4f6487cc93fc",
@@ -9339,9 +9339,9 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "administrator": null
+   "notice_id": "required",
+   "notice_source": "admin",
+   "administrator": "RG/2"
   },
   {
    "id": "9190d568d196",
@@ -9364,9 +9364,9 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "administrator": null
+   "notice_id": "required",
+   "notice_source": "form",
+   "administrator": "Angeion"
   },
   {
    "id": "ec72085fe5f1",
@@ -9491,7 +9491,7 @@
    "new": false,
    "notice_id": null,
    "notice_source": null,
-   "administrator": null
+   "administrator": "JND"
   },
   {
    "id": "0bd48d416b9d",
@@ -9566,7 +9566,7 @@
    "new": false,
    "notice_id": null,
    "notice_source": null,
-   "administrator": null
+   "administrator": "JND"
   },
   {
    "id": "7442862e7ee6",
@@ -9591,7 +9591,7 @@
    "new": false,
    "notice_id": null,
    "notice_source": null,
-   "administrator": null
+   "administrator": "JND"
   },
   {
    "id": "b3e1963e8022",
@@ -9666,7 +9666,7 @@
    "new": false,
    "notice_id": null,
    "notice_source": null,
-   "administrator": null
+   "administrator": "Angeion"
   },
   {
    "id": "ef59908a888a",
@@ -9741,7 +9741,7 @@
    "new": false,
    "notice_id": null,
    "notice_source": null,
-   "administrator": null
+   "administrator": "Analytics Consulting"
   },
   {
    "id": "30f6340f4773",
@@ -9764,9 +9764,9 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "administrator": null
+   "notice_id": "optional",
+   "notice_source": "form",
+   "administrator": "P&N"
   },
   {
    "id": "04aafc747b1d",
@@ -9846,7 +9846,7 @@
    "new": false,
    "notice_id": null,
    "notice_source": null,
-   "administrator": null
+   "administrator": "Analytics Consulting"
   },
   {
    "id": "211bf3146ac6",
@@ -9894,9 +9894,9 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "administrator": null
+   "notice_id": "required",
+   "notice_source": "form",
+   "administrator": "Simpluris"
   },
   {
    "id": "592304db8da8",
@@ -9919,9 +9919,9 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "administrator": null
+   "notice_id": "required",
+   "notice_source": "admin",
+   "administrator": "Simpluris"
   },
   {
    "id": "7fffaed8dc63",
@@ -9969,9 +9969,9 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "administrator": null
+   "notice_id": "required",
+   "notice_source": "form",
+   "administrator": "RG/2"
   },
   {
    "id": "ed86c5842b94",
@@ -10072,6 +10072,56 @@
    "notice_id": null,
    "notice_source": null,
    "administrator": null
+  },
+  {
+   "id": "edcafb0ef1bd",
+   "title": "Northeast Grocery $225,000 401(k) Class Action Settlement",
+   "category": "Privacy & tech",
+   "payout": "Pro rata based on plan balances",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": false,
+   "summary": "Individuals who participated in certain Northeast Grocery 401(k) plans from 2018-2026 may be eligible to claim a cash payment from a class action settlement.\n\nIndividuals who participated in the Northeast Grocery 401(k) plan, the Tops Markets LLC 401(k) retirement savings plan, the Price Chopper associate 401(k) plan or the Tops Markets LLC 401(k) savings plan for Union Associates at any time between Jan. 1, 2018, and Aug. 5, 2026, may be eligible to claim a cash payment from a class action settlement.\n\nThe total settlement fund is $225,000. After deductions for attorneys’ fees, litigation expenses, service awards to the named plaintiffs and administrative costs, the settlement administrator will distribute the remaining amount to eligible class members.\n\nThe administrator will then calculate each class member’s payment based on their account balances in the plans during the class period. The calculation process is as follows:\n\nThe settlement administrator will determine each class member’s account balance as of Jan. 1, 2018, and as of Dec. 31 for each subsequent year through Aug. 5, 2026. For those who left the plan during the class period, the settlement only includes the years they participated.\n\nThe administrator totals these annual balances to create a “balance” for each class member.\n\nThe administrator totals all class members’ balances.",
+   "claim_url": "https://northeastgrocery401ksettlement.com/frequently-asked-questions/",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/northeast-grocery-401k-settlement",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-25",
+   "new": true,
+   "notice_id": null,
+   "notice_source": null,
+   "administrator": "Analytics Consulting"
+  },
+  {
+   "id": "f72e646af76d",
+   "title": "Schenker $1.28 Million FCRA Background Check Settlement",
+   "category": "Privacy & tech",
+   "payout": "Pro rata payment",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": false,
+   "summary": "Individuals who applied for a job with Schenker between 2014 and 2022 may be eligible to claim a cash payment from a class action settlement.\n\nEmployment seekers who applied for a job with Schenker Inc. between Nov. 20, 2014, and Feb. 28, 2022, and for whom Schenker obtained a background check report for employment purposes without authorization may be eligible to claim a cash payment from a class action settlement.\n\nClass members are individuals who applied for employment with Schenker at any time between Nov. 20, 2014, and Feb. 28, 2022, and for whom the company obtained a background check for employment purposes during that period.\n\nEach class member will receive an equal, pro rata share of the net settlement fund. The exact amount each person receives depends on the number of participating class members and deductions for fees and costs. The class includes approximately 29,461 people.\n\nClass members do not need to submit a claim form to receive their share of the settlement. The settlement administrator will automatically mail payments to the last known address of each qualifying class member.\n\nThe settlement administrator already has the information needed to identify class members. Class members do not need to provide additional documentation to receive payment.\n\nThe settlement administrator will mail checks to the last known address of qualifying class members.",
+   "claim_url": "https://epoasettlementsinc.com/faq/",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/eposa-settlement-sinc",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-25",
+   "new": true,
+   "notice_id": "required",
+   "notice_source": "admin",
+   "administrator": "Simpluris"
   },
   {
    "id": "1e031e4e0e9d",
@@ -10449,8 +10499,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "required",
+   "notice_source": "form",
    "administrator": "American Legal Claims"
   },
   {
@@ -10474,8 +10524,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "required",
+   "notice_source": "admin",
    "administrator": "RG/2"
   },
   {
@@ -10549,8 +10599,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "required",
+   "notice_source": "form",
    "administrator": "American Legal Claims"
   },
   {
@@ -10649,8 +10699,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "required",
+   "notice_source": "admin",
    "administrator": "RG/2"
   },
   {
@@ -10731,7 +10781,7 @@
   {
    "id": "bad00a8e1c52",
    "title": "M.D.C. Holdings $25M Securities Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10751,7 +10801,7 @@
    "new": false,
    "notice_id": null,
    "notice_source": null,
-   "administrator": null
+   "administrator": "Angeion"
   },
   {
    "id": "f077f6331cb3",
@@ -10774,8 +10824,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "none",
+   "notice_source": "form",
    "administrator": null
   },
   {
@@ -10801,12 +10851,12 @@
    "new": false,
    "notice_id": null,
    "notice_source": null,
-   "administrator": null
+   "administrator": "A.B. Data"
   },
   {
    "id": "414d766a6ce7",
    "title": "Funko Inc. $5.4 Million Securities Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10826,12 +10876,12 @@
    "new": false,
    "notice_id": null,
    "notice_source": null,
-   "administrator": null
+   "administrator": "A.B. Data"
   },
   {
    "id": "ae91b2c1baa8",
    "title": "Blue Origin $1.96 Million Washington Job Posting Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Pro rata share",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10849,9 +10899,9 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "administrator": null
+   "notice_id": "required",
+   "notice_source": "admin",
+   "administrator": "Simpluris"
   },
   {
    "id": "4de6277d5103",
@@ -10876,12 +10926,12 @@
    "new": false,
    "notice_id": null,
    "notice_source": null,
-   "administrator": null
+   "administrator": "Atticus"
   },
   {
    "id": "bb76139bfab8",
    "title": "Widener University $800,000 COVID-19 Tuition Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Pro rata share of net settlement fund plus noncash benefits",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10899,9 +10949,9 @@
    ],
    "first_seen": "2026-09-24",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "administrator": null
+   "notice_id": "required",
+   "notice_source": "listing",
+   "administrator": "RG/2"
   },
   {
    "id": "ff74b3af7d41",
@@ -10926,12 +10976,12 @@
    "new": false,
    "notice_id": null,
    "notice_source": null,
-   "administrator": null
+   "administrator": "American Legal Claims"
   },
   {
    "id": "e0a6effb6d15",
    "title": "Garden City $1.4M Fire Fees Class Action Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Estimated 27% of fire fees paid",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10954,8 +11004,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
+   "notice_id": "optional",
+   "notice_source": "listing",
    "administrator": null
   },
   {
