@@ -35,7 +35,7 @@ DELAY = 1.5              # seconds between requests to the same site (plus jitte
 REFRESH_DAYS = 7         # re-read a settlement page after this many days
 MAX_DETAILS_PER_RUN = 500
 PRUNE_DAYS = 30          # forget cached pages not listed anywhere for this long
-PARSE_VERSION = 6        # bump when parsing changes, so cached pages are re-read
+PARSE_VERSION = 7        # bump when parsing changes, so cached pages are re-read
 FORM_VERSION = 3         # bump when classify_form changes, so cached form results are re-checked
 FORM_RECHECK_DAYS = 14   # re-check a claim form's notice-ID field after this many days
 MAX_FORM_CHECKS = 200    # new claim forms checked per run (the rest wait for the next run)
@@ -518,7 +518,9 @@ def merge(results, previous):
                 if len(p.get("summary") or "") > len(r["summary"]):
                     r["summary"] = p["summary"]
             r["sources"].append({"name": name, "url": it["detail_url"], "no_proof": p.get("no_proof")})
-            if p.get("notice_id"):
+            # A page parsed under older rules keeps its old notice answer until it's re-read
+            # (at most MAX_DETAILS_PER_RUN a run); don't use it meanwhile.
+            if p.get("notice_id") and p.get("v", PARSE_VERSION) == PARSE_VERSION:
                 r["_notice"].append(p["notice_id"])
             if p.get("administrator"):
                 r["_admin"].append(p["administrator"])

@@ -473,15 +473,49 @@ NOTICE_REQUIRED_RE = re.compile(
     r"requires?\s+(your|the|a)\s+(" + _ID + r")", re.I)
 
 
+# openclassactions answers this under its own heading on every page. The heading itself
+# ("...Notice ID Is Required?") says nothing, so only the answer below it is read.
+LISTING_ANSWER_RE = re.compile(r"what\s+proof\s+or\s+notice\s+id\s+is\s+required\?\s*", re.I)
+QUESTION_RE = re.compile(r"[^.?!\n]*\?")  # "Is a Notice ID required?" is a question, not an answer
+_CRED = r"(" + _ID + r"|login\s*id|passcode|\bid\b)"
+LISTING_OPTIONAL_RE = re.compile(
+    r"no[\s-]id\s+(option|path)|only\s+if\s+(known|you\s+have\s+(it|one))|"
+    r"if\s+you\s+(don't|do\s+not)\s+have\s+(one|it|a\s+[^.]{0,30}?id)[^.]{0,60}?\b(choose|select|click|continue|leave|skip)|"
+    r"\b(form|way|option)\s+for\s+filing\s+without\s+(them|it|one)|"
+    r"\beither\s+the\s+[^.]{0,30}?" + _CRED + r"[^.]{0,40}?\bor\s+your\b|"
+    r"" + _CRED + r"[^.]{0,40}?\b(as|is|are|labell?ed|marked)\s+optional|may\s+be\s+left\s+blank|"
+    r"\bis\s+not\s+a\s+gate|(completed|filed|submitted)\s+(online\s+)?by\s+someone\s+who\s+never\s+received|"
+    r"\bpath\s+[^.]{0,40}?for\s+(claimants|people|those|anyone)\s+who\s+(do\s+not|don't)\s+have", re.I)
+LISTING_NONE_RE = re.compile(
+    r"(does\s*n[o']t|does\s+not|do\s*n[o']t|do\s+not|will\s+not|won't)\s+(depend\s+on|require|need|ask\s+for)\s+"
+    r"(a|an|the|any|your)?\s*[^.]{0,30}?(code|" + _ID + r"|notice\s+id)|"
+    r"\bno\s+(notice\s+)?(" + _ID + r"|notice\s+id|code)\s+(is\s+)?(needed|required)|"
+    r"\bno\s+(administrator[\s-]issued\s+)?(identifier|code|credential)s?\s+(is|are)\s+(needed|required)|"
+    r"\bno\s+[^.]{0,30}?(notice\s+id|\bpin\b)\s+gate|"
+    r"\bthere\s+is\s+no\s+claim\s+form|\bno\s+claim\s+(form\s+)?(has|needs)\s+to\s+be\s+(filed|submitted)|"
+    r"\bautomatic[\s-]payment\s+settlement|"
+    r"(" + _ID + r")\s+(is|are)\s+not\s+(needed|required)", re.I)
+LISTING_REQUIRED_RE = re.compile(
+    r"(requires?|require\s+is|asks?\s+for|asking\s+for)\s+(the|a|an|your)\s+[^.]{0,50}?" + _CRED + r"|"
+    r"will\s+not\s+open\s+[^.]{0,20}?without|gated\s+on\s+[^.]{0,40}?(credential|" + _ID + r"|login\s*id)|"
+    r"(" + _ID + r"|login\s*id)[^.]{0,40}?\b(is|are)\s+required|treats?\s+it\s+as\s+a\s+required|"
+    r"(need|enter|provide)\s+(a|an|the|your)\s+[^.]{0,30}?" + _CRED + r"[^.]{0,60}?(printed|located|found|listed)\s+on", re.I)
+
+
 def classify_notice(text):
-    """From a listing page's own text. Permissive statements win over generic 'you'll need' ones."""
+    """From a listing page's own text. A real way to file without the ID wins, then a plain
+    'the form doesn't need one', then statements that it's needed."""
     if not text:
         return None
-    if NOTICE_NONE_RE.search(text):
-        return "none"
-    if NOTICE_OPTIONAL_RE.search(text):
+    m = LISTING_ANSWER_RE.search(text)
+    if m:
+        text = text[m.end():m.end() + 1200]
+    text = QUESTION_RE.sub(" ", text)
+    if LISTING_OPTIONAL_RE.search(text) or no_id_path(text):
         return "optional"
-    if NOTICE_REQUIRED_RE.search(text):
+    if LISTING_NONE_RE.search(text) or NOTICE_NONE_RE.search(text):
+        return "none"
+    if DOC_REQUIRED_RE.search(text) or LISTING_REQUIRED_RE.search(text) or NOTICE_REQUIRED_RE.search(text):
         return "required"
     return None
 
@@ -521,6 +555,7 @@ FILE_VERB_RE = re.compile(
     r"\b(file|submit|complete|fill\s+out|start|make)\b[^.?!]{0,25}?\bclaim|\bstill\s+(file|submit|be\s+eligible|qualify)|"
     r"\b(click|proceed|continue)\b", re.I)
 DEAD_END_RE = re.compile(r"\b(contact|e-?mail|call|write\s+to|request)\b", re.I)
+NEGATION_RE = re.compile(r"\b(cannot|can't|can\s+not|unable|not|won't|will\s+not)\b", re.I)
 NO_ID_STATED_RE = re.compile(
     r"(file|submit|complete)\s+(a\s+)?claim\s+without\s+(a|an|the|your)\s+(notice|" + _ID + r")|"
     r"(" + _ID + r")\s*(\(optional\)|is\s+optional|is\s+not\s+required)", re.I)
@@ -531,7 +566,9 @@ def no_id_path(text):
     for m in NO_ID_HEAD_RE.finditer(text):
         tail = re.split(r"(?<=[.!?])\s", text[m.end():m.end() + 180], maxsplit=1)[0]
         verb = FILE_VERB_RE.search(tail)
-        if verb and not DEAD_END_RE.search(tail[:verb.start()]):
+        before = tail[:verb.start()] if verb else ""
+        # "...cannot complete a claim", "...contact the administrator to file": not a way to file.
+        if verb and not DEAD_END_RE.search(before) and not NEGATION_RE.search(before):
             return True
     return bool(NO_ID_STATED_RE.search(text))
 # The page says the ID is needed: "you must login with your Unique ID and PIN",
