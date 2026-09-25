@@ -29,6 +29,18 @@ A few rules shape the output:
 
 Each run's summary page shows how many settlements each site produced. If a site produces 0, it's flagged.
 
+## Notice ID / PIN
+
+Many settlements mail or email a notice with a Class Member ID or PIN, and some claim forms won't let you in without it. Each settlement gets a `notice_id` of `required`, `optional`, `none` (the form doesn't ask), or `null` (unknown), and a `notice_source` saying where the answer came from. The first of these that gives an answer wins:
+
+1. **`form`**: the live claim form. A login that's only an ID/PIN box, or a starred ID field, means required. A way to file without it ("I did not receive a notice") means optional.
+2. **`faq`**: the settlement's own FAQ page or long-form notice PDF, when the form itself couldn't be read.
+3. **`archive`**: the Internet Archive's saved copy of the claim page, for sites whose bot checks keep the scraper out. The scraper never tries to get past a bot check.
+4. **`listing`**: what the listing sites say.
+5. **`admin`**: "likely required". A few companies (Simpluris, Kroll, Angeion, Epiq...) run most settlements and reuse the same claim site. If at least 4 of a company's checked settlements, and 85% or more of them, need the ID, its unknown settlements are marked likely. This is recomputed from each run's data. Each settlement's `administrator` is included in the output.
+
+Form results are cached for 14 days. Change `FORM_VERSION` in `scraper/run.py` to re-check them all after changing the rules. The run summary shows how many answers came from each source and each administrator's tally.
+
 To run it right away: go to **Actions**, then **Daily scrape**, then **Run workflow**.
 
 ## Adding a site

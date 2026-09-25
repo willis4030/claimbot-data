@@ -371,6 +371,7 @@ def parse_detail(d, anchors, aggregator_hosts):
         "summary": eligibility_summary(d["paras"]),
         "not_settlement": bool(NOT_SETTLEMENT_RE.search(d["title"])),
         "notice_id": classify_notice(main),
+        "administrator": detect_admin(main),
     }
 
 
@@ -511,20 +512,39 @@ FORM_ID_FIELD_RE = re.compile(
     r"(id|identification|number|no\b|code|#)|\bpin\b|control\s*(number|no)|access\s*code|\buid\b", re.I)
 FORM_NOT_ID_RE = re.compile(r"phone|zip|postal|card|routing|account|social|ssn|tax|date|email|birth", re.I)
 # A way to file without the ID: "I did not receive a notice and need to fill out a claim form",
-# "If you didn't get a notice, you can still file". A bare "if you received a notice, your ID is
-# on it", or "didn't get one? contact us", is not a way to file.
-FORM_OPTIONAL_TEXT_RE = re.compile(
+# "If you didn't get a notice, you can still file a claim". A bare "if you received a notice,
+# your ID is on it", or "didn't get one? contact the administrator", is not a way to file.
+NO_ID_HEAD_RE = re.compile(
     r"(did\s*n[o']t|did not|do\s*n[o']t|do not|have\s*n[o']t|have not|never)\s+(receive|received|get|got|have)\s+"
-    r"(a|an|the|my|your)?\s*(\w+\s+)?(notice|postcard|letter|" + _ID + r")"
-    r"[^.?!]{0,100}?\b(can|may|still|also|fill\s+out|file|submit|complete|start|click|here|continue|proceed)\b|"
+    r"(a|an|the|my|your)?\s*(\w+\s+)?(notice|postcard|letter|" + _ID + r")", re.I)
+FILE_VERB_RE = re.compile(
+    r"\b(file|submit|complete|fill\s+out|start|make)\b[^.?!]{0,25}?\bclaim|\bstill\s+(file|submit|be\s+eligible|qualify)|"
+    r"\b(click|proceed|continue)\b", re.I)
+DEAD_END_RE = re.compile(r"\b(contact|e-?mail|call|write\s+to|request)\b", re.I)
+NO_ID_STATED_RE = re.compile(
     r"(file|submit|complete)\s+(a\s+)?claim\s+without\s+(a|an|the|your)\s+(notice|" + _ID + r")|"
     r"(" + _ID + r")\s*(\(optional\)|is\s+optional|is\s+not\s+required)", re.I)
+
+
+def no_id_path(text):
+    """True when the page offers a way to file without the notice ID."""
+    for m in NO_ID_HEAD_RE.finditer(text):
+        tail = re.split(r"(?<=[.!?])\s", text[m.end():m.end() + 180], maxsplit=1)[0]
+        verb = FILE_VERB_RE.search(tail)
+        if verb and not DEAD_END_RE.search(tail[:verb.start()]):
+            return True
+    return bool(NO_ID_STATED_RE.search(text))
 # The page says the ID is needed: "you must login with your Unique ID and PIN",
 # "enter the Claim Number and PIN ... on your Mailed or Email Notice".
 FORM_REQUIRED_TEXT_RE = re.compile(
     r"must\s+(log\s*in|sign\s*in|enter|use|provide|have)\s+(with\s+)?(your|the|a)\s+[^.]{0,40}?(" + _ID + r"|login\s*id)|"
     r"(" + _ID + r"|login\s*id)[^.]{0,80}?(located|found|printed|listed)\s+on\s+(your|the)\s+[^.]{0,30}?notice|"
     r"(log\s*in|sign\s*in)\s+(below\s+)?(using|with)\s+(your|the)\s+[^.]{0,40}?(" + _ID + r"|login\s*id)", re.I)
+# The same, for FAQ and notice text, without "located on your notice" (see classify_doc_text).
+DOC_REQUIRED_RE = re.compile(
+    r"must\s+(log\s*in|sign\s*in|enter|use|provide|have)\s+(with\s+)?(your|the|a)\s+[^.]{0,40}?(" + _ID + r"|login\s*id)|"
+    r"(log\s*in|sign\s*in)\s+(below\s+)?(using|with)\s+(your|the)\s+[^.]{0,40}?(" + _ID + r"|login\s*id)|"
+    r"(will|you'll)\s+need\s+(your|the)\s+[^.]{0,30}?(" + _ID + r")", re.I)
 # Bot checks (Cloudflare, CloudFront): not a form, so the answer is unknown, not "none".
 BLOCKED_TEXT_RE = re.compile(
     r"verify(ing)?\s+you\s+are\s+(a\s+)?human|checking\s+your\s+browser|request\s+could\s+not\s+be\s+satisfied|"
@@ -542,7 +562,7 @@ def classify_form(res):
     id_fields = [i for i in inputs if FORM_ID_FIELD_RE.search(i["desc"]) and not FORM_NOT_ID_RE.search(i["desc"])]
     visible_fields = [i for i in inputs if i.get("visible")]
     visible_ids = [i for i in id_fields if i.get("visible")]
-    if FORM_OPTIONAL_TEXT_RE.search(text):
+    if no_id_path(text):
         return "optional" if id_fields or FORM_REQUIRED_TEXT_RE.search(text) or re.search(_ID, text, re.I) else None
     if id_fields:
         # A login gate (the ID/PIN and at most a name or two) is how these forms say "required",
@@ -556,6 +576,79 @@ def classify_form(res):
     if len(visible_fields) >= 3:
         return "none"  # a real form that doesn't ask for an ID
     return None
+
+
+def classify_doc_text(text):
+    """From a settlement's FAQ page or notice. These always mention the ID; what matters is
+    whether they offer a way to file without it, or say you need it."""
+    if not text or BLOCKED_TEXT_RE.search(text[:3000]):
+        return None
+    if no_id_path(text):
+        return "optional"
+    # Not "your ID is printed on this notice": every notice says that, to help people find it.
+    if DOC_REQUIRED_RE.search(text) or NOTICE_REQUIRED_RE.search(text):
+        return "required"
+    return None
+
+
+def find_notice_docs(anchors, current_url):
+    """The settlement's own FAQ page and long-form notice (often a PDF on the administrator's site)."""
+    here = urlparse(current_url).netloc.lower()
+    faq, notices = [], []
+    for a in anchors:
+        text, href = (a.get("text") or "").strip(), a.get("href") or ""
+        if not href.startswith("http"):
+            continue
+        host = urlparse(href).netloc.lower()
+        if re.search(r"\bfaqs?\b|frequently\s+asked|questions", text, re.I) and host == here:
+            faq.append(href)
+        elif re.search(r"\b(long[\s-]*form\s+)?notice\b", text, re.I) and not re.search(r"summary|postcard|email|spanish|espa", text, re.I):
+            if host == here or any(h in host for h in SHARED_HOSTS):
+                notices.append(href)
+        elif "long_form_notice" in href.lower():
+            notices.append(href)
+    out = list(dict.fromkeys(faq[:1] + notices[:2]))
+    return out
+
+
+# ---------------------------------------------------------------- claims administrator
+# A few companies run most settlements and reuse the same claim-site template, so a company's
+# settlements usually agree on whether the notice ID is needed.
+ADMINISTRATORS = [
+    ("Simpluris", r"simpluris"),
+    ("Kroll", r"\bkroll\b|kroll\.com|krollsettlement"),
+    ("Verita (KCC)", r"\bverita\b|kccllc|kurtzman\s+carson|\bgilardi\b"),
+    ("Angeion", r"angeion"),
+    ("Epiq", r"\bepiq"),
+    ("JND", r"jndla|\bjnd\s+legal"),
+    ("RG/2", r"rg2claims|\brg/2\b"),
+    ("P&N", r"pnclassaction|postlethwaite"),
+    ("Atticus", r"atticusadmin|atticus\s+administration"),
+    ("CPT Group", r"cptgroup|\bcpt\s+group\b"),
+    ("Analytics Consulting", r"analyticsllc|analytics\s+consulting"),
+    ("A.B. Data", r"\babdata\b|a\.\s?b\.\s+data"),
+    ("Apex", r"apexclassaction|apex\s+class\s+action"),
+    ("ILYM", r"\bilym"),
+    ("Rust Consulting", r"rustconsulting|rust\s+consulting"),
+    ("Phoenix", r"phoenixclassaction|phoenix\s+settlement\s+administrators"),
+    ("EisnerAmper", r"eisneramper"),
+    ("Heffler", r"heffler"),
+    ("Settlement Services Inc", r"ssiclaims|settlement\s+services,?\s+inc"),
+    ("American Legal Claims", r"americanlegalclaims|american\s+legal\s+claim"),
+    ("Optime", r"optimeadministration|optime\s+administration"),
+    ("Strategic Claims Services", r"strategicclaims|strategic\s+claims\s+services"),
+    ("Arden Claims", r"ardenclaims|arden\s+claims"),
+]
+_ADMIN_RES = [(n, re.compile(p, re.I)) for n, p in ADMINISTRATORS]
+
+
+def detect_admin(text):
+    """The claims administrator named most often in a page's HTML, text or links."""
+    if not text:
+        return None
+    counts = [(len(rx.findall(text)), n) for n, rx in _ADMIN_RES]
+    n, name = max(counts)
+    return name if n else None
 
 
 def find_claim_link_on_site(anchors, current_url):
