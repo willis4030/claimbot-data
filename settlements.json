@@ -1,7 +1,7 @@
 {
- "updated": "2026-09-26T12:07:26+00:00",
- "count": 366,
- "no_proof_count": 185,
+ "updated": "2026-09-27T12:20:28+00:00",
+ "count": 367,
+ "no_proof_count": 189,
  "settlements": [
   {
    "id": "d1a453bd370a",
@@ -2271,6 +2271,11 @@
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/sizzling-platter-settlement",
      "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/wage-and-hours/sizzling-platter-washington-job-postings-class-action-settlement.php",
+     "no_proof": false
     }
    ],
    "first_seen": "2026-09-23",
@@ -2543,6 +2548,37 @@
     }
    ],
    "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": "required",
+   "notice_source": "form",
+   "notice_mail": false,
+   "administrator": "Simpluris"
+  },
+  {
+   "id": "455dc6cc83a5",
+   "title": "LHNH LaVista $8.45M Apartment Fire Class Action Settlement",
+   "category": "Data breach",
+   "payout": "About $4,594 per adult",
+   "payout_max": 4594.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-11-22",
+   "no_proof": false,
+   "summary": "Individuals who lived at The Reserve at LaVista Walk in Atlanta on Nov. 10, 2023, may be eligible to claim a cash payment from a class action settlement.\n\nIndividuals who lived at The Reserve at LaVista Walk apartments in Atlanta and suffered displacement and financial losses due to the Nov. 10, 2023, fire may be eligible to claim a cash payment from a class action settlement.\n\nLHNH LaVista LLC and related entities agreed to pay $8.45 million to settle a class action lawsuit alleging it is responsible for damages and losses residents suffered after a major fire at the apartment complex on Nov. 10, 2023.\n\nAssignees, subrogated insurers and successors of residents\n\nDisplacement pool: The settlement allocates $1,300,000 to compensate adult class members for displacement. The settlement administrator will divide this pool equally among all qualifying adults.\n\nChildren’s award: Each eligible minor child will receive a flat $2,500 payment. This amount covers claims for both displacement and property loss for the child, and the settlement administrator will not reduce it by the number of claims or insurance proceeds.",
+   "claim_url": "https://lavistafiresettlement.com/form/claim",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/lavista-fire-settlement",
+     "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/environmental/lavista-walk-apartment-fire-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-25",
    "new": false,
    "notice_id": "required",
    "notice_source": "form",
@@ -3565,6 +3601,11 @@
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/finastra-data-settlement",
      "no_proof": true
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/data-breaches/finastra-data-breach-settlement.php",
+     "no_proof": false
     }
    ],
    "first_seen": "2026-09-23",
@@ -4940,7 +4981,7 @@
    "no_proof_payout": null,
    "no_proof_payout_max": null,
    "deadline": "2026-10-12",
-   "no_proof": false,
+   "no_proof": true,
    "summary": "Individuals who applied for a Scribd job in Washington state between Jan. 1, 2023, and Aug. 14, 2026, may be eligible to claim about $219 from a settlement.\n\nIndividuals who applied for a job with Scribd Inc. in Washington between Jan. 1, 2023, and Aug. 14, 2026, may qualify to receive an estimated cash payment of $219.27 from a class action settlement. The settlement class includes 9,330 applicants.\n\nClass members must meet the following criteria:\n\nTheir application occurred between Jan. 1, 2023, and Aug. 14, 2026.\n\nCash payment: Eligible class members will receive an equal share of the class fund, which is a cash payment estimated at $219.27. The settlement administrator will determine the final payment amount by the total number of eligible class members and the remaining net settlement fund.\n\nClass members do not need to submit a claim form to receive their settlement payment.\n\nPayments to eligible class members: Remaining settlement funds\n\nThe settlement administrator will issue payments to eligible class members approximately 75 days after the court grants final approval of the settlement.",
    "claim_url": "https://epoasettlementsi.com/faq/",
    "sources": [
@@ -4948,13 +4989,18 @@
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/epoa-settlement-si",
      "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/wage-and-hours/scribd-washington-job-postings-class-action-settlement.php",
+     "no_proof": true
     }
    ],
    "first_seen": "2026-09-22",
    "new": false,
    "notice_id": "required",
-   "notice_source": "admin",
-   "notice_mail": false,
+   "notice_source": "listing",
+   "notice_mail": true,
    "administrator": "Simpluris"
   },
   {
@@ -5493,6 +5539,37 @@
    "notice_source": null,
    "notice_mail": false,
    "administrator": "A.B. Data"
+  },
+  {
+   "id": "3329307937fa",
+   "title": "Le Moyne College $243,206 COVID-19 Class Action Settlement",
+   "category": "Privacy & tech",
+   "payout": "Up to About $57",
+   "payout_max": 57.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-10-19",
+   "no_proof": true,
+   "summary": "Undergraduate students whom Le Moyne College charged tuition and/or mandatory fees and who enrolled in at least one in-person, on-campus class during the spring 2020 semester may be eligible to claim a cash payment from a class action settlement.\n\nClass members must meet the following criteria:\n\nIf an individual received a notice about this settlement, Le Moyne’s records indicate they are a member of the class. The settlement administrator used the college’s enrollment and billing records to identify eligible class members so most eligible students should have received notification.\n\nEach eligible class member who does not opt out will receive an equal share of the net settlement fund, which is the total settlement amount minus attorneys’ fees, litigation costs, service awards and administration costs.\n\nEligible class members do not need to file a claim to receive their payment. They will automatically receive their share of the settlement after the court grants final approval to the settlement.",
+   "claim_url": "https://lemoynecollegesettlement.com/payment-election",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/le-moyne-college-settlement",
+     "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/le-moyne-college-covid-fee-refund-class-action-settlement.php",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": "required",
+   "notice_source": "form",
+   "notice_mail": false,
+   "administrator": "Apex"
   },
   {
    "id": "fd5678544d33",
@@ -7505,32 +7582,6 @@
    "administrator": "A.B. Data"
   },
   {
-   "id": "3329307937fa",
-   "title": "Le Moyne College $243,206 COVID-19 Class Action Settlement",
-   "category": "Privacy & tech",
-   "payout": "Pro rata share",
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-10-19",
-   "no_proof": false,
-   "summary": "Undergraduate students whom Le Moyne College charged tuition and/or mandatory fees and who enrolled in at least one in-person, on-campus class during the spring 2020 semester may be eligible to claim a cash payment from a class action settlement.\n\nClass members must meet the following criteria:\n\nIf an individual received a notice about this settlement, Le Moyne’s records indicate they are a member of the class. The settlement administrator used the college’s enrollment and billing records to identify eligible class members so most eligible students should have received notification.\n\nEach eligible class member who does not opt out will receive an equal share of the net settlement fund, which is the total settlement amount minus attorneys’ fees, litigation costs, service awards and administration costs.\n\nEligible class members do not need to file a claim to receive their payment. They will automatically receive their share of the settlement after the court grants final approval to the settlement.",
-   "claim_url": "https://lemoynecollegesettlement.com/payment-election",
-   "sources": [
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/le-moyne-college-settlement",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "form",
-   "notice_mail": false,
-   "administrator": "Apex"
-  },
-  {
    "id": "1d08212bee59",
    "title": "$21M Whirlpool / Maytag Bottom-Mount & French-Door Refrigerator Freezer Class Action Settlement Proof / ID Dec 31, 2026",
    "category": "Product",
@@ -8166,6 +8217,32 @@
    "administrator": "ILYM"
   },
   {
+   "id": "ea85379643e2",
+   "title": "90 Washington Street $1.74M Rent Overcharge Settlement: Claims Due November 2, 2026",
+   "category": "Privacy & tech",
+   "payout": "Overcharge refund + 9%",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-11-02",
+   "no_proof": true,
+   "summary": "The “legal regulated rent” is set at the amount charged four years before the complaint was filed.\n\nFor rent paid from February 25, 2016, through the preliminary approval date, the claimant is owed the difference between what they actually paid and that legal rent.\n\nSimple interest at 9% a year is added from each month the overcharge occurred.",
+   "claim_url": "https://90washingtonclassaction.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/90-washington-street-rent-overcharge-class-action-settlement.php",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-09-27",
+   "new": true,
+   "notice_id": "required",
+   "notice_source": "listing",
+   "notice_mail": false,
+   "administrator": "Epiq"
+  },
+  {
    "id": "16d24713089d",
    "title": "Limetree Bay Refinery Class Action Settlement",
    "category": "Product",
@@ -8533,6 +8610,37 @@
    "administrator": "Angeion"
   },
   {
+   "id": "edcafb0ef1bd",
+   "title": "Northeast Grocery $225,000 401(k) Class Action Settlement",
+   "category": "Privacy & tech",
+   "payout": "Pro rata based on plan balances",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-11-17",
+   "no_proof": true,
+   "summary": "Individuals who participated in certain Northeast Grocery 401(k) plans from 2018-2026 may be eligible to claim a cash payment from a class action settlement.\n\nIndividuals who participated in the Northeast Grocery 401(k) plan, the Tops Markets LLC 401(k) retirement savings plan, the Price Chopper associate 401(k) plan or the Tops Markets LLC 401(k) savings plan for Union Associates at any time between Jan. 1, 2018, and Aug. 5, 2026, may be eligible to claim a cash payment from a class action settlement.\n\nThe total settlement fund is $225,000. After deductions for attorneys’ fees, litigation expenses, service awards to the named plaintiffs and administrative costs, the settlement administrator will distribute the remaining amount to eligible class members.\n\nThe administrator will then calculate each class member’s payment based on their account balances in the plans during the class period. The calculation process is as follows:\n\nThe settlement administrator will determine each class member’s account balance as of Jan. 1, 2018, and as of Dec. 31 for each subsequent year through Aug. 5, 2026. For those who left the plan during the class period, the settlement only includes the years they participated.\n\nThe administrator totals these annual balances to create a “balance” for each class member.\n\nThe administrator totals all class members’ balances.",
+   "claim_url": "https://northeastgrocery401ksettlement.com/frequently-asked-questions/",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/northeast-grocery-401k-settlement",
+     "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/erisa/northeast-grocery-401k-erisa-class-action-settlement.php",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-09-25",
+   "new": false,
+   "notice_id": "none",
+   "notice_source": "listing",
+   "notice_mail": false,
+   "administrator": "Analytics Consulting"
+  },
+  {
    "id": "efcfdb620979",
    "title": "Hearthside Food Solutions - Labor Laws (Illinois) Class Action Settlement",
    "category": "Product",
@@ -8562,32 +8670,6 @@
    "notice_source": null,
    "notice_mail": false,
    "administrator": "Atticus"
-  },
-  {
-   "id": "455dc6cc83a5",
-   "title": "LHNH LaVista $8.45M Apartment Fire Class Action Settlement",
-   "category": "Data breach",
-   "payout": "Varies",
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-11-22",
-   "no_proof": false,
-   "summary": "Individuals who lived at The Reserve at LaVista Walk in Atlanta on Nov. 10, 2023, may be eligible to claim a cash payment from a class action settlement.\n\nIndividuals who lived at The Reserve at LaVista Walk apartments in Atlanta and suffered displacement and financial losses due to the Nov. 10, 2023, fire may be eligible to claim a cash payment from a class action settlement.\n\nLHNH LaVista LLC and related entities agreed to pay $8.45 million to settle a class action lawsuit alleging it is responsible for damages and losses residents suffered after a major fire at the apartment complex on Nov. 10, 2023.\n\nAssignees, subrogated insurers and successors of residents\n\nDisplacement pool: The settlement allocates $1,300,000 to compensate adult class members for displacement. The settlement administrator will divide this pool equally among all qualifying adults.\n\nChildren’s award: Each eligible minor child will receive a flat $2,500 payment. This amount covers claims for both displacement and property loss for the child, and the settlement administrator will not reduce it by the number of claims or insurance proceeds.",
-   "claim_url": "https://lavistafiresettlement.com/form/claim",
-   "sources": [
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/lavista-fire-settlement",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-25",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "form",
-   "notice_mail": false,
-   "administrator": "Simpluris"
   },
   {
    "id": "d32478e76ec7",
@@ -10322,32 +10404,6 @@
    "administrator": null
   },
   {
-   "id": "edcafb0ef1bd",
-   "title": "Northeast Grocery $225,000 401(k) Class Action Settlement",
-   "category": "Privacy & tech",
-   "payout": "Pro rata based on plan balances",
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": false,
-   "summary": "Individuals who participated in certain Northeast Grocery 401(k) plans from 2018-2026 may be eligible to claim a cash payment from a class action settlement.\n\nIndividuals who participated in the Northeast Grocery 401(k) plan, the Tops Markets LLC 401(k) retirement savings plan, the Price Chopper associate 401(k) plan or the Tops Markets LLC 401(k) savings plan for Union Associates at any time between Jan. 1, 2018, and Aug. 5, 2026, may be eligible to claim a cash payment from a class action settlement.\n\nThe total settlement fund is $225,000. After deductions for attorneys’ fees, litigation expenses, service awards to the named plaintiffs and administrative costs, the settlement administrator will distribute the remaining amount to eligible class members.\n\nThe administrator will then calculate each class member’s payment based on their account balances in the plans during the class period. The calculation process is as follows:\n\nThe settlement administrator will determine each class member’s account balance as of Jan. 1, 2018, and as of Dec. 31 for each subsequent year through Aug. 5, 2026. For those who left the plan during the class period, the settlement only includes the years they participated.\n\nThe administrator totals these annual balances to create a “balance” for each class member.\n\nThe administrator totals all class members’ balances.",
-   "claim_url": "https://northeastgrocery401ksettlement.com/frequently-asked-questions/",
-   "sources": [
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/northeast-grocery-401k-settlement",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-25",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": "Analytics Consulting"
-  },
-  {
    "id": "f72e646af76d",
    "title": "Schenker $1.28 Million FCRA Background Check Settlement",
    "category": "Privacy & tech",
@@ -11057,7 +11113,7 @@
   {
    "id": "bad00a8e1c52",
    "title": "M.D.C. Holdings $25M Securities Class Action Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
@@ -11083,7 +11139,7 @@
   {
    "id": "f077f6331cb3",
    "title": "Rolling Stone Lifetime Subscription Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Print delivery for lifetime and/or two years RollingStone.com access",
    "payout_max": null,
    "no_proof_payout": null,
@@ -11135,7 +11191,7 @@
   {
    "id": "414d766a6ce7",
    "title": "Funko Inc. $5.4 Million Securities Class Action Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
@@ -11187,7 +11243,7 @@
   {
    "id": "4de6277d5103",
    "title": "80/20 Inc. $7 Million ESOP Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Pro rata payment",
    "payout_max": null,
    "no_proof_payout": null,
@@ -11232,14 +11288,14 @@
    "first_seen": "2026-09-24",
    "new": false,
    "notice_id": "required",
-   "notice_source": "admin",
+   "notice_source": "listing",
    "notice_mail": false,
    "administrator": "RG/2"
   },
   {
    "id": "ff74b3af7d41",
    "title": "NextEra Energy $8M ERISA Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
@@ -11265,7 +11321,7 @@
   {
    "id": "e0a6effb6d15",
    "title": "Garden City $1.4M Fire Fees Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Estimated 27% of fire fees paid",
    "payout_max": null,
    "no_proof_payout": null,
