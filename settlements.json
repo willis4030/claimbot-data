@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-27T12:20:28+00:00",
- "count": 367,
+ "updated": "2026-09-28T14:12:25+00:00",
+ "count": 370,
  "no_proof_count": 189,
  "settlements": [
   {
@@ -2493,6 +2493,32 @@
    "administrator": "Simpluris"
   },
   {
+   "id": "e15af4999c16",
+   "title": "Roseland Community Hospital $650,000 Data Breach Settlement",
+   "category": "Data breach",
+   "payout": "Up to $5,000 plus medical records monitoring",
+   "payout_max": 5000.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-12-31",
+   "no_proof": false,
+   "summary": "Individuals who received notice from Roseland Community Hospital about a 2024 data breach may qualify to claim up to $5,000 from a class action settlement.\n\nCurrent and former patients who received a notification that a data breach at Roseland Community Hospital Association affected their private information may be eligible to submit a claim for up to $5,000 from a class action settlement. The cybersecurity incident impacted approximately 101,354 individuals.\n\nClass members are individuals whose private information the Rosewood Community Hospital data breach that occurred on June 2, 2024, potentially compromised, including those who received an individual notice of the incident.\n\nClass members can claim one or more of the following benefits:\n\nCash payment A - Documented losses: Class members can claim up to $5,000 for unreimbursed losses traceable to the data breach. Eligible losses include out-of-pocket expenses due to fraud or identity theft, professional fees, such as attorneys', accountants' or credit repair service providers' fees, costs for freezing/unfreezing credit and postage for contacting financial institutions.\n\nCash payment B - Pro rata cash payment: Class members can also submit a claim to receive a pro rata cash payment estimated at $50. The settlement administrator will determine the final payment amount by the total number of claims filed.",
+   "claim_url": "https://roselandsettlement.com/faq",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/roseland-data-settlement",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-28",
+   "new": true,
+   "notice_id": "required",
+   "notice_source": "listing",
+   "notice_mail": false,
+   "administrator": "Kroll"
+  },
+  {
    "id": "83553748cc19",
    "title": "Zonolite Vermiculite Attic Insulation Trust (ZAI Trust) Reimbursement Claims",
    "category": "Privacy & tech",
@@ -3787,13 +3813,18 @@
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/zk-bipa-settlement",
      "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/privacy/zk-technology-bipa-class-action-settlement.php",
+     "no_proof": false
     }
    ],
    "first_seen": "2026-09-25",
    "new": false,
    "notice_id": "required",
    "notice_source": "form",
-   "notice_mail": false,
+   "notice_mail": true,
    "administrator": "Simpluris"
   },
   {
@@ -6042,6 +6073,32 @@
    "administrator": "Kroll"
   },
   {
+   "id": "c73cfe06b0d8",
+   "title": "FTD and ProFlowers Delivery Fee Settlement Offers $5 Cash or a $15 Voucher",
+   "category": "Privacy & tech",
+   "payout": "$5 or $15Claim deadline alerts",
+   "payout_max": 15.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-11-13",
+   "no_proof": false,
+   "summary": "Your browser does not support viewing PDFs inline. Download the PDF.",
+   "claim_url": "https://ftddeliveryfeesettlement.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/deceptive-pricing/ftd-proflowers-delivery-fee-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-28",
+   "new": true,
+   "notice_id": "required",
+   "notice_source": "listing",
+   "notice_mail": false,
+   "administrator": "Epiq"
+  },
+  {
    "id": "7177a3700094",
    "title": "Dr. Squatch - All Natural Claims Class Action Settlement",
    "category": "Product",
@@ -6502,6 +6559,32 @@
    "administrator": "Strategic Claims Services"
   },
   {
+   "id": "f927bf54f025",
+   "title": "Edwards Lifesciences $39M Securities Settlement: EW Investors From Feb.–July 2024 Can Claim by December 2, 2026",
+   "category": "Privacy & tech",
+   "payout": "~$0.66 a shareClaim deadline alerts",
+   "payout_max": 0.66,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-12-02",
+   "no_proof": false,
+   "summary": "Sold from July 25, 2024 through October 22, 2024: the smallest of $24.17, the purchase price minus the average closing price from July 25 through the sale date, or the purchase price minus the sale price.\n\nStill held at the close on October 22, 2024: the lesser of $24.17 or the purchase price minus $66.77, the average closing price during the 90-day look-back period.\n\nEdwards Lifesciences Securities Litigation — official settlement website maintained by Kroll Settlement Administration",
+   "claim_url": "https://www.edwardslifesciencessecuritieslitigation.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/securities/edwards-lifesciences-securities-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-28",
+   "new": true,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": "Kroll"
+  },
+  {
    "id": "af5368022816",
    "title": "Kornit Digital $19.5M Securities Class Action Settlement",
    "category": "Data breach",
@@ -6785,42 +6868,6 @@
    "notice_source": "listing",
    "notice_mail": false,
    "administrator": "A.B. Data"
-  },
-  {
-   "id": "71f6622d511f",
-   "title": "The Travelers Indemnity Company - Underinsured Coverage (NM) Class Action Settlement",
-   "category": "Financial",
-   "payout": "Varies",
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-09-27",
-   "no_proof": true,
-   "summary": "Individuals who had New Mexico Travelers UIM auto insurance between 2015 and 2022 may qualify to claim a refund or additional benefits from a settlement.\n\nConsumers who were a New Mexico policyholder or had underinsured motorist coverage with The Travelers Indemnity Co., The Standard Fire Insurance Co. or other related Travelers companies between Jan. 1, 2015 and Aug. 16, 2022, may be eligible to submit a claim for a partial refund of their UIM premiums or additional UIM benefits from a class action settlement.\n\nClass members must meet the following criteria:\n\nThey were a New Mexico automobile insurance policyholder or insured under a policy with any of the following companies between Jan. 1, 2015 and Aug. 16, 2022:\n\nEligible class members can submit to receive one of the following:\n\nOption 1 - Potential claim payment: Class members who were injured in a car accident and whose UIM claim Travelers denied or reduced because it applied an offset, reducing the class member's UIM benefits by the amount paid by the at-fault driver’s liability coverage can submit a claim to have Travelers reevaluated and readjust their claim without the offset. A neutral evaluator will determine the payment amount. Depending on the damages, claimants may receive additional UIM benefits up to the amount of the offset but possibly less or nothing if their damages do not warrant a higher payment.",
-   "claim_url": "https://aguilaruimclasssettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://aguilaruimclasssettlement.com/",
-     "no_proof": true
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/aguilar-uim-class-settlement",
-     "no_proof": false
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/travelers-new-mexico-uim-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "optional",
-   "notice_source": "listing",
-   "notice_mail": true,
-   "administrator": "Epiq"
   },
   {
    "id": "99aab240ac44",
@@ -8236,7 +8283,7 @@
     }
    ],
    "first_seen": "2026-09-27",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "listing",
    "notice_mail": false,
@@ -10090,6 +10137,32 @@
    "notice_source": "admin",
    "notice_mail": false,
    "administrator": "Simpluris"
+  },
+  {
+   "id": "71f6622d511f",
+   "title": "The Travelers Indemnity Company - Underinsured Coverage (NM) Class Action Settlement",
+   "category": "Financial",
+   "payout": null,
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": true,
+   "summary": "This settlement covers New Mexico Travelers Indemnity Company customers who had underinsured motorist automobile insurance coverage between January 1, 2015 and August 16, 2022.",
+   "claim_url": "https://aguilaruimclasssettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://aguilaruimclasssettlement.com/",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": null
   },
   {
    "id": "ec1f81599d9b",
