@@ -1,6 +1,6 @@
 {
- "updated": "2026-09-30T12:50:39+00:00",
- "count": 361,
+ "updated": "2026-10-01T13:33:14+00:00",
+ "count": 362,
  "no_proof_count": 189,
  "settlements": [
   {
@@ -54,37 +54,6 @@
    "notice_source": null,
    "notice_mail": false,
    "administrator": null
-  },
-  {
-   "id": "2cef713caa1b",
-   "title": "Aetna Life Insurance - Lumbar Artificial Disc Replacement Class Action Settlement",
-   "category": "Financial",
-   "payout": "Up to $55,000",
-   "payout_max": 55000.0,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-12-14",
-   "no_proof": false,
-   "summary": "Reimbursement: Class members who already paid out of pocket for single-level L-ADR surgery may seek reimbursement of up to $55,000 upon submitting the required proof.\n\nFuture coverage: For new requests for coverage of single-level L-ADR, Aetna will pay the class member's medical provider directly for the covered services within 90 days of receiving the required proof — or reimburse the class member if they pay the provider directly.",
-   "claim_url": "https://www.ladrsurgerysettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://www.ladrsurgerysettlement.com/",
-     "no_proof": false
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/aetna-lumbar-artificial-disc-replacement-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": "Atticus"
   },
   {
    "id": "a3de361c30b1",
@@ -151,7 +120,7 @@
    "payout_max": 25000.0,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
-   "deadline": "2026-09-30",
+   "deadline": "2026-10-01",
    "no_proof": true,
    "summary": "Individuals whom Crossroads Trading Co. notified of a 2025 data breach may be eligible to claim a cash payment from a class action settlement.\n\nIndividuals who received notice from Crossroads Trading Co. that a data breach incident on Feb. 15, 2025, may have impacted their private information could qualify to submit a claim for a cash payment from a class action settlement. The incident compromised approximately 60,041 current and former employees and customers.\n\nClass members are individuals residing in the United States whose private information the February 2025 Crossroads data breach may have compromised or otherwise impacted, including those who received notice of the incident.\n\nClass members have the following benefit options:\n\nDocumented loss payment: Class members can claim up to $5,000 for documented, unreimbursed monetary losses that occurred on or after Feb. 15, 2025 and are fairly attributable to the data breach. This may include:\n\nCosts of credit reports purchased between Feb. 15, 2025, and Oct. 13, 2026\n\nAlternative cash payment: Class members who do not submit a documented losses claim can submit a claim to receive an alternative cash payment estimated at $25.\n\nCalifornia statutory cash payment: All class members who resided in California at any point between Feb. 15, 2025, and Oct. 13, 2026, can also submit a claim to receive a statutory cash payment estimated at $100.",
    "claim_url": "https://forms.ksacms.com/efiling/fr/eform/buyalertstcpasettlement_claimform/new?form-version=1&fr-wizard-page=section-1",
@@ -269,11 +238,6 @@
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/chemocentryx-securities-litigation",
-     "no_proof": false
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/apollomd-data-settlement",
      "no_proof": false
     },
     {
@@ -453,42 +417,6 @@
    "notice_source": "form",
    "notice_mail": false,
    "administrator": "A.B. Data"
-  },
-  {
-   "id": "5d886e6541eb",
-   "title": "Clay-Platte Family Medicine - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": "Up to $15,000 plus credit monitoring",
-   "payout_max": 15000.0,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-09-30",
-   "no_proof": true,
-   "summary": "Individuals who received notice of the June 2024 Clay-Platte data breach may be eligible to claim up to $15,000 from a class action settlement.\n\nIndividuals who received notice that a June 2024 data security incident involving Clay-Platte Family Medicine Clinic P.C., Summit Family and Sports Medicine or Barry Pointe Family Care P.C. may have exposed their personal information could be eligible to claim up to $15,000 from a class action settlement.\n\nThe class includes all living persons residing in the United States who received notice from Clay-Platte Family Medicine Clinic, Summit Family and Sports Medicine or Barry Pointe Family Care that the June 2024 data breach potentially compromised their personal information. This includes both current and former patients.\n\nClass members may claim one or more of the following benefits, depending on their circumstances and preferences:\n\nReimbursement for documented out-of-pocket losses: Class members may submit a claim of up to $15,000 to cover expenses related to the data breach, such as identity theft or fraud, credit monitoring purchased after June 26, 2024, professional fees and other related expenses. Supporting documentation is required.",
-   "claim_url": "https://www.cpfmsettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://www.cpfmsettlement.com/",
-     "no_proof": true
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/cpfm-settlement",
-     "no_proof": false
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/data-breaches/clay-platte-family-medicine-data-breach-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
-   "notice_mail": false,
-   "administrator": "Angeion"
   },
   {
    "id": "11fa37a4e2e8",
@@ -1046,73 +974,6 @@
    "notice_source": "form",
    "notice_mail": false,
    "administrator": "Simpluris"
-  },
-  {
-   "id": "3ab6e50aa854",
-   "title": "First Baptist Church of Hammond, Indiana - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": "Up to $5,030",
-   "payout_max": 5030.0,
-   "no_proof_payout": "$50",
-   "no_proof_payout_max": 50.0,
-   "deadline": "2026-09-30",
-   "no_proof": true,
-   "summary": "Individuals who received notification of the July 2025 cyberattack on First Baptist Church of Hammond, Indiana, may be eligible to submit a claim for up to $5,030 from a class action settlement. The data breach impacted approximately 4,251 people.\n\nClass members are individuals whose personally identifiable information the First Baptist Church of Hammond, Indiana, data breach that occurred in July 2025 compromised.\n\nClass members have the following benefit options:\n\nOrdinary documented out-of-pocket expenses: Class members can claim up to $450 for ordinary documented out-of-pocket expenses that occurred between July 1, 2025, and Sept. 30, 2026, and are traceable to the data breach. Eligible expenses include fees for credit reports, credit monitoring costs, costs to freeze/unfreeze credit, costs to replace IDs and postage to financial institutions.\n\nExtraordinary documented out-of-pocket losses: Class members can claim up to $4,500 for documented monetary losses likely connected to the data breach that identity theft or fraud caused. Ordinary out-of-pocket expenses must not cover the expense, and the claimant must show they tried to recover the loss, such as by using insurance.",
-   "claim_url": "https://fbcdatasettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://fbcdatasettlement.com/",
-     "no_proof": true
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/fbc-data-settlement",
-     "no_proof": false
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/data-breaches/first-baptist-church-hammond-data-breach-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "form",
-   "notice_mail": false,
-   "administrator": "Simpluris"
-  },
-  {
-   "id": "2eda2663b331",
-   "title": "ApolloMD - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": "$75 or Up to $5,000",
-   "payout_max": 5000.0,
-   "no_proof_payout": "$75",
-   "no_proof_payout_max": 75.0,
-   "deadline": "2026-09-30",
-   "no_proof": true,
-   "summary": "This settlement covers those whose private information was potentially exposed in the May 2025 ApolloMD data breach.",
-   "claim_url": "https://apollomddatasettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://apollomddatasettlement.com/",
-     "no_proof": true
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/data-breaches/apollomd-data-breach-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
-   "notice_mail": false,
-   "administrator": null
   },
   {
    "id": "84946c5077f4",
@@ -2917,7 +2778,7 @@
     }
    ],
    "first_seen": "2026-09-30",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "listing",
    "notice_mail": true,
@@ -3506,37 +3367,6 @@
    "administrator": "Simpluris"
   },
   {
-   "id": "1b7e1455b6a1",
-   "title": "Furman Foods - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": "Up to $2,300",
-   "payout_max": 2300.0,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-09-30",
-   "no_proof": true,
-   "summary": "Individuals who received notice of the Furman Foods data breach may be eligible to claim up to $2,300 from a class action settlement.\n\nIndividuals who received notice that the October 2024 Furman Foods data breach compromised their personal information may be eligible to claim up to $2,300 from a class action settlement.\n\nClass members include individuals residing in the United States whose personal information the October 2024 Furman Foods data breach incident potentially compromised.\n\nThe settlement provides several forms of compensation, depending on qualifying class members' circumstances and losses.\n\nOut-of-pocket expenses: Up to $300 for documented expenses directly related to the data incident, such as credit monitoring fees, costs to replace IDs or postage to contact banks. These expenses must have occurred between Oct. 10, 2024, and Sept. 30, 2026.\n\nLosses due to identity theft or fraud: Up to $2,000 for documented, unreimbursed monetary losses the data incident most likely caused that other categories don't already cover. These losses must have occurred between Oct. 10, 2024, and Sept. 30, 2026.\n\nA one-time $35 payment in lieu of losses or lost time. This option is for class members who do not wish to submit documentation or who did not incur qualifying expenses.",
-   "claim_url": "https://www.furmanfoodsdatasettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://www.furmanfoodsdatasettlement.com/",
-     "no_proof": true
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/furman-foods-data-settlement",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": "Atticus"
-  },
-  {
    "id": "6a8ecf1cb6b2",
    "title": "La Jolla Group Data Breach Settlement for Employees",
    "category": "Data breach",
@@ -3597,37 +3427,6 @@
    "notice_source": "form",
    "notice_mail": false,
    "administrator": "Simpluris"
-  },
-  {
-   "id": "e0faa8b768d0",
-   "title": "Mercedes-Benz Emission Control System Settlement",
-   "category": "Privacy & tech",
-   "payout": "$2,000",
-   "payout_max": 2000.0,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-09-30",
-   "no_proof": false,
-   "summary": "Individuals who owned or leased certain 2009-2016 Mercedes-Benz diesel vehicles may be eligible to claim $2,000 and a free repair from a DOJ settlement.\n\nThey are a current owner or lessee who installed the AEM on their eligible vehicle on or after Aug. 1, 2023.\n\nThey are a former owner or lessee who installed the AEM on their eligible vehicle on or after Aug. 1, 2023.\n\nThe eligible vehicle is operable and registered or held by a dealer in the United States or its territories.\n\nEligible vehicles include the following Mercedes-Benz and Freightliner Sprinter diesel models from 2009 to 2016:\n\nCash payment: Qualifying current or former car owners can submit a claim to receive a $2,000 cash payment for each eligible vehicle.\n\nTo receive a payment, eligible individuals must file a claim online. The claim deadline is Sept. 30, 2026.\n\nClass members must complete the free AEM installation at an authorized Mercedes-Benz or Freightliner Sprinter dealership between Aug. 1, 2023, and Aug. 31, 2026, and before submitting a claim.\n\nA copy of the current vehicle title, a bill of sale if the class member no longer owns the vehicle or a lease agreement if they currently leases or previously leased the vehicle\n\nThe final repair order from an authorized dealer showing they installed the AEM between Aug. 1, 2023, and Aug. 31, 2026",
-   "claim_url": "https://mbaemincentive.com/Login",
-   "sources": [
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/mb-aem-incentive",
-     "no_proof": false
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/mercedes-benz-aem-incentive-bluetec-diesel-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-22",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": "Epiq"
   },
   {
    "id": "e654eb392779",
@@ -4299,6 +4098,37 @@
    "administrator": "Atticus"
   },
   {
+   "id": "1acfe77fe8ff",
+   "title": "Swire Coca-Cola $2 Million Labor Class Action Settlement",
+   "category": "Privacy & tech",
+   "payout": "$672.54 (estimated)",
+   "payout_max": 672.54,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-11-02",
+   "no_proof": false,
+   "summary": "Current and former employees who worked for Swire Coca-Cola USA in Washington state and earned less than twice the state minimum hourly wage between Sept. 9, 2022, and March 10, 2026, may be eligible to receive an estimated payment of $672.54 from a class action settlement. The settlement class includes approximately 2,003 individuals.\n\nClass members must meet the following criteria:\n\nThey worked for Swire Coca-Cola USA in the state of Washington at any time between Sept. 9, 2022, and March 10, 2026.\n\nPro rata cash payment: Eligible class members will receive a pro rata cash payment from the net settlement fund estimated at $672.54.\n\nClass members do not need to file a claim to receive a settlement payment.\n\nTo receive a digital payment, class members can submit a payment selection form online using the login ID and PIN from their settlement notice. They can also submit an address update using the same link.\n\nPayments to eligible class members: Remaining settlement funds\n\nThe settlement administrator will issue payments to eligible class members approximately 60 days after the court grants final approval of the settlement.",
+   "claim_url": "https://settlementsphi.com/faq/",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/settlement-sphi-wa",
+     "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/employment/non-compete/swire-coca-cola-washington-non-compete-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-01",
+   "new": true,
+   "notice_id": "none",
+   "notice_source": "listing",
+   "notice_mail": false,
+   "administrator": "Simpluris"
+  },
+  {
    "id": "adc1b7cafa32",
    "title": "Concora Credit - Unwanted Calls Class Action Settlement",
    "category": "Product",
@@ -4545,6 +4375,32 @@
    "notice_source": null,
    "notice_mail": false,
    "administrator": "JND"
+  },
+  {
+   "id": "6aa04e1e1139",
+   "title": "Providence $17M Washington Wage Settlement — Automatic Payments for Hourly Workers Over Breaks, Unpaid Time and Overtime",
+   "category": "Privacy & tech",
+   "payout": "$25 minimum · ~$330+ average (est.)",
+   "payout_max": 330.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-12-14",
+   "no_proof": false,
+   "summary": "Your browser does not support viewing PDFs inline. Download the PDF.",
+   "claim_url": "https://www.cptgroupcaseinfo.com/ProvidenceHealthSettlement?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/wage-and-hours/providence-health-washington-wage-hour-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-01",
+   "new": true,
+   "notice_id": "none",
+   "notice_source": "listing",
+   "notice_mail": false,
+   "administrator": "CPT Group"
   },
   {
    "id": "445da8f5ccdb",
@@ -5459,7 +5315,7 @@
     }
    ],
    "first_seen": "2026-09-30",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -6198,7 +6054,7 @@
     }
    ],
    "first_seen": "2026-09-30",
-   "new": true,
+   "new": false,
    "notice_id": "none",
    "notice_source": "listing",
    "notice_mail": false,
@@ -6664,32 +6520,6 @@
    "notice_source": "listing",
    "notice_mail": false,
    "administrator": "A.B. Data"
-  },
-  {
-   "id": "b1fcf9e0ff02",
-   "title": "$8M CAD Wayland Group (Formerly Maricann) Securities Settlement: Investors From December 2017 to August 2019 Can File a Claim",
-   "category": "Privacy & tech",
-   "payout": "Pro rata, capped per share",
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-09-30",
-   "no_proof": false,
-   "summary": "Receiving notice of the settlement does not make you eligible or guarantee a payment. Nobody administering the settlement can see your trading history, which is why a claim form and documentation are required.\n\nUp to $0.17 per share — securities purchased between December 13, 2017 and April 23, 2019 and sold after April 23 but before May 6, 2019.\n\nUp to $0.74 per share — securities purchased between December 13, 2017 and May 6, 2019 and held after May 6, 2019. This is the only bucket that can exceed $0.17.\n\nUp to $0.03 per share — securities purchased on the U.S. markets between May 7 and August 2, 2019 and held past August 2, 2019.",
-   "claim_url": "https://bergermontague.com/cases/wayland-group-corp/?utm_source=openclassactions.com",
-   "sources": [
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/securities/wayland-maricann-securities-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "none",
-   "notice_source": "form",
-   "notice_mail": false,
-   "administrator": null
   },
   {
    "id": "f55bff8ea3f4",
@@ -7774,7 +7604,7 @@
     }
    ],
    "first_seen": "2026-09-30",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -8272,6 +8102,32 @@
    "administrator": "Angeion"
   },
   {
+   "id": "23ae1cae29bc",
+   "title": "Russelectric $14.55 Million ESOP Class Action Settlement",
+   "category": "Privacy & tech",
+   "payout": "Varies based on ESOP share",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-11-16",
+   "no_proof": false,
+   "summary": "Individuals who received a benefit from the Russelectric ESOP termination may be eligible to claim a payment from a class action settlement.\n\nParticipants in or beneficiaries of the Russelectric Inc. Employee Stock Ownership Plan who received a benefit when the company terminated the plan may be eligible to claim a cash payment from a class action settlement.\n\nClass members must meet one of the following criteria:\n\nPro rata payment: Eligible class members will receive a pro rata payment from the net settlement fund. The payment each class member receives is based on their percentage interest in the ESOP at the time of its termination. There are approximately 394 eligible class members.\n\nMost class members do not take any action to receive their payment. If they do nothing, the settlement administrator will mail a check to their last known address. Claimants can update their address by contacting the settlement administrator. Payments made directly by check are subject to automatic tax withholding and tax reporting.",
+   "claim_url": "https://www.russelectricesopsettlement.com/faqs-2/",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/russelectric-esop-settlement",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-01",
+   "new": true,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": "Atticus"
+  },
+  {
    "id": "edcafb0ef1bd",
    "title": "Northeast Grocery - 401(k) Plans Class Action Settlement",
    "category": "Product",
@@ -8363,7 +8219,7 @@
     }
    ],
    "first_seen": "2026-09-30",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "form",
    "notice_mail": true,
@@ -8694,7 +8550,7 @@
     }
    ],
    "first_seen": "2026-09-30",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "admin",
    "notice_mail": false,
@@ -8911,7 +8767,7 @@
     }
    ],
    "first_seen": "2026-09-30",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -9689,11 +9545,37 @@
     }
    ],
    "first_seen": "2026-09-30",
-   "new": true,
+   "new": false,
    "notice_id": "none",
    "notice_source": "form",
    "notice_mail": false,
    "administrator": "CPT Group"
+  },
+  {
+   "id": "2cef713caa1b",
+   "title": "Aetna Life Insurance - Lumbar Artificial Disc Replacement Class Action Settlement",
+   "category": "Financial",
+   "payout": null,
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": false,
+   "summary": "You may be included in this settlement if you had a pre-service authorization request or post-service claim for single-level lumbar artificial disc replacement denied by Aetna Life Insurance Company.",
+   "claim_url": "https://www.ladrsurgerysettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://www.ladrsurgerysettlement.com/",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": "Atticus"
   },
   {
    "id": "5a70cc6513c6",
@@ -9938,6 +9820,110 @@
    "notice_source": "admin",
    "notice_mail": false,
    "administrator": "Simpluris"
+  },
+  {
+   "id": "2eda2663b331",
+   "title": "ApolloMD - Data Breach Class Action Settlement",
+   "category": "Data breach",
+   "payout": null,
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": true,
+   "summary": "This settlement covers those whose private information was potentially exposed in the May 2025 ApolloMD data breach.",
+   "claim_url": "https://apollomddatasettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://apollomddatasettlement.com/",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": null
+  },
+  {
+   "id": "3ab6e50aa854",
+   "title": "First Baptist Church of Hammond, Indiana - Data Breach Class Action Settlement",
+   "category": "Data breach",
+   "payout": null,
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": true,
+   "summary": "If your private information was compromised in the July 2025 First Baptist Church of Hammond, Indiana data breach, you may be included in this settlement.",
+   "claim_url": "https://fbcdatasettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://fbcdatasettlement.com/",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": "required",
+   "notice_source": "form",
+   "notice_mail": false,
+   "administrator": "Simpluris"
+  },
+  {
+   "id": "5d886e6541eb",
+   "title": "Clay-Platte Family Medicine - Data Breach Class Action Settlement",
+   "category": "Data breach",
+   "payout": null,
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": true,
+   "summary": "You may be included in this settlement if your personal information was exposed in the June 2024 Clay-Platte Family Medicine Clinic data breach.",
+   "claim_url": "https://www.cpfmsettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://www.cpfmsettlement.com/",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": "Angeion"
+  },
+  {
+   "id": "1b7e1455b6a1",
+   "title": "Furman Foods - Data Breach Class Action Settlement",
+   "category": "Data breach",
+   "payout": null,
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": true,
+   "summary": "You may be able to claim a piece of this settlement if your personal information was compromised in the October 2024 Furman Foods data breach.",
+   "claim_url": "https://www.furmanfoodsdatasettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://www.furmanfoodsdatasettlement.com/",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": null
   },
   {
    "id": "893f214f7c3f",
