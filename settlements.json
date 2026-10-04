@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-03T12:24:59+00:00",
- "count": 389,
+ "updated": "2026-10-04T12:38:51+00:00",
+ "count": 391,
  "no_proof_count": 191,
  "settlements": [
   {
@@ -49,7 +49,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": "none",
    "notice_source": "form",
    "notice_mail": false,
@@ -101,7 +101,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -127,7 +127,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "listing",
    "notice_mail": false,
@@ -153,7 +153,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "listing",
    "notice_mail": false,
@@ -179,7 +179,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -205,7 +205,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -231,7 +231,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -615,7 +615,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -981,7 +981,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "form",
    "notice_mail": true,
@@ -1435,6 +1435,37 @@
    "notice_source": "form",
    "notice_mail": true,
    "administrator": "Simpluris"
+  },
+  {
+   "id": "211bf3146ac6",
+   "title": "Crossroads Trading Co. - Data Breach Class Action Settlement",
+   "category": "Data breach",
+   "payout": "About $25, or up to $5,000Claim deadline alerts",
+   "payout_max": 5000.0,
+   "no_proof_payout": "$25",
+   "no_proof_payout_max": 25.0,
+   "deadline": "2026-10-13",
+   "no_proof": true,
+   "summary": "Official settlement website — Crossroads Settlement, including its important dates and legal rights summary\n\nOfficial settlement notice (PDF), Wright, et al. v. Crossroads Trading Co., Inc., Case No. 25CV479119 (Cal. Super. Ct., Santa Clara County)\n\nSettlement Agreement between the plaintiffs and Crossroads Trading Co., Inc., executed November–December 2025, posted on the official settlement website",
+   "claim_url": "https://crossroadssettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://crossroadssettlement.com/",
+     "no_proof": true
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/data-breaches/crossroads-trading-data-breach-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": "Kroll"
   },
   {
    "id": "678b0f774fdb",
@@ -2394,7 +2425,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -2647,7 +2678,7 @@
    "id": "455dc6cc83a5",
    "title": "LaVista Walk Apartment Fire Class Action Settlement",
    "category": "Product",
-   "payout": "About $4,594 per adult",
+   "payout": "About $4,594 per adultSettlement claim assistance",
    "payout_max": 4594.0,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
@@ -4532,7 +4563,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "form",
    "notice_mail": true,
@@ -4832,7 +4863,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "listing",
    "notice_mail": false,
@@ -5214,7 +5245,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -6439,7 +6470,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": "none",
    "notice_source": "listing",
    "notice_mail": false,
@@ -7147,7 +7178,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": "none",
    "notice_source": "listing",
    "notice_mail": false,
@@ -7957,7 +7988,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": "optional",
    "notice_source": "listing",
    "notice_mail": false,
@@ -8123,7 +8154,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "listing",
    "notice_mail": true,
@@ -8164,7 +8195,7 @@
    "id": "ea85379643e2",
    "title": "90 Washington Street $1.74M Rent Overcharge Settlement: Claims Due November 2, 2026",
    "category": "Privacy & tech",
-   "payout": "Overcharge refund + 9%",
+   "payout": "Overcharge refund + 9%Search Homes",
    "payout_max": null,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
@@ -8660,7 +8691,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -8686,7 +8717,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -9048,7 +9079,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": "none",
    "notice_source": "form",
    "notice_mail": true,
@@ -9117,6 +9148,32 @@
    "administrator": "American Legal Claims"
   },
   {
+   "id": "da1ccbaaf1f1",
+   "title": "Pulsz Settlement — Free Gold Coins or 23% Cash Back for Pulsz and Pulsz Bingo Players in Six States",
+   "category": "Privacy & tech",
+   "payout": "23% of net spending in cash",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-11-30",
+   "no_proof": false,
+   "summary": "Do nothing — Gold Coins: 27% of the Net Purchase Amount, credited as Virtual Gold Coins at 10,000 Gold Coins per dollar.\n\nFile an election — cash: 23% of the Net Purchase Amount, paid by check, Zelle, PayPal or Venmo.\n\nThe Customer ID for each Pulsz and Pulsz Bingo account the player made purchases on, found under \"My Account\" after logging in",
+   "claim_url": "https://www.ysisettlement.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/pulsz-social-casino-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-04",
+   "new": true,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": "P&N"
+  },
+  {
    "id": "ff60373213fa",
    "title": "FirstCash - Military Lending Act Class Action Settlement",
    "category": "Financial",
@@ -9182,6 +9239,32 @@
    "notice_source": "listing",
    "notice_mail": false,
    "administrator": "Angeion"
+  },
+  {
+   "id": "d98c0b2f4e11",
+   "title": "Aramark Capital One Arena $4.5M Venue Fee Settlement — Claim by December 4, 2026",
+   "category": "Privacy & tech",
+   "payout": "Equal share of $4.5M net fund",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-12-04",
+   "no_proof": false,
+   "summary": "Official settlement website — Frequently Asked Questions (class definition, fund, fees, payment methods, deadlines and hearing date)\n\nCourt documents, including the complaint, the fully executed settlement agreement, the claim form, the long form notice, the October 2, 2026 email summary notice (the source of the Settlement Claim ID) and the September 14, 2026 order granting preliminary approval",
+   "claim_url": "https://www.venuefeesettlement.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/deceptive-pricing/aramark-capital-one-arena-venue-fee-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-04",
+   "new": true,
+   "notice_id": "required",
+   "notice_source": "listing",
+   "notice_mail": true,
+   "administrator": "P&N"
   },
   {
    "id": "b310ff5bd07f",
@@ -9487,7 +9570,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -9606,7 +9689,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "listing",
    "notice_mail": false,
@@ -9632,7 +9715,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -9658,7 +9741,7 @@
     }
    ],
    "first_seen": "2026-10-03",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -10380,32 +10463,6 @@
    "notice_source": null,
    "notice_mail": false,
    "administrator": "Analytics Consulting"
-  },
-  {
-   "id": "211bf3146ac6",
-   "title": "Crossroads Trading Co. - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": true,
-   "summary": "This settlement covers those who were affected by the February 2025 Crossroads Trading Co. data breach.",
-   "claim_url": "https://crossroadssettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://crossroadssettlement.com/",
-     "no_proof": true
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": null
   },
   {
    "id": "2c8f7f6417c6",
@@ -11689,7 +11746,7 @@
   {
    "id": "f077f6331cb3",
    "title": "Rolling Stone Lifetime Subscription Class Action Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Print delivery for lifetime and/or two years RollingStone.com access",
    "payout_max": null,
    "no_proof_payout": null,
@@ -11793,7 +11850,7 @@
   {
    "id": "4de6277d5103",
    "title": "80/20 Inc. $7 Million ESOP Class Action Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Pro rata payment",
    "payout_max": null,
    "no_proof_payout": null,
@@ -11819,7 +11876,7 @@
   {
    "id": "bb76139bfab8",
    "title": "Widener University $800,000 COVID-19 Tuition Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Pro rata share of net settlement fund plus noncash benefits",
    "payout_max": null,
    "no_proof_payout": null,
