@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-07T13:41:43+00:00",
- "count": 373,
- "no_proof_count": 180,
+ "updated": "2026-10-08T13:44:30+00:00",
+ "count": 378,
+ "no_proof_count": 181,
  "settlements": [
   {
    "id": "d1a453bd370a",
@@ -332,7 +332,7 @@
   },
   {
    "id": "def6ef537b76",
-   "title": "Kelly Benefits $5M Data Breach Class Action Settlement",
+   "title": "American Medical Collection Agency $6.44M Data Breach Lawsuit",
    "category": "Data breach",
    "payout": "Up to $25,000 plus credit monitoring",
    "payout_max": 25000.0,
@@ -341,8 +341,18 @@
    "deadline": "2026-10-12",
    "no_proof": true,
    "summary": "Individuals whom Crossroads Trading Co. notified of a 2025 data breach may be eligible to claim a cash payment from a class action settlement.\n\nIndividuals who received notice from Crossroads Trading Co. that a data breach incident on Feb. 15, 2025, may have impacted their private information could qualify to submit a claim for a cash payment from a class action settlement. The incident compromised approximately 60,041 current and former employees and customers.\n\nClass members are individuals residing in the United States whose private information the February 2025 Crossroads data breach may have compromised or otherwise impacted, including those who received notice of the incident.\n\nClass members have the following benefit options:\n\nDocumented loss payment: Class members can claim up to $5,000 for documented, unreimbursed monetary losses that occurred on or after Feb. 15, 2025 and are fairly attributable to the data breach. This may include:\n\nCosts of credit reports purchased between Feb. 15, 2025, and Oct. 13, 2026\n\nAlternative cash payment: Class members who do not submit a documented losses claim can submit a claim to receive an alternative cash payment estimated at $25.\n\nCalifornia statutory cash payment: All class members who resided in California at any point between Feb. 15, 2025, and Oct. 13, 2026, can also submit a claim to receive a statutory cash payment estimated at $100.",
-   "claim_url": "https://forms.ksacms.com/efiling/fr/eform/kellybenefitsdatabreachlitigation_claimform/new?form-version=1&fr-wizard-page=section-1",
+   "claim_url": "https://forms.ksacms.com/efiling/fr/eform/amcadatabreachsettlementsonic_claimform/new?form-version=1&fr-wizard-page=section-1",
    "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/amca-data-breach-settlement",
+     "no_proof": true
+    },
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/jefferson-county-breach-settlement",
+     "no_proof": false
+    },
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/kelly-benefits-settlement",
@@ -1137,8 +1147,8 @@
    "category": "Data breach",
    "payout": "Up to $5,080 plus credit monitoring",
    "payout_max": 5080.0,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
+   "no_proof_payout": "$50",
+   "no_proof_payout_max": 50.0,
    "deadline": "2026-12-01",
    "no_proof": true,
    "summary": "Individuals who received a notice about the Holt Group data breach may be eligible to claim up to $5,080 from a class action settlement.\n\nClass members are individuals residing in the United States whose private information the Holt Group data breach potentially accessed or acquired between Dec. 26, 2024, and Dec. 27, 2024, and who received a letter notifying them of the incident.\n\nClass members have the following benefit options:\n\nCredit monitoring: All class members can elect to receive two free years of three-bureau credit monitoring. Services include $1 million in fraud protection and access to a fraud resolution agent if suspicious activity occurs.\n\nCash payment A - Documented losses: Class members can claim up to $5,000 for documented losses traceable to the data breach Eligible expenses include losses from identity theft or fraud; fees for credit reports, credit monitoring or freezing/unfreezing credit; costs to replace IDs; and postage for contacting financial institutions.\n\nCash payment B - Time spent: Class members can claim up to four hours of time spent addressing issues the data breach caused at $20 per hour ($80 maximum). Eligible activities include changing passwords, investigating suspicious activity and researching the data breach.",
@@ -1153,13 +1163,18 @@
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/holt-group-data-settlement",
      "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/data-breaches/holt-group-data-breach-settlement.php",
+     "no_proof": false
     }
    ],
    "first_seen": "2026-10-02",
    "new": false,
    "notice_id": "required",
    "notice_source": "form",
-   "notice_mail": false,
+   "notice_mail": true,
    "administrator": "Simpluris"
   },
   {
@@ -1268,42 +1283,6 @@
    "notice_id": "required",
    "notice_source": "form",
    "notice_mail": false,
-   "administrator": "Simpluris"
-  },
-  {
-   "id": "fe047e146400",
-   "title": "Bradford-Scott Data - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": "Up to $5,000 plus credit monitoring",
-   "payout_max": 5000.0,
-   "no_proof_payout": "$100",
-   "no_proof_payout_max": 100.0,
-   "deadline": "2026-10-07",
-   "no_proof": true,
-   "summary": "Individuals who received a notice about the July 2023 Bradford-Scott Data breach may be eligible to claim up to $5,000 from a class action settlement.\n\nIndividuals who received a notice that the July 2023 Bradford-Scott Data data incident may have compromised their personal information could may be eligible to claim up to $5,000 and credit monitoring from a class action settlement.\n\nThe class includes anyone affected by the July 2023 data incident involving Bradford-Scott Data LLC, including those who received a notice letter from the company regarding the incident.\n\nClass members can claim several types of benefits from the settlement fund:\n\nReimbursement for documented monetary losses: Class members who experienced actual, documented out-of-pocket losses between July 2, 2023, and Oct. 7, 2026, due to the data incident can claim up to $5,000. Eligible expenses include:\n\nPro rata cash payment: Class members who did not experience out-of-pocket losses or do not wish to provide documentation can claim a one-time pro rata cash payment estimated at $100, but the final amount may be higher or lower depending on the number of valid claims.\n\nCredit monitoring: All class members are eligible to enroll in three years of CyEx Financial Shield Complete credit monitoring, which includes $1 million in financial fraud insurance and monitoring for various types of suspicious activity.",
-   "claim_url": "https://bradfordscottdatasettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://bradfordscottdatasettlement.com/",
-     "no_proof": true
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/bradford-scott-data-settlement",
-     "no_proof": false
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/data-breaches/bradford-scott-data-sharetec-data-breach-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "form",
-   "notice_mail": true,
    "administrator": "Simpluris"
   },
   {
@@ -2651,7 +2630,7 @@
     }
    ],
    "first_seen": "2026-10-07",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "listing",
    "notice_mail": false,
@@ -2691,6 +2670,32 @@
    "notice_id": "required",
    "notice_source": "listing",
    "notice_mail": false,
+   "administrator": "Kroll"
+  },
+  {
+   "id": "bc1ebd857f2e",
+   "title": "$6.44M AMCA Data Breach Settlement With Sonic Healthcare Labs — $50 or Up to $5,000",
+   "category": "Data breach",
+   "payout": "~$50 or up to $5,000",
+   "payout_max": 5000.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2027-01-04",
+   "no_proof": false,
+   "summary": "Out-of-Pocket Losses: up to $5,000 for documented, unreimbursed losses fairly traceable to the incident, including identity theft or medical fraud losses, professional services such as credit repair, notary, fax, postage, copying, mileage and long-distance charges, credit monitoring bought on or after August 1, 2018, and up to 10 hours of documented time at $25 an hour. These payments can also be adjusted pro rata.",
+   "claim_url": "https://www.amcadatabreachsettlement-saca.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/data-breaches/amca-sonic-healthcare-data-breach-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-08",
+   "new": true,
+   "notice_id": "required",
+   "notice_source": "listing",
+   "notice_mail": true,
    "administrator": "Kroll"
   },
   {
@@ -3346,6 +3351,37 @@
    "notice_source": "listing",
    "notice_mail": false,
    "administrator": "Kroll"
+  },
+  {
+   "id": "defdc12d17c1",
+   "title": "Pillsbury Winthrop Shaw Pittman $2.34M Data Breach Settlement",
+   "category": "Data breach",
+   "payout": "Pro rata cash + up to $3,000",
+   "payout_max": 3000.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-12-07",
+   "no_proof": false,
+   "summary": "Individuals who received notification stating the April 2025 Pillsbury Winthrop Shaw Pittman LLP data breach may have compromised their private information could be eligible to submit a claim for up to $3,000 in documented losses plus a pro rata cash payment and medical data monitoring from a class action settlement.\n\nClass members are individuals residing in the United States who received notice that the April 2025 Pillsbury Winthrop Shaw Pittman LLP data breach may have impacted their private information.\n\nClass members can claim one or more of the following benefits:\n\nDocumented losses: Class members can claim up to $3,000 for documented out-of-pocket losses that occurred between April 29, 2025, and Dec. 7, 2026, and are traceable to the data breach. This includes monetary losses from identity theft or fraud; fees for credit reports, credit monitoring or freezing/unfreezing credit; costs to replace IDs; and postage to contact financial institutions.\n\nPro rata cash payment: All class members can submit a claim to receive a one-time pro rata cash payment from the net settlement fund after the settlement administrator pays all other claims. The settlement administrator will determine the final payment amount by the total number of claims filed.",
+   "claim_url": "https://pillsburydatasettlement.com/form/claim",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/pillsbury-data-settlement",
+     "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/data-breaches/pillsbury-data-breach-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-08",
+   "new": true,
+   "notice_id": "required",
+   "notice_source": "form",
+   "notice_mail": true,
+   "administrator": "Simpluris"
   },
   {
    "id": "466e17c6ee12",
@@ -4219,10 +4255,10 @@
    "category": "Data breach",
    "payout": "$1,000 plus refund of amount collected after lawsuit",
    "payout_max": 1000.0,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
+   "no_proof_payout": "$50",
+   "no_proof_payout_max": 50.0,
    "deadline": "2026-11-30",
-   "no_proof": false,
+   "no_proof": true,
    "summary": "Individuals whom Guadalupe Credit Union filed a collections lawsuit against in a New Mexico magistrate court without representation by a New Mexico-licensed attorney may be eligible to receive a $1,000 cash payment plus a refund of any amount collected after the lawsuit's filing as part of a class action settlement.\n\nClass members must meet the following criteria:\n\nCash payment: Eligible class members will receive a cash payment of $1,000 plus a refund of any amount they paid to Guadalupe Credit Union after it filed their collections lawsuit.\n\nClass members do not need to file a claim to receive a settlement payment.\n\nClass members can submit an address update online using the notice ID and PIN from their settlement notice or mail or email the request to the settlement administrator. Address update requests by mail or email require the person's full name, previous address, current address and notice ID.\n\nClass members can submit name-change updates by mailing or emailing the settlement administrator. These requests require a copy of a marriage license, divorce decree or court order, the person's original name, their current address and the notice ID.",
    "claim_url": "https://www.salasvgcusettlement.com/page/faq",
    "sources": [
@@ -4230,10 +4266,15 @@
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/salas-v-gcu-settlement",
      "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/consumer-protection/guadalupe-credit-union-collection-lawsuits-class-action-settlement.php",
+     "no_proof": true
     }
    ],
    "first_seen": "2026-10-07",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -4259,7 +4300,7 @@
     }
    ],
    "first_seen": "2026-10-07",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "admin",
    "notice_mail": false,
@@ -4767,40 +4808,30 @@
    "administrator": "Angeion"
   },
   {
-   "id": "494a48cf71c6",
-   "title": "The Money Source - Unwanted Calls Class Action Settlement",
-   "category": "Product",
-   "payout": "Up to $286 per call (estimated)",
-   "payout_max": 286.0,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-10-07",
+   "id": "3dc7b37b890f",
+   "title": "Jefferson County Health Center Data Breach Settlement — $150 With No Documentation or Up to $300",
+   "category": "Data breach",
+   "payout": "$150 or up to $300",
+   "payout_max": 300.0,
+   "no_proof_payout": "$150",
+   "no_proof_payout_max": 150.0,
+   "deadline": "2026-11-16",
    "no_proof": false,
-   "summary": "Individuals who received a call on their cell phone from The Money Source between Feb. 6, 2019, and May 7, 2025, featuring a prerecorded or artificial voice after they had asked the company to stop calling may be eligible to receive a cash payment from a class action settlement.\n\nClass members must meet the following criteria:\n\nThe call occurred between Feb. 6, 2019, and May 7, 2025.\n\nPro rata cash payment: Eligible class members will receive a pro rata cash payment from the net settlement fund for each qualifying call.\n\nThe estimated payment per call is $286. The settlement administrator will determine the final payment amount by the number of eligible class members and the total number of qualifying calls.\n\nClass members do not need to submit a claim form to receive a settlement payment. The settlement administrator will ask anyone receiving a settlement payment of more than $2,000 to provide a completed IRS W-9 form prior to receiving their payment.\n\nPayments to eligible class members: Remaining settlement funds\n\nThe settlement administrator will issue paymentsto eligible class members after the court grants final approval of the settlement.",
-   "claim_url": "https://www.moneysourcetcpaclassaction.com/",
+   "summary": "Fixed cash payment: an estimated $150, with no documentation required.\n\nReimbursement: up to $300 for lost time and out-of-pocket expenses, such as fraud or identity protection costs, professional fees and credit repair services, incurred between the breach notice and November 16, 2026 and not already reimbursed. Supporting documentation is required, including for lost time.\n\nYour browser does not support viewing PDFs inline. Download the PDF.",
+   "claim_url": "https://jeffersoncountybreachsettlement.com/?utm_source=openclassactions.com",
    "sources": [
     {
-     "name": "classaction_org",
-     "url": "https://www.moneysourcetcpaclassaction.com/",
-     "no_proof": null
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/money-source-tcpa-class-action",
-     "no_proof": false
-    },
-    {
      "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/tcpa/money-source-tcpa-prerecorded-calls-class-action-settlement.php",
+     "url": "https://openclassactions.com/settlements/data-breaches/jefferson-county-health-center-data-breach-settlement.php",
      "no_proof": false
     }
    ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "none",
+   "first_seen": "2026-10-08",
+   "new": true,
+   "notice_id": "required",
    "notice_source": "listing",
    "notice_mail": false,
-   "administrator": "Atticus"
+   "administrator": "Kroll"
   },
   {
    "id": "741766f6a460",
@@ -4810,7 +4841,7 @@
    "payout_max": 280.0,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
-   "deadline": "2026-10-07",
+   "deadline": "2026-10-08",
    "no_proof": false,
    "summary": "Individuals held in New York City Department of Correction custody between March 28, 2020, and Feb. 29, 2024, who received a strip search upon arrival at the Manhattan Court Division after they already received a strip search before leaving Rikers Island for court may be eligible to claim a cash payment from a class action settlement.\n\nClass members are individuals who were in custody of the New York City DOC between March 28, 2020, and Feb. 29, 2024, who received a strip search upon arrival at the Manhattan Court Division after receiving a strip search before departing Rikers Island for court and who appear on the official class list.\n\nEligible class members who submit a valid claim will receive a pro rata payment from a $28 million fund. The amount each person receives depends on the number of times they received qualifying strip searches and the total number of such incidents all class members claim. Payments may be subject to deductions for child support liens, certain government liens or other judgments as required by law.\n\nTo receive a payment, class members can submit an online claim form or print and complete the PDF claim form from the online portal and mail it to the settlement administrator.\n\nIf the class member is deceased, a legal representative may submit a claim with proof of death and documentation showing authority to act on behalf of the estate.",
    "claim_url": "https://veritaconnect.com/WEBTOONSecuritiesSettlement/",
@@ -4873,11 +4904,6 @@
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/zymergen-securities-litigation",
-     "no_proof": false
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/amtrust-securities-litigation",
      "no_proof": false
     },
     {
@@ -4982,13 +5008,18 @@
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/tf-tcpa-settlement",
      "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/tcpa/teleflora-tcpa-text-message-class-action-settlement.php",
+     "no_proof": false
     }
    ],
    "first_seen": "2026-10-07",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "form",
-   "notice_mail": false,
+   "notice_mail": true,
    "administrator": "Angeion"
   },
   {
@@ -5390,6 +5421,58 @@
    "administrator": "JND"
   },
   {
+   "id": "86d92ffbdca3",
+   "title": "Coast Dental Services $3.84M TCPA Class Action Settlement",
+   "category": "Data breach",
+   "payout": "Up to $59 in cash OR up to $99 in a voucher",
+   "payout_max": 99.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-12-24",
+   "no_proof": false,
+   "summary": "Individuals who received unwanted texts or calls from Coast Dental Services after opting out may be eligible to claim a payment from a class action settlement.\n\nIndividuals who received more than one text message or phone call from Coast Dental Services LLC after asking the company to stop may be eligible to claim up to $59 in cash or a $99 voucher from a class action settlement.\n\nEligible class members must meet all of the following criteria:\n\nClass members who submit a valid claim may choose between two payment options:\n\nThe actual amount each class member receives may be less than the maximum, depending on the number of valid claims submitted and deductions for attorneys’ fees and costs, administration costs and service awards.\n\nTo claim an award, eligible class members must submit an online claim form or print and complete the PDF claim form and mail it to the settlement administrator. Each class member can only submit one claim despite the number of call or texts they received.\n\nClass members using the online claim form must provide the claim number and PIN they received in their settlement notice.\n\nPayments to eligible class members: Remainder of the settlement fund",
+   "claim_url": "https://chavianocoastdentalservices.claims-administrator.com/",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/cds-tcpa-settlement",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-08",
+   "new": true,
+   "notice_id": "required",
+   "notice_source": "listing",
+   "notice_mail": false,
+   "administrator": "Analytics Consulting"
+  },
+  {
+   "id": "469564abb1d6",
+   "title": "Coast Dental Text Message Settlement — Up to $59 Cash or a $99 Toothbrush Voucher",
+   "category": "Privacy & tech",
+   "payout": "Up to $59 cash or $99 voucher",
+   "payout_max": 99.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-12-24",
+   "no_proof": false,
+   "summary": "Voucher: up to $99 toward an electric toothbrush sold by Coast Dental. A claimant who does not pick an option, or whose choice is unclear, receives the voucher.\n\nYour browser does not support viewing PDFs inline. Download the PDF.",
+   "claim_url": "https://cdstcpasettlement.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/tcpa/coast-dental-tcpa-text-message-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-08",
+   "new": true,
+   "notice_id": "required",
+   "notice_source": "listing",
+   "notice_mail": false,
+   "administrator": "Analytics Consulting"
+  },
+  {
    "id": "ccf237518f33",
    "title": "Apple iPhone $250M False Advertising Class Action Settlement",
    "category": "Privacy & tech",
@@ -5471,6 +5554,37 @@
    "notice_source": null,
    "notice_mail": false,
    "administrator": "Atticus"
+  },
+  {
+   "id": "e4d7e1d056f5",
+   "title": "The Container Store $780,000 Accessibility Settlement",
+   "category": "Data breach",
+   "payout": "$75 per qualifying purchase",
+   "payout_max": 75.0,
+   "no_proof_payout": "$5",
+   "no_proof_payout_max": 5.0,
+   "deadline": "2026-12-20",
+   "no_proof": false,
+   "summary": "Individuals who are legally blind and purchased from The Container Store in Massachusetts may qualify to claim $75 per purchase from a class action lawsuit.\n\nLegally blind shoppers who made a purchase at The Container Store in Massachusetts between July 20, 2011, and August 12, 2026, and attempted to credit their purchase to The Container Store’s loyalty program may be eligible to claim $75 per qualifying purchase from a class action settlement.\n\nThe Container Store agreed to pay $780,000 to settle a class action lawsuit alleging the company maintained point-of-sale devices in Massachusetts stores that blind individuals could not access in violation of the Massachusetts Public Accommodations Act, the Massachusetts Equal Rights Act and the Massachusetts Consumer Protection Law. The settlement allocates $230,000 for class member payments. The remainder of the fund will go toward installing fully accessible point-of-sale kiosk devices in all of the company's Massachusetts stores.\n\nClass members must meet all of the following requirements:\n\nThey made a purchase at any The Container Store location in Massachusetts between July 20, 2011, and Aug. 12, 2026.",
+   "claim_url": "https://www.tcssettlement.com/Login",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/tcs-settlement",
+     "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/consumer-protection/container-store-blind-accessibility-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-08",
+   "new": true,
+   "notice_id": "none",
+   "notice_source": "form",
+   "notice_mail": false,
+   "administrator": "CPT Group"
   },
   {
    "id": "762359fe4e50",
@@ -5936,6 +6050,37 @@
    "notice_source": null,
    "notice_mail": false,
    "administrator": "Verita (KCC)"
+  },
+  {
+   "id": "849ec2559a23",
+   "title": "Arizona Labor Force $300,000 Data Breach Settlement",
+   "category": "Data breach",
+   "payout": "$25 (estimated)",
+   "payout_max": 25.0,
+   "no_proof_payout": "$25",
+   "no_proof_payout_max": 25.0,
+   "deadline": "2026-12-28",
+   "no_proof": false,
+   "summary": "Individuals whose personal information the Arizona Labor Force data breach compromised may be eligible to claim an estimated $25 from a class action settlement.\n\nIndividuals whose personal information may have been compromised in the January 2023 Arizona Labor Force Inc. and Labor Systems Inc. data incident could be eligible to claim a cash payment from a class action settlement.\n\nThe settlement class includes all United States residents whose personally identifiable information the January 2023 Arizona Labor Force Inc. and Labor Systems Inc. data incident may have compromised.\n\nIf Arizona Labor Force’s records indicate the breach involved a person’s information, the settlement administrator considers that person a class member. Class members may have received a direct notice from Arizona Labor Force regarding the breach but receiving a notice is not required to be eligible.\n\nEach eligible class member who submits a valid claim form can receive an equal cash payment from the net settlement fund. The payment is expected to be $25, but the actual amount may be higher or lower depending on the total number of valid claims filed.\n\nClass members can file the online claim form or download, print, complete and mail a PDF claim form to the settlement administrator.\n\nTo file an online claim, class members must provide the LoginID and PIN from the settlement notice they received.",
+   "claim_url": "https://azlaborforcesettlement.com/form/claim",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/az-labor-force-settlement",
+     "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/data-breaches/arizona-labor-force-data-breach-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-08",
+   "new": true,
+   "notice_id": "required",
+   "notice_source": "form",
+   "notice_mail": true,
+   "administrator": "Simpluris"
   },
   {
    "id": "85a4d9232a5b",
@@ -6443,7 +6588,7 @@
     }
    ],
    "first_seen": "2026-10-07",
-   "new": true,
+   "new": false,
    "notice_id": "none",
    "notice_source": "listing",
    "notice_mail": false,
@@ -6735,37 +6880,6 @@
    "administrator": "Verita (KCC)"
   },
   {
-   "id": "7aa68b97f3d4",
-   "title": "Stitch Fix $32 Million Securities Class Action Settlement",
-   "category": "Data breach",
-   "payout": "$0.17 per share before deductions",
-   "payout_max": 0.17,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-10-07",
-   "no_proof": false,
-   "summary": "Investors who bought Stitch Fix stock between June 9, 2020, and June 9, 2022, may be eligible to claim a cash payment from a class action settlement.\n\nInvestors who purchased or acquired Stitch Fix Inc. common stock between June 9, 2020, and June 9, 2022, may be eligible to claim a cash payment from a class action settlement.\n\nThe settlement class includes all persons and entities who purchased or otherwise acquired Stitch Fix common stock between June 9, 2020, and June 9, 2022, inclusive, and suffered damages as a result.\n\nBoth individuals and entities can be class members.\n\nThe total settlement fund is $32,000,000. The amount each class member receives depends on several factors:\n\nThe number of shares purchased or acquired during the class period\n\nThe estimated average recovery is approximately $0.17 per eligible share before deductions for taxes, notice and administration costs, and attorneys' fees and expenses.\n\nThe settlement administrator will calculate each class member's payment based on the recognized loss amount assigned to each transaction.\n\nFor shares purchased Dec. 8, 2020, through June 9, 2022, and sold before the close of trading March 8, 2021, the recognized loss is $0.",
-   "claim_url": "https://stitchfixsecuritieslitigation.com/file-online-claim-form/",
-   "sources": [
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/stitch-fix-securities-litigation",
-     "no_proof": false
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/stitch-fix-securities-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-22",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": "A.B. Data"
-  },
-  {
    "id": "dae257680475",
    "title": "Holley Securities Class Action Settlement: $12.75M for HLLY Stock and Warrant Buyers, Claims Due November 19, 2026",
    "category": "Privacy & tech",
@@ -6903,32 +7017,6 @@
    "notice_source": "listing",
    "notice_mail": false,
    "administrator": "A.B. Data"
-  },
-  {
-   "id": "4f33b3405065",
-   "title": "AmTrust $19 Million Securities Settlement — 2015 Common Stock and 2016 Series F Preferred Buyers",
-   "category": "Privacy & tech",
-   "payout": "Pro rata",
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-10-07",
-   "no_proof": false,
-   "summary": "November 2015 Common Stock Subclass: all purchasers of AmTrust common stock issued in and/or traceable to the $320 million public offering conducted on or about November 11, 2015, who were damaged thereby.\n\nSeptember 2016 Series F Preferred Stock Subclass: all purchasers of AmTrust 6.95% Non-Cumulative Preferred Stock, Series F, issued in and/or traceable to the $287.5 million public offering conducted on or about September 27, 2016, who were damaged thereby.\n\nOrder Regarding Proposed Partial Settlement and Permitting Notice to the Classes, with the approved Notice and Proof of Claim (June 12, 2026), In re AmTrust Financial Services, Inc. Securities Litigation, No. 1:17-cv-01545-LAK (S.D.N.Y.)",
-   "claim_url": "https://www.amtrustsecuritieslitigation.com/?utm_source=openclassactions.com",
-   "sources": [
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/securities/amtrust-securities-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-10-03",
-   "new": false,
-   "notice_id": "none",
-   "notice_source": "listing",
-   "notice_mail": false,
-   "administrator": "Verita (KCC)"
   },
   {
    "id": "79f5cfe6fa74",
@@ -7223,6 +7311,37 @@
    "notice_source": "form",
    "notice_mail": false,
    "administrator": "A.B. Data"
+  },
+  {
+   "id": "494a48cf71c6",
+   "title": "The Money Source - Unwanted Calls Class Action Settlement",
+   "category": "Product",
+   "payout": "Pro rata share of $1.5M",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-10-15",
+   "no_proof": false,
+   "summary": "Payments are automatic — no claim form required.Accept Payments\n\nThis settlement only covers The Money Source. If a different company is still calling or texting you after you told it to stop, that is a separate claim under the same federal law — the TCPA sets damages at $500 per illegal call or text, and up to $1,500 where a court finds the violation was willful.\n\nPrerecorded-call and spam-text cases settle constantly, and most readers who land here have calls from a company other than The Money Source. Two places to go next: the TCPA class action hub, which tracks every robocall and text settlement we cover with its deadline and proof requirement, and our plain-English guide to the TCPA, which explains what the law actually prohibits and what a violation is worth.",
+   "claim_url": "https://www.moneysourcetcpaclassaction.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://www.moneysourcetcpaclassaction.com/",
+     "no_proof": null
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/tcpa/money-source-tcpa-prerecorded-calls-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": "none",
+   "notice_source": "listing",
+   "notice_mail": false,
+   "administrator": "Atticus"
   },
   {
    "id": "973cbfae1955",
@@ -10032,7 +10151,7 @@
     }
    ],
    "first_seen": "2026-10-07",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -10246,6 +10365,32 @@
     {
      "name": "classaction_org",
      "url": "https://urbanonedataincident.com/",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": "required",
+   "notice_source": "form",
+   "notice_mail": false,
+   "administrator": "Simpluris"
+  },
+  {
+   "id": "fe047e146400",
+   "title": "Bradford-Scott Data - Data Breach Class Action Settlement",
+   "category": "Data breach",
+   "payout": null,
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": true,
+   "summary": "You may be included in this settlement if your private information was potentially accessed in the July 2023 data breach affecting Bradford-Scott Data.",
+   "claim_url": "https://bradfordscottdatasettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://bradfordscottdatasettlement.com/",
      "no_proof": true
     }
    ],
