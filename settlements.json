@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-10T13:31:01+00:00",
- "count": 385,
- "no_proof_count": 183,
+ "updated": "2026-10-11T13:19:00+00:00",
+ "count": 384,
+ "no_proof_count": 184,
  "settlements": [
   {
    "id": "d1a453bd370a",
@@ -295,42 +295,6 @@
    "administrator": null
   },
   {
-   "id": "9cae33df0e5f",
-   "title": "Anthem - Prostate Cancer Treatment Class Action Settlement",
-   "category": "Financial",
-   "payout": "Est. $20,000 to $25,000",
-   "payout_max": 25000.0,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-10-10",
-   "no_proof": false,
-   "summary": "Patients who paid out of pocket for PBRT for prostate cancer after Anthem denied coverage may be eligible to claim reimbursement from a class action settlement.\n\nPatients who received proton beam radiation therapy for prostate cancer and whom Anthem denied insurance coverage for their treatments may be eligible to claim reimbursement for out-of-pocket costs from a class action settlement.\n\nClass members must meet all of the following criteria:\n\nAnthem identified them as a class member during the lawsuit’s discovery process.\n\nThe settlement fund is $3,625,000, but the settlement administrator will reduce this amount by court-approved attorneys’ fees and costs, service awards to class representatives and administration expenses before it makes payments to class members. Eligible class members will receive a payment based on the total amount they paid out-of-pocket for PBRT for prostate cancer that insurance did not cover.\n\nTo receive a payment, class members must download, print and complete the PDF claim form and mail it to the settlement administrator. There is currently no online claim submission option.\n\nThe settlement administrator will mail checks to the address class members provide.\n\nPayments to eligible class members: Remainder after above deductions",
-   "claim_url": "https://protonbeamradiationtherapylitigation.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://protonbeamradiationtherapylitigation.com/",
-     "no_proof": false
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/proton-beam-radiation-therapy-litigation",
-     "no_proof": false
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/blue-cross-blue-shield-georgia-proton-beam-therapy-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-22",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": "Verita (KCC)"
-  },
-  {
    "id": "def6ef537b76",
    "title": "American Medical Collection Agency $6.44M Data Breach Lawsuit",
    "category": "Data breach",
@@ -531,58 +495,6 @@
    "notice_source": "listing",
    "notice_mail": false,
    "administrator": "Kroll"
-  },
-  {
-   "id": "d914c8c68931",
-   "title": "Northrop Grumman $75 Million Canoga Park/Winnetka Settlement",
-   "category": "Privacy & tech",
-   "payout": "$444-$21,110 per eligible home",
-   "payout_max": 21110.0,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-10-10",
-   "no_proof": false,
-   "summary": "Individuals who own or owned a home in Canoga Park or Winnetka may be eligible to claim up to $21,110 per home from a class action settlement.\n\nIndividuals who currently own or previously owned a single-family home or townhome in the Canoga Park or Winnetka area within the designated class area may be eligible to claim thousands of dollars per property from a class action settlement.\n\nClass members must meet specific criteria to qualify for the settlement:\n\nIf co-owners jointly own a property, the settlement considers all co-owners class members; however, the settlement administrator will only issue one payment per property. The co-owners must divide the funds among themselves.\n\nIn cases where an owner sold the home after July 1, 2024, both the former and current owners may be eligible for separate payments from different portions of the settlement fund.\n\nThe amount each class member will receive depends on the property's location within the class area and whether the claimant is a current or former owner. The settlement administrator will distribute the net settlement fund after deducting attorneys' fees and costs, service awards and administrative costs.\n\nSub-area A (approx. 789 homes): $21,110 per eligible home\n\nSub-area B (approx. 727 homes): $16,037 per eligible home\n\nSub-area C (approx. 1,778 homes): $7,494 per eligible home\n\nFormer owners (sold after July 1, 2024): $444 per eligible home",
-   "claim_url": "https://www.claimform.canogaparkclassaction.com/login",
-   "sources": [
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/canoga-park-class-action",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
-   "notice_mail": false,
-   "administrator": "A.B. Data"
-  },
-  {
-   "id": "162ea12b70cc",
-   "title": "Northrop Grumman $75M Canoga Park Contamination Settlement: Up to About $21,110 per Home",
-   "category": "Product",
-   "payout": "About $7,494 – $21,110 per home",
-   "payout_max": 21110.0,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-10-10",
-   "no_proof": false,
-   "summary": "Sub-Area A — approximately 789 homes — receives 40 percent of the remaining net proceeds.\n\nSub-Area B — approximately 727 homes — receives 28 percent of the remaining net proceeds.\n\nSub-Area C — approximately 1,778 homes — receives 32 percent of the remaining net proceeds.",
-   "claim_url": "https://www.canogaparkclassaction.com/?utm_source=openclassactions.com",
-   "sources": [
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/environmental/northrop-grumman-canoga-park-groundwater-contamination-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": "A.B. Data"
   },
   {
    "id": "ef00b2c2ffde",
@@ -1325,7 +1237,7 @@
    "id": "211bf3146ac6",
    "title": "Crossroads Trading Co. - Data Breach Class Action Settlement",
    "category": "Data breach",
-   "payout": "About $25, or up to $5,000Claim deadline alerts",
+   "payout": "About $25, or up to $5,000",
    "payout_max": 5000.0,
    "no_proof_payout": "$25",
    "no_proof_payout_max": 25.0,
@@ -2655,7 +2567,7 @@
    "id": "455dc6cc83a5",
    "title": "LaVista Walk Apartment Fire Class Action Settlement",
    "category": "Product",
-   "payout": "About $4,594 per adultSettlement claim assistance",
+   "payout": "About $4,594 per adult",
    "payout_max": 4594.0,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
@@ -3263,7 +3175,7 @@
     }
    ],
    "first_seen": "2026-10-10",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "listing",
    "notice_mail": false,
@@ -3933,7 +3845,7 @@
     }
    ],
    "first_seen": "2026-10-10",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "form",
    "notice_mail": false,
@@ -3978,7 +3890,7 @@
   {
    "id": "9bc3792a9cdf",
    "title": "Ecoshield $924,000 Restrictive Employment Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "$1,225.11 (estimated)",
    "payout_max": 1225.11,
    "no_proof_payout": null,
@@ -6340,7 +6252,7 @@
     }
    ],
    "first_seen": "2026-10-10",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -6366,7 +6278,7 @@
     }
    ],
    "first_seen": "2026-10-10",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -6578,7 +6490,7 @@
     }
    ],
    "first_seen": "2026-10-10",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "listing",
    "notice_mail": false,
@@ -6780,7 +6692,7 @@
     }
    ],
    "first_seen": "2026-10-10",
-   "new": true,
+   "new": false,
    "notice_id": "none",
    "notice_source": "listing",
    "notice_mail": false,
@@ -7895,7 +7807,7 @@
    "id": "ea85379643e2",
    "title": "90 Washington Street $1.74M Rent Overcharge Settlement: Claims Due November 2, 2026",
    "category": "Privacy & tech",
-   "payout": "Overcharge refund + 9%Search Homes",
+   "payout": "Overcharge refund + 9%",
    "payout_max": null,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
@@ -9406,6 +9318,32 @@
    "administrator": null
   },
   {
+   "id": "4b74a7bf0364",
+   "title": "Costa Del Mar $21.75M Florida Sunglasses Settlement — Claims for Buyers, Automatic Payment for Repairs",
+   "category": "Privacy & tech",
+   "payout": "Pro rata share",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2027-01-11",
+   "no_proof": true,
+   "summary": "Official settlement website — home page, Frequently Asked Questions and Submit a Claim page.\n\nCourt-authorized long-form notice for Haney v. Costa Del Mar, Inc., Case No. 16-2017-CA-004794 (Fla. 4th Cir. Ct., Duval County) — embedded below.\n\nClass Action Settlement Agreement and Limited Release, signed August 2026 — embedded below.",
+   "claim_url": "https://costasunglasslitigation.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/costa-del-mar-florida-sunglasses-class-action-settlement.php",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-10-11",
+   "new": true,
+   "notice_id": "optional",
+   "notice_source": "listing",
+   "notice_mail": false,
+   "administrator": "Epiq"
+  },
+  {
    "id": "195719f85306",
    "title": "RealPage - Rent Price-Fixing Class Action Settlement",
    "category": "Antitrust",
@@ -9662,7 +9600,7 @@
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
-   "administrator": "Kroll"
+   "administrator": null
   },
   {
    "id": "9190d568d196",
@@ -10182,7 +10120,7 @@
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
-   "administrator": "Atticus"
+   "administrator": null
   },
   {
    "id": "30f6340f4773",
@@ -10206,8 +10144,8 @@
    "first_seen": "2026-09-23",
    "new": false,
    "notice_id": "optional",
-   "notice_source": "form",
-   "notice_mail": false,
+   "notice_source": "faq",
+   "notice_mail": true,
    "administrator": "P&N"
   },
   {
@@ -10349,6 +10287,32 @@
    "notice_source": "form",
    "notice_mail": false,
    "administrator": "Simpluris"
+  },
+  {
+   "id": "9cae33df0e5f",
+   "title": "Anthem - Prostate Cancer Treatment Class Action Settlement",
+   "category": "Financial",
+   "payout": null,
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": false,
+   "summary": "You may be included in this settlement if you received proton beam radiation therapy for prostate cancer and sought coverage from Anthem, but your treatments were not covered by insurance.",
+   "claim_url": "https://protonbeamradiationtherapylitigation.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://protonbeamradiationtherapylitigation.com/",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": false,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": null
   },
   {
    "id": "7572414d92ca",
@@ -10559,7 +10523,7 @@
    "first_seen": "2026-09-23",
    "new": false,
    "notice_id": "required",
-   "notice_source": "form",
+   "notice_source": "admin",
    "notice_mail": false,
    "administrator": "Simpluris"
   },
@@ -10663,7 +10627,7 @@
    "first_seen": "2026-09-23",
    "new": false,
    "notice_id": "required",
-   "notice_source": "form",
+   "notice_source": "admin",
    "notice_mail": false,
    "administrator": "Simpluris"
   },
@@ -10688,8 +10652,8 @@
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "optional",
-   "notice_source": "form",
+   "notice_id": "required",
+   "notice_source": "admin",
    "notice_mail": false,
    "administrator": "Simpluris"
   },
@@ -10741,7 +10705,7 @@
    "first_seen": "2026-09-23",
    "new": false,
    "notice_id": "required",
-   "notice_source": "form",
+   "notice_source": "admin",
    "notice_mail": false,
    "administrator": "Simpluris"
   },
@@ -10767,7 +10731,7 @@
    "first_seen": "2026-09-23",
    "new": false,
    "notice_id": "required",
-   "notice_source": "form",
+   "notice_source": "admin",
    "notice_mail": false,
    "administrator": "Simpluris"
   },
@@ -10793,7 +10757,7 @@
    "first_seen": "2026-09-23",
    "new": false,
    "notice_id": "required",
-   "notice_source": "form",
+   "notice_source": "admin",
    "notice_mail": false,
    "administrator": "Simpluris"
   },
@@ -10845,7 +10809,7 @@
    "first_seen": "2026-09-23",
    "new": false,
    "notice_id": "required",
-   "notice_source": "form",
+   "notice_source": "admin",
    "notice_mail": false,
    "administrator": "Simpluris"
   },
@@ -10897,7 +10861,7 @@
    "first_seen": "2026-09-23",
    "new": false,
    "notice_id": "required",
-   "notice_source": "form",
+   "notice_source": "admin",
    "notice_mail": false,
    "administrator": "Simpluris"
   },
@@ -11637,7 +11601,7 @@
   {
    "id": "f077f6331cb3",
    "title": "Rolling Stone Lifetime Subscription Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Print delivery for lifetime and/or two years RollingStone.com access",
    "payout_max": null,
    "no_proof_payout": null,
@@ -11663,7 +11627,7 @@
   {
    "id": "b0078fe121b8",
    "title": "Sony PlayStation $7.85M Digital Game Antitrust Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Varies based on qualifying purchases",
    "payout_max": null,
    "no_proof_payout": null,
@@ -11715,7 +11679,7 @@
   {
    "id": "ae91b2c1baa8",
    "title": "Blue Origin $1.96 Million Washington Job Posting Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Pro rata share",
    "payout_max": null,
    "no_proof_payout": null,
