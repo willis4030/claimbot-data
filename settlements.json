@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-12T15:45:38+00:00",
- "count": 388,
- "no_proof_count": 184,
+ "updated": "2026-10-13T14:27:31+00:00",
+ "count": 390,
+ "no_proof_count": 183,
  "settlements": [
   {
    "id": "d1a453bd370a",
@@ -302,7 +302,7 @@
    "payout_max": 25000.0,
    "no_proof_payout": "$40",
    "no_proof_payout_max": 40.0,
-   "deadline": "2026-10-12",
+   "deadline": "2026-10-13",
    "no_proof": true,
    "summary": "Individuals whom Crossroads Trading Co. notified of a 2025 data breach may be eligible to claim a cash payment from a class action settlement.\n\nIndividuals who received notice from Crossroads Trading Co. that a data breach incident on Feb. 15, 2025, may have impacted their private information could qualify to submit a claim for a cash payment from a class action settlement. The incident compromised approximately 60,041 current and former employees and customers.\n\nClass members are individuals residing in the United States whose private information the February 2025 Crossroads data breach may have compromised or otherwise impacted, including those who received notice of the incident.\n\nClass members have the following benefit options:\n\nDocumented loss payment: Class members can claim up to $5,000 for documented, unreimbursed monetary losses that occurred on or after Feb. 15, 2025 and are fairly attributable to the data breach. This may include:\n\nCosts of credit reports purchased between Feb. 15, 2025, and Oct. 13, 2026\n\nAlternative cash payment: Class members who do not submit a documented losses claim can submit a claim to receive an alternative cash payment estimated at $25.\n\nCalifornia statutory cash payment: All class members who resided in California at any point between Feb. 15, 2025, and Oct. 13, 2026, can also submit a claim to receive a statutory cash payment estimated at $100.",
    "claim_url": "https://forms.ksacms.com/efiling/fr/eform/amcadatabreachsettlementsonic_claimform/new?form-version=1&fr-wizard-page=section-1",
@@ -389,11 +389,6 @@
     },
     {
      "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/fca-warranty-settlement",
-     "no_proof": false
-    },
-    {
-     "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/amncip-settlement",
      "no_proof": false
     },
@@ -415,11 +410,6 @@
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/kia-window-regulator-settlement",
-     "no_proof": false
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/hall-release-card-settlement",
      "no_proof": false
     },
     {
@@ -1151,42 +1141,6 @@
     {
      "name": "openclassactions",
      "url": "https://openclassactions.com/settlements/data-breaches/anixter-center-data-breach-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "form",
-   "notice_mail": false,
-   "administrator": "Simpluris"
-  },
-  {
-   "id": "e4c9a51cd793",
-   "title": "AIS InfoSource - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": "Up to $5,000 plus credit monitoring",
-   "payout_max": 5000.0,
-   "no_proof_payout": "$80",
-   "no_proof_payout_max": 80.0,
-   "deadline": "2026-10-12",
-   "no_proof": true,
-   "summary": "Individuals who received notice that the 2025 AIS InfoSource data breach compromised their info may qualify to claim up to $5,000 from a settlement.\n\nIndividuals who received notice that the February 2025 AIS InfoSource data breach may have compromised their private information could be eligible to submit a claim for up to $5,000 from a class action settlement.\n\nClass members are individuals residing in the United States who received notice that the February 2025 AIS InfoSource data breach may have compromised their personally identifiable information, including those that received notice of the settlement.\n\nClass members have the following benefit options:\n\nReimbursement for documented out-of-pocket losses: Class members can claim up to $5,000 for documented out-of-pocket losses that occurred between Feb. 16, 2025, and Oct. 12, 2026, and are traceable to the data breach. This includes monetary losses due to identity theft or fraud, fees for credit reports or credit monitoring, costs to replace IDs and postage to contact financial institutions.\n\nReimbursement for lost time: Class members can claim up to four hours at $20 per hour (maximum $80) for time spent dealing with issues related to the data breach. This includes time spent changing passwords, investigating suspicious account activity and researching the breach.",
-   "claim_url": "https://aissettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://aissettlement.com/",
-     "no_proof": true
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/ais-data-settlement",
-     "no_proof": false
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/data-breaches/ais-infosource-data-breach-settlement.php",
      "no_proof": false
     }
    ],
@@ -3888,35 +3842,9 @@
    "administrator": "Simpluris"
   },
   {
-   "id": "9bc3792a9cdf",
-   "title": "Ecoshield $924,000 Restrictive Employment Settlement",
-   "category": "Data breach",
-   "payout": "$1,225.11 (estimated)",
-   "payout_max": 1225.11,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": false,
-   "summary": "Employees who worked for Ecoshield Management in Washington may be eligible to receive an estimated $1,225 from a class action settlement.\n\nEmployees who worked for The Shield Cos. Management LLC d/b/a Ecoshield Management Cos. LLC in Washington and earned less than twice the state minimum hourly wage between March 14, 2021, and March 10, 2026, may be eligible to receive approximately $1,225 from a class action settlement.\n\nClass members must meet all of the following requirements:\n\nThe settlement administrator identified approximately 462 eligible class members based on company records.\n\nPro rata payment: Each eligible class member who does not exclude themselves from the settlement will receive an equal share of the net settlement fund. All eligible class members will receive the same payment amount regardless of how long they worked or their specific earnings.\n\nEligible class members do not need to submit a claim form to receive their payment. The settlement administrator will automatically mail a check to each class member’s last known address. If a valid mailing address is unavailable or upon request, it will send payment electronically.\n\nClass members should update their address or contact information with the settlement administrator if it has changed since their employment.",
-   "claim_url": "https://tscmsettlement.com/documents/",
-   "sources": [
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/tscm-settlement",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-24",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "admin",
-   "notice_mail": false,
-   "administrator": "Simpluris"
-  },
-  {
    "id": "fa0eb5cb48c6",
    "title": "Emerald City Pizza $376,000 Job Posting Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "$1,107.44 (estimated)",
    "payout_max": 1107.44,
    "no_proof_payout": null,
@@ -4951,42 +4879,6 @@
    "administrator": null
   },
   {
-   "id": "95baa4e506bd",
-   "title": "Scribd - Job Postings (Washington) Class Action Settlement",
-   "category": "Employment",
-   "payout": "$219.27 (estimated)",
-   "payout_max": 219.27,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-10-12",
-   "no_proof": true,
-   "summary": "Individuals who applied for a Scribd job in Washington state between Jan. 1, 2023, and Aug. 14, 2026, may be eligible to claim about $219 from a settlement.\n\nIndividuals who applied for a job with Scribd Inc. in Washington between Jan. 1, 2023, and Aug. 14, 2026, may qualify to receive an estimated cash payment of $219.27 from a class action settlement. The settlement class includes 9,330 applicants.\n\nClass members must meet the following criteria:\n\nTheir application occurred between Jan. 1, 2023, and Aug. 14, 2026.\n\nCash payment: Eligible class members will receive an equal share of the class fund, which is a cash payment estimated at $219.27. The settlement administrator will determine the final payment amount by the total number of eligible class members and the remaining net settlement fund.\n\nClass members do not need to submit a claim form to receive their settlement payment.\n\nPayments to eligible class members: Remaining settlement funds\n\nThe settlement administrator will issue payments to eligible class members approximately 75 days after the court grants final approval of the settlement.",
-   "claim_url": "https://epoasettlementsi.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://epoasettlementsi.com/",
-     "no_proof": null
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/epoa-settlement-si",
-     "no_proof": false
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/wage-and-hours/scribd-washington-job-postings-class-action-settlement.php",
-     "no_proof": true
-    }
-   ],
-   "first_seen": "2026-09-22",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
-   "notice_mail": true,
-   "administrator": "Simpluris"
-  },
-  {
    "id": "1cbeb1352fa1",
    "title": "Bank of America $4.28M Unpaid Vacation Time Settlement",
    "category": "Data breach",
@@ -5420,7 +5312,7 @@
     }
    ],
    "first_seen": "2026-10-12",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "form",
    "notice_mail": false,
@@ -5606,7 +5498,7 @@
     }
    ],
    "first_seen": "2026-10-12",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "form",
    "notice_mail": false,
@@ -6061,42 +5953,11 @@
     }
    ],
    "first_seen": "2026-10-12",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "admin",
    "notice_mail": false,
    "administrator": "Simpluris"
-  },
-  {
-   "id": "489fee94ccb5",
-   "title": "Correctional Facility Prepaid Debit Cards Class Action Settlement",
-   "category": "Product",
-   "payout": "$15 minimum + 3× fees",
-   "payout_max": 15.0,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-10-12",
-   "no_proof": true,
-   "summary": "Issued a prepaid debit card by Rapid Financial Solutions and/or Axiom Bank between January 16, 2024 and June 30, 2026, inclusive.\n\nSeptember 8, 2026 — Class Counsel's fee, cost and case contribution motion was due to be filed, and to be posted on the settlement website within three days of filing. Class members may comment on or object to what it asks for, which is why it lands before the October 2 objection deadline.\n\nCourt-approved long-form and short-form class notices, as distributed to class members.",
-   "claim_url": "https://hallreleasecardsettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://hallreleasecardsettlement.com/",
-     "no_proof": true
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/rapid-investments-axiom-bank-release-card-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
-   "notice_mail": true,
-   "administrator": "Kroll"
   },
   {
    "id": "c73cfe06b0d8",
@@ -6887,22 +6748,17 @@
   },
   {
    "id": "d5f1e69d6c11",
-   "title": "$7M Spectrum Pharmaceuticals Securities Settlement — SPPI Investors Can Claim About $0.08 a Share",
+   "title": "WM Technology (Weedmaps) $7.5 Million Securities Settlement — MAPS Stock and Warrant Buyers",
    "category": "Privacy & tech",
-   "payout": "About $0.08 per share",
+   "payout": "About $0.08 a Share",
    "payout_max": 0.08,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
-   "deadline": "2026-10-12",
+   "deadline": "2026-10-30",
    "no_proof": false,
    "summary": "Gritstone Securities Litigation — Strategic Claims Services case page\n\nNotice of Pendency of Class Action and Proposed Settlement, and Proof of Claim and Release Form\n\nOrder Preliminarily Approving Settlement and Providing for Notice (August 5, 2026), In re Gritstone bio, Inc. Securities Litigation, No. 3:24-cv-03640-CRB (N.D. Cal.)",
-   "claim_url": "https://www.strategicclaims.net/AyoubvSpectrum/?utm_source=openclassactions.com",
+   "claim_url": "https://www.strategicclaims.net/case/wmtechnology/?utm_source=openclassactions.com",
    "sources": [
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/securities/spectrum-pharmaceuticals-securities-class-action-settlement.php",
-     "no_proof": false
-    },
     {
      "name": "openclassactions",
      "url": "https://openclassactions.com/settlements/securities/wm-technology-securities-class-action-settlement.php",
@@ -6961,73 +6817,6 @@
    "notice_source": "listing",
    "notice_mail": false,
    "administrator": "A.B. Data"
-  },
-  {
-   "id": "d02cf29d6636",
-   "title": "FCA - Warranty Coverage Class Action Settlement",
-   "category": "Auto",
-   "payout": "Warranty extension, plus repair reimbursement",
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-10-12",
-   "no_proof": false,
-   "summary": "This settlement covers those who bought or leased one or more of several FCA vehicles equipped with a 3.6L engine.",
-   "claim_url": "https://fcawarrantysettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://fcawarrantysettlement.com/",
-     "no_proof": false
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/automotive/fca-3-6l-valve-train-warranty-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": "Kroll"
-  },
-  {
-   "id": "d98e08951def",
-   "title": "Hydromax USA - Job Postings (Washington) Class Action Settlement",
-   "category": "Employment",
-   "payout": "Pro rata payment",
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-10-12",
-   "no_proof": true,
-   "summary": "Employment seekers who applied for a job with Hydromax USA in Washington since 2023 may be eligible to claim a cash payment from a class action settlement.\n\nEmployment seekers who applied for a job with Hydromax USA LLC in Washington state between Jan. 1, 2023, and July 16, 2026, may be eligible to claim a cash payment from a class action settlement.\n\nIndividuals are considered class members if:\n\nThey applied for a job opening with Hydromax USA between Jan. 1, 2023, and July 15, 2026.\n\nThe settlement administrator used Hydromax’s records to identify eligible class members. Individuals who received a notice about this settlement are likely included in the class.\n\nEligible class members who submit a valid claim form will receive an equal share of the net settlement fund. The exact amount each person receives depends on the number of valid claims submitted.\n\nIf 50% or fewer of the 153 class members (77 or fewer) submit valid claims, the settlement administrator will distribute the minimum fund.\n\nClass members must file a claim online. There is no PDF claim form available.\n\nPayments to eligible class members: The remainder of the fund\n\nThe settlement administrator will mail payments to eligible class members after the court resolves any appeals and grants final approval to the settlement.",
-   "claim_url": "https://epoasettlementhul.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://epoasettlementhul.com/",
-     "no_proof": true
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/epoa-settlement",
-     "no_proof": false
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/hydromax-usa-job-postings-washington-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-22",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "form",
-   "notice_mail": true,
-   "administrator": "Simpluris"
   },
   {
    "id": "af11fcb45dc1",
@@ -7606,7 +7395,7 @@
     }
    ],
    "first_seen": "2026-10-12",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -8946,6 +8735,32 @@
    "administrator": "American Legal Claims"
   },
   {
+   "id": "10c0f766593b",
+   "title": "Oregon Tax Foreclosure Surplus Settlements: Six Counties Taking Claims From Former Owners and Heirs Until November 30, 2026",
+   "category": "Privacy & tech",
+   "payout": "Surplus from the foreclosed property",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-11-30",
+   "no_proof": false,
+   "summary": "Columbia, Jackson and Marion counties: foreclosures between October 23, 2017 and June 7, 2024\n\nBaker County: foreclosures between September 7, 2018 and June 7, 2024\n\nWashington County: foreclosures between October 12, 2017 and December 31, 2025\n\nYamhill County: property foreclosed on and sold, donated or transferred between October 12, 2017 and May 8, 2026\n\nWashington County: $1,500,000, covering 100% of the surplus proceeds on most eligible properties the county sold and 80% of the surplus equity on most eligible properties it kept or transferred, plus interest",
+   "claim_url": "https://www.oregontaxforeclosure.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/real-estate/oregon-tax-foreclosure-surplus-proceeds-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-13",
+   "new": true,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": "Kroll"
+  },
+  {
    "id": "1d08212bee59",
    "title": "$21M Whirlpool / Maytag Bottom-Mount & French-Door Refrigerator Freezer Class Action Settlement Proof / ID Dec 31, 2026",
    "category": "Product",
@@ -9370,6 +9185,32 @@
    "administrator": "RG/2"
   },
   {
+   "id": "a8436e982659",
+   "title": "SeatGeek $7.75M Nevada Undisclosed Ticket Fee Settlement",
+   "category": "Data breach",
+   "payout": "Pro rata cash payment",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2027-01-05",
+   "no_proof": false,
+   "summary": "Individuals who bought electronic tickets to Nevada events from SeatGeek and paid fees may be eligible to claim a cash payment from a class action settlement.\n\nIndividuals who purchased electronic tickets to events in Nevada from SeatGeek’s website or mobile app and whom SeatGeek charged fees between Nov. 7, 2020, and May 12, 2025, may be eligible to claim a cash payment from a class action settlement.\n\nEligible class members must meet all of the following criteria:\n\nThey purchased one or more electronic tickets to events located in Nevada.\n\nThey made the purchase between Nov. 7, 2020, and May 12, 2025.\n\nEligible class members will receive a cash payment from the settlement fund after the settlement administrator deducts court-approved attorneys’ fees, settlement administration costs and a service award to the class representative.\n\nThe amount each class member receives will be a pro rata share of the net settlement fund based on the total amount of fees SeatGeek retained from their qualifying purchases.\n\nTo receive a payment, class members must submit an online claim form or print and complete the PDF claim form and mail it to the settlement administrator.\n\nClass members using the online claim form must provide the LoginID and PIN they received in their class notice.",
+   "claim_url": "https://seatgeekticketfeessettlement.com/form/claim",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/seatgeek-ticket-fees-settlement",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-13",
+   "new": true,
+   "notice_id": "required",
+   "notice_source": "form",
+   "notice_mail": false,
+   "administrator": "Simpluris"
+  },
+  {
    "id": "20760132a0ac",
    "title": "Manitoba Children’s Special Allowance Settlement: $445.2 Million CAD for People in Provincial Care From 2005 to 2019",
    "category": "Privacy & tech",
@@ -9394,6 +9235,32 @@
    "notice_source": null,
    "notice_mail": false,
    "administrator": null
+  },
+  {
+   "id": "ed859f44520c",
+   "title": "SeatGeek $7.75 Million Nevada Ticket Fee Settlement: Pro Rata Cash, Claims Due January 5, 2027",
+   "category": "Privacy & tech",
+   "payout": "Pro rata cashCause of Action Directory",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2027-01-05",
+   "no_proof": false,
+   "summary": "bought electronic tickets to events in Nevada,\n\nbetween November 7, 2020 and May 12, 2025, and",
+   "claim_url": "https://www.seatgeeknevadaclassaction.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/deceptive-pricing/seatgeek-nevada-ticket-fee-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-13",
+   "new": true,
+   "notice_id": "required",
+   "notice_source": "form",
+   "notice_mail": false,
+   "administrator": "Simpluris"
   },
   {
    "id": "4b74a7bf0364",
@@ -10341,6 +10208,136 @@
    "administrator": "Analytics Consulting"
   },
   {
+   "id": "e4c9a51cd793",
+   "title": "AIS InfoSource - Data Breach Class Action Settlement",
+   "category": "Data breach",
+   "payout": null,
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": true,
+   "summary": "You may be included in this settlement if your personal information was exposed in the February 2025 AIS InfoSource data breach.",
+   "claim_url": "https://aissettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://aissettlement.com/",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": "required",
+   "notice_source": "form",
+   "notice_mail": false,
+   "administrator": "Simpluris"
+  },
+  {
+   "id": "95baa4e506bd",
+   "title": "Scribd - Job Postings (Washington) Class Action Settlement",
+   "category": "Employment",
+   "payout": null,
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": null,
+   "summary": "You may be able to claim a piece of this settlement if you applied for a job with Scribd in Washington between January 1, 2023 and August 14, 2026.",
+   "claim_url": "https://epoasettlementsi.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://epoasettlementsi.com/",
+     "no_proof": null
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": false,
+   "notice_id": "required",
+   "notice_source": "admin",
+   "notice_mail": false,
+   "administrator": "Simpluris"
+  },
+  {
+   "id": "d02cf29d6636",
+   "title": "FCA - Warranty Coverage Class Action Settlement",
+   "category": "Auto",
+   "payout": null,
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": false,
+   "summary": "This settlement covers those who bought or leased one or more of several FCA vehicles equipped with a 3.6L engine.",
+   "claim_url": "https://fcawarrantysettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://fcawarrantysettlement.com/",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": null
+  },
+  {
+   "id": "489fee94ccb5",
+   "title": "Correctional Facility Prepaid Debit Cards Class Action Settlement",
+   "category": "Product",
+   "payout": null,
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": true,
+   "summary": "You may be included in this settlement if you received a prepaid debit card when you were released from a jail, correctional facility, detention center, or other law enforcement facility between January 16, 2024 and June 30, 2026.",
+   "claim_url": "https://hallreleasecardsettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://hallreleasecardsettlement.com/",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": "Kroll"
+  },
+  {
+   "id": "d98e08951def",
+   "title": "Hydromax USA - Job Postings (Washington) Class Action Settlement",
+   "category": "Employment",
+   "payout": null,
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": true,
+   "summary": "You may be able to claim a piece of this settlement if you applied for a job opening with Hydromax USA in Washington between January 1, 2023 and July 16, 2026.",
+   "claim_url": "https://epoasettlementhul.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://epoasettlementhul.com/",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": false,
+   "notice_id": "required",
+   "notice_source": "form",
+   "notice_mail": false,
+   "administrator": "Simpluris"
+  },
+  {
    "id": "2c8f7f6417c6",
    "title": "Urban One - Data Breach Class Action Settlement",
    "category": "Data breach",
@@ -10989,7 +10986,7 @@
     }
    ],
    "first_seen": "2026-10-12",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
