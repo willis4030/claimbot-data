@@ -1,7 +1,7 @@
 {
- "updated": "2026-10-13T14:27:31+00:00",
- "count": 390,
- "no_proof_count": 183,
+ "updated": "2026-10-14T12:09:47+00:00",
+ "count": 363,
+ "no_proof_count": 176,
  "settlements": [
   {
    "id": "d1a453bd370a",
@@ -296,17 +296,22 @@
   },
   {
    "id": "def6ef537b76",
-   "title": "American Medical Collection Agency $6.44M Data Breach Lawsuit",
+   "title": "Brockton Neighborhood Health Center $825,000 Settlement",
    "category": "Data breach",
    "payout": "Up to $25,000 plus credit monitoring",
    "payout_max": 25000.0,
    "no_proof_payout": "$40",
    "no_proof_payout_max": 40.0,
-   "deadline": "2026-10-13",
+   "deadline": "2026-10-16",
    "no_proof": true,
-   "summary": "Individuals whom Crossroads Trading Co. notified of a 2025 data breach may be eligible to claim a cash payment from a class action settlement.\n\nIndividuals who received notice from Crossroads Trading Co. that a data breach incident on Feb. 15, 2025, may have impacted their private information could qualify to submit a claim for a cash payment from a class action settlement. The incident compromised approximately 60,041 current and former employees and customers.\n\nClass members are individuals residing in the United States whose private information the February 2025 Crossroads data breach may have compromised or otherwise impacted, including those who received notice of the incident.\n\nClass members have the following benefit options:\n\nDocumented loss payment: Class members can claim up to $5,000 for documented, unreimbursed monetary losses that occurred on or after Feb. 15, 2025 and are fairly attributable to the data breach. This may include:\n\nCosts of credit reports purchased between Feb. 15, 2025, and Oct. 13, 2026\n\nAlternative cash payment: Class members who do not submit a documented losses claim can submit a claim to receive an alternative cash payment estimated at $25.\n\nCalifornia statutory cash payment: All class members who resided in California at any point between Feb. 15, 2025, and Oct. 13, 2026, can also submit a claim to receive a statutory cash payment estimated at $100.",
-   "claim_url": "https://forms.ksacms.com/efiling/fr/eform/amcadatabreachsettlementsonic_claimform/new?form-version=1&fr-wizard-page=section-1",
+   "summary": "Individuals whose personal information the 2020 Telmate data breach impacted may be eligible to claim a cash payment from a class action settlement.\n\nClass members are individuals residing in the United States whose personal information the Telmate data breach that occurred on or around Aug. 13, 2020, compromised.\n\nClass members can claim one or both of the following benefits:\n\nPro rata cash payment: Class members can submit a claim to receive a pro rata cash payment from the net settlement fund after the settlement administrator pays out all out-of-pocket loss claims. The administrator will determine the final payment amount by the total number of claims filed.\n\nReimbursement for documented out-of-pocket loss: Class members can claim up to $5,000 for documented unreimbursed out-of-pocket losses the data breach most likely caused.\n\nTo receive a settlement payment, class members can file a claim online or print and complete the PDF claim form and mail it to the settlement administrator.\n\nTo submit a claim online or by mail, class members must provide the class member ID from the settlement notice they received.\n\nTo submit an out-of-pocket loss reimbursement claims, class members must provide third-party documentation, which may include receipts, bills, bank or credit card statements and other proof of fraud or identity theft.\n\nPayments to eligible claimants: Remaining settlement funds",
+   "claim_url": "https://forms.ksacms.com/efiling/fr/eform/howardvbrockton_claimform/new?form-version=1&fr-wizard-page=section-1",
    "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/bnh-data-settlement",
+     "no_proof": true
+    },
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/amca-data-breach-settlement",
@@ -384,11 +389,6 @@
     },
     {
      "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/diisocyanates-antitrust-litigation",
-     "no_proof": false
-    },
-    {
-     "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/amncip-settlement",
      "no_proof": false
     },
@@ -430,11 +430,6 @@
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/louisiana-fees-settlement",
-     "no_proof": false
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/crossroads-data-settlement",
      "no_proof": false
     },
     {
@@ -1152,109 +1147,6 @@
    "administrator": "Simpluris"
   },
   {
-   "id": "678b0f774fdb",
-   "title": "Doxim - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": "Up to $5,000 plus credit monitoring",
-   "payout_max": 5000.0,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-10-13",
-   "no_proof": true,
-   "summary": "Individuals who received a notice about the Doxim data breach may be eligible to claim up to $5,000 from a class action settlement.\n\nIndividuals who received a notice that the Dec. 30, 2023 Doxim Inc. data incident may have compromised their personal information could be eligible to claim up to $5,000 from a class action settlement.\n\nThe class includes individuals residing in the United States who received a notice directly from Doxim or one of Doxim's credit union clients informing them the Dec. 30, 2023, data incident may have impacted their private information.\n\nClass members can claim several types of benefits from the settlement fund:\n\nReimbursement for documented monetary losses: Class members who experienced fraud or identity theft losses that can be reasonably traced to the data incident may claim up to $5,000. This option requires documentation, such as receipts, account statements or correspondence.\n\nPro rata cash payment: Class members who do not have documentation of losses or prefer not to provide documentation can claim a one-time pro rata cash payment estimated at $100; the final amount may be higher or lower depending on the number of valid claims.\n\nCredit monitoring: All class members are eligible to claim one year of free credit monitoring services.",
-   "claim_url": "https://www.doximdatasecuritysettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://www.doximdatasecuritysettlement.com/",
-     "no_proof": true
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/doxim-data-security-settlement",
-     "no_proof": false
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/data-breaches/doxim-data-breach-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
-   "notice_mail": true,
-   "administrator": "Epiq"
-  },
-  {
-   "id": "211bf3146ac6",
-   "title": "Crossroads Trading Co. - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": "About $25, or up to $5,000",
-   "payout_max": 5000.0,
-   "no_proof_payout": "$25",
-   "no_proof_payout_max": 25.0,
-   "deadline": "2026-10-13",
-   "no_proof": true,
-   "summary": "Official settlement website — Crossroads Settlement, including its important dates and legal rights summary\n\nOfficial settlement notice (PDF), Wright, et al. v. Crossroads Trading Co., Inc., Case No. 25CV479119 (Cal. Super. Ct., Santa Clara County)\n\nSettlement Agreement between the plaintiffs and Crossroads Trading Co., Inc., executed November–December 2025, posted on the official settlement website",
-   "claim_url": "https://crossroadssettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://crossroadssettlement.com/",
-     "no_proof": true
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/data-breaches/crossroads-trading-data-breach-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": "Kroll"
-  },
-  {
-   "id": "c060917614fc",
-   "title": "Talkdesk - Job Postings (Washington) Class Action Settlement",
-   "category": "Employment",
-   "payout": "Up to $5,000",
-   "payout_max": 5000.0,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-10-13",
-   "no_proof": true,
-   "summary": "Employment seekers who applied for a Talkdesk Inc. job in Washington between January 2023 and July 2025 may be eligible to claim up to $5,000 from a settlement.\n\nEmployment seekers who applied for a job with Talkdesk Inc. between Jan. 1, 2023, and July 26, 2025, may be eligible to claim up to $5,000 from a class action settlement.\n\nIndividuals are considered class members if:\n\nThey applied for a job opening with Talkdesk Inc. between Jan. 1, 2023, and July 26, 2025.\n\nEligible class members who submit a valid claim form can receive an equal share of the net settlement fund up to a maximum of $5,000 per person. The actual amount each person receives depends on how many valid claims class members submit.\n\nThe minimum settlement fund is $1,828,288, which the settlement administrator will distribute if 50% or fewer of the approximately 1,114 class members submit claims. For every additional participating class member above 50% (i.e., above 557 claimants), Talkdesk with increase the fund by $1,718 per person up to a maximum of $2,785,000. If the calculated individual share exceeds $5,000, the administrator will donate the excess funds to the Legal Foundation of Washington as residual funds.\n\nClass members can file a claim online or download the PDF claim form (pages 26-27 of the settlement agreement), complete it and mail or email it to the settlement administrator.",
-   "claim_url": "https://epoasettlementtdi.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://epoasettlementtdi.com/",
-     "no_proof": true
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/epoa-settlement-tdi",
-     "no_proof": false
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/talkdesk-washington-job-postings-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-22",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "form",
-   "notice_mail": true,
-   "administrator": "Simpluris"
-  },
-  {
    "id": "928c2b58324f",
    "title": "Tift Regional Health System - Data Breach Class Action Settlement",
    "category": "Data breach",
@@ -1549,37 +1441,6 @@
    "administrator": "Angeion"
   },
   {
-   "id": "63f0e97549db",
-   "title": "On Q Financial - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": "~$50 or up to $5,000",
-   "payout_max": 5000.0,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-10-28",
-   "no_proof": true,
-   "summary": "Court-approved Notice of Proposed Class Action Settlement (PDF)\n\nOfficial full-length Claim Form and general instructions, Settlement Administrator file 83439\n\nFrequently asked questions on the official settlement website",
-   "claim_url": "https://onqsettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://onqsettlement.com/",
-     "no_proof": true
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/data-breaches/on-q-financial-data-breach-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
-   "notice_mail": true,
-   "administrator": "Kroll"
-  },
-  {
    "id": "563906b2b910",
    "title": "Highland Health Systems - Data Breach Class Action Settlement",
    "category": "Data breach",
@@ -1619,6 +1480,37 @@
    "notice_source": "form",
    "notice_mail": true,
    "administrator": "Simpluris"
+  },
+  {
+   "id": "63f0e97549db",
+   "title": "On Q Financial - Data Breach Class Action Settlement",
+   "category": "Data breach",
+   "payout": "~$50 or up to $5,000",
+   "payout_max": 5000.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-10-28",
+   "no_proof": true,
+   "summary": "Court-approved Notice of Proposed Class Action Settlement (PDF)\n\nOfficial full-length Claim Form and general instructions, Settlement Administrator file 83439\n\nFrequently asked questions on the official settlement website",
+   "claim_url": "https://onqsettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://onqsettlement.com/",
+     "no_proof": true
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/data-breaches/on-q-financial-data-breach-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": "required",
+   "notice_source": "listing",
+   "notice_mail": true,
+   "administrator": "Kroll"
   },
   {
    "id": "c476bc7dfe07",
@@ -1693,42 +1585,6 @@
    "administrator": "Epiq"
   },
   {
-   "id": "29e52d573da9",
-   "title": "Modernizing Medicine - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": "Up to $5,000 plus medical data monitoring",
-   "payout_max": 5000.0,
-   "no_proof_payout": "$75",
-   "no_proof_payout_max": 75.0,
-   "deadline": "2026-11-02",
-   "no_proof": true,
-   "summary": "Individuals who received notice of the the July 2025 Modernizing Medicine data breach may qualify to claim up to $5,000 from a class action settlement.\n\nIndividuals who received a notice that the July 2025 Modernizing Medicine data breach affected their private information may be eligible to submit a claim for up to $5,000 from a class action settlement. The cybersecurity incident compromised as many as 198,000 current and former patients from multiple podiatry practices.\n\nThe class include all individuals residing in the United States who received notice that the July 2025 Modernizing Medicine data breach impacted their private information.\n\nClass members can claim one or more types of awards:\n\nCash payment A - Documented losses: Class members who experienced documented out-of-pocket losses between July 9, 2025, and Nov. 2, 2026, that are related to the data incident can claim up to $5,000. Eligible expenses include losses from identity theft or fraud, fees for credit reports or credit monitoring, costs to replace IDs and postage for contacting banks.\n\nCash payment B - Alternate cash: Class members who do not submit a documented losses claim may claim a one-time estimated $75 cash payment.",
-   "claim_url": "https://modernizingmedicinedatasettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://modernizingmedicinedatasettlement.com/",
-     "no_proof": true
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/modernizing-medicine-data-settlement",
-     "no_proof": false
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/data-breaches/modernizing-medicine-modmed-data-breach-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "form",
-   "notice_mail": false,
-   "administrator": "Simpluris"
-  },
-  {
    "id": "7c519316883f",
    "title": "University of Hawai’i - Data Breach Class Action Settlement",
    "category": "Data breach",
@@ -1763,6 +1619,42 @@
    "notice_source": "listing",
    "notice_mail": false,
    "administrator": "Epiq"
+  },
+  {
+   "id": "29e52d573da9",
+   "title": "Modernizing Medicine - Data Breach Class Action Settlement",
+   "category": "Data breach",
+   "payout": "Up to $5,000 plus medical data monitoring",
+   "payout_max": 5000.0,
+   "no_proof_payout": "$75",
+   "no_proof_payout_max": 75.0,
+   "deadline": "2026-11-02",
+   "no_proof": true,
+   "summary": "Individuals who received notice of the the July 2025 Modernizing Medicine data breach may qualify to claim up to $5,000 from a class action settlement.\n\nIndividuals who received a notice that the July 2025 Modernizing Medicine data breach affected their private information may be eligible to submit a claim for up to $5,000 from a class action settlement. The cybersecurity incident compromised as many as 198,000 current and former patients from multiple podiatry practices.\n\nThe class include all individuals residing in the United States who received notice that the July 2025 Modernizing Medicine data breach impacted their private information.\n\nClass members can claim one or more types of awards:\n\nCash payment A - Documented losses: Class members who experienced documented out-of-pocket losses between July 9, 2025, and Nov. 2, 2026, that are related to the data incident can claim up to $5,000. Eligible expenses include losses from identity theft or fraud, fees for credit reports or credit monitoring, costs to replace IDs and postage for contacting banks.\n\nCash payment B - Alternate cash: Class members who do not submit a documented losses claim may claim a one-time estimated $75 cash payment.",
+   "claim_url": "https://modernizingmedicinedatasettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://modernizingmedicinedatasettlement.com/",
+     "no_proof": true
+    },
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/modernizing-medicine-data-settlement",
+     "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/data-breaches/modernizing-medicine-modmed-data-breach-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": "required",
+   "notice_source": "form",
+   "notice_mail": false,
+   "administrator": "Simpluris"
   },
   {
    "id": "4fd72fe85896",
@@ -1801,37 +1693,6 @@
    "administrator": "Simpluris"
   },
   {
-   "id": "7833a8448c7b",
-   "title": "Peco Foods - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": "Up to $550, or up to $5,000",
-   "payout_max": 5000.0,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-11-09",
-   "no_proof": true,
-   "summary": "Residual Cash Payment — estimated at up to $550. Available to every settlement class member who files a valid claim, with no documentation and no loss required. It is a checkbox on the form.",
-   "claim_url": "https://www.pecofoodsdatasettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://www.pecofoodsdatasettlement.com/",
-     "no_proof": true
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/data-breaches/peco-foods-data-breach-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
-   "notice_mail": true,
-   "administrator": "P&N"
-  },
-  {
    "id": "599d7bd30664",
    "title": "Covenant Transport - Job Postings (Washington) Class Action Settlement",
    "category": "Employment",
@@ -1866,6 +1727,37 @@
    "notice_source": "form",
    "notice_mail": false,
    "administrator": "CPT Group"
+  },
+  {
+   "id": "7833a8448c7b",
+   "title": "Peco Foods - Data Breach Class Action Settlement",
+   "category": "Data breach",
+   "payout": "Up to $550, or up to $5,000",
+   "payout_max": 5000.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-11-09",
+   "no_proof": true,
+   "summary": "Residual Cash Payment — estimated at up to $550. Available to every settlement class member who files a valid claim, with no documentation and no loss required. It is a checkbox on the form.",
+   "claim_url": "https://www.pecofoodsdatasettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://www.pecofoodsdatasettlement.com/",
+     "no_proof": true
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/data-breaches/peco-foods-data-breach-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": "required",
+   "notice_source": "listing",
+   "notice_mail": true,
+   "administrator": "P&N"
   },
   {
    "id": "5995e62f7db8",
@@ -2087,14 +1979,14 @@
    "no_proof_payout": null,
    "no_proof_payout_max": null,
    "deadline": "2026-12-03",
-   "no_proof": true,
+   "no_proof": false,
    "summary": "Official settlement website and claim form — SPS Settlement.com, administered by Kroll Settlement Administration\n\nCottrell v. SPS Technologies, LLC, No. 2026-14052, Court of Common Pleas of Montgomery County, Pennsylvania\n\nAbington Township shelter-in-place and voluntary evacuation notices, February 2025",
    "claim_url": "https://www.sps-settlement.com/",
    "sources": [
     {
      "name": "classaction_org",
      "url": "https://www.sps-settlement.com/",
-     "no_proof": true
+     "no_proof": false
     },
     {
      "name": "openclassactions",
@@ -2177,37 +2069,6 @@
    "administrator": "Kroll"
   },
   {
-   "id": "549f4c65cb87",
-   "title": "Viapath Technologies - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": "Pro rata share + up to $5,000",
-   "payout_max": 5000.0,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-12-21",
-   "no_proof": true,
-   "summary": "Pro rata cash payment. After loss reimbursements and court-approved costs, the rest of the fund is split in equal shares among class members who file valid claims. No documentation is needed for this payment.",
-   "claim_url": "https://www.telmatedatabreachsettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://www.telmatedatabreachsettlement.com/",
-     "no_proof": true
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/data-breaches/telmate-viapath-data-breach-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-25",
-   "new": false,
-   "notice_id": "optional",
-   "notice_source": "listing",
-   "notice_mail": true,
-   "administrator": "Kroll"
-  },
-  {
    "id": "67d634e27a96",
    "title": "Educational Computer Systems - Data Breach Class Action Settlement",
    "category": "Data breach",
@@ -2242,6 +2103,37 @@
    "notice_source": "listing",
    "notice_mail": true,
    "administrator": "Angeion"
+  },
+  {
+   "id": "549f4c65cb87",
+   "title": "Viapath Technologies - Data Breach Class Action Settlement",
+   "category": "Data breach",
+   "payout": "Pro rata share + up to $5,000",
+   "payout_max": 5000.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-12-21",
+   "no_proof": true,
+   "summary": "Pro rata cash payment. After loss reimbursements and court-approved costs, the rest of the fund is split in equal shares among class members who file valid claims. No documentation is needed for this payment.",
+   "claim_url": "https://www.telmatedatabreachsettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://www.telmatedatabreachsettlement.com/",
+     "no_proof": true
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/data-breaches/telmate-viapath-data-breach-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-25",
+   "new": false,
+   "notice_id": "optional",
+   "notice_source": "listing",
+   "notice_mail": true,
+   "administrator": "Kroll"
   },
   {
    "id": "c178a6df1d29",
@@ -2307,17 +2199,22 @@
   },
   {
    "id": "9e542bf875e1",
-   "title": "CBiz $485,000 Data Breach Class Action Settlement",
+   "title": "CBIZ - Data Breach Class Action Settlement",
    "category": "Data breach",
    "payout": "Est. $100, plus up to $5,000",
    "payout_max": 5000.0,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
    "deadline": "2026-12-24",
-   "no_proof": false,
+   "no_proof": true,
    "summary": "Individuals who received a notice from CBiz about a 2024 data breach may be eligible to claim a cash payment from a class action settlement.\n\nIndividuals who received a notice from CBiz Benefits & Insurance Services stating a 2024 data breach may have compromised their personal information could qualify to submit a claim for a cash payment from a class action settlement. The cyberattack impacted approximately 19,990 people.\n\nClass members are individuals who received a notice from CBiz indicating the 2024 data breach may have compromised their private information.\n\nClass members can claim one or both of the following:\n\nOut-of-pocket losses: Class members can claim up to $5,000 for documented out-of-pocket losses or expenses that occurred in or after 2024 and are traceable to the data breach. These may include monetary losses from fraud or identity theft; professional fees for attorneys, accountants or credit repair services; costs to freeze/unfreeze credit; credit monitoring costs after the incident; and postage for contacting financial institutions.\n\nPro rata cash payment: All class members can also submit a claim to receive a pro rata cash payment estimated at $100. The settlement administrator will determine the final payment amount by the total number of claims filed.",
-   "claim_url": "https://cbizdatabreachsettlement.com/form/claim",
+   "claim_url": "https://cbizdatabreachsettlement.com/",
    "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://cbizdatabreachsettlement.com/",
+     "no_proof": true
+    },
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/cbiz-data-breach-settlement",
@@ -2431,17 +2328,22 @@
   },
   {
    "id": "bc1ebd857f2e",
-   "title": "$6.44M AMCA Data Breach Settlement With Sonic Healthcare Labs — $50 or Up to $5,000",
+   "title": "American Medical Collection Agency - Data Breach Class Action Settlement",
    "category": "Data breach",
    "payout": "~$50 or up to $5,000",
    "payout_max": 5000.0,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
    "deadline": "2027-01-04",
-   "no_proof": false,
+   "no_proof": true,
    "summary": "Out-of-Pocket Losses: up to $5,000 for documented, unreimbursed losses fairly traceable to the incident, including identity theft or medical fraud losses, professional services such as credit repair, notary, fax, postage, copying, mileage and long-distance charges, credit monitoring bought on or after August 1, 2018, and up to 10 hours of documented time at $25 an hour. These payments can also be adjusted pro rata.",
-   "claim_url": "https://www.amcadatabreachsettlement-saca.com/?utm_source=openclassactions.com",
+   "claim_url": "https://www.amcadatabreachsettlement-saca.com/",
    "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://www.amcadatabreachsettlement-saca.com/",
+     "no_proof": true
+    },
     {
      "name": "openclassactions",
      "url": "https://openclassactions.com/settlements/data-breaches/amca-sonic-healthcare-data-breach-settlement.php",
@@ -2971,42 +2873,6 @@
    "administrator": "RG/2"
   },
   {
-   "id": "56068f4dd196",
-   "title": "Sansone Group - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": "Up to $3,500 plus credit monitoring",
-   "payout_max": 3500.0,
-   "no_proof_payout": "$3,500",
-   "no_proof_payout_max": 3500.0,
-   "deadline": "2026-10-13",
-   "no_proof": true,
-   "summary": "Individuals who received notice of the Sansone Group data breach may be eligible to submit a claim for up to $3,500 from a class action settlement.\n\nIndividuals who received a notice that the March 2025 Sansone Group data breach may have compromised their private information could qualify to claim up to $3,500 from a class action settlement. The settlement class includes approximately 1,564 current and former customers.\n\nClass members are individuals in the United States whose private information the Sansone Group data breach may have been impacted, including those who received notice of the incident from Sansone.\n\nClass members have the following benefit options:\n\nDocumented losses: Class members can claim up to $3,500 for documented out-of-pocket losses that occurred between March 22, 2025, and Oct. 13, 2026, and are traceable to the data breach. This includes monetary losses from identity theft or fraud, fees for credit reports or monitoring, costs to replace IDs and postage to contact financial institutions.\n\nAlternate cash payment: Class members who do not submit a documented losses claim can submit a claim to receive a one-time cash payment of $45.",
-   "claim_url": "https://sansonedataincident.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://sansonedataincident.com/",
-     "no_proof": true
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/sansone-data-incident",
-     "no_proof": false
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/data-breaches/sansone-group-data-breach-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "form",
-   "notice_mail": false,
-   "administrator": "Simpluris"
-  },
-  {
    "id": "8978567c3194",
    "title": "Southern Graphics - Data Breach Class Action Settlement",
    "category": "Data breach",
@@ -3507,6 +3373,32 @@
    "administrator": "Simpluris"
   },
   {
+   "id": "a5233df8954d",
+   "title": "Brockton Neighborhood Health Center Data Breach Settlement: Up to $50 or Up to $2,500 Documented",
+   "category": "Data breach",
+   "payout": "Up to $50 or up to $2,500",
+   "payout_max": 2500.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-12-08",
+   "no_proof": false,
+   "summary": "Your browser does not support viewing PDFs inline. Download the PDF.",
+   "claim_url": "https://www.bnhdatasettlement.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/data-breaches/brockton-neighborhood-health-center-data-breach-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-14",
+   "new": true,
+   "notice_id": "required",
+   "notice_source": "listing",
+   "notice_mail": false,
+   "administrator": "Kroll"
+  },
+  {
    "id": "6a8ecf1cb6b2",
    "title": "La Jolla Group Data Breach Settlement for Employees",
    "category": "Data breach",
@@ -3843,8 +3735,8 @@
   },
   {
    "id": "fa0eb5cb48c6",
-   "title": "Emerald City Pizza $376,000 Job Posting Settlement",
-   "category": "Privacy & tech",
+   "title": "Emerald City Pizza - Job Postings (Washington) Class Action Settlement",
+   "category": "Employment",
    "payout": "$1,107.44 (estimated)",
    "payout_max": 1107.44,
    "no_proof_payout": null,
@@ -3852,8 +3744,13 @@
    "deadline": "2026-11-23",
    "no_proof": true,
    "summary": "Individuals who applied for a job with Emerald City Pizza in Washington state may be eligible to receive an estimated $1,107.44 from a class action settlement.\n\nEmployment seekers in Washington state who applied for a position with Emerald City Pizza LLC between Jan. 1, 2023, and Sept. 2, 2026, may qualify to receive an estimated $1,107.44 from a class action settlement.\n\nClass members are individuals who applied for a job with Emerald City Pizza in Washington state between Jan. 1, 2023, and Sept. 2, 2026, in which the job posting for the position did not include the wage scale, salary range or a general description of benefits and other compensation.\n\nIf an individual received a notice about this settlement, it means Emerald City Pizza's records show they are eligible for the settlement.\n\nThe total settlement fund is $376,000. After deducting attorneys' fees and costs, settlement administration costs and the service award to the class representative, the settlement administrator will divide the remaining amount equally among all class members.\n\nThe estimated payment for each class member is $1,107.44. The settlement administrator will report this amount as nonwage damages on a 1099 form.\n\nClass members do not need to file a claim to receive payment. Those who do not exclude themselves will automatically receive their payment after the court finalizes the settlement.",
-   "claim_url": "https://epoasettlementecp.com/faq/",
+   "claim_url": "https://epoasettlementecp.com/",
    "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://epoasettlementecp.com/",
+     "no_proof": null
+    },
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/epoa-settlement-ecp",
@@ -3897,6 +3794,37 @@
    "notice_source": "admin",
    "notice_mail": false,
    "administrator": "Simpluris"
+  },
+  {
+   "id": "c3f2b66ae179",
+   "title": "Hughes Federal Credit Union $7M Repo Class Action Settlement",
+   "category": "Data breach",
+   "payout": "$1,067 (estimated)",
+   "payout_max": 1067.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-11-20",
+   "no_proof": true,
+   "summary": "Consumers who financed a motor vehicle for personal use through Hughes Federal Credit Union, or had their vehicle loan assigned to Hughes, and whose vehicle Hughes repossessed in Arizona between May 18, 2019, and Aug. 4, 2023, may be eligible to receive an estimated cash payment of $1,067 from a class action settlement. The settlement class includes 4,458 borrowers and 3,815 qualifying loans.\n\nClass members must meet the following criteria:\n\nThe repossession occurred between May 18, 2019, and Aug. 4, 2023.\n\nClass members are eligible to receive the following benefits:\n\nAfter deductions for attorneys' fees and expenses, settlement administration fees and service awards, eligible class members will receive a pro rata cash payment estimated at $1,067 from a $7,000,000 settlement fund.\n\nFor eligible class members who do not opt out of the option, Hughes will eliminate the disputed deficiency balance (the amount still owed after their repossessed vehicle was sold) on their repossessed vehicle loan. The company estimates the value of deficiency balances across all class members is $25,603,000.\n\nHughes will request that credit reporting agencies delete the negative trade line associated with the repossessed vehicle and any related deficiencies belonging to eligible class members.\n\nClass members do not need to file a claim to receive a settlement payment.",
+   "claim_url": "https://www.harrisonreposettlement.com/page/faq",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/harrison-repo-settlement",
+     "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/hughes-federal-credit-union-repossession-class-action-settlement.php",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-10-14",
+   "new": true,
+   "notice_id": "none",
+   "notice_source": "listing",
+   "notice_mail": false,
+   "administrator": "American Legal Claims"
   },
   {
    "id": "32f047dc944b",
@@ -3972,8 +3900,8 @@
   },
   {
    "id": "ebf812eacf71",
-   "title": "Guadalupe Credit Union Debt Collection Class Action Settlement",
-   "category": "Data breach",
+   "title": "Guadalupe Credit Union (New Mexico) Class Action Settlement",
+   "category": "Product",
    "payout": "$1,000 plus refund of amount collected after lawsuit",
    "payout_max": 1000.0,
    "no_proof_payout": "$50",
@@ -3981,8 +3909,13 @@
    "deadline": "2026-11-30",
    "no_proof": true,
    "summary": "Individuals whom Guadalupe Credit Union filed a collections lawsuit against in a New Mexico magistrate court without representation by a New Mexico-licensed attorney may be eligible to receive a $1,000 cash payment plus a refund of any amount collected after the lawsuit's filing as part of a class action settlement.\n\nClass members must meet the following criteria:\n\nCash payment: Eligible class members will receive a cash payment of $1,000 plus a refund of any amount they paid to Guadalupe Credit Union after it filed their collections lawsuit.\n\nClass members do not need to file a claim to receive a settlement payment.\n\nClass members can submit an address update online using the notice ID and PIN from their settlement notice or mail or email the request to the settlement administrator. Address update requests by mail or email require the person's full name, previous address, current address and notice ID.\n\nClass members can submit name-change updates by mailing or emailing the settlement administrator. These requests require a copy of a marriage license, divorce decree or court order, the person's original name, their current address and the notice ID.",
-   "claim_url": "https://www.salasvgcusettlement.com/page/faq",
+   "claim_url": "https://www.salasvgcusettlement.com/",
    "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://www.salasvgcusettlement.com/",
+     "no_proof": true
+    },
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/salas-v-gcu-settlement",
@@ -4003,17 +3936,22 @@
   },
   {
    "id": "36802bd29faf",
-   "title": "ITS Technologies & Logistics BIPA Settlement: About $964 for Illinois Workers Who Used a Hand or Fingerprint Timeclock",
+   "title": "ITS Technologies and Logistics - Biometric Privacy (Illinois) Class Action Settlement",
    "category": "Privacy & tech",
    "payout": "About $964.48",
    "payout_max": 964.48,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
    "deadline": "2026-12-04",
-   "no_proof": false,
+   "no_proof": true,
    "summary": "Official settlement website — ITS BIPA Settlement, administered by Simpluris\n\nNotice of Proposed Class Action Settlement, Claim Form and Class Action Settlement Agreement (PDF)\n\nMcGivney v. ITS Technologies & Logistics, LLC, Case No. 2026-LA-000924, Circuit Court of DuPage County, Illinois (refiled from Case No. 2022-CH-08873, Circuit Court of Cook County)",
-   "claim_url": "https://www.itsbipasettlement.com/?utm_source=openclassactions.com",
+   "claim_url": "https://itsbipasettlement.com/",
    "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://itsbipasettlement.com/",
+     "no_proof": true
+    },
     {
      "name": "openclassactions",
      "url": "https://openclassactions.com/settlements/privacy/its-technologies-logistics-bipa-class-action-settlement.php",
@@ -4504,17 +4442,22 @@
   },
   {
    "id": "3dc7b37b890f",
-   "title": "Jefferson County Health Center Data Breach Settlement — $150 With No Documentation or Up to $300",
+   "title": "Jefferson County Health Department - Data Breach Class Action Settlement",
    "category": "Data breach",
    "payout": "$150 or up to $300",
    "payout_max": 300.0,
    "no_proof_payout": "$150",
    "no_proof_payout_max": 150.0,
    "deadline": "2026-11-16",
-   "no_proof": false,
+   "no_proof": true,
    "summary": "Fixed cash payment: an estimated $150, with no documentation required.\n\nReimbursement: up to $300 for lost time and out-of-pocket expenses, such as fraud or identity protection costs, professional fees and credit repair services, incurred between the breach notice and November 16, 2026 and not already reimbursed. Supporting documentation is required, including for lost time.\n\nYour browser does not support viewing PDFs inline. Download the PDF.",
-   "claim_url": "https://jeffersoncountybreachsettlement.com/?utm_source=openclassactions.com",
+   "claim_url": "https://jeffersoncountybreachsettlement.com/",
    "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://jeffersoncountybreachsettlement.com/",
+     "no_proof": true
+    },
     {
      "name": "openclassactions",
      "url": "https://openclassactions.com/settlements/data-breaches/jefferson-county-health-center-data-breach-settlement.php",
@@ -4556,17 +4499,22 @@
   },
   {
    "id": "741766f6a460",
-   "title": "Webtoon $10 Million Securities Class Action Settlement",
-   "category": "Data breach",
+   "title": "Napco $20 Million Securities Class Action Settlement",
+   "category": "Privacy & tech",
    "payout": "$95-$280 (estimated)",
    "payout_max": 280.0,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
-   "deadline": "2026-10-13",
+   "deadline": "2026-10-15",
    "no_proof": false,
-   "summary": "Individuals held in New York City Department of Correction custody between March 28, 2020, and Feb. 29, 2024, who received a strip search upon arrival at the Manhattan Court Division after they already received a strip search before leaving Rikers Island for court may be eligible to claim a cash payment from a class action settlement.\n\nClass members are individuals who were in custody of the New York City DOC between March 28, 2020, and Feb. 29, 2024, who received a strip search upon arrival at the Manhattan Court Division after receiving a strip search before departing Rikers Island for court and who appear on the official class list.\n\nEligible class members who submit a valid claim will receive a pro rata payment from a $28 million fund. The amount each person receives depends on the number of times they received qualifying strip searches and the total number of such incidents all class members claim. Payments may be subject to deductions for child support liens, certain government liens or other judgments as required by law.\n\nTo receive a payment, class members can submit an online claim form or print and complete the PDF claim form from the online portal and mail it to the settlement administrator.\n\nIf the class member is deceased, a legal representative may submit a claim with proof of death and documentation showing authority to act on behalf of the estate.",
-   "claim_url": "https://veritaconnect.com/WEBTOONSecuritiesSettlement/",
+   "summary": "Investors who bought Napco common stock between Nov. 7, 2022, and Aug. 18, 2023, may be eligible to claim a cash payment from a class action settlement.\n\nInvestors who purchased or otherwise acquired Napco Security Technologies Inc. common stock between Nov. 7, 2022, and Aug. 18, 2023, may be eligible to claim a cash payment from a class action settlement.\n\nThe settlement includes all persons and entities who purchased or otherwise acquired Napco Security Technologies common stock between Nov. 7, 2022, and Aug. 18, 2023, inclusive, and suffered damages as a result.\n\nBoth individuals and entities can be class members.\n\nThe total settlement fund is $20,000,000. The amount each class member will receive depends on several factors:\n\nThe number of shares purchased or acquired during the class period\n\nThe settlement administrator will calculate a recognized loss for each share bought during the class period using the court-approved plan of allocation:\n\nClass members whose payment would be less than $10 will not receive a payout.\n\nClass members may file a claim online or download, print and complete the PDF claim form and mail it to the settlement administrator. The claim deadline is Dec. 28, 2026.\n\nAll class members must provide the last four digits of their Social Security number or their full taxpayer identification number. They must also provide holdings and transaction information, including:",
+   "claim_url": "https://veritaconnect.com/NAPCOSecuritiesSettlement/",
    "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/napco-securities-settlement",
+     "no_proof": false
+    },
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/webtoon-securities-settlement",
@@ -4605,11 +4553,6 @@
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/rockley-securities-settlement",
-     "no_proof": false
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/hain-celestial-securities-settlement",
      "no_proof": false
     },
     {
@@ -4704,17 +4647,22 @@
   },
   {
    "id": "9fcafa79b0d1",
-   "title": "Teleflora $6M Unwanted Text Messages Class Action Settlement",
-   "category": "Data breach",
+   "title": "Teleflora - Unwanted Calls Class Action Settlement",
+   "category": "Privacy & tech",
    "payout": "Up to $251",
    "payout_max": 251.0,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
    "deadline": "2026-11-17",
-   "no_proof": false,
+   "no_proof": true,
    "summary": "Individuals who received more than one promotional text message from Teleflora while the National Do Not Call Registry listed their phone number may be eligible to submit a claim for up to $251 from a class action settlement. The settlement class includes approximately 23,844 telephone numbers.\n\nClass members must meet the following criteria:\n\nThey registered their residential or cellular telephone number with the National Do Not Call Registry for at least 30 days before receiving at least two text messages from Teleflora within a 12-month period.\n\nCash payment: Class members can submit a claim to receive a cash payment of up to $251 from the net settlement fund.\n\nTo receive a settlement payment, class members can file a claim online or print and complete the PDF claim form, and mail it to the settlement administrator.\n\nTo submit a claim, class members must provide the phone number(s) that received two or more qualifying promotional text messages from Teleflora.\n\nTo submit a claim online, class members must provide the claim ID number and confirmation code from the settlement notice they received.\n\nTo submit a claim by mail, class members must provide the claim ID number from the settlement notice they received.\n\nPayments to eligible claimants: Remaining settlement funds",
-   "claim_url": "https://www.tfsettlement.com/submit-claim",
+   "claim_url": "https://www.tfsettlement.com/",
    "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://www.tfsettlement.com/",
+     "no_proof": true
+    },
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/tf-tcpa-settlement",
@@ -4729,7 +4677,7 @@
    "first_seen": "2026-10-07",
    "new": false,
    "notice_id": "required",
-   "notice_source": "form",
+   "notice_source": "listing",
    "notice_mail": true,
    "administrator": "Angeion"
   },
@@ -4879,9 +4827,40 @@
    "administrator": null
   },
   {
+   "id": "752441556e45",
+   "title": "Natera Testing Class Action Settlement",
+   "category": "Product",
+   "payout": "$249",
+   "payout_max": 249.0,
+   "no_proof_payout": "$50",
+   "no_proof_payout_max": 50.0,
+   "deadline": "2027-05-03",
+   "no_proof": true,
+   "summary": "Proof-of-payment group (ID starts with “A”): claimants whose payment above the threshold appears in Natera’s records share 94.7% of the net fund pro rata, in proportion to how much they paid over the threshold for each test.\n\nNo-proof group (ID starts with “B”): claimants whose records show no such payment share 5.3% of the net fund, with each payment capped at $50. If that 5.3% is not used up, the rest moves to the proof-of-payment group.\n\nClaim deadline: May 3, 2027, submitted online or mailed so that it is received by that date.",
+   "claim_url": "https://geneticscreeningtestsettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://geneticscreeningtestsettlement.com/",
+     "no_proof": true
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/natera-genetic-screening-test-billing-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-06",
+   "new": false,
+   "notice_id": "required",
+   "notice_source": "listing",
+   "notice_mail": false,
+   "administrator": "Kroll"
+  },
+  {
    "id": "1cbeb1352fa1",
-   "title": "Bank of America $4.28M Unpaid Vacation Time Settlement",
-   "category": "Data breach",
+   "title": "Bank of America - Unused Vacation Class Action Settlement",
+   "category": "Financial",
    "payout": "Minimum $200",
    "payout_max": 200.0,
    "no_proof_payout": null,
@@ -4889,8 +4868,13 @@
    "deadline": "2026-11-23",
    "no_proof": true,
    "summary": "Former employees who worked at Bank of America in California, New York or Illinois during certain periods and who had a positive vacation balance at the time their employment ended may be eligible to receive a cash payment from a class action settlement.\n\nClass members must meet all of the following criteria:\n\nThe amount each class member can receive depends on several factors, including the amount of unused vacation, their hourly rate of pay and the state where they worked.\n\nEvery class member will receive a minimum payment of $200.\n\nThe settlement administrator will distribute the remaining net settlement fund based on each class member’s calculated losses.\n\nClass members do not need to submit a claim form to receive payment. The settlement administrator already has the necessary employment records to determine eligibility and calculate payments. If eligible, class members will automatically receive a check at their last known address. If a class member moves, they should notify the settlement administrator as soon as possible to update their address.\n\nIf a class member believes the information used to calculate their payment is incorrect, they may submit the adjustment form included in their settlement notice along with supporting documentation, such as pay stubs or vacation records, to the settlement administrator by Nov. 23, 2026.",
-   "claim_url": "https://unusedvacationsettlement.com/frequently-asked-questions/",
+   "claim_url": "https://unusedvacationsettlement.com/",
    "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://unusedvacationsettlement.com/",
+     "no_proof": null
+    },
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/unused-vacation-settlement",
@@ -4908,42 +4892,6 @@
    "notice_source": null,
    "notice_mail": false,
    "administrator": "Analytics Consulting"
-  },
-  {
-   "id": "57c7dc310afb",
-   "title": "HireVue - Biometric Privacy (Illinois) Class Action Settlement",
-   "category": "Privacy & tech",
-   "payout": "$150 (estimated)",
-   "payout_max": 150.0,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-10-13",
-   "no_proof": true,
-   "summary": "The Circuit Court of Lake County, Illinois granted preliminary approval of the settlement on June 25, 2026, which opened the claim process and set the class period's end date. The Settlement Administrator then sent email notices to people HireVue's records identified as likely class members, each carrying a Login ID and PIN.\n\nYou may be a settlement class member if, while physically within the state of Illinois, you completed an interview through HireVue's video interview platform that involved one of the interview models at issue, at any time between January 27, 2017 and June 25, 2026.No-Proof Settlement List\n\nYou did not receive a notice but believe you completed a qualifying interview. You can still file using your own interview documentation, and the Settlement Administrator will decide eligibility against HireVue's records.\n\nDo not contact the employer you interviewed with. Employers do not administer this settlement and cannot determine your eligibility.\n\nHireVue has agreed to create a $3,750,000 settlement fund. Every class member who submits a timely Claim Form that is deemed valid receives an equal payment from what remains of the fund after administrative expenses, attorneys' fees and expenses, and class representative service awards are paid.",
-   "claim_url": "https://videointerviewbipasettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://videointerviewbipasettlement.com/",
-     "no_proof": true
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/video-interview-bipa-settlement",
-     "no_proof": false
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/privacy/hirevue-bipa-biometric-privacy-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "optional",
-   "notice_source": "form",
-   "notice_mail": false,
-   "administrator": "Simpluris"
   },
   {
    "id": "a4c83317ab17",
@@ -5158,6 +5106,37 @@
    "administrator": "JND"
   },
   {
+   "id": "469564abb1d6",
+   "title": "Coast Dental Services - Unwanted Texts Class Action Settlement",
+   "category": "Privacy & tech",
+   "payout": "Up to $59 cash or $99 voucher",
+   "payout_max": 99.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-12-24",
+   "no_proof": true,
+   "summary": "Voucher: up to $99 toward an electric toothbrush sold by Coast Dental. A claimant who does not pick an option, or whose choice is unclear, receives the voucher.\n\nYour browser does not support viewing PDFs inline. Download the PDF.",
+   "claim_url": "https://cdstcpasettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://cdstcpasettlement.com/",
+     "no_proof": true
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/tcpa/coast-dental-tcpa-text-message-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-08",
+   "new": false,
+   "notice_id": "required",
+   "notice_source": "listing",
+   "notice_mail": false,
+   "administrator": "Analytics Consulting"
+  },
+  {
    "id": "86d92ffbdca3",
    "title": "Coast Dental Services $3.84M TCPA Class Action Settlement",
    "category": "Data breach",
@@ -5173,32 +5152,6 @@
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/cds-tcpa-settlement",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-10-08",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
-   "notice_mail": false,
-   "administrator": "Analytics Consulting"
-  },
-  {
-   "id": "469564abb1d6",
-   "title": "Coast Dental Text Message Settlement — Up to $59 Cash or a $99 Toothbrush Voucher",
-   "category": "Privacy & tech",
-   "payout": "Up to $59 cash or $99 voucher",
-   "payout_max": 99.0,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-12-24",
-   "no_proof": false,
-   "summary": "Voucher: up to $99 toward an electric toothbrush sold by Coast Dental. A claimant who does not pick an option, or whose choice is unclear, receives the voucher.\n\nYour browser does not support viewing PDFs inline. Download the PDF.",
-   "claim_url": "https://cdstcpasettlement.com/?utm_source=openclassactions.com",
-   "sources": [
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/tcpa/coast-dental-tcpa-text-message-class-action-settlement.php",
      "no_proof": false
     }
    ],
@@ -5263,17 +5216,22 @@
   },
   {
    "id": "e4d7e1d056f5",
-   "title": "The Container Store $780,000 Accessibility Settlement",
-   "category": "Data breach",
+   "title": "The Container Store (Massachusetts) Class Action Settlement",
+   "category": "Product",
    "payout": "$75 per qualifying purchase",
    "payout_max": 75.0,
    "no_proof_payout": "$5",
    "no_proof_payout_max": 5.0,
    "deadline": "2026-12-20",
-   "no_proof": false,
+   "no_proof": true,
    "summary": "Individuals who are legally blind and purchased from The Container Store in Massachusetts may qualify to claim $75 per purchase from a class action lawsuit.\n\nLegally blind shoppers who made a purchase at The Container Store in Massachusetts between July 20, 2011, and August 12, 2026, and attempted to credit their purchase to The Container Store’s loyalty program may be eligible to claim $75 per qualifying purchase from a class action settlement.\n\nThe Container Store agreed to pay $780,000 to settle a class action lawsuit alleging the company maintained point-of-sale devices in Massachusetts stores that blind individuals could not access in violation of the Massachusetts Public Accommodations Act, the Massachusetts Equal Rights Act and the Massachusetts Consumer Protection Law. The settlement allocates $230,000 for class member payments. The remainder of the fund will go toward installing fully accessible point-of-sale kiosk devices in all of the company's Massachusetts stores.\n\nClass members must meet all of the following requirements:\n\nThey made a purchase at any The Container Store location in Massachusetts between July 20, 2011, and Aug. 12, 2026.",
-   "claim_url": "https://www.tcssettlement.com/Login",
+   "claim_url": "https://www.tcssettlement.com/",
    "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://www.tcssettlement.com/",
+     "no_proof": true
+    },
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/tcs-settlement",
@@ -5365,7 +5323,7 @@
     {
      "name": "classaction_org",
      "url": "https://epoasettlementmmi.com/",
-     "no_proof": true
+     "no_proof": null
     },
     {
      "name": "claimdepot",
@@ -5503,32 +5461,6 @@
    "notice_source": "form",
    "notice_mail": false,
    "administrator": "Simpluris"
-  },
-  {
-   "id": "752441556e45",
-   "title": "Natera $9.5M Settlement — Cash for Patients Billed More Than $249 or $349 for Panorama or Horizon Tests",
-   "category": "Privacy & tech",
-   "payout": "Up to $50, or a pro rata share",
-   "payout_max": 50.0,
-   "no_proof_payout": "$50",
-   "no_proof_payout_max": 50.0,
-   "deadline": "2027-05-03",
-   "no_proof": false,
-   "summary": "Proof-of-payment group (ID starts with “A”): claimants whose payment above the threshold appears in Natera’s records share 94.7% of the net fund pro rata, in proportion to how much they paid over the threshold for each test.\n\nNo-proof group (ID starts with “B”): claimants whose records show no such payment share 5.3% of the net fund, with each payment capped at $50. If that 5.3% is not used up, the rest moves to the proof-of-payment group.\n\nClaim deadline: May 3, 2027, submitted online or mailed so that it is received by that date.",
-   "claim_url": "https://www.geneticscreeningtestsettlement.com/?utm_source=openclassactions.com",
-   "sources": [
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/natera-genetic-screening-test-billing-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-10-06",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
-   "notice_mail": false,
-   "administrator": "Kroll"
   },
   {
    "id": "07fd2a6d9520",
@@ -5780,17 +5712,22 @@
   },
   {
    "id": "a19acb5a6ef4",
-   "title": "University of Phoenix $8.75 Million Pixel Privacy Settlement",
-   "category": "Data breach",
+   "title": "University of Phoenix - Data Privacy Class Action Settlement",
+   "category": "Privacy & tech",
    "payout": "$25",
    "payout_max": 25.0,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
    "deadline": "2026-11-05",
-   "no_proof": false,
+   "no_proof": true,
    "summary": "Students who enrolled at the University of Phoenix from April 1, 2020 to Oct. 6, 2026, may be eligible to claim $25 from a class action settlement.\n\nIndividuals who enrolled at the University of Phoenix at any time from April 1, 2023, to Oct. 6, 2026, or from April 1, 2020, to Oct. 6, 2026, may be eligible to claim a $25 cash payment from a class action settlement.\n\nEach qualifying class member can receive a cash payment of $25. If the total amount of valid claims exceeds the maximum settlement fund of $8.75 million, the settlement administrator will distribute payments on a pro rata basis, and each claimant will receive a proportionally reduced amount.\n\nTo receive a payment, class members must submit an online claim form or print and complete the PDF claim form and mail it to the settlement administrator.\n\nClass members using the online claim form must supply the LoginID and PIN they received in their settlement notice.\n\nPayments to eligible class members: Remainder of the fund",
-   "claim_url": "https://uoppixelsettlement.com/form/claim",
+   "claim_url": "https://uoppixelsettlement.com/",
    "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://uoppixelsettlement.com/",
+     "no_proof": true
+    },
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/uop-pixel-settlement",
@@ -5811,17 +5748,22 @@
   },
   {
    "id": "849ec2559a23",
-   "title": "Arizona Labor Force $300,000 Data Breach Settlement",
+   "title": "Arizona Labor Force - Data Breach Class Action Settlement",
    "category": "Data breach",
    "payout": "$25 (estimated)",
    "payout_max": 25.0,
    "no_proof_payout": "$25",
    "no_proof_payout_max": 25.0,
    "deadline": "2026-12-28",
-   "no_proof": false,
+   "no_proof": true,
    "summary": "Individuals whose personal information the Arizona Labor Force data breach compromised may be eligible to claim an estimated $25 from a class action settlement.\n\nIndividuals whose personal information may have been compromised in the January 2023 Arizona Labor Force Inc. and Labor Systems Inc. data incident could be eligible to claim a cash payment from a class action settlement.\n\nThe settlement class includes all United States residents whose personally identifiable information the January 2023 Arizona Labor Force Inc. and Labor Systems Inc. data incident may have compromised.\n\nIf Arizona Labor Force’s records indicate the breach involved a person’s information, the settlement administrator considers that person a class member. Class members may have received a direct notice from Arizona Labor Force regarding the breach but receiving a notice is not required to be eligible.\n\nEach eligible class member who submits a valid claim form can receive an equal cash payment from the net settlement fund. The payment is expected to be $25, but the actual amount may be higher or lower depending on the total number of valid claims filed.\n\nClass members can file the online claim form or download, print, complete and mail a PDF claim form to the settlement administrator.\n\nTo file an online claim, class members must provide the LoginID and PIN from the settlement notice they received.",
-   "claim_url": "https://azlaborforcesettlement.com/form/claim",
+   "claim_url": "https://azlaborforcesettlement.com/",
    "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://azlaborforcesettlement.com/",
+     "no_proof": true
+    },
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/az-labor-force-settlement",
@@ -5904,7 +5846,7 @@
   },
   {
    "id": "f584038a1af5",
-   "title": "PARS $750,000 Data Breach Class Action Settlement",
+   "title": "Public Agency Retirement Services - Data Breach Class Action Settlement",
    "category": "Data breach",
    "payout": "About $19 each (OCA estimate)",
    "payout_max": 19.0,
@@ -5913,8 +5855,13 @@
    "deadline": "2026-12-01",
    "no_proof": true,
    "summary": "Individuals who received notice of the March 2024 PARS data breach may be eligible to receive a cash payment from a class action settlement.\n\nClass members are individuals residing in the United States whose personal information the March 2024 Public Agency Retirement Services data breach compromised, including those who received notice of the incident.\n\nPro rata cash payment: Eligible class members will receive a pro rata cash payment from the net settlement fund.\n\nClass members do not need to submit a claim form to receive a settlement receive payment. Class members who wish to receive an electronic payment can submit a payment selection online using the LoginID and PIN from their settlement notice.\n\nPayments to eligible class members: Remaining settlement funds\n\nThe settlement administrator will issue payments to eligible class members approximately 60 days after the court grants final approval of the settlement.",
-   "claim_url": "https://phaseiidatasettlement.com/faq/",
+   "claim_url": "https://phaseiidatasettlement.com/",
    "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://phaseiidatasettlement.com/",
+     "no_proof": true
+    },
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/phase-ii-data-settlement",
@@ -6173,7 +6120,7 @@
   },
   {
    "id": "b93de7e7ce3b",
-   "title": "$59.5M FTAC II Stockholder Settlement for Holders Who Kept Their Shares in the Paysafe SPAC Merger",
+   "title": "FTAC II, Paysafe Merger $59.5M Class Action Settlement",
    "category": "Privacy & tech",
    "payout": "$10",
    "payout_max": 10.0,
@@ -6181,9 +6128,14 @@
    "no_proof_payout_max": null,
    "deadline": "2027-01-07",
    "no_proof": false,
-   "summary": "Held through February 15, 2023: $8.04 a share (the $10 redemption price minus $1.96, Paysafe’s closing price that day), plus a $0.10 nominal amount.\n\nSold before the close on February 15, 2023 for less than $10: $10 minus the sale price, plus $0.10.\n\nNovember 20, 2026: written objections and notices of intention to appear must be received.",
-   "claim_url": "https://www.ftaciistockholdersettlement.com/claim?utm_source=openclassactions.com",
+   "summary": "Investors who held FTAC II Class A stock as of March 23, 2021, and did not redeem all shares may be eligible to claim cash from a class action settlement.\n\nInvestors who held Foley Trasimene Acquisition Corp. II Class A common stock as of March 23, 2021, and did not redeem all of their shares in connection with its merger with Paysafe Payment Processing Solutions may be eligible to claim a cash payment from a class action settlement.\n\nBoth individuals and entities can be class members.\n\nHeirs and successors who obtained shares by operation of law are class members.\n\nThe class is a non-opt-out class under Delaware Court of Chancery Rules 23(a), 23(b)(1) and 23(b)(2), meaning class members cannot exclude themselves from the settlement.\n\nThe total settlement fund is $59,500,000. The amount each class member will receive depends on several factors:\n\nThe number of eligible shares held as of March 23, 2021\n\nWhether and when the class member sold shares\n\nThe settlement administrator will calculate a total loss for each eligible share held as of the close of trading on March 23, 2021, using the court-approved plan of allocation:\n\nClass members whose payment would be less than $10 will not receive a payout.\n\nClass members may file a claim online or download, print and complete the PDF claim form and mail it to the settlement administrator. The claim deadline is Jan. 7, 2027.",
+   "claim_url": "https://www.ftaciistockholdersettlement.com/claim",
    "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/ftac-ii-stockholder-settlement",
+     "no_proof": false
+    },
     {
      "name": "openclassactions",
      "url": "https://openclassactions.com/settlements/securities/ftac-ii-paysafe-stockholder-class-action-settlement.php",
@@ -6695,32 +6647,6 @@
    "administrator": "Simpluris"
   },
   {
-   "id": "d84fe3a534a8",
-   "title": "$35M Hain Celestial Securities Settlement: HAIN Investors From 2013–2017 Can File a Claim",
-   "category": "Privacy & tech",
-   "payout": "~$0.18 per share",
-   "payout_max": 0.18,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-10-13",
-   "no_proof": false,
-   "summary": "Options count. Call options must have been purchased or acquired during the class period; put options must have been sold or written during it.\n\nHolding Hain through a mutual fund does not make you a class member. You have to have bought or sold in your own account, though the fund itself may be a class member.\n\nReceiving a notice does not mean you are eligible. The parties have no access to your trading records, which is why a claim form and documentation are required.",
-   "claim_url": "https://www.haincelestialsecuritiessettlement.com/?utm_source=openclassactions.com",
-   "sources": [
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/securities/hain-celestial-securities-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": "Verita (KCC)"
-  },
-  {
    "id": "dae257680475",
    "title": "Holley Securities Class Action Settlement: $12.75M for HLLY Stock and Warrant Buyers, Claims Due November 19, 2026",
    "category": "Privacy & tech",
@@ -6819,73 +6745,6 @@
    "administrator": "A.B. Data"
   },
   {
-   "id": "af11fcb45dc1",
-   "title": "Diisocyanates Antitrust Class Action Settlement",
-   "category": "Antitrust",
-   "payout": "Pro rata share of $37.65M",
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-10-13",
-   "no_proof": true,
-   "summary": "Your browser does not support viewing PDFs inline. Download the PDF.\n\nYour browser does not support viewing PDFs inline. Download the PDF.\n\nYour browser does not support viewing PDFs inline. Download the PDF.",
-   "claim_url": "https://www.diisocyanatesantitrustlitigation.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://www.diisocyanatesantitrustlitigation.com/",
-     "no_proof": true
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/diisocyanates-mdi-tdi-antitrust-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-22",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
-   "notice_mail": false,
-   "administrator": "Kroll"
-  },
-  {
-   "id": "4c2316e84ea4",
-   "title": "Davison Design & Development - Unwanted Texts (Washington) Class Action Settlement",
-   "category": "Privacy & tech",
-   "payout": "Pro rata payment",
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-10-13",
-   "no_proof": true,
-   "summary": "Washington residents who had a Washington-area-code cellular number between Nov. 15, 2021, and Dec. 10, 2025, and received one or more text messages from Davison Design & Development Inc. for which they had not signed up may be eligible to claim a cash payment from a class action settlement.\n\nDavison Design & Development Inc. agreed to pay $30,000 to resolve a class action lawsuit alleging it sent commercial text messages to Washington residents without their prior consent in violation of Washington’s Commercial Electronic Mail Act. The class includes approximately 480 members.\n\nClass members must meet all of the following criteria:\n\nThey resided in Washington at any time between Nov. 15, 2021, and Dec. 10, 2025.\n\nThe settlement administrator identified phone numbers from Davison’s records and sent notice by text or postcard to potentially eligible class members. However, those who did not receive a notice may still be eligible if Davison’s records include their phone number.\n\nThe settlement fund is $30,000. After deducting attorneys' fees and costs, the settlement administrator will distribute funds equally among all class members who submit valid claims.\n\nClass members can file a claim online or download, print and complete the PDF claim form and mail it to the settlement administrator.",
-   "claim_url": "https://www.millertextsettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://www.millertextsettlement.com/",
-     "no_proof": true
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/miller-text-settlement",
-     "no_proof": false
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/tcpa/davison-design-washington-text-message-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "optional",
-   "notice_source": "form",
-   "notice_mail": false,
-   "administrator": null
-  },
-  {
    "id": "9dd7ea0c4b3b",
    "title": "FLO App - Data Privacy Class Action Settlement",
    "category": "Privacy & tech",
@@ -6917,37 +6776,6 @@
    "administrator": "A.B. Data"
   },
   {
-   "id": "494a48cf71c6",
-   "title": "The Money Source - Unwanted Calls Class Action Settlement",
-   "category": "Product",
-   "payout": "Pro rata share of $1.5M",
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-10-15",
-   "no_proof": false,
-   "summary": "Payments are automatic — no claim form required.Compare Cards\n\nThis settlement only covers The Money Source. If a different company is still calling or texting you after you told it to stop, that is a separate claim under the same federal law — the TCPA sets damages at $500 per illegal call or text, and up to $1,500 where a court finds the violation was willful.\n\nPrerecorded-call and spam-text cases settle constantly, and most readers who land here have calls from a company other than The Money Source. Two places to go next: the TCPA class action hub, which tracks every robocall and text settlement we cover with its deadline and proof requirement, and our plain-English guide to the TCPA, which explains what the law actually prohibits and what a violation is worth.",
-   "claim_url": "https://www.moneysourcetcpaclassaction.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://www.moneysourcetcpaclassaction.com/",
-     "no_proof": null
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/tcpa/money-source-tcpa-prerecorded-calls-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "none",
-   "notice_source": "listing",
-   "notice_mail": false,
-   "administrator": "Atticus"
-  },
-  {
    "id": "973cbfae1955",
    "title": "Flo Health App $59.5M Privacy Class Action Settlement",
    "category": "Privacy & tech",
@@ -6972,6 +6800,32 @@
    "notice_source": "form",
    "notice_mail": true,
    "administrator": "A.B. Data"
+  },
+  {
+   "id": "494a48cf71c6",
+   "title": "The Money Source $1.5M Prerecorded Call Settlement — No Claim Form, Automatic Payments",
+   "category": "Privacy & tech",
+   "payout": "Pro rata share of $1.5M",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-10-15",
+   "no_proof": false,
+   "summary": "Payments are automatic — no claim form required.Compare Cards\n\nThis settlement only covers The Money Source. If a different company is still calling or texting you after you told it to stop, that is a separate claim under the same federal law — the TCPA sets damages at $500 per illegal call or text, and up to $1,500 where a court finds the violation was willful.\n\nPrerecorded-call and spam-text cases settle constantly, and most readers who land here have calls from a company other than The Money Source. Two places to go next: the TCPA class action hub, which tracks every robocall and text settlement we cover with its deadline and proof requirement, and our plain-English guide to the TCPA, which explains what the law actually prohibits and what a violation is worth.",
+   "claim_url": "https://www.moneysourcetcpaclassaction.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/tcpa/money-source-tcpa-prerecorded-calls-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": "none",
+   "notice_source": "listing",
+   "notice_mail": false,
+   "administrator": "Atticus"
   },
   {
    "id": "74a182ae9557",
@@ -7733,6 +7587,32 @@
    "administrator": "Epiq"
   },
   {
+   "id": "31a5a935680a",
+   "title": "Rhode Island Bioenergy Facility $1M Class Action Settlement",
+   "category": "Data breach",
+   "payout": "Pro rata share of net settlement fund",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-11-03",
+   "no_proof": false,
+   "summary": "Individuals who lived within 1.75 miles of the Rhode Island Bioenergy Facility since 2016 may be eligible to claim a cash settlement payment.\n\nIndividuals who owned, rented or leased a residential property within 1.75 miles of the Rhode Island Bioenergy Facility at 289 Scituate Ave. in Johnston, Rhode Island, at any time since Jan. 1, 2016, may be eligible to claim a cash payment from a class action settlement.\n\nClass members must meet all of the following criteria:\n\nThey owned, rented or leased any residential property located in whole or in part within 1.75 miles of the Rhode Island Bioenergy Facility at 289 Scituate Ave., Johnston, Rhode Island.\n\nThe property must be residential (not commercial).\n\nClass members can only claim one property per claim form. Those who owned or rented multiple properties within the class area must submit a separate claim form for each property.\n\nBoth current and former owners, tenants or lessees are eligible.\n\nThe total settlement fund available for class members is $850,000. The amount each class member receives depends on the total number of valid claims submitted. After deducting settlement administration costs, attorneys' fees and expenses, and incentive awards for the named plaintiffs, the settlement administrator will distribute the remaining funds equally among all approved claimants based on the number of qualifying addresses.",
+   "claim_url": "https://lsclassaction.com/settlements/rhode-island-resource-recovery-class-action-settlement/",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/rhode-island-resource-recovery",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-14",
+   "new": true,
+   "notice_id": "none",
+   "notice_source": "form",
+   "notice_mail": false,
+   "administrator": null
+  },
+  {
    "id": "c27acf8957fd",
    "title": "WellNow Urgent Care $1.64M Labor Class Action Settlement",
    "category": "Privacy & tech",
@@ -8075,17 +7955,22 @@
   },
   {
    "id": "1397090f7ded",
-   "title": "Harvard $53 Million Anatomical Gift Program Settlement",
-   "category": "Data breach",
+   "title": "Harvard Morgue Class Action Settlement",
+   "category": "Product",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
    "deadline": "2026-11-16",
-   "no_proof": false,
+   "no_proof": true,
    "summary": "Family members or designees of Harvard anatomical gift program donors may be eligible to claim a cash payment from a class action settlement.\n\nSpouses, registered domestic partners, children, parents, siblings or grandchildren of a person who donated their body to the Harvard Medical School Anatomical Gift Program, or those whom the donor named in an instrument of anatomical gift, may be eligible to claim a cash payment from a class action settlement.\n\nThe president and fellows of Harvard College agreed to pay $53 million to settle a class action lawsuit alleging it failed to safeguard donated remains. The lawsuit claimed this failure allowed others to improperly remove, dismember and sell some donated remains, causing emotional distress and uncertainty for families.\n\nA grandchild of a donor whose remains left the Harvard morgue between Jan. 1, 2018, and March 31, 2023\n\nPrimary settlement class: Donors whose remains left the Harvard morgue between Jan. 1, 2018, and March 31, 2023\n\nPre-2018 settlement class: Donors whose remains left the Harvard morgue between Jan. 1, 2003, and Dec. 31, 2017",
-   "claim_url": "https://harvardmorguesettlement.com/form/claim",
+   "claim_url": "https://harvardmorguesettlement.com/",
    "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://harvardmorguesettlement.com/",
+     "no_proof": true
+    },
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/harvard-morgue-settlement",
@@ -8754,7 +8639,7 @@
     }
    ],
    "first_seen": "2026-10-13",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -8854,6 +8739,37 @@
    "administrator": "Angeion"
   },
   {
+   "id": "d98c0b2f4e11",
+   "title": "Capital One Arena - Concessions Class Action Settlement",
+   "category": "Subscription & fees",
+   "payout": "Equal share of $4.5M net fund",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-12-04",
+   "no_proof": true,
+   "summary": "Official settlement website — Frequently Asked Questions (class definition, fund, fees, payment methods, deadlines and hearing date)\n\nCourt documents, including the complaint, the fully executed settlement agreement, the claim form, the long form notice, the October 2, 2026 email summary notice (the source of the Settlement Claim ID) and the September 14, 2026 order granting preliminary approval",
+   "claim_url": "https://www.venuefeesettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://www.venuefeesettlement.com/",
+     "no_proof": true
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/deceptive-pricing/aramark-capital-one-arena-venue-fee-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-04",
+   "new": false,
+   "notice_id": "required",
+   "notice_source": "listing",
+   "notice_mail": true,
+   "administrator": "P&N"
+  },
+  {
    "id": "457021434999",
    "title": "Aramark Capital One Arena $4.5M Venue Fee Settlement",
    "category": "Data breach",
@@ -8878,32 +8794,6 @@
    "notice_source": "listing",
    "notice_mail": false,
    "administrator": "EisnerAmper"
-  },
-  {
-   "id": "d98c0b2f4e11",
-   "title": "Aramark Capital One Arena $4.5M Venue Fee Settlement — Claim by December 4, 2026",
-   "category": "Privacy & tech",
-   "payout": "Equal share of $4.5M net fund",
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-12-04",
-   "no_proof": false,
-   "summary": "Official settlement website — Frequently Asked Questions (class definition, fund, fees, payment methods, deadlines and hearing date)\n\nCourt documents, including the complaint, the fully executed settlement agreement, the claim form, the long form notice, the October 2, 2026 email summary notice (the source of the Settlement Claim ID) and the September 14, 2026 order granting preliminary approval",
-   "claim_url": "https://www.venuefeesettlement.com/?utm_source=openclassactions.com",
-   "sources": [
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/deceptive-pricing/aramark-capital-one-arena-venue-fee-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-10-04",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "listing",
-   "notice_mail": true,
-   "administrator": "P&N"
   },
   {
    "id": "b310ff5bd07f",
@@ -9204,7 +9094,7 @@
     }
    ],
    "first_seen": "2026-10-13",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "form",
    "notice_mail": false,
@@ -9256,7 +9146,7 @@
     }
    ],
    "first_seen": "2026-10-13",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "form",
    "notice_mail": false,
@@ -9264,17 +9154,22 @@
   },
   {
    "id": "4b74a7bf0364",
-   "title": "Costa Del Mar $21.75M Florida Sunglasses Settlement — Claims for Buyers, Automatic Payment for Repairs",
+   "title": "Costa Del Mar $21.75M Sunglasses Repair Fee Settlement",
    "category": "Privacy & tech",
-   "payout": "Pro rata share",
+   "payout": "Pro rata share per eligible purchase or repair",
    "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
+   "no_proof_payout": "$11.95",
+   "no_proof_payout_max": 11.95,
    "deadline": "2027-01-11",
    "no_proof": true,
-   "summary": "Official settlement website — home page, Frequently Asked Questions and Submit a Claim page.\n\nCourt-authorized long-form notice for Haney v. Costa Del Mar, Inc., Case No. 16-2017-CA-004794 (Fla. 4th Cir. Ct., Duval County) — embedded below.\n\nClass Action Settlement Agreement and Limited Release, signed August 2026 — embedded below.",
-   "claim_url": "https://costasunglasslitigation.com/?utm_source=openclassactions.com",
+   "summary": "Florida consumers who bought Costa sunglasses or paid a repair fee may qualify to claim a cash payment from a $21.75 million class action settlement.\n\nFlorida residents who purchased nonprescription, non-promotional Costa sunglasses between July 28, 2013, and Jan. 31, 2018, or paid a repair fee to Costa between July 28, 2012, and Jan. 26, 2025, for sunglasses bought on or before Jan. 31, 2018, may be eligible to submit a claim for a cash payment from a class action settlement.\n\nThere is a separate Costa Del Mar settlement for non-Florida residents and another over warranty fees.\n\nPurchase class: The purchase class includes Florida citizens who purchased nonprescription, nonpromotional Costa sunglasses for personal use between July 28, 2013, and Jan. 31, 2018.\n\nRepair class: The repair class includes Florida citizens who purchased nonprescription, nonpromotional Costa sunglasses for personal use on or before Jan. 31, 2018, and whom Costa charged a fee between July 28, 2012, and Jan. 26, 2025, to replace damaged components of their sunglasses.\n\nClass members who meet the criteria for both the purchase class and the repair class are only eligible to participate as a member of the repair class and cannot submit a secondary purchase class claim.\n\nEligible class have the following benefit options",
+   "claim_url": "https://costasunglasslitigation.com/Home/SubmitClaim",
    "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/costa-sunglass-litigation",
+     "no_proof": false
+    },
     {
      "name": "openclassactions",
      "url": "https://openclassactions.com/settlements/costa-del-mar-florida-sunglasses-class-action-settlement.php",
@@ -9999,7 +9894,7 @@
    "no_proof_payout_max": null,
    "deadline": null,
    "no_proof": null,
-   "summary": "You may be included in this settlement if you entered into a Credit Repair Services Agreement with Earn Company, Earn Finance Company or Credit Exterminators on or after February 10, 2016.",
+   "summary": "You may be included in this settlement if you entered into a credit repair services agreement with Earn Company, Earn Finance Company or Credit Exterminators on or after February 10, 2016.",
    "claim_url": "https://www.creditexterminatorsclassaction.com/",
    "sources": [
     {
@@ -10010,6 +9905,32 @@
    ],
    "first_seen": "2026-10-07",
    "new": false,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": null
+  },
+  {
+   "id": "4163f897f2d5",
+   "title": "American Renal Management - Data Breach Class Action Settlement",
+   "category": "Data breach",
+   "payout": null,
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": true,
+   "summary": "You may be covered by this settlement if your private information was potentially impacted by the American Renal Management data breach that took place between February 21, 2024 and March 1, 2024.",
+   "claim_url": "https://www.ircsettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://www.ircsettlement.com/",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-10-14",
+   "new": true,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -10094,32 +10015,6 @@
    "administrator": "P&N"
   },
   {
-   "id": "eb5f92b1a81f",
-   "title": "Kia - Optima, Sportage Window Regulators Class Action Settlement",
-   "category": "Auto",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": false,
-   "summary": "You may be included in this settlement if you bought or leased certain 2016-2017 Kia Optima or 2017 Kia Sportage vehicles.",
-   "claim_url": "https://kiawindowregulatorsettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://kiawindowregulatorsettlement.com/",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": null
-  },
-  {
    "id": "04aafc747b1d",
    "title": "Laboratory Corporation of America - Data Privacy Class Action Settlement",
    "category": "Privacy & tech",
@@ -10149,6 +10044,32 @@
    "notice_source": null,
    "notice_mail": false,
    "administrator": "Epiq"
+  },
+  {
+   "id": "eb5f92b1a81f",
+   "title": "Kia - Optima, Sportage Window Regulators Class Action Settlement",
+   "category": "Auto",
+   "payout": null,
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": false,
+   "summary": "You may be included in this settlement if you bought or leased certain 2016-2017 Kia Optima or 2017 Kia Sportage vehicles.",
+   "claim_url": "https://kiawindowregulatorsettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://kiawindowregulatorsettlement.com/",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": null
   },
   {
    "id": "f72e646af76d",
@@ -10208,8 +10129,34 @@
    "administrator": "Analytics Consulting"
   },
   {
-   "id": "e4c9a51cd793",
-   "title": "AIS InfoSource - Data Breach Class Action Settlement",
+   "id": "af11fcb45dc1",
+   "title": "Diisocyanates Antitrust Class Action Settlement",
+   "category": "Antitrust",
+   "payout": null,
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": true,
+   "summary": "You may be included in this settlement if you bought methylene diphenyl diisocyanate (MDI) or toluene diisocyanate (TDI) at any time between January 1, 2016 and July 29, 2026.",
+   "claim_url": "https://www.diisocyanatesantitrustlitigation.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://www.diisocyanatesantitrustlitigation.com/",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": false,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": null
+  },
+  {
+   "id": "678b0f774fdb",
+   "title": "Doxim - Data Breach Class Action Settlement",
    "category": "Data breach",
    "payout": null,
    "payout_max": null,
@@ -10217,65 +10164,13 @@
    "no_proof_payout_max": null,
    "deadline": null,
    "no_proof": true,
-   "summary": "You may be included in this settlement if your personal information was exposed in the February 2025 AIS InfoSource data breach.",
-   "claim_url": "https://aissettlement.com/",
+   "summary": "You may be included in this settlement if your private information was impacted in the December 2023 Doxim data breach.",
+   "claim_url": "https://www.doximdatasecuritysettlement.com/",
    "sources": [
     {
      "name": "classaction_org",
-     "url": "https://aissettlement.com/",
+     "url": "https://www.doximdatasecuritysettlement.com/",
      "no_proof": true
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "form",
-   "notice_mail": false,
-   "administrator": "Simpluris"
-  },
-  {
-   "id": "95baa4e506bd",
-   "title": "Scribd - Job Postings (Washington) Class Action Settlement",
-   "category": "Employment",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": null,
-   "summary": "You may be able to claim a piece of this settlement if you applied for a job with Scribd in Washington between January 1, 2023 and August 14, 2026.",
-   "claim_url": "https://epoasettlementsi.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://epoasettlementsi.com/",
-     "no_proof": null
-    }
-   ],
-   "first_seen": "2026-09-22",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "admin",
-   "notice_mail": false,
-   "administrator": "Simpluris"
-  },
-  {
-   "id": "d02cf29d6636",
-   "title": "FCA - Warranty Coverage Class Action Settlement",
-   "category": "Auto",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": false,
-   "summary": "This settlement covers those who bought or leased one or more of several FCA vehicles equipped with a 3.6L engine.",
-   "claim_url": "https://fcawarrantysettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://fcawarrantysettlement.com/",
-     "no_proof": false
     }
    ],
    "first_seen": "2026-09-23",
@@ -10286,34 +10181,8 @@
    "administrator": null
   },
   {
-   "id": "489fee94ccb5",
-   "title": "Correctional Facility Prepaid Debit Cards Class Action Settlement",
-   "category": "Product",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": true,
-   "summary": "You may be included in this settlement if you received a prepaid debit card when you were released from a jail, correctional facility, detention center, or other law enforcement facility between January 16, 2024 and June 30, 2026.",
-   "claim_url": "https://hallreleasecardsettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://hallreleasecardsettlement.com/",
-     "no_proof": true
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": "Kroll"
-  },
-  {
-   "id": "d98e08951def",
-   "title": "Hydromax USA - Job Postings (Washington) Class Action Settlement",
+   "id": "c060917614fc",
+   "title": "Talkdesk - Job Postings (Washington) Class Action Settlement",
    "category": "Employment",
    "payout": null,
    "payout_max": null,
@@ -10321,12 +10190,12 @@
    "no_proof_payout_max": null,
    "deadline": null,
    "no_proof": true,
-   "summary": "You may be able to claim a piece of this settlement if you applied for a job opening with Hydromax USA in Washington between January 1, 2023 and July 16, 2026.",
-   "claim_url": "https://epoasettlementhul.com/",
+   "summary": "You may be able to claim a piece of this settlement if you applied for a job opening with Talkdesk in Washington between January 1, 2023 and July 26, 2025.",
+   "claim_url": "https://epoasettlementtdi.com/",
    "sources": [
     {
      "name": "classaction_org",
-     "url": "https://epoasettlementhul.com/",
+     "url": "https://epoasettlementtdi.com/",
      "no_proof": true
     }
    ],
@@ -10338,8 +10207,8 @@
    "administrator": "Simpluris"
   },
   {
-   "id": "2c8f7f6417c6",
-   "title": "Urban One - Data Breach Class Action Settlement",
+   "id": "56068f4dd196",
+   "title": "Sansone Group - Data Breach Class Action Settlement",
    "category": "Data breach",
    "payout": null,
    "payout_max": null,
@@ -10347,12 +10216,12 @@
    "no_proof_payout_max": null,
    "deadline": null,
    "no_proof": true,
-   "summary": "You may be covered by this settlement if your personal information was exposed in the Urban One data breach discovered in March 2025.",
-   "claim_url": "https://urbanonedataincident.com/",
+   "summary": "If your personal information was exposed during the March 2025 Sansone Group data breach, you may be included in this settlement.",
+   "claim_url": "https://sansonedataincident.com/",
    "sources": [
     {
      "name": "classaction_org",
-     "url": "https://urbanonedataincident.com/",
+     "url": "https://sansonedataincident.com/",
      "no_proof": true
     }
    ],
@@ -10364,325 +10233,8 @@
    "administrator": "Simpluris"
   },
   {
-   "id": "9cae33df0e5f",
-   "title": "Anthem - Prostate Cancer Treatment Class Action Settlement",
-   "category": "Financial",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": false,
-   "summary": "You may be included in this settlement if you received proton beam radiation therapy for prostate cancer and sought coverage from Anthem, but your treatments were not covered by insurance.",
-   "claim_url": "https://protonbeamradiationtherapylitigation.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://protonbeamradiationtherapylitigation.com/",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-22",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": null
-  },
-  {
-   "id": "7572414d92ca",
-   "title": "Arrowhead Regional Computing Consortium - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": true,
-   "summary": "This settlement covers those who were affected by the February 2023 Arrowhead Regional Computing Consortium data breach.",
-   "claim_url": "https://arrowheaddatasecuritysettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://arrowheaddatasecuritysettlement.com/",
-     "no_proof": true
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": null
-  },
-  {
-   "id": "79f5cfe6fa74",
-   "title": "Costa Sunglasses - Warranty Fees Class Action Settlement",
-   "category": "Subscription & fees",
-   "payout": "Pro rata share per eligible repair",
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": false,
-   "summary": "Consumers who paid a warranty fee to repair Costa sunglasses they bought before 2016 may be eligible to claim a cash payment from a class action settlement.\n\nConsumers who purchased nonprescription Costa sunglasses before Jan. 1, 2016, and paid a warranty fee to repair or replace those sunglasses between Aug. 20, 2013, and Feb. 29, 2020, due to a manufacturer’s defect may be eligible to claim a cash payment from a class action settlement.\n\nClass members must meet all of the following criteria:\n\nThey purchased a pair of nonprescription Costa sunglasses before Jan. 1, 2016.\n\nThey paid Costa a warranty fee to repair or replace those sunglasses between Aug. 20, 2013, and Feb. 29, 2020, due to a manufacturer’s defect.\n\nThe total settlement fund is $4,095,000. However, the settlement administrator will reduce this amount by attorneys’ fees and expenses, and settlement administration costs before distributing payments to class members.\n\nEligible class members will receive a pro rata cash payment for each eligible repair or replacement for which they paid a warranty fee. The specific amount each class member receives depends on the number of valid claims and the net settlement fund after the deductions. Each qualifying repair or replacement (as identified by a unique number in Costa’s records) entitles the class member to one share of the settlement fund.",
-   "claim_url": "https://costasunglasswarrantysettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://costasunglasswarrantysettlement.com/",
-     "no_proof": null
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/costa-sunglass-warranty-settlement",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": "Epiq"
-  },
-  {
-   "id": "23f1ae3e4034",
-   "title": "Eisner Advisory Group - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": true,
-   "summary": "You may be included in this settlement if your private information was exposed in the September 2023 Eisner Advisory Group data breach.",
-   "claim_url": "https://eisnerdatasettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://eisnerdatasettlement.com/",
-     "no_proof": true
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": null
-  },
-  {
-   "id": "3a4e43611dd2",
-   "title": "USAA - Total Loss Claims (Michigan) Class Action Settlement",
-   "category": "Subscription & fees",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": true,
-   "summary": "You may be included in this settlement if you insured a leased vehicle under a Michigan USAA auto insurance policy and did not receive full payment for tax and regulatory fees after the vehicle was totaled between January 27, 2015 and March 11, 2026.",
-   "claim_url": "https://www.marcheksettlement.com/Home/portalid/0",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://www.marcheksettlement.com/Home/portalid/0",
-     "no_proof": true
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "form",
-   "notice_mail": false,
-   "administrator": "Rust Consulting"
-  },
-  {
-   "id": "11fa37a4e2e8",
-   "title": "Ernst & Young - MOVEit Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": true,
-   "summary": "You may be included in this settlement if you received notice from Ernst & Young that your personal information was potentially exposed in the May 2023 MOVEit data breach.",
-   "claim_url": "https://www.moveitsettlementeyboa.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://www.moveitsettlementeyboa.com/",
-     "no_proof": true
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "form",
-   "notice_mail": false,
-   "administrator": "RG/2"
-  },
-  {
-   "id": "925a0fdf461f",
-   "title": "OnePoint Patient Care - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": true,
-   "summary": "You may be included in this settlement if your private information was accessed in the August 2024 OnePoint Patient Care data breach.",
-   "claim_url": "https://onepointsettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://onepointsettlement.com/",
-     "no_proof": true
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": null
-  },
-  {
-   "id": "585d2f393d6a",
-   "title": "Saint-Gobain - Job Postings (Washington) Class Action Settlement",
-   "category": "Employment",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": null,
-   "summary": "You may be able to claim a piece of this settlement if you applied for a job opening with Saint-Gobain in Washington between January 1, 2023 and July 26, 2025.",
-   "claim_url": "https://epoasettlementsgaai.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://epoasettlementsgaai.com/",
-     "no_proof": null
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "admin",
-   "notice_mail": false,
-   "administrator": "Simpluris"
-  },
-  {
-   "id": "fe047e146400",
-   "title": "Bradford-Scott Data - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": true,
-   "summary": "You may be included in this settlement if your private information was potentially accessed in the July 2023 data breach affecting Bradford-Scott Data.",
-   "claim_url": "https://bradfordscottdatasettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://bradfordscottdatasettlement.com/",
-     "no_proof": true
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "admin",
-   "notice_mail": false,
-   "administrator": "Simpluris"
-  },
-  {
-   "id": "592304db8da8",
-   "title": "MRA The Management Association - Data Breaches Class Action Settlement",
-   "category": "Data breach",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": null,
-   "summary": "You may be included in this settlement if your personal information was potentially exposed in a data breach affecting MRA - The Management Association in July 2023 or January 2024.",
-   "claim_url": "https://mradatasettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://mradatasettlement.com/",
-     "no_proof": null
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "admin",
-   "notice_mail": false,
-   "administrator": "Simpluris"
-  },
-  {
-   "id": "36818a617262",
-   "title": "Stockpile Investments - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": true,
-   "summary": "You may be covered by this settlement if your personal information was exposed in the 2020 Stockpile Investments data breach.",
-   "claim_url": "https://www.stockpiledatasettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://www.stockpiledatasettlement.com/",
-     "no_proof": true
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": "Angeion"
-  },
-  {
-   "id": "82ed839f3bed",
-   "title": "Just4Veterans - Disability Claim Fees Class Action Settlement",
-   "category": "Subscription & fees",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": true,
-   "summary": "You may be covered by this settlement if you are a veteran who was charged a fee by Just4Veterans in connection with a VA disability claim on or after September 20, 2020.",
-   "claim_url": "https://www.j4vsettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://www.j4vsettlement.com/",
-     "no_proof": true
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "form",
-   "notice_mail": false,
-   "administrator": "RG/2"
-  },
-  {
-   "id": "74ead84bba15",
-   "title": "Cone Health - Data Privacy Class Action Settlement",
+   "id": "57c7dc310afb",
+   "title": "HireVue - Biometric Privacy (Illinois) Class Action Settlement",
    "category": "Privacy & tech",
    "payout": null,
    "payout_max": null,
@@ -10690,281 +10242,73 @@
    "no_proof_payout_max": null,
    "deadline": null,
    "no_proof": true,
-   "summary": "You may be included in this settlement if you accessed Cone Health's MyChart patient portal or submitted a form on its website between September 1, 2016 and November 3, 2022.",
-   "claim_url": "https://conepixelsettlement.com/",
+   "summary": "You may be included in this settlement if, while in Illinois, you completed an interview through HireVue's video interview platform between January 27, 2017 and June 25, 2026.",
+   "claim_url": "https://videointerviewbipasettlement.com/",
    "sources": [
     {
      "name": "classaction_org",
-     "url": "https://conepixelsettlement.com/",
+     "url": "https://videointerviewbipasettlement.com/",
      "no_proof": true
     }
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": "required",
-   "notice_source": "admin",
-   "notice_mail": false,
-   "administrator": "Simpluris"
-  },
-  {
-   "id": "ff611779d9c9",
-   "title": "Bestway Spa Pumps Class Action Settlement",
-   "category": "Product",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": false,
-   "summary": "You may be included in this settlement if you purchased certain Bestway AirJet or Bestway HydroJet spa pumps.",
-   "claim_url": "https://spapumpclassactionsettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://spapumpclassactionsettlement.com/",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "admin",
-   "notice_mail": false,
-   "administrator": "Simpluris"
-  },
-  {
-   "id": "bc8890baf879",
-   "title": "CRST Expedited - Driver Wages (California) Class Action Settlement",
-   "category": "Employment",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": null,
-   "summary": "This settlement covers California CRST Expedited drivers who were compensated by a piece-rate at any time between August 9, 2017 and April 10, 2023.",
-   "claim_url": "https://truckingdriversettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://truckingdriversettlement.com/",
-     "no_proof": null
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": null
-  },
-  {
-   "id": "1011657bfae9",
-   "title": "Sportsman’s Guide - Firearm Purchase Data Privacy Class Action Settlement",
-   "category": "Privacy & tech",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": true,
-   "summary": "This settlement covers Pennsylvania residents who ordered or reserved a firearm online from the Sportsman’s Guide website from January 11, 2021 to July 7, 2026.",
-   "claim_url": "https://pasportsmansguideufasettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://pasportsmansguideufasettlement.com/",
-     "no_proof": true
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "admin",
-   "notice_mail": false,
-   "administrator": "Simpluris"
-  },
-  {
-   "id": "865d8c69d1d5",
-   "title": "USA Clinics Group - Unwanted Texts Class Action Settlement",
-   "category": "Privacy & tech",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": true,
-   "summary": "You may be included in this settlement if you received more than one marketing text from USA Clinics Group between June 12, 2021 and June 16, 2026.",
-   "claim_url": "https://usaclinicsgrouptcpasettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://usaclinicsgrouptcpasettlement.com/",
-     "no_proof": true
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "admin",
-   "notice_mail": false,
-   "administrator": "Simpluris"
-  },
-  {
-   "id": "1683bae2888c",
-   "title": "Albany Gastroenterology Consultants - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": true,
-   "summary": "If your private information was compromised in the November 2024 Albany Gastroenterology Consultants data breach, you may be able to claim a piece of this settlement.",
-   "claim_url": "https://albanygastrodatasettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://albanygastrodatasettlement.com/",
-     "no_proof": true
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "admin",
-   "notice_mail": false,
-   "administrator": "Simpluris"
-  },
-  {
-   "id": "7279f1532892",
-   "title": "Coleman Professional Services - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": true,
-   "summary": "You may be included in this settlement if your personal information was accessed in the October 2023 Coleman Professional Services data breach.",
-   "claim_url": "https://www.colemansettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://www.colemansettlement.com/",
-     "no_proof": true
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": null
-  },
-  {
-   "id": "ee1f0ff9e9ba",
-   "title": "Heritage South Credit Union - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": true,
-   "summary": "You may be able to claim a piece of this settlement if your personal information was exposed in the February 2025 Heritage South Credit Union data breach.",
-   "claim_url": "https://hscudatasettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://hscudatasettlement.com/",
-     "no_proof": true
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "admin",
-   "notice_mail": false,
-   "administrator": "Simpluris"
-  },
-  {
-   "id": "e09e2580273d",
-   "title": "Volkswagen Atlas - Water Pumps Class Action Settlement",
-   "category": "Auto",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": false,
-   "summary": "You may be included in this settlement if you owned or leased a 2018-2022 Volkswagen Atlas or Atlas Cross Sport vehicle equipped with a 3.6 Liter engine.",
-   "claim_url": "https://mainenginewaterpumpsettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://mainenginewaterpumpsettlement.com/",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "admin",
-   "notice_mail": false,
-   "administrator": "Rust Consulting"
-  },
-  {
-   "id": "5fc11f5386e6",
-   "title": "Bayhealth - Data Privacy Class Action Settlement",
-   "category": "Privacy & tech",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": true,
-   "summary": "You may be included in this settlement if you used the Bayhealth website to access the Bayhealth MyChart patient portal between January 1, 2019 and December 31, 2025.",
-   "claim_url": "https://bayhealthpixelsettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://bayhealthpixelsettlement.com/",
-     "no_proof": true
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "admin",
-   "notice_mail": false,
-   "administrator": "Simpluris"
-  },
-  {
-   "id": "c0284262ff4d",
-   "title": "Total Vision - Data Breach (California) Class Action Settlement",
-   "category": "Data breach",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": true,
-   "summary": "You may be included in this settlement if you are a California resident to whom Total Vision, LLC sent a direct mail notice of a data security incident that occurred on October 30, 2020.",
-   "claim_url": "https://totalvisionsettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://totalvisionsettlement.com/",
-     "no_proof": true
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
+   "notice_id": "optional",
    "notice_source": "form",
    "notice_mail": false,
-   "administrator": "ILYM"
+   "administrator": "Simpluris"
+  },
+  {
+   "id": "211bf3146ac6",
+   "title": "Crossroads Trading Co. - Data Breach Class Action Settlement",
+   "category": "Data breach",
+   "payout": null,
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": true,
+   "summary": "This settlement covers those who were affected by the February 2025 Crossroads Trading Co. data breach.",
+   "claim_url": "https://crossroadssettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://crossroadssettlement.com/",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": null
+  },
+  {
+   "id": "4c2316e84ea4",
+   "title": "Davison Design & Development - Unwanted Texts (Washington) Class Action Settlement",
+   "category": "Privacy & tech",
+   "payout": null,
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": true,
+   "summary": "You may be included in this settlement if you were a Washington resident and received one or more text messages from Davison Design & Development between November 15, 2021 and December 10, 2025.",
+   "claim_url": "https://www.millertextsettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://www.millertextsettlement.com/",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": "optional",
+   "notice_source": "form",
+   "notice_mail": false,
+   "administrator": null
   },
   {
    "id": "d88a10b60ca1",
@@ -11017,6 +10361,32 @@
    "notice_source": null,
    "notice_mail": false,
    "administrator": null
+  },
+  {
+   "id": "79f5cfe6fa74",
+   "title": "Costa Del Mar $4.1M Sunglasses Warranty Fees Settlement",
+   "category": "Data breach",
+   "payout": "Pro rata share per eligible repair",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": false,
+   "summary": "Consumers who paid a warranty fee to repair Costa sunglasses they bought before 2016 may be eligible to claim a cash payment from a class action settlement.\n\nConsumers who purchased nonprescription Costa sunglasses before Jan. 1, 2016, and paid a warranty fee to repair or replace those sunglasses between Aug. 20, 2013, and Feb. 29, 2020, due to a manufacturer’s defect may be eligible to claim a cash payment from a class action settlement.\n\nClass members must meet all of the following criteria:\n\nThey purchased a pair of nonprescription Costa sunglasses before Jan. 1, 2016.\n\nThey paid Costa a warranty fee to repair or replace those sunglasses between Aug. 20, 2013, and Feb. 29, 2020, due to a manufacturer’s defect.\n\nThe total settlement fund is $4,095,000. However, the settlement administrator will reduce this amount by attorneys’ fees and expenses, and settlement administration costs before distributing payments to class members.\n\nEligible class members will receive a pro rata cash payment for each eligible repair or replacement for which they paid a warranty fee. The specific amount each class member receives depends on the number of valid claims and the net settlement fund after the deductions. Each qualifying repair or replacement (as identified by a unique number in Costa’s records) entitles the class member to one share of the settlement fund.",
+   "claim_url": "https://costasunglasswarrantysettlement.com/Login",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/costa-sunglass-warranty-settlement",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": "Epiq"
   },
   {
    "id": "1b683c7dbec3",
@@ -11750,58 +11120,6 @@
    "notice_source": null,
    "notice_mail": false,
    "administrator": "A.B. Data"
-  },
-  {
-   "id": "414d766a6ce7",
-   "title": "Funko Inc. $5.4 Million Securities Class Action Settlement",
-   "category": "Privacy & tech",
-   "payout": "Varies",
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": false,
-   "summary": "Investors who held Funko Class A common stock between Nov. 2, 2017, and Oct. 21, 2025, may be eligible for a cash payment from a class action settlement.\n\nInvestors who held Funko Inc. Class A common stock at any time between Nov. 2, 2017, and Oct. 21, 2025, may be eligible to claim a cash payment from a class action settlement.\n\nBoth individuals and entities can be class members.\n\nThe class is certified solely for settlement purposes and is a non-opt-out class under Delaware Court of Chancery Rules 23(a), 23(b)(1) and 23(b)(2), meaning class members cannot exclude themselves from the settlement.\n\nThe total settlement fund is $5,400,000. The amount each class member receives depends on several factors:\n\nThe number of eligible shares held at the close of trading on Oct. 21, 2025\n\nThe total number of eligible shares held by all class members\n\nEach eligible share will receive an equal portion of the net settlement fund.\n\nThe per-share recovery equals the total net settlement fund divided by the total number of eligible shares.\n\nEligible shares are shares of Funko Class A common stock held at the close of trading on Oct. 21, 2025, other than those held by excluded persons.\n\nIf any balance remains after the initial distribution, the settlement administrator will, if feasible, redistribute it to class members who received and deposited their initial payment.",
-   "claim_url": "https://funkostockholdersettlement.com/",
-   "sources": [
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/funko-stockholder-settlement",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-24",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": "A.B. Data"
-  },
-  {
-   "id": "ae91b2c1baa8",
-   "title": "Blue Origin $1.96 Million Washington Job Posting Settlement",
-   "category": "Data breach",
-   "payout": "Pro rata share",
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": false,
-   "summary": "Job seekers who applied for a position with Blue Origin in Washington between 2023 and 2026 may qualify to claim a cash payment from a class action settlement.\n\nJob seekers who applied for a position with Blue Origin or its related entities in Washington state between Jan. 1, 2023, and March 9, 2026, may be eligible to claim a cash payment from a class action settlement.\n\nThey applied for a job posted between Jan. 1, 2023, and March 9, 2026.\n\nThe defendants’ records indicate there are approximately 1,511 class members.\n\nPro rata payment: Each class member who does not exclude themselves from the settlement will receive an equal share of the net settlement fund. The total settlement fund is $1,964,300, but the settlement administrator will reduce this amount by attorneys’ fees, costs, service awards and settlement administration expenses before distributing it to class members.\n\nIf the number of class members increases by more than 5%, the defendants will increase the settlement fund proportionally. If more than 10% of class members opt out, Blue Origin may void the settlement.\n\nClass members do not need to file a claim to receive compensation. The settlement administrator will automatically mail payments to eligible class members after the court resolves any appeals and grants final approval of the settlement.",
-   "claim_url": "https://epoasettlementboi.com/documents/",
-   "sources": [
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/epoa-settlement-boi",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "admin",
-   "notice_mail": false,
-   "administrator": "Simpluris"
   },
   {
    "id": "128764ba6f92",
