@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-14T12:09:47+00:00",
- "count": 363,
+ "updated": "2026-10-15T11:47:04+00:00",
+ "count": 368,
  "no_proof_count": 176,
  "settlements": [
   {
@@ -2492,42 +2492,6 @@
    "administrator": "Simpluris"
   },
   {
-   "id": "d0013666f870",
-   "title": "Dairy Farmers of America - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": "Up to $4,500 plus credit monitoring",
-   "payout_max": 4500.0,
-   "no_proof_payout": "$55.00",
-   "no_proof_payout_max": 55.0,
-   "deadline": "2026-10-14",
-   "no_proof": true,
-   "summary": "Individuals whose personal information the June 2025 Dairy Farmers of America data breach compromised may be eligible to claim up to $4,500 from a settlement.\n\nClass members are individuals whose personal information was compromised in the June 2025 Dairy Farmers of America data breach, including those that received notice of the incident.\n\nClass members have the following benefit options:\n\nOut-of-pocket loss reimbursement: Class members can claim up to $4,500 for documented out-of-pocket losses that occurred between June 11, 2025, and Oct. 14, 2026 and are traceable to the data breach. This includes fees for credit reports, credit monitoring or freezing/unfreezing credit, costs to replace IDs, postage for contacting financial institutions and monetary losses due to fraud.\n\nAlternative cash payment: Class members who do not submit an out-of-pocket loss claim can submit a claim to receive a one-time cash payment estimated at $55. The settlement administrator will determine the final payment amount by the total number of claims filed.\n\nCredit monitoring services: All class members can elect to receive two free years of CyEx Financial Shield Total. Services include $1 million in financial fraud insurance, monitoring for identity theft, unauthorized transactions and high-risk activity, and access to a fraud resolution agent if needed.",
-   "claim_url": "https://dfadatasettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://dfadatasettlement.com/",
-     "no_proof": true
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/dfa-data-settlement",
-     "no_proof": false
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/data-breaches/dairy-farmers-of-america-data-breach-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "form",
-   "notice_mail": false,
-   "administrator": "Simpluris"
-  },
-  {
    "id": "ffc6cd88ccfd",
    "title": "Twin Cities Pain Clinic - Data Breach Class Action Settlement",
    "category": "Data breach",
@@ -2871,6 +2835,37 @@
    "notice_source": "listing",
    "notice_mail": true,
    "administrator": "RG/2"
+  },
+  {
+   "id": "45cf1f2a1596",
+   "title": "Washington Gastroenterology $4.6M Data Breach Settlement",
+   "category": "Data breach",
+   "payout": "Up to $4,000 plus medical records monitoring",
+   "payout_max": 4000.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2027-01-10",
+   "no_proof": false,
+   "summary": "Individuals who received notice of the 2024 Washington Gastroenterology data breach may be eligible to claim up to $4,000 from a class action settlement.\n\nClass members are all living individuals residing in the United States whose private information the data incident involving Washington Gastroenterology that occurred on or around Oct. 23, 2024, compromised. This includes everyone who received notice of the breach. The class includes approximately 583,741 individuals.\n\nClass members may be eligible for several types of awards, depending on the losses they experienced and the documentation they provide. The settlement provides two main types of cash payments, as well as medical record monitoring services.\n\nCash payment A - Documented losses: Class members can claim up to $4,000 for documented losses related to the data breach. These losses must be actual, documented, unreimbursed and fairly traceable to the data incident. Eligible losses include:\n\nCash payment B - Alternate cash payment: If a class member does not have documentation or chooses not to submit it, they may claim an estimated $75 as a pro rata cash payment.\n\nMedical records monitoring: In addition to either cash payment, class members may claim two years of one-bureau medical record and credit monitoring services.",
+   "claim_url": "https://wagastrodataincidentsettlement.com/Login",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/wa-gastro-data-incident-settlement",
+     "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/data-breaches/washington-gastroenterology-data-breach-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-15",
+   "new": true,
+   "notice_id": "required",
+   "notice_source": "listing",
+   "notice_mail": true,
+   "administrator": "Epiq"
   },
   {
    "id": "8978567c3194",
@@ -3392,7 +3387,7 @@
     }
    ],
    "first_seen": "2026-10-14",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "listing",
    "notice_mail": false,
@@ -3820,7 +3815,7 @@
     }
    ],
    "first_seen": "2026-10-14",
-   "new": true,
+   "new": false,
    "notice_id": "none",
    "notice_source": "listing",
    "notice_mail": false,
@@ -3914,7 +3909,7 @@
     {
      "name": "classaction_org",
      "url": "https://www.salasvgcusettlement.com/",
-     "no_proof": true
+     "no_proof": null
     },
     {
      "name": "claimdepot",
@@ -5107,7 +5102,7 @@
   },
   {
    "id": "469564abb1d6",
-   "title": "Coast Dental Services - Unwanted Texts Class Action Settlement",
+   "title": "Coast Dental Services - Unwanted Texts, Calls Class Action Settlement",
    "category": "Privacy & tech",
    "payout": "Up to $59 cash or $99 voucher",
    "payout_max": 99.0,
@@ -5308,6 +5303,37 @@
    "administrator": null
   },
   {
+   "id": "0056235503e6",
+   "title": "Starbucks $775,000 COBRA Notice Class Action Settlement",
+   "category": "Data breach",
+   "payout": "$30-$74 (estimated)",
+   "payout_max": 74.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-12-02",
+   "no_proof": false,
+   "summary": "Individuals who received a Starbucks COBRA notice between July 21, 2016, and Jan. 1, 2023, may be eligible to claim a cash payment from a settlement.\n\nIndividuals who received a COBRA notice from Starbucks between July 21, 2016, and Jan. 1, 2023, after a qualifying event and did not elect continuation coverage may qualify to submit a claim for a cash payment from a class action settlement. The settlement class includes approximately 33,800 current and former employees and other individuals.\n\nClass members must meet the following criteria:\n\nThey received a COBRA notice from Starbucks or its third-party administrator between July 21, 2016, and Jan. 1, 2023, as a result of a qualifying event, such as employment termination or a reduction in work hours.\n\nCash payment: The settlement administrator will deduct $75,000 in settlement administration costs from the $325,000 class member payment fund. Class members can submit a claim to receive a receive a pro rata cash payment from the remaining $250,000. The administrator will determine the final payment amount by the number of claims filed. The estimated payment is between $30 and $74.\n\nTo receive a settlement payment, class members can complete the claim form they received with their official settlement notice and mail it to the settlement administrator. There is no online claim submission option available.",
+   "claim_url": "https://www.cobranoticeclassaction.com/page/faq",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/cobra-notice-class-action",
+     "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/erisa/starbucks-cobra-notice-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-15",
+   "new": true,
+   "notice_id": "required",
+   "notice_source": "listing",
+   "notice_mail": false,
+   "administrator": "American Legal Claims"
+  },
+  {
    "id": "ce1f4c08c012",
    "title": "Mercurys Madness - Job Postings (Washington) Class Action Settlement",
    "category": "Employment",
@@ -5472,7 +5498,7 @@
    "no_proof_payout_max": null,
    "deadline": "2027-02-16",
    "no_proof": true,
-   "summary": "The plaintiffs allege the texts violated the federal Telephone Consumer Protection Act (TCPA) and, for Florida residents, the Florida Telephone Solicitation Act (FTSA). BuyAlerts denies all wrongdoing, and the court has not decided who is right.\n\nThe court certified three overlapping settlement classes. All three cover texts about BuyAlerts’ own products or services sent to a cell phone between January 1, 2022 and August 7, 2026:\n\nEach class member who files a valid claim receives up to $42.16. It is a flat amount: fitting into more than one class or receiving more texts does not increase it, and each person may file only one claim.\n\nClass members who want to keep the right to sue BuyAlerts on their own must mail a signed exclusion request, postmarked by January 4, 2027, that lists the phone numbers that received the texts. Exclusions cannot be made by phone, fax or email, and mass exclusions are not allowed. Objections must be filed with the court and mailed to the administrator by the same date. The official website lists exactly what each request must include.Class Action Guide",
+   "summary": "The plaintiffs allege the texts violated the federal Telephone Consumer Protection Act (TCPA) and, for Florida residents, the Florida Telephone Solicitation Act (FTSA). BuyAlerts denies all wrongdoing, and the court has not decided who is right.\n\nThe court certified three overlapping settlement classes. All three cover texts about BuyAlerts’ own products or services sent to a cell phone between January 1, 2022 and August 7, 2026:\n\nEach class member who files a valid claim receives up to $42.16. It is a flat amount: fitting into more than one class or receiving more texts does not increase it, and each person may file only one claim.\n\nClass members who want to keep the right to sue BuyAlerts on their own must mail a signed exclusion request, postmarked by January 4, 2027, that lists the phone numbers that received the texts. Exclusions cannot be made by phone, fax or email, and mass exclusions are not allowed. Objections must be filed with the court and mailed to the administrator by the same date. The official website lists exactly what each request must include.Accept Payments",
    "claim_url": "https://buyalertstcpasettlement.com/",
    "sources": [
     {
@@ -5860,7 +5886,7 @@
     {
      "name": "classaction_org",
      "url": "https://phaseiidatasettlement.com/",
-     "no_proof": true
+     "no_proof": null
     },
     {
      "name": "claimdepot",
@@ -6282,7 +6308,7 @@
    "id": "6ab7e2bd3c96",
    "title": "Truffettes de France Class Action Settlement (Canada) — $3 CAD per Product, No Receipt for Up to 3",
    "category": "Privacy & tech",
-   "payout": "$3 CAD per productCause of Action Directory",
+   "payout": "$3 CAD per product",
    "payout_max": 3.0,
    "no_proof_payout": "$9",
    "no_proof_payout_max": 9.0,
@@ -7603,10 +7629,15 @@
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/rhode-island-resource-recovery",
      "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/environmental/rhode-island-bioenergy-johnston-odor-class-action-settlement.php",
+     "no_proof": false
     }
    ],
    "first_seen": "2026-10-14",
-   "new": true,
+   "new": false,
    "notice_id": "none",
    "notice_source": "form",
    "notice_mail": false,
@@ -7615,7 +7646,7 @@
   {
    "id": "c27acf8957fd",
    "title": "WellNow Urgent Care $1.64M Labor Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Varies based on pay periods worked",
    "payout_max": null,
    "no_proof_payout": null,
@@ -7962,14 +7993,14 @@
    "no_proof_payout": null,
    "no_proof_payout_max": null,
    "deadline": "2026-11-16",
-   "no_proof": true,
+   "no_proof": false,
    "summary": "Family members or designees of Harvard anatomical gift program donors may be eligible to claim a cash payment from a class action settlement.\n\nSpouses, registered domestic partners, children, parents, siblings or grandchildren of a person who donated their body to the Harvard Medical School Anatomical Gift Program, or those whom the donor named in an instrument of anatomical gift, may be eligible to claim a cash payment from a class action settlement.\n\nThe president and fellows of Harvard College agreed to pay $53 million to settle a class action lawsuit alleging it failed to safeguard donated remains. The lawsuit claimed this failure allowed others to improperly remove, dismember and sell some donated remains, causing emotional distress and uncertainty for families.\n\nA grandchild of a donor whose remains left the Harvard morgue between Jan. 1, 2018, and March 31, 2023\n\nPrimary settlement class: Donors whose remains left the Harvard morgue between Jan. 1, 2018, and March 31, 2023\n\nPre-2018 settlement class: Donors whose remains left the Harvard morgue between Jan. 1, 2003, and Dec. 31, 2017",
    "claim_url": "https://harvardmorguesettlement.com/",
    "sources": [
     {
      "name": "classaction_org",
      "url": "https://harvardmorguesettlement.com/",
-     "no_proof": true
+     "no_proof": false
     },
     {
      "name": "claimdepot",
@@ -8086,6 +8117,37 @@
    "notice_source": null,
    "notice_mail": false,
    "administrator": "Atticus"
+  },
+  {
+   "id": "d8ac56c26cf9",
+   "title": "Concord Management $1.85 Million Security Deposit Settlement",
+   "category": "Data breach",
+   "payout": "Pro rata payment, debt discharge and credit reporting relief",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-11-20",
+   "no_proof": false,
+   "summary": "Tenants of Concord Management between April 3, 2021, and April 3, 2025, may be eligible to receive a cash payment from a class action settlement.\n\nResidential tenants of Concord Management Ltd., Watervue Partners LLC or River Ridge Apartments Ltd. in Florida between April 3, 2021, and April 3, 2025, who had all or part of their security deposit withheld or whom the companies charged certain fees may be eligible to receive a cash payment from a class action settlement.\n\nConcord Management, Watervue Partners and River Ridge Apartments agreed to pay $1.85 million to settle a class action lawsuit alleging the companies failed to send security deposit notices in the form required by Florida law, as well as related claims under the Florida Residential Landlord Tenant Act and the Florida Consumer Collection Practices Act. The class includes approximately 16,924 tenant accounts.\n\nClass members are residential tenants of Concord Management, Watervue Partners or River Ridge Apartments between April 3, 2021, and April 3, 2025, who meet any of the following criteria:\n\nResidents who had claims against their security deposits for liquidated damages after electing liquidated damages as their remedy under Fla. Stat. §83.595(4).\n\nResidents with claims against security deposits for liquidated damages under Fla. Stat. §83.575.",
+   "claim_url": "https://www.concordsecuritydepositsettlement.com/page/faq",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/concord-security-settlement",
+     "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/real-estate/concord-management-florida-security-deposit-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-15",
+   "new": true,
+   "notice_id": "required",
+   "notice_source": "listing",
+   "notice_mail": false,
+   "administrator": "American Legal Claims"
   },
   {
    "id": "0b28efd54374",
@@ -8796,6 +8858,37 @@
    "administrator": "EisnerAmper"
   },
   {
+   "id": "d3f92526918f",
+   "title": "Frontier Communications $14M 401(k) Class Action Settlement",
+   "category": "Data breach",
+   "payout": "Pro rata based on account balance",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-12-08",
+   "no_proof": false,
+   "summary": "Individuals who participated in the Frontier 401(k) plan and invested in Verizon stock may be eligible to claim a cash payment from a class action settlement.\n\nCurrent and former participants in or beneficiaries of the Frontier Communications Corp. 401(k) savings plan who invested in the Verizon stock fund between Dec. 12, 2012, and April 30, 2018, may be eligible to claim a cash payment from a class action settlement. According to plan records, there are an estimated 12,029 class members.\n\nClass member are all individuals who meet the following criteria:\n\nThe total settlement fund is $14.05 million. After deductions for administrative costs, attorneys’ fees and expenses, and a service award to the named plaintiff, the settlement administrator will distribute the remaining net settlement fund among eligible class members.\n\nThe amount each class member receives depends on their average year-end balance in the Verizon stock fund during the class period. The settlement administrator will calculate each person’s share based on:\n\nIf a class member had no balance in a given year, the administrator will count it as $0 for the average.\n\nTo ensure fairness, no class member will receive less than $10. If their calculated allocation is less than $10, the administrator will increase it to $10 and adjust other allocations proportionally.",
+   "claim_url": "https://frontiererisasettlement.com/Submit-Rollover-Form/PageControl/Authentication",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/frontier-erisa-settlement",
+     "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/erisa/frontier-communications-401k-verizon-stock-erisa-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-15",
+   "new": true,
+   "notice_id": "required",
+   "notice_source": "form",
+   "notice_mail": true,
+   "administrator": "Rust Consulting"
+  },
+  {
    "id": "b310ff5bd07f",
    "title": "Becton Dickinson $175M SEC Fair Fund: BDX Investors From 2019–2020 Can File a Claim",
    "category": "Privacy & tech",
@@ -8980,6 +9073,37 @@
    "notice_source": "listing",
    "notice_mail": false,
    "administrator": "Angeion"
+  },
+  {
+   "id": "79b2e2679a87",
+   "title": "GoodRx $32 Million User Privacy Class Action Settlement",
+   "category": "Data breach",
+   "payout": "Pro rata payment",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-12-29",
+   "no_proof": true,
+   "summary": "Individuals who used any GoodRx website, app or service before April 20, 2024, may be eligible to claim a cash payment from a class action settlement.\n\nClass members are individuals in the United States who used any website, app or service available by or through GoodRx at any time prior to April 20, 2024. This includes:\n\nCash payment: Class members can submit a claim to receive a pro rata cash payment from the net settlement fund. The settlement administrator will determine the final payment amount by the total number of valid claims filed.\n\nTo receive a settlement payment, class members can file a claim online or print and complete the PDF claim form, and mail it to the settlement administrator.\n\nClass members do not need to provide supporting documentation to submit a claim.",
+   "claim_url": "https://goodrxprivacysettlement.com/file-not-noticed",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/goodrx-privacy-settlement",
+     "no_proof": true
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/privacy/goodrx-privacy-class-action-settlement.php",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-10-15",
+   "new": true,
+   "notice_id": "none",
+   "notice_source": "form",
+   "notice_mail": false,
+   "administrator": "A.B. Data"
   },
   {
    "id": "790b9d2ce355",
@@ -9930,7 +10054,7 @@
     }
    ],
    "first_seen": "2026-10-14",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -10153,6 +10277,32 @@
    "notice_source": null,
    "notice_mail": false,
    "administrator": null
+  },
+  {
+   "id": "d0013666f870",
+   "title": "Dairy Farmers of America - Data Breach Class Action Settlement",
+   "category": "Data breach",
+   "payout": null,
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": null,
+   "no_proof": true,
+   "summary": "If your private information was compromised in the June 2025 Dairy Farmers of America data breach, you may be able to claim a piece of this settlement.",
+   "claim_url": "https://dfadatasettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://dfadatasettlement.com/",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": "required",
+   "notice_source": "form",
+   "notice_mail": false,
+   "administrator": "Simpluris"
   },
   {
    "id": "678b0f774fdb",
