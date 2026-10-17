@@ -1,34 +1,8 @@
 {
- "updated": "2026-10-16T11:39:24+00:00",
- "count": 365,
+ "updated": "2026-10-17T11:00:02+00:00",
+ "count": 368,
  "no_proof_count": 170,
  "settlements": [
-  {
-   "id": "d1a453bd370a",
-   "title": "Silk & Great Value Plant-Based Beverage Recall Class Action Settlement (Canada)",
-   "category": "Subscription & fees",
-   "payout": "$400 – $300,000",
-   "payout_max": 300000.0,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-10-16",
-   "no_proof": true,
-   "summary": "$400 — for symptoms consistent with listeriosis lasting up to 48 hours, and/or symptoms consistent with a psychological condition caused by exposure to a recalled product.\n\n$1,500 — for symptoms lasting more than 48 hours and up to one week.\n\n$7,000 — for symptoms lasting more than one week, without hospitalization.",
-   "claim_url": "https://www.plantbeverages-settlement.com/en/claim?utm_source=openclassactions.com",
-   "sources": [
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/silk-beverage-class-action-settlement-canada.php",
-     "no_proof": true
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "none",
-   "notice_source": "form",
-   "notice_mail": false,
-   "administrator": null
-  },
   {
    "id": "81bff32b3617",
    "title": "Marist Brothers Quebec Sexual Abuse Settlement — $24.95 Million CAD, Claims Due December 17, 2026",
@@ -276,7 +250,7 @@
    "payout_max": 25000.0,
    "no_proof_payout": "$40",
    "no_proof_payout_max": 40.0,
-   "deadline": "2026-10-16",
+   "deadline": "2026-10-19",
    "no_proof": true,
    "summary": "Individuals whose personal information the 2020 Telmate data breach impacted may be eligible to claim a cash payment from a class action settlement.\n\nClass members are individuals residing in the United States whose personal information the Telmate data breach that occurred on or around Aug. 13, 2020, compromised.\n\nClass members can claim one or both of the following benefits:\n\nPro rata cash payment: Class members can submit a claim to receive a pro rata cash payment from the net settlement fund after the settlement administrator pays out all out-of-pocket loss claims. The administrator will determine the final payment amount by the total number of claims filed.\n\nReimbursement for documented out-of-pocket loss: Class members can claim up to $5,000 for documented unreimbursed out-of-pocket losses the data breach most likely caused.\n\nTo receive a settlement payment, class members can file a claim online or print and complete the PDF claim form and mail it to the settlement administrator.\n\nTo submit a claim online or by mail, class members must provide the class member ID from the settlement notice they received.\n\nTo submit an out-of-pocket loss reimbursement claims, class members must provide third-party documentation, which may include receipts, bills, bank or credit card statements and other proof of fraud or identity theft.\n\nPayments to eligible claimants: Remaining settlement funds",
    "claim_url": "https://forms.ksacms.com/efiling/fr/eform/howardvbrockton_claimform/new?form-version=1&fr-wizard-page=section-1",
@@ -404,11 +378,6 @@
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/louisiana-fees-settlement",
-     "no_proof": false
-    },
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/shark-fin-settlement",
      "no_proof": false
     },
     {
@@ -2593,7 +2562,7 @@
     }
    ],
    "first_seen": "2026-10-16",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "form",
    "notice_mail": true,
@@ -2869,6 +2838,37 @@
    "new": false,
    "notice_id": "required",
    "notice_source": "form",
+   "notice_mail": false,
+   "administrator": "Simpluris"
+  },
+  {
+   "id": "87b09ad3e5dd",
+   "title": "Pandora Jewelry $1.99M Job Posting Class Action Lawsuit",
+   "category": "Privacy & tech",
+   "payout": "$3,290.04 (estimated)",
+   "payout_max": 3290.04,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-12-14",
+   "no_proof": true,
+   "summary": "Individuals who applied for a job with Pandora in Washington between Jan. 1, 2023, and July 26, 2025, may qualify to receive about $3,290.04 from a settlement.\n\nIndividuals who applied for a job with Pandora Ventures, Pandora Jewelry, Pandora Franchising or Pandora Ecomm in Washington state between Jan. 1, 2023, and July 26, 2025, may be eligible to receive an estimated $3,290.04 from a class action settlement.\n\nClass members must meet the following criteria:\n\nThey submitted their application for employment between Jan. 1, 2023, and July 26, 2025.\n\nCash payment: Eligible class members will receive a cash payment estimated at $3,290.04 for each separate job posting they applied for during the qualifying period.\n\nClass members do not need to file a claim form to receive a settlement payment. They can submit an address update and payment election online using the login ID from and PIN from the settlement notice they received or submit an address update by printing and completing the PDF address form and mailing or emailing it to the settlement administrator.\n\nDigital payment (only available if the class members submits a payment selection online)\n\nPayments to eligible class members: Remaining settlement funds\n\nThe settlement administrator will issue payments to eligible class members approximately 75 days after the court grants final approval of the settlement.",
+   "claim_url": "https://epoasettlementpvl.com/faq/",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/epoa-settlement-pvl",
+     "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/wage-and-hours/pandora-jewelry-washington-job-postings-class-action-settlement.php",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-10-17",
+   "new": true,
+   "notice_id": "none",
+   "notice_source": "listing",
    "notice_mail": false,
    "administrator": "Simpluris"
   },
@@ -4605,6 +4605,32 @@
    "administrator": null
   },
   {
+   "id": "23e8a28e4b0c",
+   "title": "Compucom Systems $1M Washington Job Applicant Settlement",
+   "category": "Privacy & tech",
+   "payout": "$266.67",
+   "payout_max": 266.67,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-11-13",
+   "no_proof": false,
+   "summary": "Employment seekers who applied for a job at Compucom in Washington state between January 2023 and September 2026 may qualify to receive a settlement payment.\n\nEmployment seekers who applied for a job with Compucom Systems Inc. in Washington state between Jan. 1, 2023, and Sept. 16, 2026, in which the job posting did not include a wage scale, salary range or a general description of benefits and other compensation, may be eligible to claim approximately $266.67 from a class action settlement.\n\nClass members meet all of the following criteria:\n\nThey submitted their application between Jan. 1, 2023, and Sept. 16, 2026 (the date of preliminary approval).\n\nThe settlement administrator identified 2,626 individuals who meet these criteria. If an individual received a notice about this settlement, Compucom's records show they are eligible.\n\nThe total settlement fund is $1,000,000. From this, the settlement administrator will deduct attorneys' fees and costs, a service award to the class representative and administrative expenses. It will divide the remaining amount equally among all class members who do not opt out. The estimated payment per person is $266.67.",
+   "claim_url": "https://epoasettlementccsi.com/form/payment",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/epoa-settlement-ccsi",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-17",
+   "new": true,
+   "notice_id": "required",
+   "notice_source": "form",
+   "notice_mail": false,
+   "administrator": "Simpluris"
+  },
+  {
    "id": "9fcafa79b0d1",
    "title": "Teleflora - Unwanted Calls Class Action Settlement",
    "category": "Privacy & tech",
@@ -4836,7 +4862,7 @@
     }
    ],
    "first_seen": "2026-10-16",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "listing",
    "notice_mail": true,
@@ -5980,6 +6006,37 @@
    "administrator": "Kroll"
   },
   {
+   "id": "7003b6f76a92",
+   "title": "Bright Lending $15 Million High-Interest Loans Settlement",
+   "category": "Privacy & tech",
+   "payout": "$15 minimum",
+   "payout_max": 15.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-12-21",
+   "no_proof": false,
+   "summary": "Borrowers who obtained a loan from Bright Lending since October 2020 may be eligible to claim cash or debt cancellation from a class action settlement.\n\nBorrowers who obtained a loan from Bright Lending between Oct. 1, 2020, and June 4, 2026, may be eligible to receive a cash payment or have their outstanding loan balance canceled through a class action settlement.\n\nThe settlement divides class members into two distinct groups:\n\nAll U.S. residents, excluding Nevada and Utah, who entered into at least one loan agreement with Bright Lending between Oct. 1, 2020, and June 4, 2026\n\nAll U.S. residents, excluding Nevada and Utah, who entered into at least one loan agreement with Bright Lending between Oct. 1, 2020, and Dec. 31, 2024\n\nMonetary relief class: Members of this class are eligible for a cash payment from the $15 million settlement fund calculated on a pro rata basis based on the amount of interest they paid above the principal of the loan. Class members who did not pay interest above the principal will receive a minimum payment of $15.\n\nDebt relief class: Members of this class are eligible for cancellation of any outstanding balance on a qualifying loan. Class members will owe nothing further on that loan.\n\nBright Lending agreed not to sell class members’ personal information to third parties for marketing purposes.",
+   "claim_url": "https://www.brightlendingsettlement.com/page/faq",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/bright-lending-settlement",
+     "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/bright-lending-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-17",
+   "new": true,
+   "notice_id": "none",
+   "notice_source": "listing",
+   "notice_mail": false,
+   "administrator": "American Legal Claims"
+  },
+  {
    "id": "7177a3700094",
    "title": "Dr. Squatch - All Natural Claims Class Action Settlement",
    "category": "Product",
@@ -6404,37 +6461,6 @@
    "administrator": "Verita (KCC)"
   },
   {
-   "id": "7e112072c95b",
-   "title": "Eagle Pharmaceuticals $9.5M Securities Class Action Settlement",
-   "category": "Data breach",
-   "payout": "$1.18 per share before deductions",
-   "payout_max": 1.18,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-10-16",
-   "no_proof": false,
-   "summary": "Investors who bought Eagle Pharmaceuticals stock between Aug. 9, 2022, and Oct. 1, 2024, may be eligible to claim a cash payment from a class action settlement.\n\nInvestors who purchased Eagle Pharmaceuticals Inc. publicly traded common stock between Aug. 9, 2022, and Oct. 1, 2024, may be eligible to claim a cash payment from a class action settlement.\n\nThe settlement includes all persons and entities who purchased Eagle Pharmaceuticals publicly traded common stock between Aug. 9, 2022, and Oct. 1, 2024, inclusive, and suffered damages as a result.\n\nBoth individuals and entities can be class members.\n\nThe total settlement fund is $9,500,000. The amount each class member will receive depends on several factors:\n\nThe estimated average recovery is approximately $1.18 per eligible share before deductions for court-approved fees, expenses and costs.\n\nThe settlement administrator will calculate each class member's payment based on the recognized loss amount assigned to each share.\n\nTo have a recognized loss, class members must have purchased Eagle common stock during the class period and held it through at least one corrective disclosure date.\n\nFor shares sold between May 9, 2023, and Oct. 1, 2024, the recognized loss is the lesser of the decline in artificial inflation from the purchase date to the sale date or the purchase price minus the sale price.",
-   "claim_url": "https://eaglepharmasecuritiessettlement.com/Claim",
-   "sources": [
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/eagle-pharma-securities-settlement",
-     "no_proof": false
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/securities/eagle-pharmaceuticals-securities-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": "Epiq"
-  },
-  {
    "id": "a39395a8cb45",
    "title": "Seagate Technology $175M Securities Class Action Settlement",
    "category": "Privacy & tech",
@@ -6687,6 +6713,32 @@
    "notice_source": null,
    "notice_mail": false,
    "administrator": "Verita (KCC)"
+  },
+  {
+   "id": "3b0a9867e902",
+   "title": "$13M Marqeta Securities Settlement (MQ) — Claims Due December 31, 2026",
+   "category": "Privacy & tech",
+   "payout": "About $0.11 per share",
+   "payout_max": 0.11,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-12-31",
+   "no_proof": false,
+   "summary": "Common stock and call options create a recognized loss only if they were bought during the class period and still held at the close of trading on November 4, 2024.\n\nRecoveries on call options bought and put options written during the class period are capped at 1% of the net fund, matching the share of class-period trading volume that options represented.",
+   "claim_url": "https://www.marqetasecuritiessettlement.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/securities/marqeta-securities-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-17",
+   "new": true,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": "Epiq"
   },
   {
    "id": "d5f1e69d6c11",
@@ -7187,6 +7239,32 @@
    "notice_source": null,
    "notice_mail": false,
    "administrator": null
+  },
+  {
+   "id": "b23699d93d9b",
+   "title": "$86.4M Mexican Government Bonds Antitrust Settlement With Santander, BBVA, Citibanamex, HSBC and Others",
+   "category": "Privacy & tech",
+   "payout": "Pro rata share",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-10-29",
+   "no_proof": false,
+   "summary": "October 29, 2026 — exclusion requests are due, in writing, to the administrator, and objections must be filed with the court. A class member who opts out gets no share of the fund but keeps any right to sue the settling banks separately.",
+   "claim_url": "https://mgbantitrustsettlement.com/Online?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/antitrust/mexican-government-bonds-antitrust-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-17",
+   "new": true,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": "A.B. Data"
   },
   {
    "id": "27d27282d854",
@@ -7705,8 +7783,8 @@
    "category": "Privacy & tech",
    "payout": "Pro rata share of net losses",
    "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
+   "no_proof_payout": "$20",
+   "no_proof_payout_max": 20.0,
    "deadline": "2026-11-09",
    "no_proof": false,
    "summary": "Trustee settlement: people and entities who, from March 8, 2021 through November 1, 2023, bought SFM tokens directly from SafeMoon US, LLC, or saw a solicitation for SFM tokens published by SafeMoon US and bought because of it.\n\nJake Paul settlement: people who in the same period bought SFM tokens directly from Jake Paul, or saw a solicitation for SFM tokens Paul published and bought because of it.\n\nDaniel Keem settlement: people who in the same period bought SFM tokens directly from Daniel M. Keem, or saw a solicitation for SFM tokens Keem published and bought because of it.",
@@ -7911,7 +7989,7 @@
    "no_proof_payout_max": null,
    "deadline": "2026-11-16",
    "no_proof": false,
-   "summary": "Family members or designees of Harvard anatomical gift program donors may be eligible to claim a cash payment from a class action settlement.\n\nSpouses, registered domestic partners, children, parents, siblings or grandchildren of a person who donated their body to the Harvard Medical School Anatomical Gift Program, or those whom the donor named in an instrument of anatomical gift, may be eligible to claim a cash payment from a class action settlement.\n\nThe president and fellows of Harvard College agreed to pay $53 million to settle a class action lawsuit alleging it failed to safeguard donated remains. The lawsuit claimed this failure allowed others to improperly remove, dismember and sell some donated remains, causing emotional distress and uncertainty for families.\n\nA grandchild of a donor whose remains left the Harvard morgue between Jan. 1, 2018, and March 31, 2023\n\nPrimary settlement class: Donors whose remains left the Harvard morgue between Jan. 1, 2018, and March 31, 2023\n\nPre-2018 settlement class: Donors whose remains left the Harvard morgue between Jan. 1, 2003, and Dec. 31, 2017",
+   "summary": "Family members or designees of Harvard anatomical gift program donors may be eligible to claim a cash payment from a class action settlement.\n\nSpouses, registered domestic partners, children, parents, siblings or grandchildren of a person who donated their body to the Harvard Medical School Anatomical Gift Program, or those whom the donor named in an instrument of anatomical gift, may be eligible to claim a cash payment from a class action settlement.\n\nThe President and Fellows of Harvard College agreed to pay $53 million to settle a class action lawsuit alleging it failed to safeguard donated remains. The lawsuit claimed this failure allowed others to improperly remove, dismember and sell some donated remains, causing emotional distress and uncertainty for families.\n\nA grandchild of a donor whose remains left the Harvard morgue between Jan. 1, 2018, and March 31, 2023\n\nPrimary settlement class: Donors whose remains left the Harvard morgue between Jan. 1, 2018, and March 31, 2023\n\nPre-2018 settlement class: Donors whose remains left the Harvard morgue between Jan. 1, 2003, and Dec. 31, 2017",
    "claim_url": "https://harvardmorguesettlement.com/",
    "sources": [
     {
@@ -8148,7 +8226,7 @@
     }
    ],
    "first_seen": "2026-10-16",
-   "new": true,
+   "new": false,
    "notice_id": "none",
    "notice_source": "listing",
    "notice_mail": false,
@@ -8442,7 +8520,7 @@
     }
    ],
    "first_seen": "2026-10-16",
-   "new": true,
+   "new": false,
    "notice_id": "none",
    "notice_source": "listing",
    "notice_mail": false,
@@ -8804,7 +8882,7 @@
     }
    ],
    "first_seen": "2026-10-16",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "listing",
    "notice_mail": true,
@@ -8844,7 +8922,7 @@
   {
    "id": "457021434999",
    "title": "Aramark Capital One Arena $4.5M Venue Fee Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Pro rata share of net settlement fund",
    "payout_max": null,
    "no_proof_payout": null,
@@ -9049,6 +9127,37 @@
    "administrator": "Epiq"
   },
   {
+   "id": "6e8c7f2ecc37",
+   "title": "Ardent Health $2.9M Unpaid Overtime Class Action Settlement",
+   "category": "Privacy & tech",
+   "payout": "Varies by hours worked",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-12-18",
+   "no_proof": false,
+   "summary": "Individuals who worked as nonexempt employees at Ardent Health during the Kronos outage may be eligible to claim a cash payment from a class action settlement.\n\nNonexempt employees who worked for an Ardent Health entity between Dec. 11, 2021, and Feb. 17, 2022, and who tracked their time using Kronos Private Cloud, or would have but could not due to the Kronos outage, may be eligible to claim a cash payment for unpaid overtime from a class action settlement.\n\nClass members are individuals whom an Ardent Health entity employed as a nonexempt hourly employee from Dec. 11, 2021, to Feb. 17, 2022, and who were unable to track their working time due to the Kronos outage. The settlement administrator will determine eligibility based on Ardent’s employment records. If an individual received a settlement notice, the administrator already identified them as a potential class member.\n\nEach class member’s settlement payment is a proportional share of the overall settlement fund. The settlement administrator will calculate the amount using a formula that considers the number of hours the class member worked for Ardent during the Kronos outage period. The settlement divides the payment into two parts:",
+   "claim_url": "https://ardentkronoswagesettlement.com/faq",
+   "sources": [
+    {
+     "name": "claimdepot",
+     "url": "https://www.claimdepot.com/settlements/ardent-kronos-wage-settlement",
+     "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/wage-and-hours/ardent-health-kronos-outage-flsa-wage-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-17",
+   "new": true,
+   "notice_id": "required",
+   "notice_source": "listing",
+   "notice_mail": false,
+   "administrator": "ILYM"
+  },
+  {
    "id": "52f8e700ce03",
    "title": "Kroger - Prescription Drug Prices Class Action Settlement",
    "category": "Financial",
@@ -9202,7 +9311,7 @@
     }
    ],
    "first_seen": "2026-10-16",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -9466,7 +9575,7 @@
     }
    ],
    "first_seen": "2026-10-16",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "form",
    "notice_mail": false,
@@ -11183,32 +11292,6 @@
    "administrator": null
   },
   {
-   "id": "b0078fe121b8",
-   "title": "Sony PlayStation $7.85M Digital Game Antitrust Settlement",
-   "category": "Data breach",
-   "payout": "Varies based on qualifying purchases",
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": false,
-   "summary": "Individuals who bought certain PlayStation digital games between April 2019 and December 2023 may qualify to claim a class action settlement payment.\n\nIndividuals who purchased certain digital video games through the PlayStation Store between April 1, 2019, and Dec. 31, 2023, may be eligible to claim a cash payment from a class action settlement.\n\nSony Interactive Entertainment LLC agreed to pay $7,850,000 to resolve a class action lawsuit alleging it engaged in anticompetitive conduct in the PlayStation digital game market. The lawsuit claimed Sony’s actions led to higher prices for certain digital games customers purchased through the PlayStation Store.\n\nClass members must meet the following criteria to qualify for the settlement:\n\nThey purchased one or more video games through the PlayStation Store between April 1, 2019, and Dec. 31, 2023. They may not have purchased the game(s) at a third-party retailer.\n\nThe video game they purchased had a game-specific voucher available at retail prior to April 1, 2019.\n\nThe video game they purchased had at least 200 GSV redemptions prior to April 1, 2019.\n\nA GSV is defined as a physical voucher or electronic code purchased from a non-Sony retailer that allows a PlayStation user to download a specific game from the PlayStation network. The settlement website provides a list of eligible games that meet these criteria.",
-   "claim_url": "https://psndigitalgamessettlement.com/faqs/",
-   "sources": [
-    {
-     "name": "claimdepot",
-     "url": "https://www.claimdepot.com/settlements/psn-digital-games-settlement",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-24",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": "A.B. Data"
-  },
-  {
    "id": "128764ba6f92",
    "title": "AeroGrow $15.98M Shareholder Settlement Approved: Former Stockholders to Be Paid Automatically",
    "category": "Privacy & tech",
@@ -11270,7 +11353,7 @@
    "no_proof_payout_max": null,
    "deadline": null,
    "no_proof": false,
-   "summary": "Notice of Proposed Settlement, Motion for Attorneys' Fees and Costs, and Final Fairness Hearing, Kunneman Properties LLC v. Devon Energy Corp., No. 6:26-cv-00131-DES (E.D. Okla.) — embedded below\n\nStipulation and Agreement of Settlement executed April 30, 2026 (Doc. 14-1), including the class definition, the $5.00 de minimis provision and the release carve-outs\n\nJudgment granting final approval (Doc. 27), order on fees, expenses and case contribution award (Doc. 28) and Initial Plan of Allocation Order (Doc. 29), each entered September 21, 2026",
+   "summary": "Payments are automatic — no claim form required.Accept Payments\n\nNotice of Proposed Settlement, Motion for Attorneys' Fees and Costs, and Final Fairness Hearing, Kunneman Properties LLC v. Devon Energy Corp., No. 6:26-cv-00131-DES (E.D. Okla.) — embedded below\n\nStipulation and Agreement of Settlement executed April 30, 2026 (Doc. 14-1), including the class definition, the $5.00 de minimis provision and the release carve-outs",
    "claim_url": "https://www.kunneman-devon.com/documents?utm_source=openclassactions.com",
    "sources": [
     {
@@ -11322,7 +11405,7 @@
    "no_proof_payout_max": null,
    "deadline": null,
    "no_proof": false,
-   "summary": "Class Action Notice dated May 6, 2026, Coziahr v. Otay Water District, No. 37-2015-00400000-CU-MC-CTL (San Diego Super. Ct.) — embedded below\n\nClass Action Settlement Agreement, including the allocation in Section 9 and the definition of the Date of Finality\n\n[Proposed] Order Granting Final Approval of Class Action Settlement, Attorneys' Fees, Costs, and Service Award, submitted for the July 31, 2026 hearing",
+   "summary": "Payments are automatic — no claim form required.Compare Cards\n\nClass Action Notice dated May 6, 2026, Coziahr v. Otay Water District, No. 37-2015-00400000-CU-MC-CTL (San Diego Super. Ct.) — embedded below\n\nClass Action Settlement Agreement, including the allocation in Section 9 and the definition of the Date of Finality",
    "claim_url": "https://www.otaywaterdistrictcase.com/?utm_source=openclassactions.com",
    "sources": [
     {
