@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-17T11:00:02+00:00",
- "count": 368,
+ "updated": "2026-10-18T11:57:13+00:00",
+ "count": 370,
  "no_proof_count": 170,
  "settlements": [
   {
@@ -59,7 +59,7 @@
    "id": "1a82696112b4",
    "title": "Federal Indian Hospitals Class Action Settlement (Canada) — $10,000 to $200,000 CAD for Former Patients Who Suffered Abuse",
    "category": "Privacy & tech",
-   "payout": "$10,000–$200,000 CADCause of Action Directory",
+   "payout": "$10,000–$200,000 CADConsult Lawyers",
    "payout_max": 200000.0,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
@@ -111,7 +111,7 @@
    "id": "96d04c11571c",
    "title": "Ontario Training Schools Settlement: $60 Million CAD for Former Residents of 13 Provincial Training Schools",
    "category": "Privacy & tech",
-   "payout": "$5,000–$100,000 CADBook Local Tours",
+   "payout": "$5,000–$100,000 CAD",
    "payout_max": 100000.0,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
@@ -248,8 +248,8 @@
    "category": "Data breach",
    "payout": "Up to $25,000 plus credit monitoring",
    "payout_max": 25000.0,
-   "no_proof_payout": "$40",
-   "no_proof_payout_max": 40.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
    "deadline": "2026-10-19",
    "no_proof": true,
    "summary": "Individuals whose personal information the 2020 Telmate data breach impacted may be eligible to claim a cash payment from a class action settlement.\n\nClass members are individuals residing in the United States whose personal information the Telmate data breach that occurred on or around Aug. 13, 2020, compromised.\n\nClass members can claim one or both of the following benefits:\n\nPro rata cash payment: Class members can submit a claim to receive a pro rata cash payment from the net settlement fund after the settlement administrator pays out all out-of-pocket loss claims. The administrator will determine the final payment amount by the total number of claims filed.\n\nReimbursement for documented out-of-pocket loss: Class members can claim up to $5,000 for documented unreimbursed out-of-pocket losses the data breach most likely caused.\n\nTo receive a settlement payment, class members can file a claim online or print and complete the PDF claim form and mail it to the settlement administrator.\n\nTo submit a claim online or by mail, class members must provide the class member ID from the settlement notice they received.\n\nTo submit an out-of-pocket loss reimbursement claims, class members must provide third-party documentation, which may include receipts, bills, bank or credit card statements and other proof of fraud or identity theft.\n\nPayments to eligible claimants: Remaining settlement funds",
@@ -775,7 +775,7 @@
     {
      "name": "openclassactions",
      "url": "https://openclassactions.com/settlements/data-breaches/fort-wayne-medical-education-program-data-breach-settlement.php",
-     "no_proof": true
+     "no_proof": false
     }
    ],
    "first_seen": "2026-09-23",
@@ -2012,6 +2012,37 @@
    "administrator": "Angeion"
   },
   {
+   "id": "4163f897f2d5",
+   "title": "American Renal Management - Data Breach Class Action Settlement",
+   "category": "Data breach",
+   "payout": "$100 or up to $5,000",
+   "payout_max": 5000.0,
+   "no_proof_payout": "$100",
+   "no_proof_payout_max": 100.0,
+   "deadline": "2026-12-21",
+   "no_proof": true,
+   "summary": "You may be covered by this settlement if your private information was potentially impacted by the American Renal Management data breach that took place between February 21, 2024 and March 1, 2024.",
+   "claim_url": "https://www.ircsettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://www.ircsettlement.com/",
+     "no_proof": true
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/data-breaches/innovative-renal-care-data-breach-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-10-14",
+   "new": false,
+   "notice_id": "required",
+   "notice_source": "listing",
+   "notice_mail": true,
+   "administrator": "Kroll"
+  },
+  {
    "id": "549f4c65cb87",
    "title": "Viapath Technologies - Data Breach Class Action Settlement",
    "category": "Data breach",
@@ -2272,7 +2303,7 @@
    "payout_max": 4934.72,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
-   "deadline": "2026-10-19",
+   "deadline": "2026-11-27",
    "no_proof": false,
    "summary": "Product Identification (PID): evidence that the vermiculite in the attic is the Zonolite brand — for example, photos of the original packaging or the insulation itself, a contractor's statement, or a certified laboratory test confirming the material.\n\nExpense: documentation of how much you actually paid to have the Zonolite insulation removed or contained.\n\nHave the Zonolite attic insulation removed or contained by an appropriate professional, and keep all paperwork.",
    "claim_url": "https://www.zaitrust.com/?utm_source=openclassactions.com",
@@ -2399,6 +2430,37 @@
    "administrator": "Simpluris"
   },
   {
+   "id": "582eec515193",
+   "title": "Hyundai, Kia - Vehicle Theft Class Action Settlement",
+   "category": "Auto",
+   "payout": "Up to $4,500",
+   "payout_max": 4500.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-11-03",
+   "no_proof": false,
+   "summary": "Separately from any cash claim, owners of eligible vehicles can have a zinc-reinforced ignition cylinder protector installed free at any authorized Hyundai or Kia dealership.\n\nUnder the settlement, the companies agreed to equip future vehicles sold in the United States with immobilizers, to offer free zinc-reinforced ignition cylinder protectors to owners and lessees of eligible vehicles, to provide up to $4.5 million in restitution to eligible consumers whose vehicles were damaged by thieves, and to pay $4.5 million to the states. The agreement resolves the states' allegations; no court has found either company liable.\n\nFirst, the vehicle has to be eligible — a Hyundai or Kia model that was not factory-equipped with an immobilizer, from the model years listed below.Compare Cars\n\nEligible vehicles are those that were not factory-equipped with an immobilizer, in these models and model years:Find Lawyers\n\nIt is not the same thing as the free anti-theft Software Upgrade, which is a separate remedy that also helps prevent theft. The two work together, and the restitution program treats them differently: the Software Upgrade is what you needed to have had installed (or scheduled) to be eligible, while the zinc sleeve installation date is what closes your eligibility window.",
+   "claim_url": "https://www.hkmultistateimmobilizersettlement.com/home",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://www.hkmultistateimmobilizersettlement.com/home",
+     "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/hyundai-kia-multistate-immobilizer-theft-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": "required",
+   "notice_source": "form",
+   "notice_mail": false,
+   "administrator": "Angeion"
+  },
+  {
    "id": "ffc6cd88ccfd",
    "title": "Twin Cities Pain Clinic - Data Breach Class Action Settlement",
    "category": "Data breach",
@@ -2433,37 +2495,6 @@
    "notice_source": "form",
    "notice_mail": false,
    "administrator": "Simpluris"
-  },
-  {
-   "id": "582eec515193",
-   "title": "Hyundai, Kia - Vehicle Theft Class Action Settlement",
-   "category": "Auto",
-   "payout": "Up to $4,500",
-   "payout_max": 4500.0,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-11-13",
-   "no_proof": false,
-   "summary": "Separately from any cash claim, owners of eligible vehicles can have a zinc-reinforced ignition cylinder protector installed free at any authorized Hyundai or Kia dealership.\n\nUnder the settlement, the companies agreed to equip future vehicles sold in the United States with immobilizers, to offer free zinc-reinforced ignition cylinder protectors to owners and lessees of eligible vehicles, to provide up to $4.5 million in restitution to eligible consumers whose vehicles were damaged by thieves, and to pay $4.5 million to the states. The agreement resolves the states' allegations; no court has found either company liable.\n\nFirst, the vehicle has to be eligible — a Hyundai or Kia model that was not factory-equipped with an immobilizer, from the model years listed below.Find Legal Aid\n\nEligible vehicles are those that were not factory-equipped with an immobilizer, in these models and model years:Vehicles\n\nIt is not the same thing as the free anti-theft Software Upgrade, which is a separate remedy that also helps prevent theft. The two work together, and the restitution program treats them differently: the Software Upgrade is what you needed to have had installed (or scheduled) to be eligible, while the zinc sleeve installation date is what closes your eligibility window.",
-   "claim_url": "https://www.hkmultistateimmobilizersettlement.com/home",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://www.hkmultistateimmobilizersettlement.com/home",
-     "no_proof": false
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/hyundai-kia-multistate-immobilizer-theft-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "form",
-   "notice_mail": false,
-   "administrator": "Angeion"
   },
   {
    "id": "18af45332c1b",
@@ -2866,7 +2897,7 @@
     }
    ],
    "first_seen": "2026-10-17",
-   "new": true,
+   "new": false,
    "notice_id": "none",
    "notice_source": "listing",
    "notice_mail": false,
@@ -3057,10 +3088,10 @@
    "id": "cf0025373029",
    "title": "Managed Care of North America - Data Breach Class Action Settlement",
    "category": "Data breach",
-   "payout": "Up to $2,500No-Proof Settlement List",
+   "payout": "Up to $2,500",
    "payout_max": 2500.0,
-   "no_proof_payout": "$2,500",
-   "no_proof_payout_max": 2500.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
    "deadline": "2026-10-19",
    "no_proof": false,
    "summary": "Court-approved long form Notice of Proposed Class Action Settlement (PDF)\n\nOfficial Claim Form and general instructions, Settlement Administrator file 83443\n\nFrequently asked questions on the official settlement website",
@@ -3633,7 +3664,7 @@
   {
    "id": "964d517acb7f",
    "title": "Belcan Engineering Group $1.65M Pay Transparency Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "$1,292.77 (estimated)",
    "payout_max": 1292.77,
    "no_proof_payout": null,
@@ -4007,11 +4038,11 @@
    "category": "Product",
    "payout": "Up to $700",
    "payout_max": 700.0,
-   "no_proof_payout": "$500",
-   "no_proof_payout_max": 500.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
    "deadline": "2026-10-20",
    "no_proof": true,
-   "summary": "This settlement covers one narrow set of calls: prerecorded calls placed for Altrua HealthShare across ten days in December 2024. If a different company is still calling or texting you after you asked it to stop, that is its own claim under the same federal law — the TCPA sets damages at $500 per illegal call or text, and up to $1,500 where a court finds the violation was willful.No-Proof Settlement List\n\nPrerecorded-call and spam-text cases settle constantly, and most readers who land here were called by someone other than Health Admins. Two places to go next: our TCPA class action hub, which tracks every robocall and text settlement we cover with its deadline and proof requirement, and the standing unwanted-contact investigation, where attorneys review individual claims against whichever company is calling or texting you.\n\nYour browser does not support viewing PDFs inline. Download the PDF.",
+   "summary": "This settlement covers one narrow set of calls: prerecorded calls placed for Altrua HealthShare across ten days in December 2024. If a different company is still calling or texting you after you asked it to stop, that is its own claim under the same federal law — the TCPA sets damages at $500 per illegal call or text, and up to $1,500 where a court finds the violation was willful.\n\nPrerecorded-call and spam-text cases settle constantly, and most readers who land here were called by someone other than Health Admins. Two places to go next: our TCPA class action hub, which tracks every robocall and text settlement we cover with its deadline and proof requirement, and the standing unwanted-contact investigation, where attorneys review individual claims against whichever company is calling or texting you.\n\nYour browser does not support viewing PDFs inline. Download the PDF.",
    "claim_url": "https://altruacrowntcpasettlement.com/",
    "sources": [
     {
@@ -4040,9 +4071,9 @@
    "payout_max": 680.0,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
-   "deadline": "2026-10-26",
+   "deadline": "2026-10-27",
    "no_proof": false,
-   "summary": "Payments are automatic — no claim form required.Find Senior Homes",
+   "summary": "",
    "claim_url": "https://www.publicpartnershipssettlement.com/?utm_source=openclassactions.com",
    "sources": [
     {
@@ -4262,7 +4293,7 @@
   {
    "id": "2451fa4ebb5a",
    "title": "Dovenmuehle Mortgage $9M Phone Payment Fees Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "$425 per qualifying fee",
    "payout_max": 425.0,
    "no_proof_payout": null,
@@ -4329,15 +4360,15 @@
    "payout_max": 350.0,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
-   "deadline": "2026-11-12",
-   "no_proof": true,
-   "summary": "Payments are automatic — no claim form required.No-Proof Settlement List",
+   "deadline": "2026-10-19",
+   "no_proof": false,
+   "summary": "",
    "claim_url": "https://www.hwisettlement.com/?utm_source=openclassactions.com",
    "sources": [
     {
      "name": "openclassactions",
      "url": "https://openclassactions.com/settlements/hunter-warfield-unlicensed-rental-collections-settlement.php",
-     "no_proof": true
+     "no_proof": false
     }
    ],
    "first_seen": "2026-09-23",
@@ -4405,6 +4436,32 @@
    "administrator": "CPT Group"
   },
   {
+   "id": "445da8f5ccdb",
+   "title": "Whirlpool, KitchenAid and Maytag Refrigerator Frost Settlement",
+   "category": "Privacy & tech",
+   "payout": "$300",
+   "payout_max": 300.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-10-30",
+   "no_proof": false,
+   "summary": "The class generally covers people who bought a new listed refrigerator, acquired one as part of a home purchase or remodel, or received one new as a gift from Whirlpool or an authorized reseller in the United States or its territories. Covered refrigerators were manufactured from 2012 through 2019.Consult Lawyers\n\nBrand name and door style alone do not establish eligibility. The model and serial number must appear on the settlement's qualifying list. The serial number is also used to determine manufacture date, which matters for the eight-year benefit window. A claimant who proves a later purchase or delivery date may have eligibility calculated from that documented date under the agreement.\n\nA replacement benefit generally requires two or more Frost Clog Issues and documented replacement expense. During years one through three, the cap is 75% of the original purchase price when the class member contacted Whirlpool to request replacement before paying out of pocket, or 50% without that prior contact.",
+   "claim_url": "https://www.coolingsettlement.com/home?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/whirlpool-kitchenaid-maytag-refrigerator-frost-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-24",
+   "new": false,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": "Angeion"
+  },
+  {
    "id": "3dc7b37b890f",
    "title": "Jefferson County Health Department - Data Breach Class Action Settlement",
    "category": "Data breach",
@@ -4434,32 +4491,6 @@
    "notice_source": "listing",
    "notice_mail": false,
    "administrator": "Kroll"
-  },
-  {
-   "id": "445da8f5ccdb",
-   "title": "Whirlpool, KitchenAid and Maytag Refrigerator Frost Settlement",
-   "category": "Privacy & tech",
-   "payout": "$300",
-   "payout_max": 300.0,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-11-30",
-   "no_proof": false,
-   "summary": "The class generally covers people who bought a new listed refrigerator, acquired one as part of a home purchase or remodel, or received one new as a gift from Whirlpool or an authorized reseller in the United States or its territories. Covered refrigerators were manufactured from 2012 through 2019.Upgrade Appliances\n\nBrand name and door style alone do not establish eligibility. The model and serial number must appear on the settlement's qualifying list. The serial number is also used to determine manufacture date, which matters for the eight-year benefit window. A claimant who proves a later purchase or delivery date may have eligibility calculated from that documented date under the agreement.\n\nA replacement benefit generally requires two or more Frost Clog Issues and documented replacement expense. During years one through three, the cap is 75% of the original purchase price when the class member contacted Whirlpool to request replacement before paying out of pocket, or 50% without that prior contact.",
-   "claim_url": "https://www.coolingsettlement.com/home?utm_source=openclassactions.com",
-   "sources": [
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/whirlpool-kitchenaid-maytag-refrigerator-frost-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-24",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": "Angeion"
   },
   {
    "id": "741766f6a460",
@@ -4547,7 +4578,7 @@
    "no_proof_payout_max": null,
    "deadline": "2026-12-28",
    "no_proof": true,
-   "summary": "Class members were identified from Equifax’s records and notified by email or mail. Filing requires the Claim ID and PIN printed on that notice.\n\nThe settlement class covers individuals in the United States for whom Equifax reported a credit score or credit attribute to a third party that was different from what it would have been without the “OMS Issue,” a computer coding issue Equifax experienced between March 17 and April 8, 2022. Only reports Equifax itself flagged in its internal post-incident review (the “OMS Analysis”) count.\n\nIn practice, anyone who received the email or mailed notice is, according to Equifax’s records, a class member. Class counsel has estimated the class at roughly four million people. Having an Equifax credit file, or applying for credit in spring 2022, is not enough on its own. Equifax, its affiliates, employees, officers and directors, and the judges assigned to the case are excluded.\n\nEverything left is split equally among class members who file valid claims. There are no tiers and no documented-loss option. Based on typical claims rates in similar cases, the plaintiffs estimate each payment at roughly $95 to $280. That is an estimate, not a promise: the more people file, the smaller each share.",
+   "summary": "Class members were identified from Equifax’s records and notified by email or mail. Filing requires the Claim ID and PIN printed on that notice.Credit report monitoring\n\nThe settlement class covers individuals in the United States for whom Equifax reported a credit score or credit attribute to a third party that was different from what it would have been without the “OMS Issue,” a computer coding issue Equifax experienced between March 17 and April 8, 2022. Only reports Equifax itself flagged in its internal post-incident review (the “OMS Analysis”) count.Check Loan Rates\n\nIn practice, anyone who received the email or mailed notice is, according to Equifax’s records, a class member. Class counsel has estimated the class at roughly four million people. Having an Equifax credit file, or applying for credit in spring 2022, is not enough on its own. Equifax, its affiliates, employees, officers and directors, and the judges assigned to the case are excluded.\n\nEverything left is split equally among class members who file valid claims. There are no tiers and no documented-loss option. Based on typical claims rates in similar cases, the plaintiffs estimate each payment at roughly $95 to $280. That is an estimate, not a promise: the more people file, the smaller each share.",
    "claim_url": "https://equifaxfaircreditreportingsettlement.com/",
    "sources": [
     {
@@ -4621,10 +4652,15 @@
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/epoa-settlement-ccsi",
      "no_proof": false
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/wage-and-hours/compucom-washington-job-postings-class-action-settlement.php",
+     "no_proof": false
     }
    ],
    "first_seen": "2026-10-17",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "form",
    "notice_mail": false,
@@ -4795,7 +4831,7 @@
    "no_proof_payout_max": null,
    "deadline": "2027-09-30",
    "no_proof": false,
-   "summary": "For a brewer that fails during descaling after June 20, 2025 — file by September 30, 2027.Find Lawyers\n\nU.S. District Court, Southern District of New York — Cahill v. Keurig Green Mountain, Inc., No. 7:22-cv-07507\n\nOpenClassActions.com is a consumer-advocacy and class-action news site, not a claims administrator or law firm. We participate in the Amazon Associates program, and this post contains affiliate links; we may earn a commission if you buy through them.Order Calendars",
+   "summary": "For a brewer that fails during descaling after June 20, 2025 — file by September 30, 2027.Find Lawyers\n\nU.S. District Court, Southern District of New York — Cahill v. Keurig Green Mountain, Inc., No. 7:22-cv-07507\n\nOpenClassActions.com is a consumer-advocacy and class-action news site, not a claims administrator or law firm. We participate in the Amazon Associates program, and this post contains affiliate links; we may earn a commission if you buy through them.Shop Coffee Makers",
    "claim_url": "https://www.ksupremesettlement.com/?utm_source=openclassactions.com",
    "sources": [
     {
@@ -4945,7 +4981,7 @@
    "no_proof_payout_max": null,
    "deadline": "2028-12-11",
    "no_proof": false,
-   "summary": "Check your VIN and file for reimbursement, the residual payment, or the warranty.Explore Toyotas\n\nOfficial Settlement Website — AirBagControlUnitSettlement.com\n\nU.S. District Court, Central District of California — In re: ZF-TRW Airbag Control Units Products Liability Litigation, No. 2:19-ml-02905-JAK-JPR (MDL 2905)",
+   "summary": "Check your VIN and file for reimbursement, the residual payment, or the warranty.Shop Seat Covers\n\nOfficial Settlement Website — AirBagControlUnitSettlement.com\n\nU.S. District Court, Central District of California — In re: ZF-TRW Airbag Control Units Products Liability Litigation, No. 2:19-ml-02905-JAK-JPR (MDL 2905)",
    "claim_url": "https://www.airbagcontrolunitsettlement.com/",
    "sources": [
     {
@@ -4970,7 +5006,7 @@
    "id": "9b92c8f7f152",
    "title": "exo Commuter Train Delays Settlement: Up to $145 CAD for Deux-Montagnes and Mascouche Riders",
    "category": "Privacy & tech",
-   "payout": "Up to $145 CADMap Live Routes",
+   "payout": "Up to $145 CADBook Train Trips",
    "payout_max": 145.0,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
@@ -5295,7 +5331,7 @@
    "payout_max": 74.0,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
-   "deadline": "2026-11-24",
+   "deadline": "2026-11-13",
    "no_proof": false,
    "summary": "Within 10 years of installation: $40 per square (not prorated), plus $34 per square prorated for years of actual use.\n\nMore than 10 years after installation (but before the warranty expires): $74 per square, prorated.\n\nYour browser does not support viewing PDFs inline. Download the PDF.",
    "claim_url": "http://www.certainteedshinglesettlement.com/index.cfm",
@@ -5424,15 +5460,15 @@
    "payout_max": 66.0,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
-   "deadline": "2026-11-12",
-   "no_proof": true,
-   "summary": "Payments are automatic — no claim form required.Compare Ratings",
+   "deadline": "2026-10-19",
+   "no_proof": false,
+   "summary": "Payments are automatic — no claim form required.Read Market News",
    "claim_url": "https://cabailbondantitrust.com/?utm_source=openclassactions.com",
    "sources": [
     {
      "name": "openclassactions",
      "url": "https://openclassactions.com/settlements/bail-bond-insurers-price-fixing-class-action-settlement.php",
-     "no_proof": true
+     "no_proof": false
     }
    ],
    "first_seen": "2026-09-23",
@@ -5695,7 +5731,7 @@
    "no_proof_payout_max": null,
    "deadline": "2026-10-19",
    "no_proof": true,
-   "summary": "State Farm will pay $28.39 in satisfaction of applicable Purchasing Fees to each eligible settlement class member who submits a valid and timely Claim Form.Order Calendars\n\nWhat you do need is a completed Claim Form filed by the deadline. Class members were identified from State Farm's records and sent notice, and settlements structured this way normally ask for the identifiers printed on that notice when you file online. Check the filing instructions on the official settlement website for exactly what the form asks for, and keep your notice handy before you start.",
+   "summary": "State Farm will pay $28.39 in satisfaction of applicable Purchasing Fees to each eligible settlement class member who submits a valid and timely Claim Form.Consult Lawyers\n\nWhat you do need is a completed Claim Form filed by the deadline. Class members were identified from State Farm's records and sent notice, and settlements structured this way normally ask for the identifiers printed on that notice when you file online. Check the filing instructions on the official settlement website for exactly what the form asks for, and keep your notice handy before you start.",
    "claim_url": "https://louisianafeessettlement.com/",
    "sources": [
     {
@@ -5789,6 +5825,37 @@
    "administrator": "Simpluris"
   },
   {
+   "id": "747b07e7de89",
+   "title": "iPhone - Siri Apple Intelligence Class Action Settlement",
+   "category": "Product",
+   "payout": "$25 per eligible i",
+   "payout_max": 25.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-12-21",
+   "no_proof": true,
+   "summary": "You may be included in this settlement if you bought an iPhone 15 Pro, iPhone 15 Pro Max, or any iPhone 16 model between June 10, 2024 and March 29, 2025.",
+   "claim_url": "https://www.smartphoneaisettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://www.smartphoneaisettlement.com/",
+     "no_proof": true
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/false-advertising/apple-intelligence-siri-false-advertising-class-action-settlement.php",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": "Verita (KCC)"
+  },
+  {
    "id": "849ec2559a23",
    "title": "Arizona Labor Force - Data Breach Class Action Settlement",
    "category": "Data breach",
@@ -5827,7 +5894,7 @@
   {
    "id": "85a4d9232a5b",
    "title": "Hustler Hollywood $1.53M FACTA Class Action Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "$23 and one year of credit monitoring",
    "payout_max": 23.0,
    "no_proof_payout": null,
@@ -6030,7 +6097,7 @@
     }
    ],
    "first_seen": "2026-10-17",
-   "new": true,
+   "new": false,
    "notice_id": "none",
    "notice_source": "listing",
    "notice_mail": false,
@@ -6040,13 +6107,13 @@
    "id": "7177a3700094",
    "title": "Dr. Squatch - All Natural Claims Class Action Settlement",
    "category": "Product",
-   "payout": "$0.50 per product, up to $12.50",
+   "payout": "$0.50 per product, up to $12.50Natural soap alternatives",
    "payout_max": 12.5,
    "no_proof_payout": "$2.50",
    "no_proof_payout_max": 2.5,
    "deadline": "2026-11-27",
    "no_proof": true,
-   "summary": "OpenClassActions.com is a consumer-advocacy and class-action news site, not a claims administrator or law firm. We participate in the Amazon Associates program, and the product links in the table above — including links to the Dr. Squatch products this settlement is about — are affiliate links; we may earn a commission if you buy through them. They are provided so readers can identify the product categories at issue, they do not reflect any view on the merits of the allegations, and buying through them has no effect on eligibility, since the class period has closed.Product ingredient analysis",
+   "summary": "OpenClassActions.com is a consumer-advocacy and class-action news site, not a claims administrator or law firm. We participate in the Amazon Associates program, and the product links in the table above — including links to the Dr. Squatch products this settlement is about — are affiliate links; we may earn a commission if you buy through them. They are provided so readers can identify the product categories at issue, they do not reflect any view on the merits of the allegations, and buying through them has no effect on eligibility, since the class period has closed.Product claim filing",
    "claim_url": "https://www.personalcareproductssettlement.com/",
    "sources": [
     {
@@ -6130,32 +6197,6 @@
    "administrator": "Apex"
   },
   {
-   "id": "fa7c2488f1eb",
-   "title": "FedEx Ground Maryland Package Handler Wage Settlement — $9 Million, No Claim Form to File",
-   "category": "Privacy & tech",
-   "payout": "$10 base + weeks worked",
-   "payout_max": 10.0,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-11-03",
-   "no_proof": false,
-   "summary": "No claim form to file — the official site is where class members check their own status.Cause of Action Directory",
-   "claim_url": "https://www.mintonfedexmd.com/?utm_source=openclassactions.com",
-   "sources": [
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/employment-law/minton-fedex-ground-maryland-wage-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "form",
-   "notice_mail": false,
-   "administrator": "Rust Consulting"
-  },
-  {
    "id": "d6869b9fad22",
    "title": "CVS - Data Privacy Class Action Settlement",
    "category": "Privacy & tech",
@@ -6190,6 +6231,32 @@
    "notice_source": "listing",
    "notice_mail": false,
    "administrator": "Simpluris"
+  },
+  {
+   "id": "fa7c2488f1eb",
+   "title": "FedEx Ground Maryland Package Handler Wage Settlement — $9 Million, No Claim Form to File",
+   "category": "Privacy & tech",
+   "payout": "$10 base + weeks worked",
+   "payout_max": 10.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2027-01-05",
+   "no_proof": false,
+   "summary": "No claim form to file — the official site is where class members check their own status.Consult Lawyers",
+   "claim_url": "https://www.mintonfedexmd.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/employment-law/minton-fedex-ground-maryland-wage-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": "required",
+   "notice_source": "form",
+   "notice_mail": false,
+   "administrator": "Rust Consulting"
   },
   {
    "id": "b93de7e7ce3b",
@@ -6294,7 +6361,7 @@
    "no_proof_payout_max": null,
    "deadline": "2026-12-14",
    "no_proof": true,
-   "summary": "OpenClassActions.com is a consumer-advocacy and class-action news site, not a claims administrator or law firm. We participate in the Amazon Associates program, and the product links in the table above — including links to the Thinkware cameras this settlement is about — are affiliate links; we may earn a commission if you buy through them. They are provided so readers can identify the exact model they own, they do not reflect any view on the merits of the allegations, and buying a camera now has no effect on eligibility, because the class period closed on August 31, 2024. Two models, the DC-M2-FG and DC-M2-FG-IR, have no Amazon listing we could verify, so no link is shown for them rather than a link to a similar-sounding accessory.Find Lawyers",
+   "summary": "OpenClassActions.com is a consumer-advocacy and class-action news site, not a claims administrator or law firm. We participate in the Amazon Associates program, and the product links in the table above — including links to the Thinkware cameras this settlement is about — are affiliate links; we may earn a commission if you buy through them. They are provided so readers can identify the exact model they own, they do not reflect any view on the merits of the allegations, and buying a camera now has no effect on eligibility, because the class period closed on August 31, 2024. Two models, the DC-M2-FG and DC-M2-FG-IR, have no Amazon listing we could verify, so no link is shown for them rather than a link to a similar-sounding accessory.Class Action Alerts",
    "claim_url": "https://www.twcamerasettlement.com/",
    "sources": [
     {
@@ -6305,14 +6372,14 @@
     {
      "name": "openclassactions",
      "url": "https://openclassactions.com/settlements/false-advertising/thinkware-dash-cam-class-action-settlement.php",
-     "no_proof": true
+     "no_proof": false
     }
    ],
    "first_seen": "2026-09-23",
    "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
+   "notice_id": "required",
+   "notice_source": "listing",
+   "notice_mail": true,
    "administrator": "P&N"
   },
   {
@@ -6463,7 +6530,7 @@
   {
    "id": "a39395a8cb45",
    "title": "Seagate Technology $175M Securities Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "~$1.03 per share",
    "payout_max": 1.03,
    "no_proof_payout": null,
@@ -6660,7 +6727,7 @@
   {
    "id": "29a52627e79d",
    "title": "Twist Bioscience $17M Securities Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "$0.31 per share",
    "payout_max": 0.31,
    "no_proof_payout": null,
@@ -6734,7 +6801,7 @@
     }
    ],
    "first_seen": "2026-10-17",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -6815,7 +6882,7 @@
   {
    "id": "74a182ae9557",
    "title": "Cleveland Ave. Restaurant $800,000 Dancers Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Pro rata payment",
    "payout_max": null,
    "no_proof_payout": null,
@@ -7023,7 +7090,7 @@
    "no_proof_payout_max": null,
    "deadline": "2026-10-26",
    "no_proof": true,
-   "summary": "Individuals who paid Costa Del Mar to repair nonprescription sunglasses may be eligible to claim a cash payment from a class action settlement.\n\nConsumers in the United States who purchased nonprescription, nonpromotional Costa sunglasses before Jan. 1, 2018, and paid Costa a fee to repair or replace damage to those sunglasses between April 3, 2015, and Jan. 28, 2026, may qualify to receive a cash payment from a class action settlement. The settlement class includes approximately 365,327 sunglasses purchasers.\n\nClass members must meet the following criteria\n\nThey are a U.S. citizen (excluding Florida residents).\n\nThey purchased nonprescription, nonpromotional Costa sunglasses before Jan. 1, 2018.\n\nThey paid Costa a fee between April 3, 2015, and Jan. 28, 2026, to repair or replace parts of their sunglasses that Costa determined were damaged due to accident, normal wear and tear, or misuse.\n\nFlorida residents do not qualify to participate in this settlement. A separate class action lawsuit covers them.\n\nPro rata cash payment: Eligible class members will receive a pro rata cash payment from the net settlement fund for every qualifying repair they paid more than $11.95 for. The settlement administrator will determine the final payment amount by the number of class members and number of qualifying repairs.",
+   "summary": "Individuals who paid Costa Del Mar to repair nonprescription sunglasses may be eligible to claim a cash payment from a class action settlement.\n\nConsumers in the United States who purchased nonprescription, nonpromotional Costa sunglasses before Jan. 1, 2018, and paid Costa a fee to repair or replace damage to those sunglasses between April 3, 2015, and Jan. 28, 2026, may qualify to receive a cash payment from a class action settlement. The settlement class includes approximately 365,327 sunglasses purchasers.\n\nClass members must meet the following criteria\n\nThey are a U.S. citizen (excluding Florida residents).\n\nThey purchased nonprescription, nonpromotional Costa sunglasses before Jan. 1, 2018.\n\nThey paid Costa a fee between April 3, 2015, and Jan. 28, 2026, to repair or replace parts of their sunglasses that Costa determined were damaged due to accident, normal wear and tear, or misuse.\n\nFlorida residents do not qualify to participate in this settlement. A separate class action lawsuit covers them. There is also another Costa Del Mar lawsuit over warranty fees.\n\nPro rata cash payment: Eligible class members will receive a pro rata cash payment from the net settlement fund for every qualifying repair they paid more than $11.95 for. The settlement administrator will determine the final payment amount by the number of class members and number of qualifying repairs.",
    "claim_url": "https://costarepairsclassaction.com/",
    "sources": [
     {
@@ -7052,7 +7119,7 @@
   {
    "id": "4059c47623d3",
    "title": "Smith & Nephew $350,000 ERISA Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Pro rata payment",
    "payout_max": null,
    "no_proof_payout": null,
@@ -7079,6 +7146,32 @@
    "notice_source": "listing",
    "notice_mail": false,
    "administrator": "Analytics Consulting"
+  },
+  {
+   "id": "d5097cf737db",
+   "title": "NCAA Tennis Prize Money Settlement: $2M for Athletes Who Forfeited Winnings — Claims Open July 13",
+   "category": "Privacy & tech",
+   "payout": "Share of a $2M fund",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-10-26",
+   "no_proof": false,
+   "summary": "The claims period opens July 13, 2026 on the official settlement website.Consult Lawyers\n\nJuly 13, 2026 — claims period opens on the official settlement website, run by RG/2 Claims Administration.\n\nSeptember 28, 2026 — deadline to opt out of the class or object to the settlement.",
+   "claim_url": "https://www.ncaatennisprizemoneyclassaction.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/ncaa-tennis-prize-money-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": false,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": "RG/2"
   },
   {
    "id": "62bdb736ddff",
@@ -7119,7 +7212,7 @@
   {
    "id": "af2e6fe42f97",
    "title": "MyMichigan Health $1.9 Million ERISA Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Pro rata payment",
    "payout_max": null,
    "no_proof_payout": null,
@@ -7260,7 +7353,7 @@
     }
    ],
    "first_seen": "2026-10-17",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -7417,9 +7510,35 @@
    "administrator": "Angeion"
   },
   {
+   "id": "1d08212bee59",
+   "title": "$21M Whirlpool / Maytag Bottom-Mount & French-Door Refrigerator Freezer Class Action Settlement Proof / ID Dec 31, 2026",
+   "category": "Product",
+   "payout": null,
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-10-30",
+   "no_proof": false,
+   "summary": "Whirlpool, Maytag, KitchenAid & JennAir Side-by-Side Refrigerator Wire Harness Settlement — Costa v. Whirlpool, 2018-2021 side-by-side models, free repair or 25-75% cash\n\n$3.5M Whirlpool / KitchenAid / Maytag Refrigerator Frost Settlement — refrigerator frost defect\n\nNews: Whirlpool Reaches Side-by-Side Refrigerator Wire Harness Settlement — OCA news coverage of the Costa case",
+   "claim_url": "https://www.freezersettlement.com/index.html?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/whirlpool-freezers-class-action.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": null
+  },
+  {
    "id": "1ac612fe195d",
    "title": "Alaska Airlines $500,000 Military Leave Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Pro rata payment",
    "payout_max": null,
    "no_proof_payout": null,
@@ -7450,7 +7569,7 @@
   {
    "id": "9c0fb5274bf4",
    "title": "Denny’s $440,000 Unpaid Wages Class Action Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
@@ -7560,6 +7679,37 @@
    "notice_source": "listing",
    "notice_mail": false,
    "administrator": "Epiq"
+  },
+  {
+   "id": "77dbafbaf019",
+   "title": "Domestic Flight Antitrust Class Action Settlement",
+   "category": "Antitrust",
+   "payout": null,
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-11-03",
+   "no_proof": null,
+   "summary": "This settlement covers those who bought domestic airline tickets from Delta, Southwest, United, Continental, or US Airways between July 1, 2011 and December 2017 and between July 1, 2011 and June 14, 2018 from American Airlines.",
+   "claim_url": "https://domesticairclass.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://domesticairclass.com/",
+     "no_proof": null
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/domestic-airlines-price-fixing-class-action-settlement.php",
+     "no_proof": null
+    }
+   ],
+   "first_seen": "2026-09-22",
+   "new": false,
+   "notice_id": "required",
+   "notice_source": "admin",
+   "notice_mail": false,
+   "administrator": "Rust Consulting"
   },
   {
    "id": "16d24713089d",
@@ -7894,7 +8044,7 @@
   {
    "id": "c144e4c26612",
    "title": "Ampam Parks Mechanical $13.75M ESOP Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Pro rata share of vested Ampam shares",
    "payout_max": null,
    "no_proof_payout": null,
@@ -7920,7 +8070,7 @@
   {
    "id": "b04a20e984c0",
    "title": "City of San Diego $40M Water Rate Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Subscription & fees",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
@@ -7947,37 +8097,6 @@
    "notice_source": "form",
    "notice_mail": false,
    "administrator": "CPT Group"
-  },
-  {
-   "id": "77dbafbaf019",
-   "title": "Domestic Flight Antitrust Class Action Settlement",
-   "category": "Antitrust",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": "$15",
-   "no_proof_payout_max": 15.0,
-   "deadline": "2026-11-13",
-   "no_proof": null,
-   "summary": "This settlement covers those who bought domestic airline tickets from Delta, Southwest, United, Continental, or US Airways between July 1, 2011 and December 2017 and between July 1, 2011 and June 14, 2018 from American Airlines.",
-   "claim_url": "https://domesticairclass.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://domesticairclass.com/",
-     "no_proof": null
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/domestic-airlines-price-fixing-class-action-settlement.php",
-     "no_proof": null
-    }
-   ],
-   "first_seen": "2026-09-22",
-   "new": false,
-   "notice_id": "required",
-   "notice_source": "admin",
-   "notice_mail": false,
-   "administrator": "Rust Consulting"
   },
   {
    "id": "1397090f7ded",
@@ -8145,7 +8264,7 @@
    "administrator": "American Legal Claims"
   },
   {
-   "id": "0b28efd54374",
+   "id": "bd00aff65c48",
    "title": "Progress Residential Eviction Fees Class Action Settlement",
    "category": "Privacy & tech",
    "payout": "Release of claims or 30%-75% of paid eviction attorneys’ fees",
@@ -8155,13 +8274,34 @@
    "deadline": "2026-11-20",
    "no_proof": false,
    "summary": "Tenants for whom Progress Residential assessed eviction attorneys’ fees in Florida may be eligible to receive a settlement payment of up to 75% of fees paid.\n\nIndividuals who lived in a Florida property Progress Residential managed and whom the company charged eviction attorneys’ fees between Aug. 27, 2020, and Aug. 26, 2024, may qualify to receive up to 75% of those fees back from a class action settlement. The settlement class includes 3,003 renters.\n\nProgress Residential agreed to settle a class action lawsuit alleging it improperly assessed and collected eviction attorneys’ fees from tenants before the court awarded such fees.\n\nClass members must meet the following criteria:\n\nThey were a tenant at a Florida property Progress Residential or its affiliated companies managed.\n\nProgress Residential assessed them eviction attorneys’ fees at any time between Aug. 27, 2020, and Aug. 26, 2024.\n\nProgress Residential billed them for the fees before a court awarded them in an eviction proceeding.\n\nClass members will belong to one of the following subclasses:\n\nPaid class: Class members are individuals who paid eviction attorneys’ fees during the qualifying period and, at the end of their tenancy, owed less to Progress Residential than the total amount they paid in eviction attorneys’ fees or are current tenants who owe less than what they paid.",
-   "claim_url": "https://www.johnstenfeessettlement.com/page/faq",
+   "claim_url": "https://www.johnstenclassaction.com/page/faq",
    "sources": [
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/johnsten-fees-settlement",
      "no_proof": false
-    },
+    }
+   ],
+   "first_seen": "2026-10-18",
+   "new": true,
+   "notice_id": null,
+   "notice_source": null,
+   "notice_mail": false,
+   "administrator": "American Legal Claims"
+  },
+  {
+   "id": "0b28efd54374",
+   "title": "Progress Residential Florida Eviction Attorney Fees Settlement: 75% or 30% of Fees Back, Paid Automatically",
+   "category": "Privacy & tech",
+   "payout": "75% or 30% of fees paid",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-11-20",
+   "no_proof": false,
+   "summary": "Payments are automatic — no claim form required.Consult Lawyers\n\nPaid Class: tenants who paid the fees and ended their tenancy owing Progress less than they paid in those fees, or who are current tenants owing less than they paid. The company’s ledger review identified 476 members.\n\nBalance Class: tenants who paid the fees but ended their tenancy owing Progress more than they paid in those fees. The review identified 773 members.",
+   "claim_url": "https://www.johnstenfeessettlement.com/?utm_source=openclassactions.com",
+   "sources": [
     {
      "name": "openclassactions",
      "url": "https://openclassactions.com/settlements/real-estate/progress-residential-florida-eviction-attorney-fees-class-action-settlement.php",
@@ -8179,7 +8319,7 @@
    "id": "5194a70c5fce",
    "title": "Mont-Sainte-Anne Gondola Settlement: $5.1 Million CAD for Riders Aboard the 2020 Sudden Stops",
    "category": "Privacy & tech",
-   "payout": "Equal share + up to $150,000 CADBook Ski Trips",
+   "payout": "Equal share + up to $150,000 CAD",
    "payout_max": null,
    "no_proof_payout": null,
    "no_proof_payout_max": null,
@@ -8610,6 +8750,37 @@
    "administrator": "Verita (KCC)"
   },
   {
+   "id": "eeb3aaea621f",
+   "title": "Tennessee Farmers Mutual Insurance - Total Loss Claims Class Action Settlement",
+   "category": "Auto",
+   "payout": "Pro rata share of $5.85M",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-11-27",
+   "no_proof": true,
+   "summary": "Payments are automatic — no claim form required.Compare Auto Rates\n\nJuly 22, 2026 — Deadline to exclude yourself (opt out) from the settlement, or to object to it. Opting out preserves your right to sue separately but means you give up your settlement payment.\n\nAugust 14, 2026 at 9:00 AM — Final Approval Hearing, where the court decides whether to approve the settlement.",
+   "claim_url": "https://autoinsuranceclaimsettlement.com/",
+   "sources": [
+    {
+     "name": "classaction_org",
+     "url": "https://autoinsuranceclaimsettlement.com/",
+     "no_proof": null
+    },
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/tennessee-farmers-mutual-total-loss-class-action-settlement.php",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-09-23",
+   "new": false,
+   "notice_id": "none",
+   "notice_source": "listing",
+   "notice_mail": false,
+   "administrator": "Kroll"
+  },
+  {
    "id": "c6637bdab8f5",
    "title": "Tyson - Beef Prices Class Action Settlement",
    "category": "Product",
@@ -8648,7 +8819,7 @@
   {
    "id": "da1ccbaaf1f1",
    "title": "Pulsz and Pulszbingo Virtual Chip Purchases Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
@@ -8679,7 +8850,7 @@
   {
    "id": "97c7e81fc5f4",
    "title": "Datavant, HealthPort Medical Records Class Action Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "35% of eligible fees paid",
    "payout_max": null,
    "no_proof_payout": null,
@@ -8765,32 +8936,6 @@
    "administrator": "Kroll"
   },
   {
-   "id": "1d08212bee59",
-   "title": "$21M Whirlpool / Maytag Bottom-Mount & French-Door Refrigerator Freezer Class Action Settlement Proof / ID Dec 31, 2026",
-   "category": "Product",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-11-30",
-   "no_proof": false,
-   "summary": "Whirlpool, Maytag, KitchenAid & JennAir Side-by-Side Refrigerator Wire Harness Settlement — Costa v. Whirlpool, 2018-2021 side-by-side models, free repair or 25-75% cash\n\n$3.5M Whirlpool / KitchenAid / Maytag Refrigerator Frost Settlement — refrigerator frost defect\n\nNews: Whirlpool Reaches Side-by-Side Refrigerator Wire Harness Settlement — OCA news coverage of the Costa case",
-   "claim_url": "https://www.freezersettlement.com/index.html?utm_source=openclassactions.com",
-   "sources": [
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/whirlpool-freezers-class-action.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": null
-  },
-  {
    "id": "ff60373213fa",
    "title": "FirstCash - Military Lending Act Class Action Settlement",
    "category": "Financial",
@@ -8800,7 +8945,7 @@
    "no_proof_payout_max": null,
    "deadline": "2026-12-01",
    "no_proof": true,
-   "summary": "There is no claim form and no claim deadline. Payments are automatic for consumers the Consumer Financial Protection Bureau and FirstCash identify as eligible, and a paper check is mailed to anyone who does nothing.\n\nThe settlement administrator's FAQ says the eligibility determination is still running and directs consumers to watch the official settlement website. No payment date had been announced as of September 8, 2026.Compare Loan Rates\n\nThe order defines an Affected Consumer as someone who, between October 3, 2016 and six months after the Effective Date, met the Military Lending Act definition of a covered member, dependent or covered borrower, and who took out a pawn loan from the defendants while covered, where that loan carried at least one of three defects:Deadline Alert Service\n\nOne limitation matters more than the class period. Paragraph 20 of the order makes the identification process exclusive: the Bureau and FirstCash agree on the population from FirstCash's own loan transaction data, and the Bureau had already flagged 42,698 pawn loans covering October 3, 2016 through August 25, 2024, with two later data productions covering the periods after that. A borrower cannot apply, nominate themselves, or add a loan to the list. Eligibility arrives as a mailed notice or it does not arrive at all.Check Loan Rates",
+   "summary": "There is no claim form and no claim deadline. Payments are automatic for consumers the Consumer Financial Protection Bureau and FirstCash identify as eligible, and a paper check is mailed to anyone who does nothing.\n\nThe settlement administrator's FAQ says the eligibility determination is still running and directs consumers to watch the official settlement website. No payment date had been announced as of September 8, 2026.Find Lawyers\n\nThe order defines an Affected Consumer as someone who, between October 3, 2016 and six months after the Effective Date, met the Military Lending Act definition of a covered member, dependent or covered borrower, and who took out a pawn loan from the defendants while covered, where that loan carried at least one of three defects:Get Cash Advances\n\nOne limitation matters more than the class period. Paragraph 20 of the order makes the identification process exclusive: the Bureau and FirstCash agree on the population from FirstCash's own loan transaction data, and the Bureau had already flagged 42,698 pawn loans covering October 3, 2016 through August 25, 2024, with two later data productions covering the periods after that. A borrower cannot apply, nominate themselves, or add a loan to the list. Eligibility arrives as a mailed notice or it does not arrive at all.Class action tracker",
    "claim_url": "https://www.firstcashsettlement.com/",
    "sources": [
     {
@@ -9011,7 +9156,7 @@
    "no_proof_payout": null,
    "no_proof_payout_max": null,
    "deadline": "2026-12-14",
-   "no_proof": false,
+   "no_proof": true,
    "summary": "Individuals who had hernia repair with bariatric surgery at CAMC between 2015 and 2025 may be eligible to claim a payment from a class action settlement.\n\nPatients who received a hernia repair procedure while undergoing bariatric surgery from either Dr. Robert B. Shin or Dr. Samuel Rossi at Charleston Area Medical Center’s facilities between April 5, 2015, and April 4, 2025, may qualify to claim a cash payment from a class action settlement.\n\nClass members must meet the following criteria:\n\nTheir procedure took place between April 5, 2015 and April 4, 2025.\n\nClass members have the following benefit options:\n\nGuaranteed payments fund: Eligible class member will receive an equal pro rata cash payment from a $30 million fund after deductions for attorneys’ fees and service awards. They do not need to submit a claim form to receive this benefit.\n\nContingent payments fund: Class members who experienced specific complications related to their hiatal hernia repair can submit a claim for a payment from a separate $10 million fund after deductions for attorneys’ fees and service awards. The settlement administrator will determine the payment amount by the severity and type of complications.",
    "claim_url": "https://camcbariatricsettlement.com/",
    "sources": [
@@ -9028,7 +9173,7 @@
     {
      "name": "openclassactions",
      "url": "https://openclassactions.com/settlements/camc-bariatric-hiatal-hernia-class-action-settlement.php",
-     "no_proof": false
+     "no_proof": true
     }
    ],
    "first_seen": "2026-09-23",
@@ -9037,37 +9182,6 @@
    "notice_source": "listing",
    "notice_mail": false,
    "administrator": "Rust Consulting"
-  },
-  {
-   "id": "eeb3aaea621f",
-   "title": "Tennessee Farmers Mutual Insurance - Total Loss Claims Class Action Settlement",
-   "category": "Auto",
-   "payout": "Pro rata share of $5.85M",
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2026-12-14",
-   "no_proof": true,
-   "summary": "Payments are automatic — no claim form required.Compare Auto Rates\n\nJuly 22, 2026 — Deadline to exclude yourself (opt out) from the settlement, or to object to it. Opting out preserves your right to sue separately but means you give up your settlement payment.\n\nAugust 14, 2026 at 9:00 AM — Final Approval Hearing, where the court decides whether to approve the settlement.",
-   "claim_url": "https://autoinsuranceclaimsettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://autoinsuranceclaimsettlement.com/",
-     "no_proof": null
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/tennessee-farmers-mutual-total-loss-class-action-settlement.php",
-     "no_proof": true
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": "none",
-   "notice_source": "listing",
-   "notice_mail": false,
-   "administrator": "Kroll"
   },
   {
    "id": "a87bc400da1e",
@@ -9151,7 +9265,7 @@
     }
    ],
    "first_seen": "2026-10-17",
-   "new": true,
+   "new": false,
    "notice_id": "required",
    "notice_source": "listing",
    "notice_mail": false,
@@ -9194,6 +9308,32 @@
    "administrator": "Angeion"
   },
   {
+   "id": "494a48cf71c6",
+   "title": "The Money Source $1.5M Prerecorded Call Settlement — No Claim Form, Automatic Payments",
+   "category": "Privacy & tech",
+   "payout": "Pro rata share of $1.5M",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2026-12-21",
+   "no_proof": true,
+   "summary": "Payments are automatic — no claim form required.Compare Cards\n\nThis settlement only covers The Money Source. If a different company is still calling or texting you after you told it to stop, that is a separate claim under the same federal law — the TCPA sets damages at $500 per illegal call or text, and up to $1,500 where a court finds the violation was willful.\n\nPrerecorded-call and spam-text cases settle constantly, and most readers who land here have calls from a company other than The Money Source. Two places to go next: the TCPA class action hub, which tracks every robocall and text settlement we cover with its deadline and proof requirement, and our plain-English guide to the TCPA, which explains what the law actually prohibits and what a violation is worth.",
+   "claim_url": "https://www.moneysourcetcpaclassaction.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/tcpa/money-source-tcpa-prerecorded-calls-class-action-settlement.php",
+     "no_proof": true
+    }
+   ],
+   "first_seen": "2026-10-18",
+   "new": true,
+   "notice_id": "none",
+   "notice_source": "listing",
+   "notice_mail": false,
+   "administrator": "Atticus"
+  },
+  {
    "id": "79b2e2679a87",
    "title": "GoodRx $32 Million User Privacy Class Action Settlement",
    "category": "Data breach",
@@ -9209,11 +9349,6 @@
     {
      "name": "claimdepot",
      "url": "https://www.claimdepot.com/settlements/goodrx-privacy-settlement",
-     "no_proof": true
-    },
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/privacy/goodrx-privacy-class-action-settlement.php",
      "no_proof": true
     }
    ],
@@ -9316,32 +9451,6 @@
    "notice_source": null,
    "notice_mail": false,
    "administrator": "JND"
-  },
-  {
-   "id": "d5097cf737db",
-   "title": "NCAA Tennis Prize Money Settlement: $2M for Athletes Who Forfeited Winnings — Claims Open July 13",
-   "category": "Privacy & tech",
-   "payout": "Share of a $2M fund",
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": "2027-01-04",
-   "no_proof": false,
-   "summary": "The claims period opens July 13, 2026 on the official settlement website.Cause of Action Directory\n\nJuly 13, 2026 — claims period opens on the official settlement website, run by RG/2 Claims Administration.\n\nSeptember 28, 2026 — deadline to opt out of the class or object to the settlement.",
-   "claim_url": "https://www.ncaatennisprizemoneyclassaction.com/?utm_source=openclassactions.com",
-   "sources": [
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/ncaa-tennis-prize-money-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-22",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": "RG/2"
   },
   {
    "id": "a8436e982659",
@@ -9451,6 +9560,32 @@
    "notice_source": "listing",
    "notice_mail": false,
    "administrator": "Epiq"
+  },
+  {
+   "id": "128764ba6f92",
+   "title": "AeroGrow $15.98M Shareholder Settlement Approved: Former Stockholders to Be Paid Automatically",
+   "category": "Privacy & tech",
+   "payout": "Pro rata share of $15,978,202.50",
+   "payout_max": null,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
+   "deadline": "2027-01-25",
+   "no_proof": false,
+   "summary": "Payments are automatic — no claim form required.Consult Lawyers\n\nAeroGrow Shareholder Litigation — official settlement website, maintained by the class administrator under the supervision of class counsel: case caption, class definition, fund amount and deadlines.\n\nEighth Judicial District Court, Clark County, Nevada, docket for Case No. A-21-827665-B, viewed on the court’s public case portal: the Final Judgment and Order Granting Final Approval of Class Action Settlement entered May 8, 2026, the $6,115,487.71 attorneys’ fee award, the $35,000 in service awards and the case’s closed status.",
+   "claim_url": "https://www.aerogrowshareholderlitigation.com/?utm_source=openclassactions.com",
+   "sources": [
+    {
+     "name": "openclassactions",
+     "url": "https://openclassactions.com/settlements/securities/aerogrow-shareholder-class-action-settlement.php",
+     "no_proof": false
+    }
+   ],
+   "first_seen": "2026-09-25",
+   "new": false,
+   "notice_id": "none",
+   "notice_source": "listing",
+   "notice_mail": false,
+   "administrator": "A.B. Data"
   },
   {
    "id": "195719f85306",
@@ -9691,8 +9826,8 @@
    "category": "Privacy & tech",
    "payout": null,
    "payout_max": null,
-   "no_proof_payout": "$718,000",
-   "no_proof_payout_max": 718000.0,
+   "no_proof_payout": null,
+   "no_proof_payout_max": null,
    "deadline": "2028-01-11",
    "no_proof": false,
    "summary": "Office of the Illinois Attorney General — wage enforcement action against TBJ Drywall & Taping, Inc.\n\nCircuit Court of Cook County, Illinois, Chancery Division — People ex rel. Raoul v. TBJ Drywall & Taping, Inc. (consent decree)",
@@ -10211,58 +10346,6 @@
    "administrator": null
   },
   {
-   "id": "747b07e7de89",
-   "title": "iPhone - Siri Apple Intelligence Class Action Settlement",
-   "category": "Product",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": true,
-   "summary": "You may be included in this settlement if you bought an iPhone 15 Pro, iPhone 15 Pro Max, or any iPhone 16 model between June 10, 2024 and March 29, 2025.",
-   "claim_url": "https://www.smartphoneaisettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://www.smartphoneaisettlement.com/",
-     "no_proof": true
-    }
-   ],
-   "first_seen": "2026-09-23",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": null
-  },
-  {
-   "id": "4163f897f2d5",
-   "title": "American Renal Management - Data Breach Class Action Settlement",
-   "category": "Data breach",
-   "payout": null,
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": true,
-   "summary": "You may be covered by this settlement if your private information was potentially impacted by the American Renal Management data breach that took place between February 21, 2024 and March 1, 2024.",
-   "claim_url": "https://www.ircsettlement.com/",
-   "sources": [
-    {
-     "name": "classaction_org",
-     "url": "https://www.ircsettlement.com/",
-     "no_proof": true
-    }
-   ],
-   "first_seen": "2026-10-14",
-   "new": false,
-   "notice_id": null,
-   "notice_source": null,
-   "notice_mail": false,
-   "administrator": null
-  },
-  {
    "id": "2cef713caa1b",
    "title": "Aetna Life Insurance - Lumbar Artificial Disc Replacement Class Action Settlement",
    "category": "Financial",
@@ -10568,7 +10651,7 @@
    "no_proof_payout_max": null,
    "deadline": null,
    "no_proof": false,
-   "summary": "Consumers who paid a warranty fee to repair Costa sunglasses they bought before 2016 may be eligible to claim a cash payment from a class action settlement.\n\nConsumers who purchased nonprescription Costa sunglasses before Jan. 1, 2016, and paid a warranty fee to repair or replace those sunglasses between Aug. 20, 2013, and Feb. 29, 2020, due to a manufacturer’s defect may be eligible to claim a cash payment from a class action settlement.\n\nClass members must meet all of the following criteria:\n\nThey purchased a pair of nonprescription Costa sunglasses before Jan. 1, 2016.\n\nThey paid Costa a warranty fee to repair or replace those sunglasses between Aug. 20, 2013, and Feb. 29, 2020, due to a manufacturer’s defect.\n\nThe total settlement fund is $4,095,000. However, the settlement administrator will reduce this amount by attorneys’ fees and expenses, and settlement administration costs before distributing payments to class members.\n\nEligible class members will receive a pro rata cash payment for each eligible repair or replacement for which they paid a warranty fee. The specific amount each class member receives depends on the number of valid claims and the net settlement fund after the deductions. Each qualifying repair or replacement (as identified by a unique number in Costa’s records) entitles the class member to one share of the settlement fund.",
+   "summary": "Consumers who paid a warranty fee to repair Costa sunglasses they bought before 2016 may be eligible to claim a cash payment from a class action settlement.\n\nConsumers who purchased nonprescription Costa sunglasses before Jan. 1, 2016, and paid a warranty fee to repair or replace those sunglasses between Aug. 20, 2013, and Feb. 29, 2020, due to a manufacturer’s defect may be eligible to claim a cash payment from a class action settlement.\n\nThere are two other Costa Del Mar class actions: One for Florida residents and one for non-Florida residents.\n\nClass members must meet all of the following criteria:\n\nThey purchased a pair of nonprescription Costa sunglasses before Jan. 1, 2016.\n\nThey paid Costa a warranty fee to repair or replace those sunglasses between Aug. 20, 2013, and Feb. 29, 2020, due to a manufacturer’s defect.\n\nThe total settlement fund is $4,095,000. However, the settlement administrator will reduce this amount by attorneys’ fees and expenses, and settlement administration costs before distributing payments to class members.",
    "claim_url": "https://costasunglasswarrantysettlement.com/Login",
    "sources": [
     {
@@ -10587,7 +10670,7 @@
   {
    "id": "1b683c7dbec3",
    "title": "Drata Inc. $1.3M Sales Development Rep Class Action Lawsuit",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Varies by compensation and weeks worked",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10618,7 +10701,7 @@
   {
    "id": "4290b91533a9",
    "title": "Ricoh USA $1.75 Million ERISA Retirement Plan Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10644,7 +10727,7 @@
   {
    "id": "b8837a1f063e",
    "title": "Saint-Gobain Adfors America $1.95M Wage Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Pro rata payment",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10670,7 +10753,7 @@
   {
    "id": "af1a17aa1e64",
    "title": "Public Partnerships $162M CDPAP Wage And Hour Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10722,7 +10805,7 @@
   {
    "id": "1d91e10d9bf8",
    "title": "Long County, Georgia, $500,000 Fire Fee Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10748,7 +10831,7 @@
   {
    "id": "9f938bdd254e",
    "title": "Casey's General Stores Tobacco Surcharge ERISA Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10774,7 +10857,7 @@
   {
    "id": "bbf9b3e10e2d",
    "title": "Agiliti $32 Million Securities Class Action Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Pro rata payment",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10800,7 +10883,7 @@
   {
    "id": "42bfcea70b2c",
    "title": "Quotient Technology $48M Securities Class Action Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10852,7 +10935,7 @@
   {
    "id": "943af6852763",
    "title": "C-Plant Federal Credit Union $1.05M Overdraft Fee Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Varies based on fees paid",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10904,7 +10987,7 @@
   {
    "id": "2758ba5ab287",
    "title": "Jennmar Corp. of Virginia $3M Wage and Hour Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Pro rata share",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10930,7 +11013,7 @@
   {
    "id": "d5c250aea5cd",
    "title": "SCI Shared Resources $2M 401(k) Plan Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Varies based on average account balance",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10956,7 +11039,7 @@
   {
    "id": "235a0130cd03",
    "title": "Young Management Corp. Stonegate Meadows Tenant Settlements",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
@@ -10982,7 +11065,7 @@
   {
    "id": "1d934d572203",
    "title": "California Gambling Control Commission $43.3M Fees Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Pro rata share",
    "payout_max": null,
    "no_proof_payout": null,
@@ -11008,7 +11091,7 @@
   {
    "id": "18b46475fc00",
    "title": "Wise Auto Group $1M Wage and Hour Class Action Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
@@ -11060,7 +11143,7 @@
   {
    "id": "134c8f2e505f",
    "title": "Country Bank for Savings $495K Fees Class Action Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
@@ -11112,7 +11195,7 @@
   {
    "id": "58e40fe02bee",
    "title": "Dartmouth-Hitchcock $850,000 ERISA Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
@@ -11164,7 +11247,7 @@
   {
    "id": "3b2137e8dc9a",
    "title": "Richmond Hill $5M Fire Fees Class Action Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Pro rata share of fire fees paid",
    "payout_max": null,
    "no_proof_payout": null,
@@ -11190,7 +11273,7 @@
   {
    "id": "b0bc95944fad",
    "title": "Equity Bank $1M Fees Class Action Settlement",
-   "category": "Data breach",
+   "category": "Privacy & tech",
    "payout": "Pro rata payment",
    "payout_max": null,
    "no_proof_payout": null,
@@ -11292,32 +11375,6 @@
    "administrator": null
   },
   {
-   "id": "128764ba6f92",
-   "title": "AeroGrow $15.98M Shareholder Settlement Approved: Former Stockholders to Be Paid Automatically",
-   "category": "Privacy & tech",
-   "payout": "Pro rata share of $15,978,202.50",
-   "payout_max": null,
-   "no_proof_payout": null,
-   "no_proof_payout_max": null,
-   "deadline": null,
-   "no_proof": false,
-   "summary": "AeroGrow Shareholder Litigation — official settlement website, maintained by the class administrator under the supervision of class counsel: case caption, class definition, fund amount and deadlines.\n\nEighth Judicial District Court, Clark County, Nevada, docket for Case No. A-21-827665-B, viewed on the court’s public case portal: the Final Judgment and Order Granting Final Approval of Class Action Settlement entered May 8, 2026, the $6,115,487.71 attorneys’ fee award, the $35,000 in service awards and the case’s closed status.\n\nNotice of Proposed Settlement of Class Action (Eighth Judicial District Court, Clark County, Nevada, Case No. A-21-827665-B): procedural history, plan of allocation, exclusions, service awards and the fairness hearing.",
-   "claim_url": "https://www.aerogrowshareholderlitigation.com/?utm_source=openclassactions.com",
-   "sources": [
-    {
-     "name": "openclassactions",
-     "url": "https://openclassactions.com/settlements/securities/aerogrow-shareholder-class-action-settlement.php",
-     "no_proof": false
-    }
-   ],
-   "first_seen": "2026-09-25",
-   "new": false,
-   "notice_id": "none",
-   "notice_source": "listing",
-   "notice_mail": false,
-   "administrator": "A.B. Data"
-  },
-  {
    "id": "e0a6effb6d15",
    "title": "Garden City, Georgia Fire Fee Settlement: $1.4 Million in Refunds — and the Fire Fee Is Ending",
    "category": "Privacy & tech",
@@ -11327,7 +11384,7 @@
    "no_proof_payout_max": null,
    "deadline": null,
    "no_proof": false,
-   "summary": "Payments are automatic — no claim form required.Explore History",
+   "summary": "Payments are automatic — no claim form required.Get Prep Kits",
    "claim_url": "https://gardencityfirefeessettlement.com/?utm_source=openclassactions.com",
    "sources": [
     {
