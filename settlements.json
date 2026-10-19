@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T11:57:13+00:00",
+ "updated": "2026-10-19T13:38:41+00:00",
  "count": 370,
  "no_proof_count": 170,
  "settlements": [
@@ -8283,7 +8283,7 @@
     }
    ],
    "first_seen": "2026-10-18",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -9327,7 +9327,7 @@
     }
    ],
    "first_seen": "2026-10-18",
-   "new": true,
+   "new": false,
    "notice_id": "none",
    "notice_source": "listing",
    "notice_mail": false,
@@ -11325,7 +11325,7 @@
   {
    "id": "bad00a8e1c52",
    "title": "M.D.C. Holdings $25M Securities Class Action Settlement",
-   "category": "Privacy & tech",
+   "category": "Data breach",
    "payout": "Varies",
    "payout_max": null,
    "no_proof_payout": null,
