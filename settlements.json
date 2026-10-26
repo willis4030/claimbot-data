@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T12:27:24+00:00",
+ "updated": "2026-10-26T13:29:18+00:00",
  "count": 372,
  "no_proof_count": 169,
  "settlements": [
@@ -4248,7 +4248,7 @@
     }
    ],
    "first_seen": "2026-10-25",
-   "new": true,
+   "new": false,
    "notice_id": "none",
    "notice_source": "listing",
    "notice_mail": false,
@@ -5277,7 +5277,7 @@
     }
    ],
    "first_seen": "2026-10-25",
-   "new": true,
+   "new": false,
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
@@ -9923,7 +9923,7 @@
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
-   "administrator": null
+   "administrator": "Kroll"
   },
   {
    "id": "7442862e7ee6",
@@ -10053,7 +10053,7 @@
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
-   "administrator": null
+   "administrator": "Kroll"
   },
   {
    "id": "5397e77a0a63",
@@ -10365,7 +10365,7 @@
    "notice_id": null,
    "notice_source": null,
    "notice_mail": false,
-   "administrator": null
+   "administrator": "Verita (KCC)"
   },
   {
    "id": "c7a72ca3dd97",
